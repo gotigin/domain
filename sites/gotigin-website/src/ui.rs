@@ -217,12 +217,8 @@ script_mod! {
                             selection_root: true
                             select_from_gaps: true
 
+                            // Logo lives in the topbar only (same as wadhu.com).
                             hero := Band{
-                                hero_mark := Image{
-                                    width: 112 height: 112
-                                    fit: ImageFit.Stretch
-                                    src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
-                                }
                                 hero_tag := View{
                                     width: Fill height: Fit
                                     Eyebrow{ body: "GOTIGIN · COMPANY · HOUSE MARK · GTG" }
