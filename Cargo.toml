@@ -1,0 +1,25 @@
+# Domain workspace — public web surfaces for Gotigin domains (gotigin.com).
+#
+# Company: GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED
+# Trademark / house mark: Gotigin
+# This workspace hosts the company website and related public pages used for
+# Play Store, Microsoft Store, Meta, and other verifier lookups.
+[workspace]
+members = [
+    "sites/gotigin-website",
+]
+exclude = [
+    "vendor/makepad",
+]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+authors = ["Gotigin"]
+
+[workspace.dependencies]
+makepad-widgets = "2.0.0"
+
+[patch.crates-io]
+makepad-widgets = { path = "vendor/makepad/widgets" }
