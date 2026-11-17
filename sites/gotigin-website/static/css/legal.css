@@ -1,28 +1,82 @@
 :root {
   color-scheme: dark;
-  --bg: #0a0e14;
-  --ink: #f2f4f7;
-  --muted: #9aa3ad;
+  --bg: #12102a;
+  --ink: #f7f6fb;
+  --muted: #b0adc4;
   --link: #e8a317;
   --amber: #f0c14a;
-  --rule: #1a2332;
+  --rule: #221e42;
+  --panel: #1c1838;
+  --steel: #221e42;
 }
+* { box-sizing: border-box; }
 body {
   font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
-  max-width: 44rem;
-  margin: 0 auto;
-  padding: 1.5rem 1.25rem 3rem;
+  margin: 0;
+  padding: 0;
   line-height: 1.55;
   color: var(--ink);
   background: var(--bg);
 }
-.site-back { margin: 0 0 1.25rem; }
-.site-back a { color: var(--link); text-decoration: none; font-weight: 600; }
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1.25rem;
+  background: var(--steel);
+  border-bottom: 1px solid var(--rule);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: var(--amber);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: block;
+}
+.brand-text { font-size: 1rem; }
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-left: auto;
+}
+.topnav a {
+  display: inline-block;
+  padding: 0.55rem 0.85rem;
+  border-radius: 0.45rem;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--panel);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.topnav a:hover { color: var(--amber); }
+.topnav a.active {
+  background: var(--link);
+  color: var(--bg);
+}
+.legal-main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
 h1 { font-size: 1.75rem; color: var(--amber); margin: 0 0 0.75rem; }
 h2 { font-size: 1.15rem; margin: 1.75rem 0 0.5rem; color: var(--ink); }
 p, ul { margin: 0.55rem 0; color: var(--muted); }
 li { margin: 0.25rem 0; }
-a { color: var(--link); }
+.legal-main a { color: var(--link); }
 em { color: var(--ink); }
 strong { color: var(--ink); }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5rem 0; }
@@ -31,3 +85,10 @@ th, td { border: 1px solid var(--rule); padding: 0.35rem 0.5rem; text-align: lef
 th { color: var(--ink); }
 .legal-nav { margin-top: 2rem; color: var(--muted); }
 .legal-foot { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .topbar { padding: 0.65rem 0.85rem; }
+  .brand-text { display: none; }
+  .topnav { margin-left: 0; width: 100%; }
+  .topnav a { padding: 0.45rem 0.7rem; font-size: 0.8rem; }
+}

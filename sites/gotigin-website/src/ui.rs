@@ -1,18 +1,19 @@
-// gotigin.com — company / house-mark Makepad SPA (Khaynjo + Wadhu pattern).
-// Gotigin = trademark; GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED = company.
-// Brands: Kumkaj, Wadhu, Ghal Bol. Legal HTML lives beside this wasm on Hosting.
+// gotigin.com — company / house-mark Makepad SPA.
+// Gotigin = trademark + GTG mark; company = GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED.
+// Brands: Kumkaj, Wadhu, Ghal Bol. Legal HTML shares the same Hosting tree + top nav.
 script_mod! {
     use mod.prelude.widgets.*
     use mod.widgets.*
 
-    let Ink = #x0a0e14
-    let Panel = #x141a22
-    let Steel = #x1a2332
+    // Palette from the Gotigin GTG mark (deep navy circle + white field).
+    let Ink = #x12102a
+    let Panel = #x1c1838
+    let Steel = #x221e42
     let Amber = #xe8a317
     let SoftAmber = #xf0c14a
-    let Paper = #xf2f4f7
-    let Muted = #x9aa3ad
-    let Select = #x3d4a5cff
+    let Paper = #xf7f6fb
+    let Muted = #xb0adc4
+    let Select = #x3a3568ff
 
     mod.widgets.Label.draw_text.sdf_luma_bias = 0.0
     mod.widgets.Button.draw_text.sdf_luma_bias = 0.0
@@ -118,10 +119,18 @@ script_mod! {
         draw_bg +: { color: Amber }
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 14.} }
     }
+    let ActiveNav = Button{
+        width: Fit height: Fit
+        margin: 0.
+        padding: Inset{left: 14. right: 14. top: 11. bottom: 11.}
+        draw_bg +: { color: Amber }
+        draw_text +: { color: Ink text_style: theme.font_bold{font_size: 13.} }
+    }
     let GhostBtn = Button{
         width: Fit height: Fit
+        margin: 0.
         padding: Inset{left: 14. right: 14. top: 11. bottom: 11.}
-        draw_bg +: { color: Steel }
+        draw_bg +: { color: Panel }
         draw_text +: { color: Paper text_style: theme.font_bold{font_size: 13.} }
     }
     let QuietBtn = Button{
@@ -166,9 +175,10 @@ script_mod! {
                         width: Fill height: Fill
                         draw_bg +: { color: Ink }
                         flow: Down
+                        // Match /about HTML topbar: [logo + Gotigin] .... [nav items]
                         top := SolidView{
                             width: Fill height: Fit
-                            padding: Inset{left: 24. right: 24. top: 12. bottom: 12.}
+                            padding: Inset{left: 20. right: 20. top: 12. bottom: 12.}
                             draw_bg +: { color: Steel }
                             flow: Right
                             spacing: 10.
@@ -178,15 +188,22 @@ script_mod! {
                                 fit: ImageFit.Stretch
                                 src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
                             }
-                            brand_tag := Label{
-                                width: Fit
-                                text: "GOTIGIN · WHERE TECHNOLOGY MEETS DISCOVERY"
+                            brand_home := Button{
+                                width: Fit height: Fit
+                                margin: 0.
+                                padding: Inset{left: 2. right: 4. top: 8. bottom: 8.}
+                                text: "Gotigin"
+                                draw_bg +: { color: #x00000000 }
                                 draw_text +: {
                                     color: SoftAmber
-                                    text_style: theme.font_bold{font_size: 11.}
+                                    text_style: theme.font_bold{font_size: 16.}
                                 }
                             }
-                            <View>{ width: Fill height: 1 }
+                            top_spacer := View{
+                                width: Fill
+                                height: 40.
+                            }
+                            nav_home := ActiveNav{ text: "Home" }
                             nav_about := GhostBtn{ text: "About" }
                             nav_privacy := GhostBtn{ text: "Privacy" }
                             nav_terms := GhostBtn{ text: "Terms" }
@@ -201,12 +218,17 @@ script_mod! {
                             select_from_gaps: true
 
                             hero := Band{
+                                hero_mark := Image{
+                                    width: 112 height: 112
+                                    fit: ImageFit.Stretch
+                                    src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
+                                }
                                 hero_tag := View{
                                     width: Fill height: Fit
-                                    Eyebrow{ body: "GOTIGIN · COMPANY · HOUSE MARK" }
+                                    Eyebrow{ body: "GOTIGIN · COMPANY · HOUSE MARK · GTG" }
                                 }
                                 Headline{ body: "Gotigin." }
-                                Lede{ body: "Where Technology Meets Discovery. The house mark and company site for GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED — parent of Kumkaj, Wadhu, Ghal Bol, and GotiginSwap." }
+                                Lede{ body: "Where Technology Meets Discovery. Company site for GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED — the house mark behind Kumkaj, Wadhu, Ghal Bol, and GotiginSwap. The GTG emblem is Gotigin." }
                                 cta_row := View{
                                     width: Fill height: Fit
                                     flow: Right
@@ -220,83 +242,93 @@ script_mod! {
                             brands := BandAlt{
                                 Eyebrow{ body: "BRANDS" }
                                 Subhead{ body: "One company. Distinct brands." }
-                                Lede{ body: "Each brand keeps its own domain, product story, and privacy policy. Gotigin is the father mark they share." }
+                                Lede{ body: "Each brand has its own domain and privacy policy. Gotigin is the shared company mark above them." }
                                 brand_cards := View{
                                     width: Fill height: Fit
                                     flow: Right
                                     spacing: 16.
                                     kumkaj := PanelCard{
                                         CardTitle{ body: "Kumkaj" }
-                                        Body{ body: "Business operating systems for real trades — restaurant, courier, kirana, pharmacy. Local-first books, parties, bills, and printing." }
+                                        Body{ body: "Business operating systems — four products: Khaynjo, Moklanjo, Kirano, Tabiyat. Local-first books, parties, bills, and printing." }
                                         open_kumkaj := LinkBtn{ text: "kumkaj.com" }
                                     }
                                     wadhu := PanelCard{
                                         CardTitle{ body: "Wadhu" }
-                                        Body{ body: "Reusable tools other brands (and anyone) can use — SMS Gateway, Relay, and Wadhu Connect for WhatsApp Cloud API." }
+                                        Body{ body: "Reusable tools — two products: SMS Gateway and Wadhu Connect." }
                                         open_wadhu := LinkBtn{ text: "wadhu.com" }
                                     }
                                     ghalbol := PanelCard{
                                         CardTitle{ body: "Ghal Bol" }
-                                        Body{ body: "Communication products under the Ghal Bol brand — encrypted messaging for people who need a private channel." }
+                                        Body{ body: "Communication products — encrypted messaging under the Ghal Bol brand." }
                                         open_ghalbol := LinkBtn{ text: "ghalbol.com" }
                                     }
                                 }
                             }
 
                             products := Band{
-                                Eyebrow{ body: "PRODUCTS" }
-                                Subhead{ body: "What ships under the brands." }
-                                Lede{ body: "Concrete apps and services — not a vague platform promise." }
-                                product_row := View{
+                                Eyebrow{ body: "PRODUCTS BY BRAND" }
+                                Subhead{ body: "Kumkaj — four products" }
+                                Lede{ body: "Concrete business operating systems for real trades." }
+                                kumkaj_row := View{
                                     width: Fill height: Fit
                                     flow: Right
                                     spacing: 14.
-                                    p1 := PanelCard{
+                                    p_khaynjo := PanelCard{
                                         CardTitle{ body: "Khaynjo" }
                                         Body{ body: "Restaurant OS — tables, KOT, bills, day close." }
                                         open_khaynjo := QuietBtn{ text: "khaynjo.com" }
                                     }
-                                    p2 := PanelCard{
+                                    p_moklanjo := PanelCard{
                                         CardTitle{ body: "Moklanjo" }
                                         Body{ body: "Courier desk — booking, parties, day book." }
                                         open_moklanjo := QuietBtn{ text: "moklanjo.com" }
                                     }
-                                    p3 := PanelCard{
-                                        CardTitle{ body: "Kirano · Tabiyat" }
-                                        Body{ body: "Kirana and pharmacy counters — stock, khata, GST memos." }
+                                    p_kirano := PanelCard{
+                                        CardTitle{ body: "Kirano" }
+                                        Body{ body: "Kirana / grocery counter — catalogue, stock, khata, GST cash memo." }
                                         open_kirano := QuietBtn{ text: "kirano.shop" }
+                                    }
+                                    p_tabiyat := PanelCard{
+                                        CardTitle{ body: "Tabiyat" }
+                                        Body{ body: "Pharmacy counter — batch, expiry, stock, GST tax invoice." }
                                         open_tabiyat := QuietBtn{ text: "tabiyat.shop" }
                                     }
-                                    p4 := PanelCard{
+                                }
+                                Subhead{ body: "Wadhu — two products" }
+                                Lede{ body: "Messaging tools other Gotigin brands (and anyone) can use." }
+                                wadhu_row := View{
+                                    width: Fill height: Fit
+                                    flow: Right
+                                    spacing: 14.
+                                    p_sms := PanelCard{
+                                        CardTitle{ body: "SMS Gateway" }
+                                        Body{ body: "Android-first SIM gateway — LAN and Bluetooth stay free forever." }
+                                        open_sms := QuietBtn{ text: "wadhu.com" }
+                                    }
+                                    p_connect := PanelCard{
                                         CardTitle{ body: "Wadhu Connect" }
                                         Body{ body: "WhatsApp Cloud API bridge — their number, your software." }
                                         open_connect := QuietBtn{ text: "connect.wadhu.com" }
                                     }
                                 }
-                                Body{ body: "Also: SMS Gateway (Play / desktop), GotiginSwap (experimental). Product privacy lives on each brand domain; company verifiers use gotigin.com." }
+                                Body{ body: "Also under Gotigin: GotiginSwap (experimental). Product privacy lives on each brand domain; company verifiers use gotigin.com." }
                             }
 
                             trust := BandAlt{
                                 Eyebrow{ body: "FOR STORES · META · PARTNERS" }
-                                Subhead{ body: "Policies reviewers look for." }
-                                Lede{ body: "Same-host legal pages — used for Google Play, Microsoft Store, Meta App Review, and company verification." }
-                                trust_row := View{
-                                    width: Fill height: Fit
-                                    flow: Right
-                                    spacing: 12.
-                                    trust_privacy := LinkBtn{ text: "Privacy" }
-                                    trust_terms := GhostBtn{ text: "Terms" }
-                                    trust_deletion := GhostBtn{ text: "Data deletion" }
-                                    trust_cookies := GhostBtn{ text: "Cookies" }
-                                    trust_security := GhostBtn{ text: "Security" }
-                                }
-                                Body{ body: "Canonical URLs: gotigin.com/privacy · /terms · /data-deletion · /support · /help · /about · /cookies · /security" }
+                                Subhead{ body: "Policies live in the top bar." }
+                                Lede{ body: "Privacy, Terms, Help, Support, and About are always available from the navigation. Additional pages: /data-deletion · /cookies · /security." }
+                                Body{ body: "Use these same-host URLs for Google Play, Microsoft Store, Meta App Review, and company verification." }
                             }
 
                             company := Band{
                                 Eyebrow{ body: "COMPANY" }
                                 Subhead{ body: "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED" }
-                                Body{ body: "CIN U62011GJ2026PTC179660 · Incorporated 24 June 2026 · GSTIN 24AANCG1628G1ZP · PAN AANCG1628G" }
+                                Body{ body: "CIN: U62011GJ2026PTC179660" }
+                                Body{ body: "Incorporation date: 24 June 2026" }
+                                Body{ body: "GSTIN: 24AANCG1628G1ZP" }
+                                Body{ body: "PAN: AANCG1628G" }
+                                Body{ body: "DPIIT: DIPP271306" }
                                 Body{ body: "Registered office: Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India" }
                                 Body{ body: "Directors: Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj" }
                                 Body{ body: "Business email: mearaj@gotigin.com" }

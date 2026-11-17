@@ -6,7 +6,7 @@ _Last updated: 17 November 2026_
 
 | | |
 | --- | --- |
-| **Gotigin** | The **trademark / house mark** — *find it* in Memon, pronounced *go-tee-geen*. Slogan: *Where Technology Meets Discovery*. Site: [gotigin.com](https://gotigin.com) |
+| **Gotigin** | The **trademark / house mark** — *find it* in Memon, pronounced *go-tee-geen*. Slogan: *Where Technology Meets Discovery*. Visual mark: circular **GTG** (used for company and brand). Site: [gotigin.com](https://gotigin.com) |
 | **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | The **company** (legal entity) |
 | **Kumkaj · Wadhu · Ghal Bol** | **Brands** under the company |
 | **GotiginSwap** | A **product** under the Gotigin name |
@@ -39,10 +39,11 @@ Brand sites: [kumkaj.com](https://kumkaj.com) · [wadhu.com](https://wadhu.com) 
 | --- | --- |
 | Legal name | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
 | CIN | U62011GJ2026PTC179660 |
-| Incorporation | 24 June 2026 |
-| PAN | AANCG1628G |
-| TAN | RKTG08602G |
+| Incorporation date | 24 June 2026 |
 | GSTIN | 24AANCG1628G1ZP |
+| PAN | AANCG1628G |
+| DPIIT | DIPP271306 |
+| TAN | RKTG08602G |
 | Directors | Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj |
 | Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Email | [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |

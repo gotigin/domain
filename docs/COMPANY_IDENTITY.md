@@ -13,6 +13,7 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 | PAN | AANCG1628G |
 | TAN | RKTG08602G |
 | GSTIN | 24AANCG1628G1ZP |
+| DPIIT (startup recognition) | DIPP271306 |
 | Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Directors | Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj |
 | Trademark / house mark | **Gotigin** |
