@@ -31,7 +31,7 @@ const TABIYAT_URL: &str = "https://tabiyat.shop";
 const CONNECT_URL: &str = "https://connect.wadhu.com/";
 const MAILTO: &str = "mailto:mearaj@gotigin.com";
 
-const BRAND_CARDS_SIDE_BY_SIDE_FROM: f64 = 780.0;
+const BRAND_HEAD_SIDE_BY_SIDE_FROM: f64 = 640.0;
 const PRODUCT_ROW_FROM: f64 = 900.0;
 const MIN_WIDTH: f64 = 320.0;
 const MAX_CONTENT: f64 = 1120.0;
@@ -164,7 +164,6 @@ impl App {
         for path in [
             ids!(hero),
             ids!(brands),
-            ids!(products),
             ids!(trust),
             ids!(company),
             ids!(close),
@@ -185,19 +184,23 @@ impl App {
             bar.layout.flow = Flow::right();
         }
 
-        if let Some(mut cards) = self.ui.view(cx, ids!(brand_cards)).borrow_mut() {
-            cards.layout.flow = if layout_w >= BRAND_CARDS_SIDE_BY_SIDE_FROM {
-                Flow::right()
-            } else {
-                Flow::Down
-            };
+        let head_flow = if layout_w >= BRAND_HEAD_SIDE_BY_SIDE_FROM {
+            Flow::right()
+        } else {
+            Flow::Down
+        };
+        for head_id in [ids!(kumkaj_head), ids!(wadhu_head), ids!(ghalbol_head)] {
+            if let Some(mut head) = self.ui.view(cx, head_id).borrow_mut() {
+                head.layout.flow = head_flow;
+            }
         }
+
         let product_flow = if layout_w >= PRODUCT_ROW_FROM {
             Flow::right()
         } else {
             Flow::Down
         };
-        for row_id in [ids!(kumkaj_row), ids!(wadhu_row)] {
+        for row_id in [ids!(kumkaj_row), ids!(wadhu_row), ids!(ghalbol_row)] {
             if let Some(mut row) = self.ui.view(cx, row_id).borrow_mut() {
                 row.layout.flow = product_flow;
             }
@@ -255,7 +258,9 @@ impl MatchEvent for App {
         {
             open_external(cx, WADHU_URL);
         }
-        if self.ui.button(cx, ids!(open_ghalbol)).clicked(actions) {
+        if self.ui.button(cx, ids!(open_ghalbol)).clicked(actions)
+            || self.ui.button(cx, ids!(open_ghalbol_app)).clicked(actions)
+        {
             open_external(cx, GHALBOL_URL);
         }
         if self.ui.button(cx, ids!(open_khaynjo)).clicked(actions) {

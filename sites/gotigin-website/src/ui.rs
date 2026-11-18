@@ -160,6 +160,37 @@ script_mod! {
         flow: Down
         spacing: 12.
     }
+    let BrandMark = Image{
+        width: 56 height: 56
+        fit: ImageFit.Stretch
+    }
+    let AppMark = Image{
+        width: 64 height: 64
+        fit: ImageFit.Stretch
+    }
+    let BrandBlock = View{
+        width: Fill height: Fit
+        flow: Down
+        spacing: 16.
+    }
+    let BrandHead = RoundedView{
+        width: Fill height: Fit
+        padding: Inset{left: 22. right: 22. top: 18. bottom: 18.}
+        draw_bg +: { color: Panel }
+        flow: Right
+        spacing: 16.
+        align: Align{y: 0.5}
+    }
+    let BrandHeadText = View{
+        width: Fill height: Fit
+        flow: Down
+        spacing: 6.
+    }
+    let AppGrid = View{
+        width: Fill height: Fit
+        flow: Right
+        spacing: 14.
+    }
 
     startup() do #(App::script_component(vm)){
         ui: Root{
@@ -236,77 +267,91 @@ script_mod! {
                             }
 
                             brands := BandAlt{
-                                Eyebrow{ body: "BRANDS" }
-                                Subhead{ body: "One company. Distinct brands." }
-                                Lede{ body: "Each brand has its own domain and privacy policy. Gotigin is the shared company mark above them." }
-                                brand_cards := View{
-                                    width: Fill height: Fit
-                                    flow: Right
-                                    spacing: 16.
-                                    kumkaj := PanelCard{
-                                        CardTitle{ body: "Kumkaj" }
-                                        Body{ body: "Business operating systems — four products: Khaynjo, Moklanjo, Kirano, Tabiyat. Local-first books, parties, bills, and printing." }
+                                Eyebrow{ body: "BRANDS & PRODUCTS" }
+                                Subhead{ body: "Categories by brand." }
+                                Lede{ body: "Each brand keeps its own mark, domain, and privacy policy. Apps below use their product icons." }
+
+                                brand_kumkaj := BrandBlock{
+                                    kumkaj_head := BrandHead{
+                                        BrandMark{ src: crate_resource("self:resources/media/kumkaj-brand-logo.webp") }
+                                        BrandHeadText{
+                                            CardTitle{ body: "Kumkaj" }
+                                            Body{ body: "Business operating systems — local-first books, parties, bills, and printing." }
+                                        }
                                         open_kumkaj := LinkBtn{ text: "kumkaj.com" }
                                     }
-                                    wadhu := PanelCard{
-                                        CardTitle{ body: "Wadhu" }
-                                        Body{ body: "Reusable tools — two products: SMS Gateway and Wadhu Connect." }
+                                    kumkaj_row := AppGrid{
+                                        p_khaynjo := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/khaynjo-app-icon.webp") }
+                                            CardTitle{ body: "Khaynjo" }
+                                            Body{ body: "Restaurant OS — tables, KOT, bills, day close." }
+                                            open_khaynjo := QuietBtn{ text: "khaynjo.com" }
+                                        }
+                                        p_moklanjo := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/moklanjo-app-icon.webp") }
+                                            CardTitle{ body: "Moklanjo" }
+                                            Body{ body: "Courier desk — booking, parties, day book." }
+                                            open_moklanjo := QuietBtn{ text: "moklanjo.com" }
+                                        }
+                                        p_kirano := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/kirano-app-icon.webp") }
+                                            CardTitle{ body: "Kirano" }
+                                            Body{ body: "Kirana / grocery — catalogue, stock, khata, GST cash memo." }
+                                            open_kirano := QuietBtn{ text: "kirano.shop" }
+                                        }
+                                        p_tabiyat := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/tabiyat-app-icon.webp") }
+                                            CardTitle{ body: "Tabiyat" }
+                                            Body{ body: "Pharmacy counter — batch, expiry, stock, GST tax invoice." }
+                                            open_tabiyat := QuietBtn{ text: "tabiyat.shop" }
+                                        }
+                                    }
+                                }
+
+                                brand_wadhu := BrandBlock{
+                                    wadhu_head := BrandHead{
+                                        BrandMark{ src: crate_resource("self:resources/media/wadhu-brand-logo.webp") }
+                                        BrandHeadText{
+                                            CardTitle{ body: "Wadhu" }
+                                            Body{ body: "Reusable messaging tools other Gotigin brands — and anyone — can use." }
+                                        }
                                         open_wadhu := LinkBtn{ text: "wadhu.com" }
                                     }
-                                    ghalbol := PanelCard{
-                                        CardTitle{ body: "Ghal Bol" }
-                                        Body{ body: "Communication products — encrypted messaging under the Ghal Bol brand." }
+                                    wadhu_row := AppGrid{
+                                        p_sms := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/sms-gateway-app-icon.webp") }
+                                            CardTitle{ body: "SMS Gateway" }
+                                            Body{ body: "Android-first SIM gateway — LAN and Bluetooth stay free forever." }
+                                            open_sms := QuietBtn{ text: "wadhu.com" }
+                                        }
+                                        p_connect := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/wadhu-connect-app-icon.webp") }
+                                            CardTitle{ body: "Wadhu Connect" }
+                                            Body{ body: "WhatsApp Cloud API bridge — their number, your software." }
+                                            open_connect := QuietBtn{ text: "connect.wadhu.com" }
+                                        }
+                                    }
+                                }
+
+                                brand_ghalbol := BrandBlock{
+                                    ghalbol_head := BrandHead{
+                                        BrandMark{ src: crate_resource("self:resources/media/ghalbol-brand-logo.webp") }
+                                        BrandHeadText{
+                                            CardTitle{ body: "Ghal Bol" }
+                                            Body{ body: "Communication products — encrypted messaging under the Ghal Bol brand." }
+                                        }
                                         open_ghalbol := LinkBtn{ text: "ghalbol.com" }
                                     }
+                                    ghalbol_row := AppGrid{
+                                        p_ghalbol_app := PanelCard{
+                                            AppMark{ src: crate_resource("self:resources/media/ghalbol-app-icon.webp") }
+                                            CardTitle{ body: "Ghal Bol" }
+                                            Body{ body: "Encrypted messenger — private rooms and secure communication." }
+                                            open_ghalbol_app := QuietBtn{ text: "ghalbol.com" }
+                                        }
+                                    }
                                 }
-                            }
 
-                            products := Band{
-                                Eyebrow{ body: "PRODUCTS BY BRAND" }
-                                Subhead{ body: "Kumkaj — four products" }
-                                Lede{ body: "Concrete business operating systems for real trades." }
-                                kumkaj_row := View{
-                                    width: Fill height: Fit
-                                    flow: Right
-                                    spacing: 14.
-                                    p_khaynjo := PanelCard{
-                                        CardTitle{ body: "Khaynjo" }
-                                        Body{ body: "Restaurant OS — tables, KOT, bills, day close." }
-                                        open_khaynjo := QuietBtn{ text: "khaynjo.com" }
-                                    }
-                                    p_moklanjo := PanelCard{
-                                        CardTitle{ body: "Moklanjo" }
-                                        Body{ body: "Courier desk — booking, parties, day book." }
-                                        open_moklanjo := QuietBtn{ text: "moklanjo.com" }
-                                    }
-                                    p_kirano := PanelCard{
-                                        CardTitle{ body: "Kirano" }
-                                        Body{ body: "Kirana / grocery counter — catalogue, stock, khata, GST cash memo." }
-                                        open_kirano := QuietBtn{ text: "kirano.shop" }
-                                    }
-                                    p_tabiyat := PanelCard{
-                                        CardTitle{ body: "Tabiyat" }
-                                        Body{ body: "Pharmacy counter — batch, expiry, stock, GST tax invoice." }
-                                        open_tabiyat := QuietBtn{ text: "tabiyat.shop" }
-                                    }
-                                }
-                                Subhead{ body: "Wadhu — two products" }
-                                Lede{ body: "Messaging tools other Gotigin brands (and anyone) can use." }
-                                wadhu_row := View{
-                                    width: Fill height: Fit
-                                    flow: Right
-                                    spacing: 14.
-                                    p_sms := PanelCard{
-                                        CardTitle{ body: "SMS Gateway" }
-                                        Body{ body: "Android-first SIM gateway — LAN and Bluetooth stay free forever." }
-                                        open_sms := QuietBtn{ text: "wadhu.com" }
-                                    }
-                                    p_connect := PanelCard{
-                                        CardTitle{ body: "Wadhu Connect" }
-                                        Body{ body: "WhatsApp Cloud API bridge — their number, your software." }
-                                        open_connect := QuietBtn{ text: "connect.wadhu.com" }
-                                    }
-                                }
                                 Body{ body: "Also under Gotigin: GotiginSwap (experimental). Product privacy lives on each brand domain; company verifiers use gotigin.com." }
                             }
 
