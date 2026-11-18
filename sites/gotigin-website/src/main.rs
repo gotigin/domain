@@ -189,7 +189,7 @@ impl App {
         } else {
             Flow::Down
         };
-        for head_id in [ids!(kumkaj_head), ids!(wadhu_head), ids!(ghalbol_head)] {
+        for head_id in [ids!(kumkaj_head_bar), ids!(wadhu_head_bar), ids!(ghalbol_head_bar)] {
             if let Some(mut head) = self.ui.view(cx, head_id).borrow_mut() {
                 head.layout.flow = head_flow;
             }

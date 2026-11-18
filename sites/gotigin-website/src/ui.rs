@@ -214,7 +214,7 @@ script_mod! {
     let BrandHead = RoundedView{
         width: Fill height: Fit
         padding: Inset{left: 22. right: 22. top: 18. bottom: 18.}
-        draw_bg +: { color: Panel }
+        draw_bg +: { color: Panel border_radius: 12. }
         flow: Right
         spacing: 16.
         align: Align{y: 0.5}
@@ -308,7 +308,7 @@ script_mod! {
                                     Eyebrow{ body: "GOTIGIN" }
                                 }
                                 Headline{ body: "Where Technology Meets Discovery." }
-                                Lede{ body: "Trademark: Gotigin (find it · go-tee-geen) — Where Technology Meets Discovery. Company: GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Brands: Kumkaj, Wadhu, Ghal Bol." }
+                                Lede{ body: "Gotigin is the trademark. We build brands and products for discovery." }
                                 cta_row := View{
                                     width: Fill height: Fit
                                     flow: Right
@@ -324,13 +324,16 @@ script_mod! {
                                 Lede{ body: "Kumkaj, Wadhu, and Ghal Bol — each with its own mark and products." }
 
                                 brand_kumkaj := BrandBlock{
-                                    kumkaj_head := BrandHead{
-                                        BrandMark{ src: crate_resource("self:resources/media/kumkaj-brand-logo.webp") }
-                                        BrandHeadText{
-                                            CardTitle{ body: "Kumkaj" }
-                                            Body{ body: "Business operating systems — local-first books, parties, bills, and printing." }
+                                    kumkaj_head := ProductCard{
+                                        kumkaj_head_bar := BrandHead{
+                                            BrandMark{ src: crate_resource("self:resources/media/kumkaj-brand-logo.webp") }
+                                            BrandHeadText{
+                                                CardTitle{ body: "Kumkaj" }
+                                                Body{ body: "Business operating systems — local-first books, parties, bills, and printing." }
+                                                CardLink{ body: "kumkaj.com" }
+                                            }
                                         }
-                                        open_kumkaj := LinkBtn{ text: "kumkaj.com" }
+                                        open_kumkaj := CardHit{}
                                     }
                                     kumkaj_row := AppGrid{
                                         p_khaynjo := ProductCard{
@@ -373,13 +376,16 @@ script_mod! {
                                 }
 
                                 brand_wadhu := BrandBlock{
-                                    wadhu_head := BrandHead{
-                                        BrandMark{ src: crate_resource("self:resources/media/wadhu-brand-logo.webp") }
-                                        BrandHeadText{
-                                            CardTitle{ body: "Wadhu" }
-                                            Body{ body: "Reusable messaging tools other Gotigin brands — and anyone — can use." }
+                                    wadhu_head := ProductCard{
+                                        wadhu_head_bar := BrandHead{
+                                            BrandMark{ src: crate_resource("self:resources/media/wadhu-brand-logo.webp") }
+                                            BrandHeadText{
+                                                CardTitle{ body: "Wadhu" }
+                                                Body{ body: "Reusable messaging tools other Gotigin brands — and anyone — can use." }
+                                                CardLink{ body: "wadhu.com" }
+                                            }
                                         }
-                                        open_wadhu := LinkBtn{ text: "wadhu.com" }
+                                        open_wadhu := CardHit{}
                                     }
                                     wadhu_row := AppGrid{
                                         p_sms := ProductCard{
@@ -404,13 +410,16 @@ script_mod! {
                                 }
 
                                 brand_ghalbol := BrandBlock{
-                                    ghalbol_head := BrandHead{
-                                        BrandMark{ src: crate_resource("self:resources/media/ghalbol-brand-logo.webp") }
-                                        BrandHeadText{
-                                            CardTitle{ body: "Ghal Bol" }
-                                            Body{ body: "Communication products — encrypted messaging under the Ghal Bol brand." }
+                                    ghalbol_head := ProductCard{
+                                        ghalbol_head_bar := BrandHead{
+                                            BrandMark{ src: crate_resource("self:resources/media/ghalbol-brand-logo.webp") }
+                                            BrandHeadText{
+                                                CardTitle{ body: "Ghal Bol" }
+                                                Body{ body: "Communication products — encrypted messaging under the Ghal Bol brand." }
+                                                CardLink{ body: "ghalbol.com" }
+                                            }
                                         }
-                                        open_ghalbol := LinkBtn{ text: "ghalbol.com" }
+                                        open_ghalbol := CardHit{}
                                     }
                                     ghalbol_row := AppGrid{
                                         p_ghalbol_app := ProductCard{
@@ -497,7 +506,42 @@ script_mod! {
                                     CardTitle{ body: "Gotigin" }
                                 }
                                 Subhead{ body: "Where Technology Meets Discovery." }
-                                Body{ body: "© 2026 GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Trademark: Gotigin." }
+                                names := View{
+                                    width: Fill height: Fit
+                                    flow: Down
+                                    spacing: 14.
+                                    View{
+                                        width: Fill height: Fit
+                                        flow: Down
+                                        spacing: 4.
+                                        Eyebrow{ body: "TRADEMARK" }
+                                        CardTitle{ body: "Gotigin" }
+                                        Body{ body: "Memon for “find it” · pronounced go-tee-geen" }
+                                    }
+                                    View{
+                                        width: Fill height: Fit
+                                        flow: Down
+                                        spacing: 4.
+                                        Eyebrow{ body: "COMPANY" }
+                                        CardTitle{ body: "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED" }
+                                        Body{ body: "mearaj@gotigin.com" }
+                                    }
+                                    View{
+                                        width: Fill height: Fit
+                                        flow: Down
+                                        spacing: 4.
+                                        Eyebrow{ body: "BRANDS" }
+                                        CardTitle{ body: "Kumkaj · Wadhu · Ghal Bol" }
+                                        Body{ body: "Each brand ships its own products" }
+                                    }
+                                }
+                                View{
+                                    width: Fill height: Fit
+                                    flow: Down
+                                    spacing: 4.
+                                    Body{ body: "© 2026 GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED" }
+                                    Body{ body: "Gotigin · gotigin.com" }
+                                }
                             }
                         }
                     }
