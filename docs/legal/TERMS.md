@@ -21,7 +21,7 @@ Data deletion: [gotigin.com/data-deletion](https://gotigin.com/data-deletion)
 ## Scope
 
 These Terms cover the **company website** and company communications. Each
-**product brand** (Kumkaj, Wadhu, Ghal Bol, GotiginSwap, and their apps) may
+**product brand** (Kumkaj, Wadhu, Ghal Bol, and their apps) may
 have additional terms, store licences, and end-user agreements. Where a
 product’s terms conflict with these Terms on that product’s use, the
 product’s terms control for that product.

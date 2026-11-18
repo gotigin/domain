@@ -1,19 +1,20 @@
 # Gotigin support
 
-_Last updated: 17 November 2026_
+_Last updated: 18 November 2026_
 
 ## Contact
 
 | | |
 | --- | --- |
 | Email | [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
+| Phone | +91 99677 17702 |
 | Company | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
 | Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Help centre | [gotigin.com/help](https://gotigin.com/help) |
+| About / identity | [gotigin.com/about](https://gotigin.com/about) |
 
-Use this email for privacy, deletion, store-listing “support URL / email”
-fields, and company verification contacts (Google Play, Microsoft Store,
-Meta Business, banks, and similar).
+Use this email and phone for privacy, deletion requests, and general company
+contact.
 
 ## What we can help with
 

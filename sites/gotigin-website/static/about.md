@@ -1,61 +1,115 @@
 # About Gotigin
 
-_Last updated: 17 November 2026_
+_Last updated: 18 November 2026_
 
-## Names (do not mix)
+**Gotigin** is the house mark of **GOTIGIN SOFTWARE & HARDWARE PRIVATE
+LIMITED**. In Memon, Gotigin means *find it* (*go-tee-geen*). Slogan:
+*Where Technology Meets Discovery*. The visual mark is the circular **GTG**.
 
-| | |
+We build software and hardware for businesses and communities, and publish
+products under the brands below.
+
+## Names
+
+Order is always **Trademark → Company → Brand → Product**.
+
+| Name | Role |
 | --- | --- |
-| **Gotigin** | The **trademark / house mark** — *find it* in Memon, pronounced *go-tee-geen*. Slogan: *Where Technology Meets Discovery*. Visual mark: circular **GTG** (used for company and brand). Site: [gotigin.com](https://gotigin.com) |
-| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | The **company** (legal entity) |
-| **Kumkaj · Wadhu · Ghal Bol** | **Brands** under the company |
-| **GotiginSwap** | A **product** under the Gotigin name |
+| **Gotigin** | Trademark / house mark — Memon *find it* (*go-tee-geen*); slogan *Where Technology Meets Discovery* |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
+| **Kumkaj** | Brand — business operating systems |
+| **Wadhu** | Brand — messaging tools |
+| **Ghal Bol** | Brand — communication products |
 
-See also [`docs/BRAND.md`](../BRAND.md).
+## Business
 
-## What Gotigin is
+The company develops, designs, markets, and distributes software for
+computers, mobile devices, and other electronics; sells and supports hardware
+and related accessories; and provides installation, maintenance,
+customization, and technical support.
 
-Gotigin is the house mark and public face of GOTIGIN SOFTWARE & HARDWARE
-PRIVATE LIMITED. We build software and hardware products for businesses and
-communities — local-first business operating systems, messaging tools, and
-communication products — and we publish company policies here for stores,
-platforms, and partners that verify our identity.
+## Brands and products
 
-## Brands & products
+| Brand | Products | Sites |
+| --- | --- | --- |
+| **Kumkaj** | Khaynjo (restaurant), Moklanjo (courier), Kirano (kirana), Tabiyat (pharmacy) | [kumkaj.com](https://kumkaj.com) · [khaynjo.com](https://khaynjo.com) · [moklanjo.com](https://moklanjo.com) · [kirano.shop](https://kirano.shop) · [tabiyat.shop](https://tabiyat.shop) |
+| **Wadhu** | SMS Gateway, SMS Relay, Wadhu Connect | [wadhu.com](https://wadhu.com) · [connect.wadhu.com](https://connect.wadhu.com) |
+| **Ghal Bol** | Encrypted messenger | [ghalbol.com](https://ghalbol.com) |
 
-| Brand | What it ships |
-| --- | --- |
-| **Kumkaj** | Business operating system apps: Khaynjo (restaurant), Moklanjo (courier), Kirano (kirana), Tabiyat (pharmacy) |
-| **Wadhu** | Reusable tools: SMS Gateway, SMS Relay, Wadhu Connect (WhatsApp Cloud API) |
-| **Ghal Bol** | Encrypted communication products |
-| **GotiginSwap** | Experimental on-chain swap |
-
-Brand sites: [kumkaj.com](https://kumkaj.com) · [wadhu.com](https://wadhu.com) ·
-[ghalbol.com](https://ghalbol.com)
-
-## Company
+## Legal entity
 
 | | |
 | --- | --- |
 | Legal name | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
+| Constitution | Private Limited Company (limited by shares) |
 | CIN | U62011GJ2026PTC179660 |
-| Incorporation date | 24 June 2026 |
-| GSTIN | 24AANCG1628G1ZP |
+| Date of incorporation | 24 June 2026 |
+| Incorporating authority | Ministry of Corporate Affairs — Central Registration Centre |
+| Registered office State | Gujarat |
+| Registered / mailing address | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
+| Share capital | ₹1,00,000 divided into 10,000 equity shares of ₹10 each |
+| Liability of members | Limited to the amount unpaid on shares held |
+
+## Tax registrations
+
+| | |
+| --- | --- |
 | PAN | AANCG1628G |
-| DPIIT | DIPP271306 |
 | TAN | RKTG08602G |
-| Directors | Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj |
-| Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
+| GSTIN | 24AANCG1628G1ZP |
+| GST registration type | Regular |
+| GST principal place of business | Building 0, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410 |
+| GST liability / certificate | From 04 July 2026 · certificate issued 04 July 2026 |
+| Additional places of business (Gujarat) | None |
+
+## Startup recognition
+
+| | |
+| --- | --- |
+| DPIIT certificate no. | DIPP271306 |
+| Issued by | Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry |
+| Date of issue | 08 July 2026 |
+| Valid up to | 23 June 2036 |
+| Industry / sector (self-certified) | AI · Others |
+| Validity note | Up to ten years from incorporation if turnover has not exceeded ₹200 Cr in any financial year |
+
+## Shops and Establishments
+
+| | |
+| --- | --- |
+| Authority | Dhoraji Nagarpalika |
+| Statute | Gujarat Shops and Establishments (Regulation of Employment and Conditions of Services) Act, 2019 |
+| Registration number | SR131000001 |
+| Application number | 131RSE202600002 |
+| Category | Shops |
+| Date of commencement | 02 July 2026 |
+| Certificate date | 14 July 2026 |
+| Employer on certificate | Mearaj Abdulaziz Bhagad |
+| Establishment address | Gosiya Manzil, Darbargadh, Ghee Khaniya Masjid, Darbargadh, Dhoraji, Rajkot, Gujarat 360410 |
+
+## Directors
+
+| Name | Role |
+| --- | --- |
+| Mearaj Abdulaziz Bhagad | Director |
+| Bhagad Senila Mearaj | Director |
+
+## Contact
+
+| | |
+| --- | --- |
 | Email | [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
+| Phone | +91 99677 17702 |
+| Website | [https://gotigin.com](https://gotigin.com) |
 
-## Legal links
+## Policies
 
-Same-host paths on [gotigin.com](https://gotigin.com):
-
-- [Privacy](/privacy)
-- [Terms](/terms)
-- [Data deletion](/data-deletion)
-- [Support](/support)
-- [Help](/help)
-- [Cookies](/cookies)
-- [Security](/security)
+| Page | URL |
+| --- | --- |
+| Privacy | [/privacy](/privacy) |
+| Terms | [/terms](/terms) |
+| Data deletion | [/data-deletion](/data-deletion) |
+| Support | [/support](/support) |
+| Help | [/help](/help) |
+| Cookies | [/cookies](/cookies) |
+| Security | [/security](/security) |

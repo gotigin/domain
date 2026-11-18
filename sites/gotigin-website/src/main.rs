@@ -200,7 +200,13 @@ impl App {
         } else {
             Flow::Down
         };
-        for row_id in [ids!(kumkaj_row), ids!(wadhu_row), ids!(ghalbol_row)] {
+        for row_id in [
+            ids!(kumkaj_row),
+            ids!(wadhu_row),
+            ids!(ghalbol_row),
+            ids!(company_row),
+            ids!(company_row2),
+        ] {
             if let Some(mut row) = self.ui.view(cx, row_id).borrow_mut() {
                 row.layout.flow = product_flow;
             }
@@ -233,6 +239,7 @@ impl MatchEvent for App {
         }
         if self.ui.button(cx, ids!(nav_about)).clicked(actions)
             || self.ui.button(cx, ids!(cta_about)).clicked(actions)
+            || self.ui.button(cx, ids!(cta_about_full)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, ABOUT_PATH));
         }

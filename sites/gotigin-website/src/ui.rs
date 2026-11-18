@@ -139,6 +139,39 @@ script_mod! {
         draw_bg +: { color: Panel }
         draw_text +: { color: Muted text_style: theme.font_bold{font_size: 12.} }
     }
+    // Transparent full-card hit target (Khaynjo pattern). Hover/press wash
+    // sits above the card content so the whole tile reads as clickable.
+    let CardHit = Button{
+        width: Fill height: Fill
+        padding: 0.
+        text: ""
+        grab_key_focus: false
+        reset_hover_on_click: true
+        label_walk: Walk{width: 0. height: 0.}
+        icon_walk: Walk{width: 0. height: 0.}
+        draw_bg +: {
+            color: #x00000000
+            color_hover: #xe8a31733
+            color_down: #xe8a31755
+            color_focus: #x00000000
+            color_2: #x00000000
+            color_2_hover: #xe8a31733
+            color_2_down: #xe8a31755
+            color_2_focus: #x00000000
+            border_color: #x00000000
+            border_color_hover: #xf0c14a66
+            border_color_down: #xf0c14a99
+            border_color_focus: #x00000000
+            border_radius: 12.
+            border_size: 1.5
+        }
+        draw_text +: {
+            color: #x00000000
+            color_hover: #x00000000
+            color_down: #x00000000
+            color_focus: #x00000000
+        }
+    }
     let Band = SolidView{
         width: Fill height: Fit
         padding: Inset{left: 64. right: 64. top: 72. bottom: 72.}
@@ -156,9 +189,14 @@ script_mod! {
     let PanelCard = RoundedView{
         width: Fill height: Fit
         padding: Inset{left: 24. right: 24. top: 22. bottom: 22.}
-        draw_bg +: { color: Panel }
+        draw_bg +: { color: Panel border_radius: 12. }
         flow: Down
         spacing: 12.
+    }
+    // Product tile: content + full-area CardHit overlay (opens brand site).
+    let ProductCard = View{
+        width: Fill height: Fit
+        flow: Overlay
     }
     let BrandMark = Image{
         width: 56 height: 56
@@ -190,6 +228,21 @@ script_mod! {
         width: Fill height: Fit
         flow: Right
         spacing: 14.
+    }
+    let CardLink = Markdown{
+        selectable: false
+        height: Fit
+        width: Fill
+        padding: 0.
+        paragraph_spacing: 0.
+        pre_code_spacing: 0.
+        font_color: SoftAmber
+        font_size: 13.
+        text_style_normal: theme.font_bold{font_size: 13. line_spacing: 1.3}
+        text_style_bold: theme.font_bold{font_size: 13. line_spacing: 1.3}
+        draw_text +: { color: SoftAmber text_style: theme.font_bold{font_size: 13. line_spacing: 1.3} }
+        draw_selection +: { color: Select }
+        draw_block +: { selection_color: Select }
     }
 
     startup() do #(App::script_component(vm)){
@@ -252,24 +305,23 @@ script_mod! {
                             hero := Band{
                                 hero_tag := View{
                                     width: Fill height: Fit
-                                    Eyebrow{ body: "GOTIGIN · COMPANY · HOUSE MARK · GTG" }
+                                    Eyebrow{ body: "GOTIGIN" }
                                 }
-                                Headline{ body: "Gotigin." }
-                                Lede{ body: "Where Technology Meets Discovery. Company site for GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED — the house mark behind Kumkaj, Wadhu, Ghal Bol, and GotiginSwap. The GTG emblem is Gotigin." }
+                                Headline{ body: "Where Technology Meets Discovery." }
+                                Lede{ body: "Trademark: Gotigin (find it · go-tee-geen) — Where Technology Meets Discovery. Company: GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Brands: Kumkaj, Wadhu, Ghal Bol." }
                                 cta_row := View{
                                     width: Fill height: Fit
                                     flow: Right
                                     spacing: 14.
                                     cta_about := LinkBtn{ text: "About Gotigin" }
-                                    cta_privacy := GhostBtn{ text: "Privacy policy" }
-                                    cta_help := GhostBtn{ text: "Help centre" }
+                                    cta_privacy := GhostBtn{ text: "Privacy" }
                                 }
                             }
 
                             brands := BandAlt{
-                                Eyebrow{ body: "BRANDS & PRODUCTS" }
-                                Subhead{ body: "Categories by brand." }
-                                Lede{ body: "Each brand keeps its own mark, domain, and privacy policy. Apps below use their product icons." }
+                                Eyebrow{ body: "BRANDS" }
+                                Subhead{ body: "What we ship." }
+                                Lede{ body: "Kumkaj, Wadhu, and Ghal Bol — each with its own mark and products." }
 
                                 brand_kumkaj := BrandBlock{
                                     kumkaj_head := BrandHead{
@@ -281,29 +333,41 @@ script_mod! {
                                         open_kumkaj := LinkBtn{ text: "kumkaj.com" }
                                     }
                                     kumkaj_row := AppGrid{
-                                        p_khaynjo := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/khaynjo-app-icon.webp") }
-                                            CardTitle{ body: "Khaynjo" }
-                                            Body{ body: "Restaurant OS — tables, KOT, bills, day close." }
-                                            open_khaynjo := QuietBtn{ text: "khaynjo.com" }
+                                        p_khaynjo := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/khaynjo-app-icon.webp") }
+                                                CardTitle{ body: "Khaynjo" }
+                                                Body{ body: "Restaurant OS — tables, KOT, bills, day close." }
+                                                CardLink{ body: "khaynjo.com" }
+                                            }
+                                            open_khaynjo := CardHit{}
                                         }
-                                        p_moklanjo := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/moklanjo-app-icon.webp") }
-                                            CardTitle{ body: "Moklanjo" }
-                                            Body{ body: "Courier desk — booking, parties, day book." }
-                                            open_moklanjo := QuietBtn{ text: "moklanjo.com" }
+                                        p_moklanjo := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/moklanjo-app-icon.webp") }
+                                                CardTitle{ body: "Moklanjo" }
+                                                Body{ body: "Courier desk — booking, parties, day book." }
+                                                CardLink{ body: "moklanjo.com" }
+                                            }
+                                            open_moklanjo := CardHit{}
                                         }
-                                        p_kirano := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/kirano-app-icon.webp") }
-                                            CardTitle{ body: "Kirano" }
-                                            Body{ body: "Kirana / grocery — catalogue, stock, khata, GST cash memo." }
-                                            open_kirano := QuietBtn{ text: "kirano.shop" }
+                                        p_kirano := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/kirano-app-icon.webp") }
+                                                CardTitle{ body: "Kirano" }
+                                                Body{ body: "Kirana / grocery — catalogue, stock, khata, GST cash memo." }
+                                                CardLink{ body: "kirano.shop" }
+                                            }
+                                            open_kirano := CardHit{}
                                         }
-                                        p_tabiyat := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/tabiyat-app-icon.webp") }
-                                            CardTitle{ body: "Tabiyat" }
-                                            Body{ body: "Pharmacy counter — batch, expiry, stock, GST tax invoice." }
-                                            open_tabiyat := QuietBtn{ text: "tabiyat.shop" }
+                                        p_tabiyat := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/tabiyat-app-icon.webp") }
+                                                CardTitle{ body: "Tabiyat" }
+                                                Body{ body: "Pharmacy counter — batch, expiry, stock, GST tax invoice." }
+                                                CardLink{ body: "tabiyat.shop" }
+                                            }
+                                            open_tabiyat := CardHit{}
                                         }
                                     }
                                 }
@@ -318,17 +382,23 @@ script_mod! {
                                         open_wadhu := LinkBtn{ text: "wadhu.com" }
                                     }
                                     wadhu_row := AppGrid{
-                                        p_sms := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/sms-gateway-app-icon.webp") }
-                                            CardTitle{ body: "SMS Gateway" }
-                                            Body{ body: "Android-first SIM gateway — LAN and Bluetooth stay free forever." }
-                                            open_sms := QuietBtn{ text: "wadhu.com" }
+                                        p_sms := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/sms-gateway-app-icon.webp") }
+                                                CardTitle{ body: "SMS Gateway" }
+                                                Body{ body: "Android-first SIM gateway — LAN and Bluetooth stay free forever." }
+                                                CardLink{ body: "wadhu.com" }
+                                            }
+                                            open_sms := CardHit{}
                                         }
-                                        p_connect := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/wadhu-connect-app-icon.webp") }
-                                            CardTitle{ body: "Wadhu Connect" }
-                                            Body{ body: "WhatsApp Cloud API bridge — their number, your software." }
-                                            open_connect := QuietBtn{ text: "connect.wadhu.com" }
+                                        p_connect := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/wadhu-connect-app-icon.webp") }
+                                                CardTitle{ body: "Wadhu Connect" }
+                                                Body{ body: "WhatsApp Cloud API bridge — their number, your software." }
+                                                CardLink{ body: "connect.wadhu.com" }
+                                            }
+                                            open_connect := CardHit{}
                                         }
                                     }
                                 }
@@ -343,44 +413,90 @@ script_mod! {
                                         open_ghalbol := LinkBtn{ text: "ghalbol.com" }
                                     }
                                     ghalbol_row := AppGrid{
-                                        p_ghalbol_app := PanelCard{
-                                            AppMark{ src: crate_resource("self:resources/media/ghalbol-app-icon.webp") }
-                                            CardTitle{ body: "Ghal Bol" }
-                                            Body{ body: "Encrypted messenger — private rooms and secure communication." }
-                                            open_ghalbol_app := QuietBtn{ text: "ghalbol.com" }
+                                        p_ghalbol_app := ProductCard{
+                                            PanelCard{
+                                                AppMark{ src: crate_resource("self:resources/media/ghalbol-app-icon.webp") }
+                                                CardTitle{ body: "Ghal Bol" }
+                                                Body{ body: "Encrypted messenger — private rooms and secure communication." }
+                                                CardLink{ body: "ghalbol.com" }
+                                            }
+                                            open_ghalbol_app := CardHit{}
                                         }
                                     }
                                 }
 
-                                Body{ body: "Also under Gotigin: GotiginSwap (experimental). Product privacy lives on each brand domain; company verifiers use gotigin.com." }
-                            }
-
-                            trust := BandAlt{
-                                Eyebrow{ body: "FOR STORES · META · PARTNERS" }
-                                Subhead{ body: "Policies live in the top bar." }
-                                Lede{ body: "Privacy, Terms, Help, Support, and About are always available from the navigation. Additional pages: /data-deletion · /cookies · /security." }
-                                Body{ body: "Use these same-host URLs for Google Play, Microsoft Store, Meta App Review, and company verification." }
                             }
 
                             company := Band{
                                 Eyebrow{ body: "COMPANY" }
                                 Subhead{ body: "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED" }
-                                Body{ body: "CIN: U62011GJ2026PTC179660" }
-                                Body{ body: "Incorporation date: 24 June 2026" }
-                                Body{ body: "GSTIN: 24AANCG1628G1ZP" }
-                                Body{ body: "PAN: AANCG1628G" }
-                                Body{ body: "DPIIT: DIPP271306" }
-                                Body{ body: "Registered office: Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India" }
-                                Body{ body: "Directors: Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj" }
-                                Body{ body: "Business email: mearaj@gotigin.com" }
-                                open_mail := LinkBtn{ text: "Email Gotigin" }
+                                Lede{ body: "Private limited company in Dhoraji, Gujarat. Incorporated 24 June 2026. We build software and hardware, and support the products that run on them." }
+                                company_row := AppGrid{
+                                    PanelCard{
+                                        CardTitle{ body: "Registration" }
+                                        Body{ body: "CIN U62011GJ2026PTC179660" }
+                                        Body{ body: "Incorporated 24 June 2026" }
+                                        Body{ body: "Share capital ₹1,00,000" }
+                                        Body{ body: "Limited by shares · Gujarat" }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "Tax" }
+                                        Body{ body: "PAN AANCG1628G" }
+                                        Body{ body: "TAN RKTG08602G" }
+                                        Body{ body: "GSTIN 24AANCG1628G1ZP" }
+                                        Body{ body: "GST Regular · from 04 July 2026" }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "Recognition" }
+                                        Body{ body: "DPIIT DIPP271306" }
+                                        Body{ body: "Issued 08 July 2026" }
+                                        Body{ body: "Valid to 23 June 2036" }
+                                        Body{ body: "Shops SR131000001 · Dhoraji" }
+                                    }
+                                }
+                                company_row2 := AppGrid{
+                                    PanelCard{
+                                        CardTitle{ body: "Registered office" }
+                                        Body{ body: "Gosiya Manzil, Darbargadh" }
+                                        Body{ body: "Dhoraji, Rajkot" }
+                                        Body{ body: "Gujarat 360410, India" }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "Directors" }
+                                        Body{ body: "Mearaj Abdulaziz Bhagad" }
+                                        Body{ body: "Bhagad Senila Mearaj" }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "Contact" }
+                                        Body{ body: "mearaj@gotigin.com" }
+                                        Body{ body: "+91 99677 17702" }
+                                        Body{ body: "gotigin.com" }
+                                    }
+                                }
+                                company_cta := View{
+                                    width: Fill height: Fit
+                                    flow: Right
+                                    spacing: 14.
+                                    cta_about_full := LinkBtn{ text: "About" }
+                                    open_mail := GhostBtn{ text: "Email" }
+                                    cta_contact := GhostBtn{ text: "Support" }
+                                }
                             }
 
                             close := BandAlt{
-                                Eyebrow{ body: "NEXT" }
-                                Subhead{ body: "Build with Gotigin." }
-                                Lede{ body: "Explore the brands, read the policies, or write to us. This site is the company source of truth for identity and legal links." }
-                                cta_contact := LinkBtn{ text: "Contact / support" }
+                                close_brand := View{
+                                    width: Fill height: Fit
+                                    flow: Right
+                                    spacing: 12.
+                                    align: Align{y: 0.5}
+                                    Image{
+                                        width: 48 height: 48
+                                        fit: ImageFit.Stretch
+                                        src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
+                                    }
+                                    CardTitle{ body: "Gotigin" }
+                                }
+                                Subhead{ body: "Where Technology Meets Discovery." }
                                 Body{ body: "© 2026 GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Trademark: Gotigin." }
                             }
                         }

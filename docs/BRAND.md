@@ -1,15 +1,14 @@
 # Brand naming — Gotigin Domain
 
-Do not mix these names.
+Do not mix these names. **Order is always Trademark → Company → Brand → Product.**
 
 | Name | Kind | Meaning |
 | --- | --- | --- |
 | **Gotigin** | Trademark / house mark | Pronounced *go-tee-geen*; Memon for *find it*. Slogan: *Where Technology Meets Discovery*. Mark: circular **GTG** (G · T · mirrored G). Used for **both** the company face and the Gotigin brand. Site: [gotigin.com](https://gotigin.com) |
-| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company (legal entity) | Owns brands and products; CIN U62011GJ2026PTC179660 |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company (legal entity) | Owns brands and products; CIN U62011GJ2026PTC179660 · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
 | **Kumkaj** | Brand | Family of business operating system apps |
 | **Wadhu** | Brand | Reusable tools — SMS Gateway, Relay, Wadhu Connect |
 | **Ghal Bol** | Brand | Communication products (messenger) |
-| **GotiginSwap** | Product | On-chain swap experiment under the Gotigin name |
 
 ## Products under Kumkaj
 
