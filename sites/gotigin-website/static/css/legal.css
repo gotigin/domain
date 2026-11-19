@@ -84,7 +84,21 @@ table { border-collapse: collapse; width: 100%; margin: 0.75rem 0; font-size: 0.
 th, td { border: 1px solid var(--rule); padding: 0.35rem 0.5rem; text-align: left; vertical-align: top; color: var(--muted); }
 th { color: var(--ink); }
 .legal-nav { margin-top: 2rem; color: var(--muted); }
-.legal-foot { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); }
+.legal-foot {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.legal-foot-company {
+  color: var(--ink);
+  font-weight: 600;
+}
+.legal-foot-meta {
+  font-size: 0.8rem;
+}
 
 @media (max-width: 720px) {
   .topbar { padding: 0.65rem 0.85rem; }
