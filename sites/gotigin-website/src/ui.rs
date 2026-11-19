@@ -381,7 +381,7 @@ script_mod! {
                                             BrandMark{ src: crate_resource("self:resources/media/wadhu-brand-logo.webp") }
                                             BrandHeadText{
                                                 CardTitle{ body: "Wadhu" }
-                                                Body{ body: "Reusable messaging tools other Gotigin brands — and anyone — can use." }
+                                                Body{ body: "More — reusable tools, utils, and apps that other Gotigin products (and anyone) can use." }
                                                 CardLink{ body: "wadhu.com" }
                                             }
                                         }

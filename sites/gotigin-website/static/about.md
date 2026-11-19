@@ -18,7 +18,7 @@ Order is always **Trademark → Company → Brand → Product**.
 | **Gotigin** | Trademark / house mark — Memon *find it* (*go-tee-geen*); slogan *Where Technology Meets Discovery* |
 | **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
 | **Kumkaj** | Brand — business operating systems |
-| **Wadhu** | Brand — messaging tools |
+| **Wadhu** | Brand — *more* (Memon); tools, utils, and apps other Gotigin products use |
 | **Ghal Bol** | Brand — communication products |
 
 ## Business
@@ -33,7 +33,7 @@ customization, and technical support.
 | Brand | Products | Sites |
 | --- | --- | --- |
 | **Kumkaj** | Khaynjo (restaurant), Moklanjo (courier), Kirano (kirana), Tabiyat (pharmacy) | [kumkaj.com](https://kumkaj.com) · [khaynjo.com](https://khaynjo.com) · [moklanjo.com](https://moklanjo.com) · [kirano.shop](https://kirano.shop) · [tabiyat.shop](https://tabiyat.shop) |
-| **Wadhu** | SMS Gateway, SMS Relay, Wadhu Connect | [wadhu.com](https://wadhu.com) · [connect.wadhu.com](https://connect.wadhu.com) |
+| **Wadhu** | *More* — reusable tools, utils, and apps used across Gotigin (SMS Gateway, SMS Relay, Wadhu Connect, and more) | [wadhu.com](https://wadhu.com) · [connect.wadhu.com](https://connect.wadhu.com) |
 | **Ghal Bol** | Encrypted messenger | [ghalbol.com](https://ghalbol.com) |
 
 ## Legal entity
