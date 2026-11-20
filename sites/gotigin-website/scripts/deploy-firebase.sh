@@ -75,13 +75,13 @@ if ! grep -q 'og:site_name' "$INDEX"; then
   awk -v bid="$BUILD_ID" '
     /<title>/ && !titled {
       print "    <title>Gotigin — Where Technology Meets Discovery</title>"
-      print "    <meta name=\"description\" content=\"GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED — house mark Gotigin (GTG). Parent of Kumkaj, Wadhu, Ghal Bol. Privacy, terms, help, and data deletion for store verification.\" />"
+      print "    <meta name=\"description\" content=\"Gotigin — Where Technology Meets Discovery. Trademark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Brands: Kumkaj, Wadhu (Tools · Apps · More), Ghal Bol.\" />"
       print "    <meta name=\"theme-color\" content=\"#12102a\" />"
       print "    <link rel=\"icon\" href=\"./favicon.png\" type=\"image/png\" />"
       print "    <link rel=\"apple-touch-icon\" href=\"./media/gotigin-brand-logo.png\" />"
       print "    <meta property=\"og:site_name\" content=\"Gotigin\" />"
       print "    <meta property=\"og:title\" content=\"Gotigin — Where Technology Meets Discovery\" />"
-      print "    <meta property=\"og:description\" content=\"Company site for GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Brands: Kumkaj, Wadhu, Ghal Bol.\" />"
+      print "    <meta property=\"og:description\" content=\"GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Trademark Gotigin. Brands: Kumkaj, Wadhu, Ghal Bol.\" />"
       print "    <meta property=\"og:url\" content=\"https://gotigin.com/\" />"
       print "    <meta property=\"og:image\" content=\"https://gotigin.com/media/gotigin-brand-logo.png\" />"
       print "    <meta property=\"og:type\" content=\"website\" />"

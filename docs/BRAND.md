@@ -7,7 +7,7 @@ Do not mix these names. **Order is always Trademark → Company → Brand → Pr
 | **Gotigin** | Trademark / house mark | Pronounced *go-tee-geen*; Memon for *find it*. Slogan: *Where Technology Meets Discovery*. Mark: circular **GTG** (G · T · mirrored G). Used for **both** the company face and the Gotigin brand. Site: [gotigin.com](https://gotigin.com) |
 | **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company (legal entity) | Owns brands and products; CIN U62011GJ2026PTC179660 · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
 | **Kumkaj** | Brand | Family of business operating system apps |
-| **Wadhu** | Brand | Memon *more* — Tools · Apps · More. Reusable utils and apps other Gotigin products use (SMS Gateway, Relay, Wadhu Connect, …) |
+| **Wadhu** | Brand | Memon *more* — Tools · Apps · More. Reusable tools, utils, and apps other Gotigin products use. Not a messaging brand. Products: SMS Gateway, SMS Relay, Wadhu Connect. |
 | **Ghal Bol** | Brand | Communication products (messenger) |
 
 ## Products under Kumkaj

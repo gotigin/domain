@@ -1,6 +1,6 @@
 # Gotigin data deletion
 
-_Last updated: 17 November 2026_
+_Last updated: 20 November 2026_
 
 This page is the **data deletion / account deletion** instructions URL for
 **company-level** Gotigin surfaces (Google Play, Microsoft Store, Meta, and
@@ -27,7 +27,7 @@ Delete product data using the **product brand** instructions when available:
 
 | Product area | Deletion instructions |
 | --- | --- |
-| Wadhu (SMS Gateway, Connect) | [wadhu.com/data-deletion](https://wadhu.com/data-deletion) |
+| Wadhu — SMS Gateway, SMS Relay, Wadhu Connect | [wadhu.com/data-deletion](https://wadhu.com/data-deletion) |
 | Kumkaj apps (Khaynjo, Moklanjo, Kirano, Tabiyat) | In-app settings / clear app storage / uninstall; email us if cloud features were used |
 | Ghal Bol | Follow ghalbol.com privacy / deletion pages, or email us |
 

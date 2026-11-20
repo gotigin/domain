@@ -1,6 +1,6 @@
 # Gotigin support
 
-_Last updated: 18 November 2026_
+_Last updated: 20 November 2026_
 
 ## Contact
 
@@ -10,36 +10,58 @@ _Last updated: 18 November 2026_
 | Phone | +91 99677 17702 |
 | Company | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
 | Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
-| Help centre | [gotigin.com/help](https://gotigin.com/help) |
-| About / identity | [gotigin.com/about](https://gotigin.com/about) |
+| Help | [/help](/help) |
+| About | [/about](/about) |
 
-Use this email and phone for privacy, deletion requests, and general company
-contact.
+Use this email and phone for privacy, deletion, security reports, and company contact.
 
-## What we can help with
+## What to include
 
-- Company identity verification and legal page questions for gotigin.com
-- Routing you to the correct **brand** support path (Kumkaj, Wadhu, Ghal Bol)
-- Privacy and data deletion requests ([data deletion](/data-deletion))
-- Partnership and general business enquiries
+- Brand and product name (Khaynjo, SMS Gateway, Ghal Bol, …)
+- The address or app you are writing about
+- What you need: support, privacy, deletion, or a security report
+
+| Request | Subject | Page |
+| --- | --- | --- |
+| Data deletion | `Gotigin data deletion` | [/data-deletion](/data-deletion) |
+| Security report | `Gotigin security report` | [/security](/security) |
+| Privacy | `Gotigin privacy` | [/privacy](/privacy) |
+
+## Company requests
+
+- Identity and registration questions for gotigin.com
+- Which brand or product a request belongs to
+- Privacy and deletion for data sent to the company
+- Partnership and other business mail
 
 ## Product support
 
-| Brand | Start here |
-| --- | --- |
-| Wadhu | [wadhu.com/support](https://wadhu.com/support) |
-| Khaynjo / Kumkaj apps | Product site or in-app help; or email us with the app name |
-| Ghal Bol | ghalbol.com privacy / support contacts |
+Start on the product site. If that site has no support page, email the company address and name the product.
 
-## What we cannot guarantee
+| Brand | Product | Start here |
+| --- | --- | --- |
+| Kumkaj | Khaynjo | https://khaynjo.com |
+| Kumkaj | Moklanjo | https://moklanjo.com |
+| Kumkaj | Kirano | https://kirano.shop |
+| Kumkaj | Tabiyat | https://tabiyat.shop |
+| Wadhu | SMS Gateway | https://wadhu.com/support |
+| Wadhu | SMS Relay | https://wadhu.com/support |
+| Wadhu | Wadhu Connect | https://connect.wadhu.com |
+| Ghal Bol | Ghal Bol | https://ghalbol.com |
 
-- Third-party store review timelines, Meta policy decisions, or carrier
-  filtering
-- Support for software you did not obtain from Gotigin or our brands
+Wadhu is the tools brand (Memon *more* — Tools · Apps · More). SMS Gateway, SMS Relay, and Wadhu Connect are products under it.
 
-## Legal
+## Limits
+
+- Store review times, Meta policy decisions, and carrier filtering are outside this desk
+- Software that did not come from Gotigin or these brands
+
+## Pages
 
 - Privacy: [/privacy](/privacy)
 - Terms: [/terms](/terms)
+- Data deletion: [/data-deletion](/data-deletion)
 - About: [/about](/about)
 - Help: [/help](/help)
+- Cookies: [/cookies](/cookies)
+- Security: [/security](/security)

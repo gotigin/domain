@@ -1,6 +1,7 @@
 // gotigin.com — company / house-mark Makepad SPA.
-// Gotigin = trademark + GTG mark; company = GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED.
-// Brands: Kumkaj, Wadhu, Ghal Bol. Legal HTML shares the same Hosting tree + top nav.
+// Order: Trademark (Gotigin) → Company → Brand → Product.
+// Wadhu is Memon *more* (Tools · Apps · More), not a messaging brand.
+// Legal HTML shares this Hosting tree and the same top nav.
 script_mod! {
     use mod.prelude.widgets.*
     use mod.widgets.*
@@ -9,6 +10,7 @@ script_mod! {
     let Ink = #x12102a
     let Panel = #x1c1838
     let Steel = #x221e42
+    let Line = #x3a3568
     let Amber = #xe8a317
     let SoftAmber = #xf0c14a
     let Paper = #xf7f6fb
@@ -45,10 +47,10 @@ script_mod! {
         paragraph_spacing: 0.
         pre_code_spacing: 0.
         font_color: Paper
-        font_size: 46.
-        text_style_normal: theme.font_bold{font_size: 46. line_spacing: 1.06}
-        text_style_bold: theme.font_bold{font_size: 46. line_spacing: 1.06}
-        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 46. line_spacing: 1.06} }
+        font_size: 40.
+        text_style_normal: theme.font_bold{font_size: 40. line_spacing: 1.06}
+        text_style_bold: theme.font_bold{font_size: 40. line_spacing: 1.06}
+        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 40. line_spacing: 1.06} }
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
@@ -60,10 +62,10 @@ script_mod! {
         paragraph_spacing: 0.
         pre_code_spacing: 0.
         font_color: Paper
-        font_size: 28.
-        text_style_normal: theme.font_bold{font_size: 28. line_spacing: 1.15}
-        text_style_bold: theme.font_bold{font_size: 28. line_spacing: 1.15}
-        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 28. line_spacing: 1.15} }
+        font_size: 26.
+        text_style_normal: theme.font_bold{font_size: 26. line_spacing: 1.15}
+        text_style_bold: theme.font_bold{font_size: 26. line_spacing: 1.15}
+        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 26. line_spacing: 1.15} }
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
@@ -75,10 +77,10 @@ script_mod! {
         paragraph_spacing: 0.
         pre_code_spacing: 0.
         font_color: Muted
-        font_size: 19.
-        text_style_normal: theme.font_regular{font_size: 19. line_spacing: 1.45}
-        text_style_bold: theme.font_bold{font_size: 19. line_spacing: 1.45}
-        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 19. line_spacing: 1.45} }
+        font_size: 18.
+        text_style_normal: theme.font_regular{font_size: 18. line_spacing: 1.45}
+        text_style_bold: theme.font_bold{font_size: 18. line_spacing: 1.45}
+        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 18. line_spacing: 1.45} }
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
@@ -98,7 +100,7 @@ script_mod! {
         draw_block +: { selection_color: Select }
     }
     let CardTitle = Markdown{
-        selectable: true
+        selectable: false
         height: Fit
         width: Fill
         padding: 0.
@@ -106,9 +108,54 @@ script_mod! {
         pre_code_spacing: 0.
         font_color: SoftAmber
         font_size: 22.
-        text_style_normal: theme.font_bold{font_size: 22. line_spacing: 1.25}
-        text_style_bold: theme.font_bold{font_size: 22. line_spacing: 1.25}
-        draw_text +: { color: SoftAmber text_style: theme.font_bold{font_size: 22. line_spacing: 1.25} }
+        text_style_normal: theme.font_bold{font_size: 22. line_spacing: 1.2}
+        text_style_bold: theme.font_bold{font_size: 22. line_spacing: 1.2}
+        draw_text +: { color: SoftAmber text_style: theme.font_bold{font_size: 22. line_spacing: 1.2} }
+        draw_selection +: { color: Select }
+        draw_block +: { selection_color: Select }
+    }
+    let ProductTitle = Markdown{
+        selectable: false
+        height: Fit
+        width: Fill
+        padding: 0.
+        paragraph_spacing: 0.
+        pre_code_spacing: 0.
+        font_color: Paper
+        font_size: 18.
+        text_style_normal: theme.font_bold{font_size: 18. line_spacing: 1.2}
+        text_style_bold: theme.font_bold{font_size: 18. line_spacing: 1.2}
+        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 18. line_spacing: 1.2} }
+        draw_selection +: { color: Select }
+        draw_block +: { selection_color: Select }
+    }
+    let Kicker = Markdown{
+        selectable: false
+        height: Fit
+        width: Fill
+        padding: 0.
+        paragraph_spacing: 0.
+        pre_code_spacing: 0.
+        font_color: Muted
+        font_size: 11.
+        text_style_normal: theme.font_bold{font_size: 11. line_spacing: 1.2}
+        text_style_bold: theme.font_bold{font_size: 11. line_spacing: 1.2}
+        draw_text +: { color: Muted text_style: theme.font_bold{font_size: 11. line_spacing: 1.2} }
+        draw_selection +: { color: Select }
+        draw_block +: { selection_color: Select }
+    }
+    let CardBody = Markdown{
+        selectable: false
+        height: Fit
+        width: Fill
+        padding: 0.
+        paragraph_spacing: 0.
+        pre_code_spacing: 0.
+        font_color: Muted
+        font_size: 15.
+        text_style_normal: theme.font_regular{font_size: 15. line_spacing: 1.4}
+        text_style_bold: theme.font_bold{font_size: 15. line_spacing: 1.4}
+        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 15. line_spacing: 1.4} }
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
@@ -133,14 +180,8 @@ script_mod! {
         draw_bg +: { color: Panel }
         draw_text +: { color: Paper text_style: theme.font_bold{font_size: 13.} }
     }
-    let QuietBtn = Button{
-        width: Fit height: Fit
-        padding: Inset{left: 12. right: 12. top: 10. bottom: 10.}
-        draw_bg +: { color: Panel }
-        draw_text +: { color: Muted text_style: theme.font_bold{font_size: 12.} }
-    }
-    // Transparent full-card hit target (Khaynjo pattern). Hover/press wash
-    // sits above the card content so the whole tile reads as clickable.
+    // Full-card hit target. Later sibling in an Overlay, so hover and click
+    // cover the tile. Label is zero-size; the wash is the affordance.
     let CardHit = Button{
         width: Fill height: Fill
         padding: 0.
@@ -159,8 +200,8 @@ script_mod! {
             color_2_down: #xe8a31755
             color_2_focus: #x00000000
             border_color: #x00000000
-            border_color_hover: #xf0c14a66
-            border_color_down: #xf0c14a99
+            border_color_hover: #xf0c14a99
+            border_color_down: #xf0c14a
             border_color_focus: #x00000000
             border_radius: 12.
             border_size: 1.5
@@ -177,23 +218,22 @@ script_mod! {
         padding: Inset{left: 64. right: 64. top: 72. bottom: 72.}
         draw_bg +: { color: Ink }
         flow: Down
-        spacing: 18.
+        spacing: 16.
     }
     let BandAlt = SolidView{
         width: Fill height: Fit
         padding: Inset{left: 64. right: 64. top: 72. bottom: 72.}
         draw_bg +: { color: Steel }
         flow: Down
-        spacing: 18.
+        spacing: 16.
     }
     let PanelCard = RoundedView{
         width: Fill height: Fit
-        padding: Inset{left: 24. right: 24. top: 22. bottom: 22.}
-        draw_bg +: { color: Panel border_radius: 12. }
+        padding: Inset{left: 20. right: 20. top: 18. bottom: 18.}
+        draw_bg +: { color: Panel border_radius: 12. border_size: 1. border_color: Line }
         flow: Down
-        spacing: 12.
+        spacing: 8.
     }
-    // Product tile: content + full-area CardHit overlay (opens brand site).
     let ProductCard = View{
         width: Fill height: Fit
         flow: Overlay
@@ -203,18 +243,29 @@ script_mod! {
         fit: ImageFit.Stretch
     }
     let AppMark = Image{
-        width: 64 height: 64
+        width: 56 height: 56
         fit: ImageFit.Stretch
+    }
+    let ProductRow = View{
+        width: Fill height: Fit
+        flow: Right
+        spacing: 14.
+        align: Align{y: 0.0}
+    }
+    let ProductText = View{
+        width: Fill height: Fit
+        flow: Down
+        spacing: 4.
     }
     let BrandBlock = View{
         width: Fill height: Fit
         flow: Down
-        spacing: 16.
+        spacing: 12.
     }
     let BrandHead = RoundedView{
         width: Fill height: Fit
-        padding: Inset{left: 22. right: 22. top: 18. bottom: 18.}
-        draw_bg +: { color: Panel border_radius: 12. }
+        padding: Inset{left: 20. right: 20. top: 16. bottom: 16.}
+        draw_bg +: { color: Panel border_radius: 12. border_size: 1. border_color: Line }
         flow: Right
         spacing: 16.
         align: Align{y: 0.5}
@@ -222,12 +273,13 @@ script_mod! {
     let BrandHeadText = View{
         width: Fill height: Fit
         flow: Down
-        spacing: 6.
+        spacing: 4.
     }
     let AppGrid = View{
         width: Fill height: Fit
         flow: Right
         spacing: 14.
+        align: Align{x: 0.0 y: 0.0}
     }
     let CardLink = Markdown{
         selectable: false
@@ -259,40 +311,55 @@ script_mod! {
                         width: Fill height: Fill
                         draw_bg +: { color: Ink }
                         flow: Down
-                        // Match /about HTML topbar: [logo + Gotigin] .... [nav items]
+                        // Default is the narrow bar (nav under the mark). Desk
+                        // widths pull the nav onto one row in apply_responsive.
                         top := SolidView{
                             width: Fill height: Fit
-                            padding: Inset{left: 20. right: 20. top: 12. bottom: 12.}
+                            padding: Inset{left: 16. right: 16. top: 12. bottom: 12.}
                             draw_bg +: { color: Steel }
-                            flow: Right
-                            spacing: 10.
+                            flow: Down
+                            spacing: 8.
                             align: Align{y: 0.5}
-                            brand_icon := Image{
-                                width: 40 height: 40
-                                fit: ImageFit.Stretch
-                                src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
-                            }
-                            brand_home := Button{
+                            brand_row := View{
                                 width: Fit height: Fit
-                                margin: 0.
-                                padding: Inset{left: 2. right: 4. top: 8. bottom: 8.}
-                                text: "Gotigin"
-                                draw_bg +: { color: #x00000000 }
-                                draw_text +: {
-                                    color: SoftAmber
-                                    text_style: theme.font_bold{font_size: 16.}
+                                flow: Right
+                                spacing: 10.
+                                align: Align{y: 0.5}
+                                brand_icon := Image{
+                                    width: 40 height: 40
+                                    fit: ImageFit.Stretch
+                                    src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
+                                }
+                                brand_home := Button{
+                                    width: Fit height: Fit
+                                    margin: 0.
+                                    padding: Inset{left: 2. right: 4. top: 8. bottom: 8.}
+                                    text: "Gotigin"
+                                    draw_bg +: { color: #x00000000 }
+                                    draw_text +: {
+                                        color: SoftAmber
+                                        text_style: theme.font_bold{font_size: 16.}
+                                    }
                                 }
                             }
                             top_spacer := View{
+                                visible: false
                                 width: Fill
                                 height: 40.
                             }
-                            nav_home := ActiveNav{ text: "Home" }
-                            nav_about := GhostBtn{ text: "About" }
-                            nav_privacy := GhostBtn{ text: "Privacy" }
-                            nav_terms := GhostBtn{ text: "Terms" }
-                            nav_help := GhostBtn{ text: "Help" }
-                            nav_support := GhostBtn{ text: "Support" }
+                            nav_row := ScrollXView{
+                                width: Fill height: Fit
+                                flow: Right
+                                spacing: 8.
+                                align: Align{y: 0.5}
+                                nav_home := ActiveNav{ text: "Home" }
+                                nav_about := GhostBtn{ text: "About" }
+                                nav_privacy := GhostBtn{ text: "Privacy" }
+                                nav_terms := GhostBtn{ text: "Terms" }
+                                nav_deletion := GhostBtn{ text: "Deletion" }
+                                nav_help := GhostBtn{ text: "Help" }
+                                nav_support := GhostBtn{ text: "Support" }
+                            }
                         }
                         page := ScrollYView{
                             width: Fill
@@ -301,35 +368,36 @@ script_mod! {
                             selection_root: true
                             select_from_gaps: true
 
-                            // Logo lives in the topbar only (same as wadhu.com).
                             hero := Band{
                                 hero_tag := View{
                                     width: Fill height: Fit
-                                    Eyebrow{ body: "GOTIGIN" }
+                                    Eyebrow{ body: "TRADEMARK" }
                                 }
-                                Headline{ body: "Where Technology Meets Discovery." }
-                                Lede{ body: "Gotigin is the trademark. We build brands and products for discovery." }
+                                hero_title := Headline{ body: "Gotigin" }
+                                hero_slogan := Subhead{ body: "Where Technology Meets Discovery." }
+                                hero_lede := Lede{ body: "Memon for find it. Pronounced go-tee-geen. House mark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." }
                                 cta_row := View{
                                     width: Fill height: Fit
                                     flow: Right
-                                    spacing: 14.
-                                    cta_about := LinkBtn{ text: "About Gotigin" }
+                                    spacing: 12.
+                                    cta_about := LinkBtn{ text: "About" }
                                     cta_privacy := GhostBtn{ text: "Privacy" }
+                                    cta_help := GhostBtn{ text: "Help" }
                                 }
                             }
 
                             brands := BandAlt{
                                 Eyebrow{ body: "BRANDS" }
-                                Subhead{ body: "What we ship." }
-                                Lede{ body: "Kumkaj, Wadhu, and Ghal Bol — each with its own mark and products." }
+                                brands_title := Subhead{ body: "Kumkaj · Wadhu · Ghal Bol" }
 
                                 brand_kumkaj := BrandBlock{
                                     kumkaj_head := ProductCard{
                                         kumkaj_head_bar := BrandHead{
                                             BrandMark{ src: crate_resource("self:resources/media/kumkaj-brand-logo.webp") }
                                             BrandHeadText{
+                                                Kicker{ body: "BRAND" }
                                                 CardTitle{ body: "Kumkaj" }
-                                                Body{ body: "Business operating systems — local-first books, parties, bills, and printing." }
+                                                CardBody{ body: "Business operating systems." }
                                                 CardLink{ body: "kumkaj.com" }
                                             }
                                         }
@@ -338,37 +406,59 @@ script_mod! {
                                     kumkaj_row := AppGrid{
                                         p_khaynjo := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/khaynjo-app-icon.webp") }
-                                                CardTitle{ body: "Khaynjo" }
-                                                Body{ body: "Restaurant OS — tables, KOT, bills, day close." }
-                                                CardLink{ body: "khaynjo.com" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/khaynjo-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "Khaynjo" }
+                                                        CardBody{ body: "Restaurant OS. Tables, KOT, bills, day close." }
+                                                        CardLink{ body: "khaynjo.com" }
+                                                    }
+                                                }
                                             }
                                             open_khaynjo := CardHit{}
                                         }
                                         p_moklanjo := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/moklanjo-app-icon.webp") }
-                                                CardTitle{ body: "Moklanjo" }
-                                                Body{ body: "Courier desk — booking, parties, day book." }
-                                                CardLink{ body: "moklanjo.com" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/moklanjo-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "Moklanjo" }
+                                                        CardBody{ body: "Courier desk. Booking, parties, day book." }
+                                                        CardLink{ body: "moklanjo.com" }
+                                                    }
+                                                }
                                             }
                                             open_moklanjo := CardHit{}
                                         }
+                                    }
+                                    kumkaj_row2 := AppGrid{
                                         p_kirano := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/kirano-app-icon.webp") }
-                                                CardTitle{ body: "Kirano" }
-                                                Body{ body: "Kirana / grocery — catalogue, stock, khata, GST cash memo." }
-                                                CardLink{ body: "kirano.shop" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/kirano-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "Kirano" }
+                                                        CardBody{ body: "Kirana. Catalogue, stock, khata, GST cash memo." }
+                                                        CardLink{ body: "kirano.shop" }
+                                                    }
+                                                }
                                             }
                                             open_kirano := CardHit{}
                                         }
                                         p_tabiyat := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/tabiyat-app-icon.webp") }
-                                                CardTitle{ body: "Tabiyat" }
-                                                Body{ body: "Pharmacy counter — batch, expiry, stock, GST tax invoice." }
-                                                CardLink{ body: "tabiyat.shop" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/tabiyat-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "Tabiyat" }
+                                                        CardBody{ body: "Pharmacy counter. Batch, expiry, stock, GST bills." }
+                                                        CardLink{ body: "tabiyat.shop" }
+                                                    }
+                                                }
                                             }
                                             open_tabiyat := CardHit{}
                                         }
@@ -380,8 +470,10 @@ script_mod! {
                                         wadhu_head_bar := BrandHead{
                                             BrandMark{ src: crate_resource("self:resources/media/wadhu-brand-logo.webp") }
                                             BrandHeadText{
+                                                Kicker{ body: "BRAND" }
                                                 CardTitle{ body: "Wadhu" }
-                                                Body{ body: "More — reusable tools, utils, and apps that other Gotigin products (and anyone) can use." }
+                                                CardBody{ body: "Memon for more. Tools · Apps · More." }
+                                                CardBody{ body: "Reusable tools, utils, and apps. Not a messenger." }
                                                 CardLink{ body: "wadhu.com" }
                                             }
                                         }
@@ -390,19 +482,43 @@ script_mod! {
                                     wadhu_row := AppGrid{
                                         p_sms := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/sms-gateway-app-icon.webp") }
-                                                CardTitle{ body: "SMS Gateway" }
-                                                Body{ body: "Android-first SIM gateway — LAN and Bluetooth stay free forever." }
-                                                CardLink{ body: "wadhu.com" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/sms-gateway-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "SMS Gateway" }
+                                                        CardBody{ body: "Android-first SIM messaging. LAN and Bluetooth stay free." }
+                                                        CardLink{ body: "wadhu.com" }
+                                                    }
+                                                }
                                             }
                                             open_sms := CardHit{}
                                         }
+                                        p_relay := ProductCard{
+                                            PanelCard{
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/wadhu-brand-logo.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "SMS Relay" }
+                                                        CardBody{ body: "Optional internet plane for paired gateways." }
+                                                        CardLink{ body: "wadhu.com" }
+                                                    }
+                                                }
+                                            }
+                                            open_relay := CardHit{}
+                                        }
                                         p_connect := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/wadhu-connect-app-icon.webp") }
-                                                CardTitle{ body: "Wadhu Connect" }
-                                                Body{ body: "WhatsApp Cloud API bridge — their number, your software." }
-                                                CardLink{ body: "connect.wadhu.com" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/wadhu-connect-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "Wadhu Connect" }
+                                                        CardBody{ body: "WhatsApp Cloud API bridge." }
+                                                        CardLink{ body: "connect.wadhu.com" }
+                                                    }
+                                                }
                                             }
                                             open_connect := CardHit{}
                                         }
@@ -414,8 +530,9 @@ script_mod! {
                                         ghalbol_head_bar := BrandHead{
                                             BrandMark{ src: crate_resource("self:resources/media/ghalbol-brand-logo.webp") }
                                             BrandHeadText{
+                                                Kicker{ body: "BRAND" }
                                                 CardTitle{ body: "Ghal Bol" }
-                                                Body{ body: "Communication products — encrypted messaging under the Ghal Bol brand." }
+                                                CardBody{ body: "Communication products." }
                                                 CardLink{ body: "ghalbol.com" }
                                             }
                                         }
@@ -424,22 +541,111 @@ script_mod! {
                                     ghalbol_row := AppGrid{
                                         p_ghalbol_app := ProductCard{
                                             PanelCard{
-                                                AppMark{ src: crate_resource("self:resources/media/ghalbol-app-icon.webp") }
-                                                CardTitle{ body: "Ghal Bol" }
-                                                Body{ body: "Encrypted messenger — private rooms and secure communication." }
-                                                CardLink{ body: "ghalbol.com" }
+                                                ProductRow{
+                                                    AppMark{ src: crate_resource("self:resources/media/ghalbol-app-icon.webp") }
+                                                    ProductText{
+                                                        Kicker{ body: "PRODUCT" }
+                                                        ProductTitle{ body: "Ghal Bol" }
+                                                        CardBody{ body: "Encrypted messenger." }
+                                                        CardLink{ body: "ghalbol.com" }
+                                                    }
+                                                }
                                             }
                                             open_ghalbol_app := CardHit{}
                                         }
                                     }
                                 }
-
                             }
 
-                            company := Band{
+                            trust := Band{
+                                Eyebrow{ body: "PAGES" }
+                                trust_title := Subhead{ body: "Company pages" }
+                                trust_row := AppGrid{
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Privacy" }
+                                            CardBody{ body: "Company privacy policy." }
+                                            CardLink{ body: "/privacy" }
+                                        }
+                                        open_pol_privacy := CardHit{}
+                                    }
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Terms" }
+                                            CardBody{ body: "Terms of use for gotigin.com." }
+                                            CardLink{ body: "/terms" }
+                                        }
+                                        open_pol_terms := CardHit{}
+                                    }
+                                }
+                                trust_row2 := AppGrid{
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Data deletion" }
+                                            CardBody{ body: "How to ask for deletion." }
+                                            CardLink{ body: "/data-deletion" }
+                                        }
+                                        open_pol_deletion := CardHit{}
+                                    }
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Support" }
+                                            CardBody{ body: "Email, phone, and product routing." }
+                                            CardLink{ body: "/support" }
+                                        }
+                                        open_pol_support := CardHit{}
+                                    }
+                                }
+                                trust_row3 := AppGrid{
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Help" }
+                                            CardBody{ body: "Names, products, and sites." }
+                                            CardLink{ body: "/help" }
+                                        }
+                                        open_pol_help := CardHit{}
+                                    }
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "About" }
+                                            CardBody{ body: "Company registration and contacts." }
+                                            CardLink{ body: "/about" }
+                                        }
+                                        open_pol_about := CardHit{}
+                                    }
+                                }
+                                trust_row4 := AppGrid{
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Cookies" }
+                                            CardBody{ body: "Cookies on gotigin.com." }
+                                            CardLink{ body: "/cookies" }
+                                        }
+                                        open_pol_cookies := CardHit{}
+                                    }
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Security" }
+                                            CardBody{ body: "How to report a vulnerability." }
+                                            CardLink{ body: "/security" }
+                                        }
+                                        open_pol_security := CardHit{}
+                                    }
+                                }
+                            }
+
+                            company := BandAlt{
                                 Eyebrow{ body: "COMPANY" }
-                                Subhead{ body: "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED" }
-                                Lede{ body: "Private limited company in Dhoraji, Gujarat. Incorporated 24 June 2026. We build software and hardware, and support the products that run on them." }
+                                company_title := Subhead{ body: "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED" }
+                                company_lede := Lede{ body: "Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026." }
                                 company_row := AppGrid{
                                     PanelCard{
                                         CardTitle{ body: "Registration" }
@@ -485,14 +691,14 @@ script_mod! {
                                 company_cta := View{
                                     width: Fill height: Fit
                                     flow: Right
-                                    spacing: 14.
+                                    spacing: 12.
                                     cta_about_full := LinkBtn{ text: "About" }
                                     open_mail := GhostBtn{ text: "Email" }
                                     cta_contact := GhostBtn{ text: "Support" }
                                 }
                             }
 
-                            close := BandAlt{
+                            close := Band{
                                 close_brand := View{
                                     width: Fill height: Fit
                                     flow: Right
@@ -505,7 +711,7 @@ script_mod! {
                                     }
                                     CardTitle{ body: "Gotigin" }
                                 }
-                                Subhead{ body: "Where Technology Meets Discovery." }
+                                close_title := Subhead{ body: "Where Technology Meets Discovery." }
                                 names := View{
                                     width: Fill height: Fit
                                     flow: Down
@@ -532,7 +738,7 @@ script_mod! {
                                         spacing: 4.
                                         Eyebrow{ body: "BRANDS" }
                                         CardTitle{ body: "Kumkaj · Wadhu · Ghal Bol" }
-                                        Body{ body: "Each brand ships its own products" }
+                                        Body{ body: "Business systems · tools and apps · communication" }
                                     }
                                 }
                                 View{

@@ -43,5 +43,5 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 
 Order is always **Trademark → Company → Brand → Product**:
 **Gotigin** (trademark) → **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED**
-(company) → brands **Kumkaj**, **Wadhu**, **Ghal Bol** → their products.
+(company) → brands **Kumkaj**, **Wadhu** (Memon *more* — Tools · Apps · More; not a messenger), **Ghal Bol** → their products.
 See [`BRAND.md`](BRAND.md).

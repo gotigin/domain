@@ -1,13 +1,10 @@
 # About Gotigin
 
-_Last updated: 18 November 2026_
+_Last updated: 20 November 2026_
 
-**Gotigin** is the house mark of **GOTIGIN SOFTWARE & HARDWARE PRIVATE
+**Gotigin** is the trademark of **GOTIGIN SOFTWARE & HARDWARE PRIVATE
 LIMITED**. In Memon, Gotigin means *find it* (*go-tee-geen*). Slogan:
 *Where Technology Meets Discovery*. The visual mark is the circular **GTG**.
-
-We build software and hardware for businesses and communities, and publish
-products under the brands below.
 
 ## Names
 
@@ -18,7 +15,7 @@ Order is always **Trademark → Company → Brand → Product**.
 | **Gotigin** | Trademark / house mark — Memon *find it* (*go-tee-geen*); slogan *Where Technology Meets Discovery* |
 | **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
 | **Kumkaj** | Brand — business operating systems |
-| **Wadhu** | Brand — *more* (Memon); tools, utils, and apps other Gotigin products use |
+| **Wadhu** | Brand — Memon *more*. Tools · Apps · More. Reusable tools, utils, and apps. Not a messenger. |
 | **Ghal Bol** | Brand — communication products |
 
 ## Business
@@ -33,7 +30,7 @@ customization, and technical support.
 | Brand | Products | Sites |
 | --- | --- | --- |
 | **Kumkaj** | Khaynjo (restaurant), Moklanjo (courier), Kirano (kirana), Tabiyat (pharmacy) | [kumkaj.com](https://kumkaj.com) · [khaynjo.com](https://khaynjo.com) · [moklanjo.com](https://moklanjo.com) · [kirano.shop](https://kirano.shop) · [tabiyat.shop](https://tabiyat.shop) |
-| **Wadhu** | *More* — reusable tools, utils, and apps used across Gotigin (SMS Gateway, SMS Relay, Wadhu Connect, and more) | [wadhu.com](https://wadhu.com) · [connect.wadhu.com](https://connect.wadhu.com) |
+| **Wadhu** | SMS Gateway (Android SIM messaging; LAN and Bluetooth stay free), SMS Relay (optional internet plane), Wadhu Connect (WhatsApp Cloud API bridge) | [wadhu.com](https://wadhu.com) · [connect.wadhu.com](https://connect.wadhu.com) |
 | **Ghal Bol** | Encrypted messenger | [ghalbol.com](https://ghalbol.com) |
 
 ## Legal entity

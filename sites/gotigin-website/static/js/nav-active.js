@@ -7,9 +7,7 @@
     "/terms": "terms",
     "/help": "help",
     "/support": "support",
-    "/data-deletion": "support",
-    "/cookies": "privacy",
-    "/security": "privacy"
+    "/data-deletion": "deletion"
   };
   var key = map[path];
   if (!key) return;

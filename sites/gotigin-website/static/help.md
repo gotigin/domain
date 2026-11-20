@@ -1,10 +1,24 @@
 # Gotigin help
 
-_Last updated: 18 November 2026_
+_Last updated: 20 November 2026_
+
+## Names
+
+Order is **Trademark → Company → Brand → Product**.
+
+| | |
+| --- | --- |
+| **Gotigin** | Trademark. Memon *find it* (*go-tee-geen*). Slogan: *Where Technology Meets Discovery*. Mark: circular **GTG**. |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) · +91 99677 17702 |
+| **Kumkaj** | Brand. Business operating systems. |
+| **Wadhu** | Brand. Memon *more*. Tools · Apps · More. Reusable tools, utils, and apps. Not a messenger. |
+| **Ghal Bol** | Brand. Communication products. |
+
+Registration, tax, directors, and the registered office: [/about](/about).
 
 ## On this site
 
-| | |
+| Page | URL |
 | --- | --- |
 | Privacy | [/privacy](/privacy) |
 | Terms | [/terms](/terms) |
@@ -14,23 +28,26 @@ _Last updated: 18 November 2026_
 | Cookies | [/cookies](/cookies) |
 | Security | [/security](/security) |
 
-## Brands
+## Brands and products
 
-**Gotigin** is the trademark / house mark; the company is **GOTIGIN SOFTWARE
-& HARDWARE PRIVATE LIMITED**. Products ship under brands **Kumkaj**, **Wadhu**,
-and **Ghal Bol**. Company registration and contacts: [/about](/about).
+| Brand | Product | Site |
+| --- | --- | --- |
+| Kumkaj | — | https://kumkaj.com |
+| Kumkaj | Khaynjo — restaurant OS | https://khaynjo.com |
+| Kumkaj | Moklanjo — courier desk | https://moklanjo.com |
+| Kumkaj | Kirano — kirana | https://kirano.shop |
+| Kumkaj | Tabiyat — pharmacy | https://tabiyat.shop |
+| Wadhu | — | https://wadhu.com |
+| Wadhu | SMS Gateway — Android SIM messaging | https://wadhu.com |
+| Wadhu | SMS Relay — optional internet plane | https://wadhu.com |
+| Wadhu | Wadhu Connect — WhatsApp Cloud API bridge | https://connect.wadhu.com |
+| Ghal Bol | Ghal Bol — encrypted messenger | https://ghalbol.com |
 
-| Product | Site |
-| --- | --- |
-| Khaynjo | https://khaynjo.com |
-| Moklanjo | https://moklanjo.com |
-| Kirano | https://kirano.shop |
-| Tabiyat | https://tabiyat.shop |
-| Kumkaj | https://kumkaj.com |
-| Wadhu | https://wadhu.com |
-| Wadhu Connect | https://connect.wadhu.com |
-| Ghal Bol | https://ghalbol.com |
+Product privacy, terms, and deletion pages live on the product site when that site publishes them. Company pages on gotigin.com cover the company site and company contacts.
 
 ## Contact
 
 [mearaj@gotigin.com](mailto:mearaj@gotigin.com) · +91 99677 17702
+
+Deletion: subject `Gotigin data deletion` — [/data-deletion](/data-deletion).  
+Security: subject `Gotigin security report` — [/security](/security).

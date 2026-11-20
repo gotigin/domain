@@ -1,6 +1,6 @@
 # Gotigin privacy policy
 
-_Last updated: 17 November 2026_
+_Last updated: 20 November 2026_
 
 ## Who we are
 
@@ -19,8 +19,8 @@ contacts, forms, and verification surfaces at gotigin.com. Product brands
 publish **their own** privacy policies on their domains (for example
 [wadhu.com/privacy](https://wadhu.com/privacy),
 [khaynjo.com/privacy](https://khaynjo.com/privacy),
-[ghalbol.com/privacy](https://ghalbol.com/privacy)). Naming:
-[`docs/BRAND.md`](../BRAND.md).
+[ghalbol.com/privacy](https://ghalbol.com/privacy)). Names:
+[About](/about).
 
 Google Play, Microsoft Store, Meta App Review, and similar verifiers may use
 **https://gotigin.com/privacy** when a company / house-mark privacy URL is
@@ -107,7 +107,7 @@ or withdraw consent where processing is consent-based. See
 
 | Brand | Privacy URL (primary for that product) |
 | --- | --- |
-| Wadhu | https://wadhu.com/privacy |
+| Wadhu (Tools · Apps · More) | https://wadhu.com/privacy |
 | Kumkaj / Khaynjo | https://khaynjo.com/privacy (and sibling product domains) |
 | Ghal Bol | https://ghalbol.com/privacy |
 

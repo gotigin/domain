@@ -71,6 +71,7 @@ body {
   max-width: 52rem;
   margin: 0 auto;
   padding: 1.5rem 1.25rem 3rem;
+  overflow-wrap: break-word;
 }
 h1 { font-size: 1.75rem; color: var(--amber); margin: 0 0 0.75rem; }
 h2 { font-size: 1.15rem; margin: 1.75rem 0 0.5rem; color: var(--ink); }
@@ -81,7 +82,7 @@ em { color: var(--ink); }
 strong { color: var(--ink); }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5rem 0; }
 table { border-collapse: collapse; width: 100%; margin: 0.75rem 0; font-size: 0.95rem; }
-th, td { border: 1px solid var(--rule); padding: 0.35rem 0.5rem; text-align: left; vertical-align: top; color: var(--muted); }
+th, td { border: 1px solid var(--rule); padding: 0.45rem 0.55rem; text-align: left; vertical-align: top; color: var(--muted); }
 th { color: var(--ink); }
 .legal-nav { margin-top: 2rem; color: var(--muted); }
 .legal-foot {
@@ -105,4 +106,7 @@ th { color: var(--ink); }
   .brand-text { display: none; }
   .topnav { margin-left: 0; width: 100%; }
   .topnav a { padding: 0.45rem 0.7rem; font-size: 0.8rem; }
+  .legal-main { padding: 1.15rem 0.85rem 2.5rem; }
+  h1 { font-size: 1.45rem; }
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 }

@@ -19,6 +19,9 @@ const TERMS_PATH: &str = "/terms";
 const ABOUT_PATH: &str = "/about";
 const HELP_PATH: &str = "/help";
 const SUPPORT_PATH: &str = "/support";
+const DELETION_PATH: &str = "/data-deletion";
+const COOKIES_PATH: &str = "/cookies";
+const SECURITY_PATH: &str = "/security";
 const HOME_PATH: &str = "/";
 
 const KUMKAJ_URL: &str = "https://kumkaj.com";
@@ -31,8 +34,17 @@ const TABIYAT_URL: &str = "https://tabiyat.shop";
 const CONNECT_URL: &str = "https://connect.wadhu.com/";
 const MAILTO: &str = "mailto:mearaj@gotigin.com";
 
-const BRAND_HEAD_SIDE_BY_SIDE_FROM: f64 = 640.0;
-const PRODUCT_ROW_FROM: f64 = 900.0;
+// Window-width breakpoints used by apply_responsive (see Tier):
+//   <480 Phone, <720 Narrow, <1024 Tablet, >=1600 and tall → Wide, else Desk.
+//   <720  brand heads, Kumkaj pairs, page pairs, and Ghal Bol stack.
+//   <960  top nav sits under the mark and scrolls sideways; company cards stack.
+//   <1140 Wadhu's three products stack.
+//   Phone company actions stack. Hero actions stay in a row (they fit at 320).
+const BRAND_HEAD_ROW_FROM: f64 = 720.0;
+const PAIR_ROW_FROM: f64 = 720.0;
+const COMPANY_ROW_FROM: f64 = 960.0;
+const WADHU_ROW_FROM: f64 = 1140.0;
+const NAV_INLINE_FROM: f64 = 960.0;
 const MIN_WIDTH: f64 = 320.0;
 const MAX_CONTENT: f64 = 1120.0;
 const MAX_CONTENT_WIDE: f64 = 1320.0;
@@ -172,6 +184,8 @@ impl App {
                 view.layout.padding = band_pad;
             }
         }
+
+        let nav_inline = layout_w >= NAV_INLINE_FROM;
         if let Some(mut bar) = self.ui.view(cx, ids!(top)).borrow_mut() {
             let pad = if tier == Tier::Phone { 12.0 } else { 20.0 };
             bar.layout.padding = Inset {
@@ -180,36 +194,101 @@ impl App {
                 top: 12.0,
                 bottom: 12.0,
             };
-            // Always logo|title ---- nav (same as /about HTML topbar).
-            bar.layout.flow = Flow::right();
+            // Inline: [mark Gotigin] ---- [nav]. Narrow: mark, then a sideways
+            // scroller so seven items never paint off the window.
+            bar.layout.flow = if nav_inline { Flow::right() } else { Flow::Down };
+            bar.layout.spacing = if nav_inline { 10.0 } else { 8.0 };
+        }
+        self.ui
+            .view(cx, ids!(top_spacer))
+            .set_visible(cx, nav_inline);
+        if let Some(mut nav) = self.ui.view(cx, ids!(nav_row)).borrow_mut() {
+            nav.layout.flow = Flow::right();
+            nav.walk.width = if nav_inline {
+                Size::fit()
+            } else {
+                Size::fill()
+            };
         }
 
-        let head_flow = if layout_w >= BRAND_HEAD_SIDE_BY_SIDE_FROM {
+        let head_row = layout_w >= BRAND_HEAD_ROW_FROM;
+        for head_id in [ids!(kumkaj_head_bar), ids!(wadhu_head_bar), ids!(ghalbol_head_bar)] {
+            if let Some(mut head) = self.ui.view(cx, head_id).borrow_mut() {
+                head.layout.flow = if head_row { Flow::right() } else { Flow::Down };
+                head.layout.align.y = if head_row { 0.5 } else { 0.0 };
+            }
+        }
+
+        let pair = if layout_w >= PAIR_ROW_FROM {
             Flow::right()
         } else {
             Flow::Down
         };
-        for head_id in [ids!(kumkaj_head_bar), ids!(wadhu_head_bar), ids!(ghalbol_head_bar)] {
-            if let Some(mut head) = self.ui.view(cx, head_id).borrow_mut() {
-                head.layout.flow = head_flow;
-            }
-        }
-
-        let product_flow = if layout_w >= PRODUCT_ROW_FROM {
+        let company_flow = if layout_w >= COMPANY_ROW_FROM {
+            Flow::right()
+        } else {
+            Flow::Down
+        };
+        let wadhu_flow = if layout_w >= WADHU_ROW_FROM {
             Flow::right()
         } else {
             Flow::Down
         };
         for row_id in [
             ids!(kumkaj_row),
-            ids!(wadhu_row),
+            ids!(kumkaj_row2),
             ids!(ghalbol_row),
-            ids!(company_row),
-            ids!(company_row2),
+            ids!(trust_row),
+            ids!(trust_row2),
+            ids!(trust_row3),
+            ids!(trust_row4),
         ] {
             if let Some(mut row) = self.ui.view(cx, row_id).borrow_mut() {
-                row.layout.flow = product_flow;
+                row.layout.flow = pair;
             }
+        }
+        for row_id in [ids!(company_row), ids!(company_row2)] {
+            if let Some(mut row) = self.ui.view(cx, row_id).borrow_mut() {
+                row.layout.flow = company_flow;
+            }
+        }
+        if let Some(mut row) = self.ui.view(cx, ids!(wadhu_row)).borrow_mut() {
+            row.layout.flow = wadhu_flow;
+        }
+
+        let action_flow = if tier == Tier::Phone {
+            Flow::Down
+        } else {
+            Flow::right()
+        };
+        for row_id in [ids!(cta_row), ids!(company_cta)] {
+            if let Some(mut row) = self.ui.view(cx, row_id).borrow_mut() {
+                row.layout.flow = action_flow;
+            }
+        }
+
+        let (hero_px, sub_px, lede_px) = match tier {
+            Tier::Phone => (32.0, 22.0, 16.0),
+            Tier::Narrow => (36.0, 24.0, 17.0),
+            _ => (46.0, 28.0, 19.0),
+        };
+        Self::set_md_size(cx, &self.ui, ids!(hero_title), hero_px);
+        for id in [ids!(hero_slogan), ids!(brands_title), ids!(trust_title), ids!(company_title), ids!(close_title)] {
+            Self::set_md_size(cx, &self.ui, id, sub_px);
+        }
+        for id in [ids!(hero_lede), ids!(company_lede)] {
+            Self::set_md_size(cx, &self.ui, id, lede_px);
+        }
+    }
+
+    fn set_md_size(cx: &mut Cx, ui: &WidgetRef, id: &[LiveId], size: f64) {
+        if let Some(mut md) = ui.markdown(cx, id).borrow_mut() {
+            let px = size as f32;
+            md.font_size = px;
+            md.text_style_normal.font_size = px;
+            md.text_style_bold.font_size = px;
+            md.draw_text.text_style.font_size = px;
+            md.redraw(cx);
         }
     }
 }
@@ -231,27 +310,44 @@ impl MatchEvent for App {
 
         if self.ui.button(cx, ids!(nav_privacy)).clicked(actions)
             || self.ui.button(cx, ids!(cta_privacy)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_privacy)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, PRIVACY_PATH));
         }
-        if self.ui.button(cx, ids!(nav_terms)).clicked(actions) {
+        if self.ui.button(cx, ids!(nav_terms)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_terms)).clicked(actions)
+        {
             open_site(cx, &Self::site_url(cx, TERMS_PATH));
+        }
+        if self.ui.button(cx, ids!(nav_deletion)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_deletion)).clicked(actions)
+        {
+            open_site(cx, &Self::site_url(cx, DELETION_PATH));
         }
         if self.ui.button(cx, ids!(nav_about)).clicked(actions)
             || self.ui.button(cx, ids!(cta_about)).clicked(actions)
             || self.ui.button(cx, ids!(cta_about_full)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_about)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, ABOUT_PATH));
         }
         if self.ui.button(cx, ids!(nav_help)).clicked(actions)
             || self.ui.button(cx, ids!(cta_help)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_help)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, HELP_PATH));
         }
         if self.ui.button(cx, ids!(nav_support)).clicked(actions)
             || self.ui.button(cx, ids!(cta_contact)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_support)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, SUPPORT_PATH));
+        }
+        if self.ui.button(cx, ids!(open_pol_cookies)).clicked(actions) {
+            open_site(cx, &Self::site_url(cx, COOKIES_PATH));
+        }
+        if self.ui.button(cx, ids!(open_pol_security)).clicked(actions) {
+            open_site(cx, &Self::site_url(cx, SECURITY_PATH));
         }
         if self.ui.button(cx, ids!(open_mail)).clicked(actions) {
             open_external(cx, MAILTO);
@@ -262,6 +358,7 @@ impl MatchEvent for App {
         }
         if self.ui.button(cx, ids!(open_wadhu)).clicked(actions)
             || self.ui.button(cx, ids!(open_sms)).clicked(actions)
+            || self.ui.button(cx, ids!(open_relay)).clicked(actions)
         {
             open_external(cx, WADHU_URL);
         }

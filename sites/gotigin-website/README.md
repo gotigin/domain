@@ -18,10 +18,10 @@ public/
   /js/firebase-init.js
 ```
 
-The SPA is one **scrolling** page: hero → brands → products → trust policies
-→ company → close. Nav opens legal paths with `open_link`
-(`OpenUrlInPlace::No`) so the home SPA stays loaded — legal is **not** an
-in-app Makepad route.
+The SPA is one **scrolling** page: hero → brands and products → company
+pages → company → close. Same-site paths (`/privacy`, `/about`, …) replace
+the tab (`OpenUrlInPlace::Yes`). Brand sites open in a new tab. Legal HTML
+is not an in-app Makepad route.
 
 Legal Markdown lives in [`docs/legal/`](../../docs/legal/). Present with
 `./sites/gotigin-website/scripts/present-legal.sh` (also run by deploy).
