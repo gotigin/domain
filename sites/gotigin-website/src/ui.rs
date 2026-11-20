@@ -69,6 +69,44 @@ script_mod! {
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
+    // One unbreakable piece of a heading. A row of these wraps between
+    // pieces, so "Ghal Bol" stays whole at every width.
+    let SubheadPiece = Markdown{
+        selectable: true
+        height: Fit
+        width: Fit
+        padding: 0.
+        paragraph_spacing: 0.
+        pre_code_spacing: 0.
+        font_color: Paper
+        font_size: 26.
+        text_style_normal: theme.font_bold{font_size: 26. line_spacing: 1.15}
+        text_style_bold: theme.font_bold{font_size: 26. line_spacing: 1.15}
+        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 26. line_spacing: 1.15} }
+        draw_selection +: { color: Select }
+        draw_block +: { selection_color: Select }
+    }
+    let CardTitlePiece = Markdown{
+        selectable: false
+        height: Fit
+        width: Fit
+        padding: 0.
+        paragraph_spacing: 0.
+        pre_code_spacing: 0.
+        font_color: SoftAmber
+        font_size: 22.
+        text_style_normal: theme.font_bold{font_size: 22. line_spacing: 1.2}
+        text_style_bold: theme.font_bold{font_size: 22. line_spacing: 1.2}
+        draw_text +: { color: SoftAmber text_style: theme.font_bold{font_size: 22. line_spacing: 1.2} }
+        draw_selection +: { color: Select }
+        draw_block +: { selection_color: Select }
+    }
+    let PieceRow = View{
+        width: Fill height: Fit
+        flow: Right{wrap: true}
+        spacing: 8.
+        wrap_spacing: 2.
+    }
     let Lede = Markdown{
         selectable: true
         height: Fit
@@ -166,17 +204,18 @@ script_mod! {
         draw_bg +: { color: Amber }
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 14.} }
     }
+    // Nav and quiet buttons are 44 px tall: a finger-sized target on every tier.
     let ActiveNav = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 14. right: 14. top: 11. bottom: 11.}
+        padding: Inset{left: 14. right: 14. top: 13. bottom: 13.}
         draw_bg +: { color: Amber }
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 13.} }
     }
     let GhostBtn = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 14. right: 14. top: 11. bottom: 11.}
+        padding: Inset{left: 14. right: 14. top: 13. bottom: 13.}
         draw_bg +: { color: Panel }
         draw_text +: { color: Paper text_style: theme.font_bold{font_size: 13.} }
     }
@@ -347,11 +386,28 @@ script_mod! {
                                 width: Fill
                                 height: 40.
                             }
+                            // Narrow widths scroll this strip sideways. The
+                            // bar is slim and sits in the bottom pad that
+                            // apply_responsive adds, never over the chips.
                             nav_row := ScrollXView{
                                 width: Fill height: Fit
                                 flow: Right
                                 spacing: 8.
                                 align: Align{y: 0.5}
+                                scroll_bars: mod.widgets.ScrollBars {
+                                    show_scroll_x: true show_scroll_y: false
+                                    scroll_bar_x: mod.widgets.ScrollBar{
+                                        drag_scrolling: true
+                                        bar_size: 4.
+                                        draw_bg +: {
+                                            size: 3.
+                                            border_radius: 2.
+                                            color: Line
+                                            color_hover: Muted
+                                            color_drag: SoftAmber
+                                        }
+                                    }
+                                }
                                 nav_home := ActiveNav{ text: "Home" }
                                 nav_about := GhostBtn{ text: "About" }
                                 nav_privacy := GhostBtn{ text: "Privacy" }
@@ -378,8 +434,9 @@ script_mod! {
                                 hero_lede := Lede{ body: "Memon for find it. Pronounced go-tee-geen. House mark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." }
                                 cta_row := View{
                                     width: Fill height: Fit
-                                    flow: Right
+                                    flow: Right{wrap: true}
                                     spacing: 12.
+                                    wrap_spacing: 10.
                                     cta_about := LinkBtn{ text: "About" }
                                     cta_privacy := GhostBtn{ text: "Privacy" }
                                     cta_help := GhostBtn{ text: "Help" }
@@ -388,7 +445,11 @@ script_mod! {
 
                             brands := BandAlt{
                                 Eyebrow{ body: "BRANDS" }
-                                brands_title := Subhead{ body: "Kumkaj · Wadhu · Ghal Bol" }
+                                brands_title := PieceRow{
+                                    brands_t1 := SubheadPiece{ body: "Kumkaj ·" }
+                                    brands_t2 := SubheadPiece{ body: "Wadhu ·" }
+                                    brands_t3 := SubheadPiece{ body: "Ghal Bol" }
+                                }
 
                                 brand_kumkaj := BrandBlock{
                                     kumkaj_head := ProductCard{
@@ -690,15 +751,18 @@ script_mod! {
                                 }
                                 company_cta := View{
                                     width: Fill height: Fit
-                                    flow: Right
+                                    flow: Right{wrap: true}
                                     spacing: 12.
+                                    wrap_spacing: 10.
                                     cta_about_full := LinkBtn{ text: "About" }
                                     open_mail := GhostBtn{ text: "Email" }
                                     cta_contact := GhostBtn{ text: "Support" }
                                 }
                             }
 
-                            close := Band{
+                            // Not `close`: that id is the window caption's close
+                            // button, and a lookup by it never reaches this band.
+                            closing := Band{
                                 close_brand := View{
                                     width: Fill height: Fit
                                     flow: Right
@@ -737,7 +801,11 @@ script_mod! {
                                         flow: Down
                                         spacing: 4.
                                         Eyebrow{ body: "BRANDS" }
-                                        CardTitle{ body: "Kumkaj · Wadhu · Ghal Bol" }
+                                        PieceRow{
+                                            CardTitlePiece{ body: "Kumkaj ·" }
+                                            CardTitlePiece{ body: "Wadhu ·" }
+                                            CardTitlePiece{ body: "Ghal Bol" }
+                                        }
                                         Body{ body: "Business systems · tools and apps · communication" }
                                     }
                                 }

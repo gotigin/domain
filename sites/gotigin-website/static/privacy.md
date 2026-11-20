@@ -15,17 +15,12 @@ _Last updated: 20 November 2026_
 | Contact | [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
 
 This policy covers the **Gotigin company website** and **company-level**
-contacts, forms, and verification surfaces at gotigin.com. Product brands
-publish **their own** privacy policies on their domains (for example
+contacts and forms at gotigin.com. Product brands publish **their own**
+privacy policies on their domains (for example
 [wadhu.com/privacy](https://wadhu.com/privacy),
 [khaynjo.com/privacy](https://khaynjo.com/privacy),
-[ghalbol.com/privacy](https://ghalbol.com/privacy)). Names:
-[About](/about).
-
-Google Play, Microsoft Store, Meta App Review, and similar verifiers may use
-**https://gotigin.com/privacy** when a company / house-mark privacy URL is
-required. App-specific listings should prefer the product brand’s privacy URL
-when one exists.
+[ghalbol.com/privacy](https://ghalbol.com/privacy)). For an app or
+service, that product's policy applies first. Names: [About](/about).
 
 ## Summary
 
@@ -56,7 +51,7 @@ We do **not** require an account to read gotigin.com.
 | Provide the site | Serve pages, legal documents, brand information |
 | Secure and debug | Abuse prevention, error diagnosis |
 | Support & legal | Answer email; process deletion / DPDP requests |
-| Compliance | Lawful requests; store and platform verification |
+| Compliance | Lawful requests and legal obligations |
 
 ## Sharing
 

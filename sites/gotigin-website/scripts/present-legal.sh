@@ -54,13 +54,13 @@ present terms "Terms — Gotigin" \
   "Terms of use for gotigin.com and company-level Gotigin services." \
   "https://gotigin.com/terms" "TERMS.md"
 present data-deletion "Data deletion — Gotigin" \
-  "How to request deletion of Gotigin company and product data — Play / Meta URL." \
+  "How to ask Gotigin to delete your personal data, for the company and for each product." \
   "https://gotigin.com/data-deletion" "DATA_DELETION.md"
 present support "Support — Gotigin" \
   "Support contact for Gotigin company and brand routing." \
   "https://gotigin.com/support" "SUPPORT.md"
 present help "Help — Gotigin" \
-  "Help centre for Gotigin — policies, brands, and store verification links." \
+  "Help for Gotigin — names, brands, products, and company pages." \
   "https://gotigin.com/help" "HELP.md"
 present about "About — Gotigin" \
   "About Gotigin and GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." \

@@ -2,10 +2,9 @@
 
 _Last updated: 20 November 2026_
 
-This page is the **data deletion / account deletion** instructions URL for
-**company-level** Gotigin surfaces (Google Play, Microsoft Store, Meta, and
-other verifiers that require a Gotigin company deletion URL). Privacy
-policy: [gotigin.com/privacy](https://gotigin.com/privacy).
+How to ask **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** to delete
+personal data it holds about you. Privacy policy:
+[gotigin.com/privacy](https://gotigin.com/privacy).
 
 ## Company website & support mail
 
@@ -19,29 +18,20 @@ data you sent us by email or form:
 
 We will delete or anonymise personal data we hold for that request within
 **30 days**, except records we must keep for legal / abuse prevention
-(minimal, time-limited).
+(minimal, time-limited). We confirm by email reply when it is done.
 
 ## Product apps & services
 
-Delete product data using the **product brand** instructions when available:
+Each product has its own deletion steps:
 
-| Product area | Deletion instructions |
-| --- | --- |
-| Wadhu — SMS Gateway, SMS Relay, Wadhu Connect | [wadhu.com/data-deletion](https://wadhu.com/data-deletion) |
-| Kumkaj apps (Khaynjo, Moklanjo, Kirano, Tabiyat) | In-app settings / clear app storage / uninstall; email us if cloud features were used |
-| Ghal Bol | Follow ghalbol.com privacy / deletion pages, or email us |
+| Brand | Products | How to delete |
+| --- | --- | --- |
+| Kumkaj | Khaynjo, Moklanjo, Kirano, Tabiyat | Your books stay on your own devices. Delete them in the app (Settings → Backup → Delete local data) or uninstall the app. For a product website account, email us. |
+| Wadhu | SMS Gateway, SMS Relay, Wadhu Connect | [wadhu.com/data-deletion](https://wadhu.com/data-deletion) |
+| Ghal Bol | Ghal Bol | [ghalbol.com/data-deletion](https://ghalbol.com/data-deletion) |
 
-If a product has no published deletion page yet, use the same email and
+If a product has no deletion page of its own, use the same email and
 subject as above and name the product in the body.
-
-## Meta / store “User data deletion” URL
-
-For company / house-mark App Review and store forms, the Data deletion
-instructions URL is:
-
-**https://gotigin.com/data-deletion**
-
-(this page). Status of a request will be confirmed by email reply.
 
 ## Contact
 

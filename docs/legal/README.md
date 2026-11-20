@@ -16,4 +16,6 @@ Canonical source for company legal pages. Presented to HTML by
 
 Product brands (Wadhu, Kumkaj apps, Ghal Bol) keep **their own** privacy /
 terms on their domains. This set is the **company / house-mark** policy for
-gotigin.com and for verifiers that require a Gotigin company URL.
+gotigin.com. Store and platform forms that ask for a company URL point here
+(see `docs/BRAND.md`); the pages themselves speak to visitors, not to
+reviewers.

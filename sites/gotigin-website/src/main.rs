@@ -39,7 +39,7 @@ const MAILTO: &str = "mailto:mearaj@gotigin.com";
 //   <720  brand heads, Kumkaj pairs, page pairs, and Ghal Bol stack.
 //   <960  top nav sits under the mark and scrolls sideways; company cards stack.
 //   <1140 Wadhu's three products stack.
-//   Phone company actions stack. Hero actions stay in a row (they fit at 320).
+//   Action rows (hero, company) wrap on their own at any width.
 const BRAND_HEAD_ROW_FROM: f64 = 720.0;
 const PAIR_ROW_FROM: f64 = 720.0;
 const COMPANY_ROW_FROM: f64 = 960.0;
@@ -178,7 +178,7 @@ impl App {
             ids!(brands),
             ids!(trust),
             ids!(company),
-            ids!(close),
+            ids!(closing),
         ] {
             if let Some(mut view) = self.ui.view(cx, path).borrow_mut() {
                 view.layout.padding = band_pad;
@@ -209,6 +209,8 @@ impl App {
             } else {
                 Size::fill()
             };
+            // The sideways strip keeps a lane under the chips for its bar.
+            nav.layout.padding.bottom = if nav_inline { 0.0 } else { 8.0 };
         }
 
         let head_row = layout_w >= BRAND_HEAD_ROW_FROM;
@@ -256,24 +258,21 @@ impl App {
             row.layout.flow = wadhu_flow;
         }
 
-        let action_flow = if tier == Tier::Phone {
-            Flow::Down
-        } else {
-            Flow::right()
-        };
-        for row_id in [ids!(cta_row), ids!(company_cta)] {
-            if let Some(mut row) = self.ui.view(cx, row_id).borrow_mut() {
-                row.layout.flow = action_flow;
-            }
-        }
-
         let (hero_px, sub_px, lede_px) = match tier {
             Tier::Phone => (32.0, 22.0, 16.0),
             Tier::Narrow => (36.0, 24.0, 17.0),
             _ => (46.0, 28.0, 19.0),
         };
         Self::set_md_size(cx, &self.ui, ids!(hero_title), hero_px);
-        for id in [ids!(hero_slogan), ids!(brands_title), ids!(trust_title), ids!(company_title), ids!(close_title)] {
+        for id in [
+            ids!(hero_slogan),
+            ids!(brands_t1),
+            ids!(brands_t2),
+            ids!(brands_t3),
+            ids!(trust_title),
+            ids!(company_title),
+            ids!(close_title),
+        ] {
             Self::set_md_size(cx, &self.ui, id, sub_px);
         }
         for id in [ids!(hero_lede), ids!(company_lede)] {
