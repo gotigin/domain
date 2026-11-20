@@ -126,10 +126,17 @@ test -f "$LEGAL/PRIVACY.md"
 test -f "$LEGAL/HELP.md"
 test -f "$LEGAL/SECURITY.md"
 
-echo "4/4 Deploy Firebase Hosting → gotigin-com (one site: / + legal pages)"
+# Always pass --project (the default in .firebaserc): without it the CLI uses
+# whatever `firebase use` last set for this folder, which can be another site.
+PROJECT="$(sed -n 's/.*"default"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$SITE/.firebaserc" 2>/dev/null | head -1)"
+if [[ -z "$PROJECT" ]]; then
+  echo "error: no default project in sites/gotigin-website/.firebaserc" >&2
+  exit 1
+fi
+echo "4/4 Deploy Firebase Hosting → $PROJECT (one site: / + legal pages)"
 cd "$SITE"
 if [[ "$DRY" -eq 1 ]]; then
-  firebase deploy --only hosting --dry-run
+  firebase deploy --only hosting --project "$PROJECT" --dry-run
 else
-  firebase deploy --only hosting
+  firebase deploy --only hosting --project "$PROJECT"
 fi
