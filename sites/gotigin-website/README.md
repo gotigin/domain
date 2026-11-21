@@ -68,12 +68,21 @@ arrived and link crawlers never run it at all:
   `?v=<build id>`, and the wasm is served `immutable`, so a returning
   visitor downloads it once per release. `/build-id.txt` says what is live.
 
+- **Fonts cut to the page's own characters** — `scripts/subset-fonts.sh`
+  (deploy only; needs `pyftsubset`, skipped without it) rewrites the staged
+  copies of the two IBM Plex Sans faces to the characters in `src/*.rs`
+  plus plain Latin: 355 KB → 90 KB, the same pixels. A character the page
+  starts to use is picked up on the next deploy.
+
 What the page downloads (measured 2026-11-21, empty cache): the wasm is
-1.3 MB compressed — the Makepad runtime, already built for size; the site's
-own code adds almost nothing. `--split` was tried and sends more bytes, not
-fewer (its second half stays on the start-up path). The pictures in
-`resources/media/` are 192 px WebP because they are drawn at 40–56 px;
-keep new ones that small.
+1.3 MB compressed — the Makepad runtime, already built for size (opt-level
+z, `build-std`, stripped); the site's own code adds almost nothing. Two
+things were tried on it and do not help: `--split` sends more bytes, not
+fewer (its second half stays on the start-up path), and Binaryen's
+`wasm-opt -Os / -Oz` makes the file 10–15% smaller raw but 2–3% **larger**
+once compressed, with the same time to first paint. The pictures in
+`resources/media/` are 192 px WebP with transparent corners because they
+are drawn at 40–56 px on dark cards; keep new ones that small.
 
 ## URLs
 

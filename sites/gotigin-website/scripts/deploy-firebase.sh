@@ -131,6 +131,8 @@ printf '%s\n' "$BUILD_ID" > "$OUT/build-id.txt"
 
 # The start-up screen (logo, progress ring) replaces cargo-makepad's grey bar.
 "$SITE/scripts/patch-web-shell.sh" "$INDEX"
+# Fonts: only the characters this site draws (the originals stay whole).
+"$SITE/scripts/subset-fonts.sh" "$OUT"
 
 for need in privacy terms data-deletion support help about cookies security; do
   if [[ ! -f "$OUT/$need/index.html" ]]; then
