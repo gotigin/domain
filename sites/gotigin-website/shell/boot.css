@@ -2,7 +2,18 @@
    Makepad canvas has painted. Inlined into index.html by
    scripts/patch-web-shell.sh, so it needs no request of its own.
    Colours are the site's own (src/ui.rs: Ink, Paper, Muted, Amber, Line). */
-html, body { background-color: #12102a; }
+html, body {
+  background-color: #12102a;
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  height: 100%;
+  margin: 0;
+}
+canvas.full_canvas, canvas {
+  touch-action: none;
+  display: block;
+}
 #boot {
   --boot-bg: #12102a;
   --boot-ink: #f7f6fb;
