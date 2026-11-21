@@ -19,6 +19,15 @@ if ! command -v pandoc >/dev/null 2>&1; then
   exit 1
 fi
 
+# The link-preview picture's address carries a short hash of the file, so chat
+# apps that cache previews fetch a changed picture (see deploy-firebase.sh).
+PREVIEW="$SITE/static/media/link-preview.jpg"
+if [[ ! -f "$PREVIEW" ]]; then
+  echo "error: missing $PREVIEW — run sites/gotigin-website/scripts/make-link-preview.sh" >&2
+  exit 1
+fi
+PREVIEW_V="$(sha256sum "$PREVIEW" | cut -c1-10)"
+
 present() {
   local slug="$1" title="$2" description="$3" canonical="$4" md_name="$5"
   local md="$LEGAL/$md_name"
@@ -36,6 +45,7 @@ present() {
     -V lang=en \
     -V description="$description" \
     -V canonical="$canonical" \
+    -V preview_v="$PREVIEW_V" \
     -o "$out_dir/index.html"
   cp "$md" "$SITE/static/${slug}.md"
   if [[ -d "$SITE/public" ]]; then
@@ -48,7 +58,7 @@ present() {
 
 echo "Presenting docs/legal → sites/gotigin-website/static/"
 present privacy "Privacy — Gotigin" \
-  "Privacy policy for GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED and gotigin.com." \
+  "Privacy policy for GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED and gotigin.com." \
   "https://gotigin.com/privacy" "PRIVACY.md"
 present terms "Terms — Gotigin" \
   "Terms of use for gotigin.com and company-level Gotigin services." \
@@ -63,7 +73,7 @@ present help "Help — Gotigin" \
   "Help for Gotigin — names, brands, products, and company pages." \
   "https://gotigin.com/help" "HELP.md"
 present about "About — Gotigin" \
-  "About Gotigin and GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." \
+  "About Gotigin and GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED." \
   "https://gotigin.com/about" "ABOUT.md"
 present cookies "Cookies — Gotigin" \
   "Cookie policy for gotigin.com." \

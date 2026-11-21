@@ -58,7 +58,9 @@ echo "3/4 Stage public/ = one tree (wasm home + legal + Firebase client)"
 "$SITE/scripts/present-legal.sh"
 rm -rf "$OUT"
 mkdir -p "$OUT"
-rsync -a "$WASM_PKG/" "$OUT/"
+# cargo-makepad writes a .br twin beside every file. Firebase Hosting
+# compresses on its own and never serves those, so they stay out of the tree.
+rsync -a --exclude='*.br' "$WASM_PKG/" "$OUT/"
 "$SITE/scripts/overlay-legal-onto-pkg.sh" "$OUT"
 mkdir -p "$OUT/js"
 cp "$SITE/static/js/firebase-init.js" "$OUT/js/firebase-init.js"
@@ -70,39 +72,65 @@ if ! grep -qE 'gotigin-website\.wasm|web_gl|full_canvas' "$INDEX"; then
   exit 1
 fi
 
-# SEO / company identity in the wasm shell (reviewers read the HTML source).
-if ! grep -q 'og:site_name' "$INDEX"; then
-  awk -v bid="$BUILD_ID" '
-    /<title>/ && !titled {
-      print "    <title>Gotigin — Where Technology Meets Discovery</title>"
-      print "    <meta name=\"description\" content=\"Gotigin — Where Technology Meets Discovery. Trademark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Brands: Kumkaj, Wadhu (Tools · Apps · More), Ghal Bol.\" />"
-      print "    <meta name=\"theme-color\" content=\"#12102a\" />"
-      print "    <link rel=\"icon\" href=\"./favicon.png\" type=\"image/png\" />"
-      print "    <link rel=\"apple-touch-icon\" href=\"./media/gotigin-brand-logo.png\" />"
-      print "    <meta property=\"og:site_name\" content=\"Gotigin\" />"
-      print "    <meta property=\"og:title\" content=\"Gotigin — Where Technology Meets Discovery\" />"
-      print "    <meta property=\"og:description\" content=\"GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED. Trademark Gotigin. Brands: Kumkaj, Wadhu, Ghal Bol.\" />"
-      print "    <meta property=\"og:url\" content=\"https://gotigin.com/\" />"
-      print "    <meta property=\"og:image\" content=\"https://gotigin.com/media/gotigin-brand-logo.png\" />"
-      print "    <meta property=\"og:type\" content=\"website\" />"
-      titled=1
-      next
-    }
-    /<\/body>/ && !done {
-      print "        <script src=\"./js/firebase-init.js?v=" bid "\" defer></script>"
-      done=1
-    }
-    { print }
-  ' "$INDEX" > "$INDEX.tmp" && mv "$INDEX.tmp" "$INDEX"
-elif ! grep -q 'firebase-init.js' "$INDEX"; then
-  awk -v bid="$BUILD_ID" '
-    /<\/body>/ && !done {
-      print "        <script src=\"./js/firebase-init.js?v=" bid "\" defer></script>"
-      done=1
-    }
-    { print }
-  ' "$INDEX" > "$INDEX.tmp" && mv "$INDEX.tmp" "$INDEX"
+# Identity, link preview and cache-busting in the wasm shell. Crawlers and
+# chat apps read this HTML only — they never run the wasm — so the title, the
+# description and the preview picture have to be here.
+PREVIEW="$SITE/static/media/link-preview.jpg"
+if [[ ! -f "$PREVIEW" ]]; then
+  echo "error: missing ${PREVIEW#"$ROOT"/} — run sites/gotigin-website/scripts/make-link-preview.sh" >&2
+  exit 1
 fi
+# The picture's address changes when the picture does: WhatsApp, Telegram and
+# Facebook keep a preview for days and only fetch again for a new address.
+PREVIEW_URL="https://gotigin.com/media/link-preview.jpg?v=$(sha256sum "$PREVIEW" | cut -c1-10)"
+HEAD_INJECT='    <title>Gotigin — Where Technology Meets Discovery</title>
+    <meta name="description" content="Gotigin — Where Technology Meets Discovery. Trademark of GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. Brands: Kumkaj, Wadhu (Tools · Apps · More), Ghal Bol." />
+    <meta name="gotigin-build" content="'"$BUILD_ID"'" />
+    <meta name="theme-color" content="#12102a" />
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="canonical" href="https://gotigin.com/" />
+    <link rel="icon" href="./favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./media/gotigin-brand-logo.png" />
+    <meta property="og:site_name" content="Gotigin" />
+    <meta property="og:title" content="Gotigin — Where Technology Meets Discovery" />
+    <meta property="og:description" content="GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. Trademark Gotigin. Brands: Kumkaj, Wadhu, Ghal Bol." />
+    <meta property="og:url" content="https://gotigin.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:image" content="'"$PREVIEW_URL"'" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="The gotigin.com home page: Gotigin — Where Technology Meets Discovery." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gotigin — Where Technology Meets Discovery" />
+    <meta name="twitter:description" content="GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. Trademark Gotigin. Brands: Kumkaj, Wadhu, Ghal Bol." />
+    <meta name="twitter:image" content="'"$PREVIEW_URL"'" />
+    <meta name="twitter:image:alt" content="The gotigin.com home page: Gotigin — Where Technology Meets Discovery." />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Gotigin","legalName":"GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED","url":"https://gotigin.com/","logo":"https://gotigin.com/media/gotigin-brand-logo.png","image":"https://gotigin.com/media/link-preview.jpg","slogan":"Where Technology Meets Discovery"}</script>'
+awk -v head="$HEAD_INJECT" -v bid="$BUILD_ID" '
+  /<title>/ && !titled {
+    print head
+    titled = 1
+    next
+  }
+  {
+    # A new address per build, so a browser never pairs old wasm with new glue.
+    gsub(/\.\/makepad_platform\/web_gl\.js/, "./makepad_platform/web_gl.js?v=" bid)
+    gsub(/\.\/gotigin-website\.wasm/, "./gotigin-website.wasm?v=" bid)
+  }
+  /<\/body>/ && !done {
+    print "        <script src=\"./js/firebase-init.js?v=" bid "\" defer></script>"
+    print "        <noscript><p>Gotigin — trademark of GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. <a href=\"/about\">About</a> · <a href=\"/privacy\">Privacy</a> · <a href=\"/terms\">Terms</a> · <a href=\"/support\">Support</a></p></noscript>"
+    done = 1
+  }
+  { print }
+  END { if (!titled || !done) exit 2 }
+' "$INDEX" > "$INDEX.tmp" && mv "$INDEX.tmp" "$INDEX"
+printf '%s\n' "$BUILD_ID" > "$OUT/build-id.txt"
+
+# The start-up screen (logo, progress ring) replaces cargo-makepad's grey bar.
+"$SITE/scripts/patch-web-shell.sh" "$INDEX"
 
 for need in privacy terms data-deletion support help about cookies security; do
   if [[ ! -f "$OUT/$need/index.html" ]]; then

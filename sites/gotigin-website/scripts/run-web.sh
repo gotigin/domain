@@ -31,6 +31,9 @@ if [[ ! -f "$PKG/index.html" ]]; then
 fi
 
 "$SITE/scripts/overlay-legal-onto-pkg.sh" "$PKG"
+# Same start-up screen as the deployed site (the debug wasm is bigger, so
+# the ring simply takes longer).
+"$SITE/scripts/patch-web-shell.sh" "$PKG/index.html"
 
 if command -v fuser >/dev/null 2>&1; then
   if fuser "${PORT}/tcp" >/dev/null 2>&1; then
