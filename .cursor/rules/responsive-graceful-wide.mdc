@@ -1,0 +1,24 @@
+---
+description: Responsive must grow on wide screens — never leave Fit toolbars stuck in phone stacks (gotigin.com + Domain sites)
+globs: "sites/**/*.{rs,md}"
+alwaysApply: true
+---
+
+# Responsive = narrow fit **and** graceful growth
+
+Gotigin-wide law (same text as Kumkaj / Wadhu / Ghal Bol DESIGN § Always responsive).
+
+## Law
+
+Looking good on mobile is **not** enough. If Fit chips / short paired controls
+fit on one line at the current content width, they **must** be one line.
+Empty horizontal space beside a forever-`Down` toolbar on desk is a bug.
+
+```text
+❌ Hard-code flow: Down for Fit chip toolbars at every width
+❌ Ship after phone-only screenshots
+
+✅ Stack / wrap only when measured width cannot hold the Fit children
+✅ apply_responsive unlocks to Right / wrap once wide enough
+✅ Check 320–390 **and** 1280 / 1920
+```
