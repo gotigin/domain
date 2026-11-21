@@ -15,6 +15,10 @@ other intentional stacks — mostly obvious; still take care; if unsure
 leave alone). Same Gotigin-wide law as Kumkaj, Wadhu, and Ghal Bol.
 Cursor: [`.cursor/rules/responsive-graceful-wide.mdc`](../.cursor/rules/responsive-graceful-wide.mdc).
 
+**Android Chrome:** Desktop-site fake `innerWidth` must not drive Makepad
+layout — `web_mobile_layout_width` + `shell/mobile-viewport-guard.js`.
+Gate: `./scripts/check-web-mobile-layout.sh`.
+
 Legal Markdown is presented to HTML by
 `sites/gotigin-website/scripts/present-legal.sh`. Do not hand-edit generated
 HTML under `sites/gotigin-website/static/`.
