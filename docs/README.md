@@ -10,10 +10,10 @@
 
 **Responsive ≠ phone-only stacks.** Fit chip / short CTA toolbars that fit
 on one line at 1280 / 1920 **must** be one line — forever-`Down` with empty
-horizontal space is a bug. **Exception:** user-owned columns-per-row /
-density grids are not that bug — do not auto-force more columns. Same
-Gotigin-wide law as Kumkaj, Wadhu, and Ghal Bol. Cursor:
-[`.cursor/rules/responsive-graceful-wide.mdc`](../.cursor/rules/responsive-graceful-wide.mdc).
+horizontal space is a bug. **Exceptions** exist (user-owned density and
+other intentional stacks — mostly obvious; still take care; if unsure
+leave alone). Same Gotigin-wide law as Kumkaj, Wadhu, and Ghal Bol.
+Cursor: [`.cursor/rules/responsive-graceful-wide.mdc`](../.cursor/rules/responsive-graceful-wide.mdc).
 
 Legal Markdown is presented to HTML by
 `sites/gotigin-website/scripts/present-legal.sh`. Do not hand-edit generated
