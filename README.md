@@ -16,8 +16,8 @@ Public code for **gotigin.com** and related company web surfaces.
 **Wadhu** (Memon *more* — Tools · Apps · More; not a messenger), and
 **Ghal Bol**. Store listings, Meta
 App Review, and other verifiers expect mature same-host pages here:
-`/privacy`, `/terms`, `/about`, `/support`, `/help`, `/data-deletion`,
-`/cookies`, `/security`.
+`/privacy`, `/terms`, `/cancellation`, `/about`, `/support`, `/help`,
+`/data-deletion`, `/cookies`, `/security`.
 
 ## Setup
 

@@ -206,7 +206,7 @@ script_mod! {
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 14.} }
     }
     // Nav and quiet buttons are ≥44 px tall: a finger-sized target on every tier.
-    // Horizontal pad stays compact so seven nav labels wrap on a phone
+    // Horizontal pad stays compact so eight nav labels wrap on a phone
     // (2026-11-22: 5th chip was cropped when padding stayed at 14).
     let ActiveNav = Button{
         width: Fit height: Fit

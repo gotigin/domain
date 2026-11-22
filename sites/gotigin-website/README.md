@@ -9,21 +9,25 @@ public/
   gotigin-website.wasm
   /privacy/…              ← formatted legal HTML (Play / Meta / Store)
   /terms/…
+  /cancellation/…
   /about/…
   /help/…
   /support/…
   /data-deletion/…
   /cookies/…
   /security/…
+  /robots.txt
+  /sitemap.xml
   /js/firebase-init.js
   /media/link-preview.jpg ← picture for link previews (see below)
   /build-id.txt           ← what is live
 ```
 
 The SPA is one **scrolling** page: hero → brands and products → company
-pages → company → close. Same-site paths (`/privacy`, `/about`, …) replace
-the tab (`OpenUrlInPlace::Yes`). Brand sites open in a new tab. Legal HTML
-is not an in-app Makepad route.
+pages → company → close. Same-site paths (`/privacy`, `/cancellation`,
+`/about`, …) replace the tab (`OpenUrlInPlace::Yes`). Brand sites open in a
+new tab. Legal HTML is not an in-app Makepad route. The shell also carries a
+`<noscript>` summary and Organization JSON-LD for crawlers.
 
 Legal Markdown lives in [`docs/legal/`](../../docs/legal/). Present with
 `./sites/gotigin-website/scripts/present-legal.sh` (also run by deploy).

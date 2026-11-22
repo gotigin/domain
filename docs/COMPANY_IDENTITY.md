@@ -36,6 +36,7 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 | Company site | https://gotigin.com |
 | Privacy | https://gotigin.com/privacy |
 | Terms | https://gotigin.com/terms |
+| Cancellation and refund | https://gotigin.com/cancellation |
 | Data deletion | https://gotigin.com/data-deletion |
 | Support | https://gotigin.com/support |
 | Help | https://gotigin.com/help |
