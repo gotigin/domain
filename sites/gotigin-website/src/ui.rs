@@ -821,6 +821,7 @@ script_mod! {
                                     foot_terms := GhostBtn{ text: "Terms" }
                                     foot_cancellation := GhostBtn{ text: "Cancellation" }
                                     foot_deletion := GhostBtn{ text: "Deletion" }
+                                    foot_help := GhostBtn{ text: "Help" }
                                     foot_support := GhostBtn{ text: "Support" }
                                     foot_about := GhostBtn{ text: "About" }
                                 }

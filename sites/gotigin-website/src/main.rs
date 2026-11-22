@@ -348,6 +348,7 @@ impl MatchEvent for App {
         if self.ui.button(cx, ids!(nav_help)).clicked(actions)
             || self.ui.button(cx, ids!(cta_help)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_help)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_help)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, HELP_PATH));
         }
