@@ -205,20 +205,20 @@ script_mod! {
         draw_bg +: { color: Amber }
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 14.} }
     }
-    // Nav and quiet buttons are 44 px tall: a finger-sized target on every tier.
-    // Compact chips so seven nav labels fit / wrap on a phone (2026-11-22:
-    // 5th chip was cropped when padding stayed at 14).
+    // Nav and quiet buttons are ≥44 px tall: a finger-sized target on every tier.
+    // Horizontal pad stays compact so seven nav labels wrap on a phone
+    // (2026-11-22: 5th chip was cropped when padding stayed at 14).
     let ActiveNav = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 10. right: 10. top: 10. bottom: 10.}
+        padding: Inset{left: 10. right: 10. top: 14. bottom: 14.}
         draw_bg +: { color: Amber }
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 12.} }
     }
     let GhostBtn = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 10. right: 10. top: 10. bottom: 10.}
+        padding: Inset{left: 10. right: 10. top: 14. bottom: 14.}
         draw_bg +: { color: Panel }
         draw_text +: { color: Paper text_style: theme.font_bold{font_size: 12.} }
     }
