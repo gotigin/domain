@@ -40,6 +40,7 @@ present() {
   pandoc "$md" \
     -f markdown \
     -t html5 \
+    --wrap=none \
     --template="$TMPL" \
     --metadata title="$title" \
     -V lang=en \
