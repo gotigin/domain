@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Gotigin",
+  "legalName": "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED",
+  "url": "https://gotigin.com/",
+  "logo": "https://gotigin.com/media/gotigin-brand-logo.png",
+  "image": "https://gotigin.com/media/link-preview.jpg",
+  "slogan": "Where Technology Meets Discovery",
+  "email": "support@gotigin.com",
+  "telephone": "+91-99677-17702",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gosiya Manzil, Darbargadh",
+    "addressLocality": "Dhoraji",
+    "addressRegion": "Gujarat",
+    "postalCode": "360410",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "support@gotigin.com",
+    "url": "https://gotigin.com/support"
+  },
+  "sameAs": [
+    "https://github.com/gotigin"
+  ],
+  "brand": [
+    { "@type": "Brand", "name": "Kumkaj", "url": "https://kumkaj.com/" },
+    { "@type": "Brand", "name": "Wadhu", "url": "https://wadhu.com/" },
+    { "@type": "Brand", "name": "Ghal Bol", "url": "https://ghalbol.com/" }
+  ]
+}

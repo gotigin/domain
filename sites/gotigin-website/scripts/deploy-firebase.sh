@@ -106,8 +106,7 @@ HEAD_INJECT='    <title>Gotigin — Where Technology Meets Discovery</title>
     <meta name="twitter:title" content="Gotigin — Where Technology Meets Discovery" />
     <meta name="twitter:description" content="GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. Trademark Gotigin. Brands: Kumkaj, Wadhu, Ghal Bol." />
     <meta name="twitter:image" content="'"$PREVIEW_URL"'" />
-    <meta name="twitter:image:alt" content="The gotigin.com home page: Gotigin — Where Technology Meets Discovery." />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Gotigin","legalName":"GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED","url":"https://gotigin.com/","logo":"https://gotigin.com/media/gotigin-brand-logo.png","image":"https://gotigin.com/media/link-preview.jpg","slogan":"Where Technology Meets Discovery"}</script>'
+    <meta name="twitter:image:alt" content="The gotigin.com home page: Gotigin — Where Technology Meets Discovery." />'
 awk -v head="$HEAD_INJECT" -v bid="$BUILD_ID" '
   /<title>/ && !titled {
     print head
@@ -121,7 +120,6 @@ awk -v head="$HEAD_INJECT" -v bid="$BUILD_ID" '
   }
   /<\/body>/ && !done {
     print "        <script src=\"./js/firebase-init.js?v=" bid "\" defer></script>"
-    print "        <noscript><p>Gotigin — trademark of GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. <a href=\"/about\">About</a> · <a href=\"/privacy\">Privacy</a> · <a href=\"/terms\">Terms</a> · <a href=\"/support\">Support</a></p></noscript>"
     done = 1
   }
   { print }
@@ -134,7 +132,7 @@ printf '%s\n' "$BUILD_ID" > "$OUT/build-id.txt"
 # Fonts: only the characters this site draws (the originals stay whole).
 "$SITE/scripts/subset-fonts.sh" "$OUT"
 
-for need in privacy terms data-deletion support help about cookies security; do
+for need in privacy terms cancellation data-deletion support help about cookies security; do
   if [[ ! -f "$OUT/$need/index.html" ]]; then
     echo "error: missing /$need after overlay" >&2
     exit 1
@@ -142,6 +140,18 @@ for need in privacy terms data-deletion support help about cookies security; do
 done
 if [[ ! -f "$OUT/js/firebase-init.js" ]]; then
   echo "error: missing $OUT/js/firebase-init.js" >&2
+  exit 1
+fi
+if [[ ! -f "$OUT/robots.txt" || ! -f "$OUT/sitemap.xml" ]]; then
+  echo "error: missing robots.txt or sitemap.xml after overlay (static/)" >&2
+  exit 1
+fi
+if ! grep -q 'Sitemap: https://gotigin.com/sitemap.xml' "$OUT/robots.txt"; then
+  echo "error: robots.txt missing sitemap pointer" >&2
+  exit 1
+fi
+if ! grep -q 'https://gotigin.com/cancellation' "$OUT/sitemap.xml"; then
+  echo "error: sitemap.xml missing /cancellation" >&2
   exit 1
 fi
 if ! grep -q "Gotigin privacy policy" "$OUT/privacy/index.html"; then
@@ -154,6 +164,14 @@ if ! grep -q "cancellation and refund policy" "$OUT/cancellation/index.html"; th
 fi
 if ! grep -q "data deletion" "$OUT/data-deletion/index.html"; then
   echo "error: /data-deletion not generated from docs/legal/DATA_DELETION.md" >&2
+  exit 1
+fi
+if ! grep -q 'application/ld+json' "$OUT/index.html" || ! grep -q '<noscript>' "$OUT/index.html"; then
+  echo "error: crawlable JSON-LD / noscript missing from staged index.html" >&2
+  exit 1
+fi
+if ! grep -q 'support@gotigin.com' "$OUT/index.html" || ! grep -q 'github.com/gotigin' "$OUT/index.html"; then
+  echo "error: Organization JSON-LD facts missing from staged index.html" >&2
   exit 1
 fi
 test -f "$LEGAL/PRIVACY.md"

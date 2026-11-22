@@ -23,7 +23,7 @@ if [[ ! -f "$INDEX" ]]; then
   exit 1
 fi
 PKG="$(cd "$(dirname "$INDEX")" && pwd)"
-for f in boot.css boot.html boot.js logo.webp; do
+for f in boot.css boot.html boot.js logo.webp json-ld.json noscript.html; do
   if [[ ! -f "$SHELL_SRC/$f" ]]; then
     echo "error: missing $SHELL_SRC/$f" >&2
     exit 1
@@ -44,7 +44,8 @@ fi
 
 WASM_BYTES="$(stat -c %s "$PKG/$WASM_NAME")"
 BODY_TMP="$(mktemp)"
-trap 'rm -f "$BODY_TMP" "$INDEX.tmp"' EXIT
+JSONLD_TMP="$(mktemp)"
+trap 'rm -f "$BODY_TMP" "$JSONLD_TMP" "$INDEX.tmp"' EXIT
 # The logo travels inside the page (about 3 KB) so it shows at once.
 {
   printf 's|__WASM_BYTES__|%s|\n' "$WASM_BYTES"
@@ -52,6 +53,8 @@ trap 'rm -f "$BODY_TMP" "$INDEX.tmp"' EXIT
 } > "$BODY_TMP.sed"
 sed -f "$BODY_TMP.sed" "$SHELL_SRC/boot.html" > "$BODY_TMP"
 rm -f "$BODY_TMP.sed"
+# One line for the script tag (minified whitespace from the source file).
+tr -d '\n' < "$SHELL_SRC/json-ld.json" | sed 's/  */ /g' > "$JSONLD_TMP"
 
 GUARD_SRC="$SHELL_SRC/mobile-viewport-guard.js"
 if [[ ! -f "$GUARD_SRC" ]]; then
@@ -59,7 +62,8 @@ if [[ ! -f "$GUARD_SRC" ]]; then
   exit 1
 fi
 
-awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" -v guard="$GUARD_SRC" '
+awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" \
+    -v guard="$GUARD_SRC" -v jsonld="$JSONLD_TMP" -v noscript="$SHELL_SRC/noscript.html" '
   function cat(file,   line) {
     while ((getline line < file) > 0) print line
     close(file)
@@ -73,7 +77,12 @@ awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" 
     print "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\" />"
     next
   }
+  # Drop a thin/earlier Organization JSON-LD so we inject the full one once.
+  /application\/ld\+json/ { next }
   /<\/head>/ && !styled {
+    print "        <script type=\"application/ld+json\">"
+    cat(jsonld)
+    print "</script>"
     print "        <style>"
     cat(css)
     print "        </style>"
@@ -91,8 +100,12 @@ awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" 
     skip = 2
     next
   }
+  /<\/body>/ && !ns {
+    cat(noscript)
+    ns = 1
+  }
   { print }
-  END { if (!styled || !booted) exit 3 }
+  END { if (!styled || !booted || !ns) exit 3 }
 ' "$INDEX" > "$INDEX.tmp"
 mv "$INDEX.tmp" "$INDEX"
 
@@ -100,4 +113,12 @@ if ! grep -q 'id="boot"' "$INDEX" || grep -q 'Loading\.\.$' "$INDEX"; then
   echo "error: start-up screen was not placed in $INDEX" >&2
   exit 1
 fi
-echo "Patched $INDEX (start-up screen, wasm $WASM_BYTES bytes)"
+if ! grep -q 'application/ld+json' "$INDEX" || ! grep -q '<noscript>' "$INDEX"; then
+  echo "error: crawlable JSON-LD / noscript missing from $INDEX" >&2
+  exit 1
+fi
+if ! grep -q 'support@gotigin.com' "$INDEX" || ! grep -q 'github.com/gotigin' "$INDEX"; then
+  echo "error: Organization JSON-LD facts missing from $INDEX" >&2
+  exit 1
+fi
+echo "Patched $INDEX (start-up screen, crawlable summary, wasm $WASM_BYTES bytes)"
