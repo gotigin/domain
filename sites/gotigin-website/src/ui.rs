@@ -375,7 +375,7 @@ script_mod! {
                                 brand_home := Button{
                                     width: Fit height: Fit
                                     margin: 0.
-                                    padding: Inset{left: 2. right: 4. top: 8. bottom: 8.}
+                                    padding: Inset{left: 2. right: 4. top: 12. bottom: 12.}
                                     text: "Gotigin"
                                     draw_bg +: { color: #x00000000 }
                                     draw_text +: {
