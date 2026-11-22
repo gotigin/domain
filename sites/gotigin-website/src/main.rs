@@ -195,8 +195,8 @@ impl App {
                 top: 12.0,
                 bottom: 12.0,
             };
-            // Inline: [mark Gotigin] ---- [nav]. Narrow: mark, then a sideways
-            // scroller so seven items never paint off the window.
+            // Inline: [mark Gotigin] ---- [nav]. Narrow: mark above, then wrap
+            // so eight nav chips never paint off the window.
             bar.layout.flow = if nav_inline { Flow::right() } else { Flow::Down };
             bar.layout.spacing = if nav_inline { 10.0 } else { 8.0 };
         }
