@@ -402,6 +402,7 @@ script_mod! {
                                 nav_about := GhostBtn{ text: "About" }
                                 nav_privacy := GhostBtn{ text: "Privacy" }
                                 nav_terms := GhostBtn{ text: "Terms" }
+                                nav_cancellation := GhostBtn{ text: "Cancellation" }
                                 nav_deletion := GhostBtn{ text: "Deletion" }
                                 nav_help := GhostBtn{ text: "Help" }
                                 nav_support := GhostBtn{ text: "Support" }
@@ -630,6 +631,15 @@ script_mod! {
                                         }
                                         open_pol_terms := CardHit{}
                                     }
+                                    ProductCard{
+                                        PanelCard{
+                                            Kicker{ body: "PAGE" }
+                                            ProductTitle{ body: "Cancellation" }
+                                            CardBody{ body: "Cancellation and refund policy." }
+                                            CardLink{ body: "/cancellation" }
+                                        }
+                                        open_pol_cancellation := CardHit{}
+                                    }
                                 }
                                 trust_row2 := AppGrid{
                                     ProductCard{
@@ -700,7 +710,8 @@ script_mod! {
                                 company_row := AppGrid{
                                     PanelCard{
                                         CardTitle{ body: "Registration" }
-                                        Body{ body: "CIN U62011GJ2026PTC179660" }
+                                        Body{ body: "CIN" }
+                                        Body{ body: "U62011GJ2026PTC179660" }
                                         Body{ body: "Incorporated 24 June 2026" }
                                         Body{ body: "Share capital ₹1,00,000" }
                                         Body{ body: "Limited by shares · Gujarat" }

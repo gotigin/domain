@@ -16,6 +16,7 @@ const PUBLIC_HOST: &str = "https://gotigin.com";
 
 const PRIVACY_PATH: &str = "/privacy";
 const TERMS_PATH: &str = "/terms";
+const CANCELLATION_PATH: &str = "/cancellation";
 const ABOUT_PATH: &str = "/about";
 const HELP_PATH: &str = "/help";
 const SUPPORT_PATH: &str = "/support";
@@ -321,6 +322,11 @@ impl MatchEvent for App {
             || self.ui.button(cx, ids!(open_pol_terms)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, TERMS_PATH));
+        }
+        if self.ui.button(cx, ids!(nav_cancellation)).clicked(actions)
+            || self.ui.button(cx, ids!(open_pol_cancellation)).clicked(actions)
+        {
+            open_site(cx, &Self::site_url(cx, CANCELLATION_PATH));
         }
         if self.ui.button(cx, ids!(nav_deletion)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_deletion)).clicked(actions)

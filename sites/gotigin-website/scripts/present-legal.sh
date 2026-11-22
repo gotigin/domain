@@ -63,7 +63,7 @@ present privacy "Privacy — Gotigin" \
 present terms "Terms — Gotigin" \
   "Terms of use for gotigin.com and company-level Gotigin services." \
   "https://gotigin.com/terms" "TERMS.md"
-present cancellation "Cancellation &amp; refund — Gotigin" \
+present cancellation "Cancellation & refund — Gotigin" \
   "Cancellation and refund policy for Gotigin company and brand purchases." \
   "https://gotigin.com/cancellation" "CANCELLATION.md"
 present data-deletion "Data deletion — Gotigin" \
