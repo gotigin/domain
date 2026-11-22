@@ -91,6 +91,7 @@ HEAD_INJECT='    <title>Gotigin — Where Technology Meets Discovery</title>
     <link rel="canonical" href="https://gotigin.com/" />
     <link rel="icon" href="./favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="./media/gotigin-brand-logo.png" />
+    <link rel="manifest" href="./site.webmanifest" />
     <meta property="og:site_name" content="Gotigin" />
     <meta property="og:title" content="Gotigin — Where Technology Meets Discovery" />
     <meta property="og:description" content="GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED. Trademark Gotigin. Brands: Kumkaj, Wadhu, Ghal Bol." />
@@ -144,6 +145,10 @@ if [[ ! -f "$OUT/js/firebase-init.js" ]]; then
 fi
 if [[ ! -f "$OUT/robots.txt" || ! -f "$OUT/sitemap.xml" ]]; then
   echo "error: missing robots.txt or sitemap.xml after overlay (static/)" >&2
+  exit 1
+fi
+if [[ ! -f "$OUT/site.webmanifest" ]]; then
+  echo "error: missing site.webmanifest after overlay (static/)" >&2
   exit 1
 fi
 if ! grep -q 'Sitemap: https://gotigin.com/sitemap.xml' "$OUT/robots.txt"; then

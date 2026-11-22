@@ -85,6 +85,7 @@ awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" 
   # Drop a thin/earlier Organization JSON-LD so we inject the full one once.
   /application\/ld\+json/ { next }
   /<\/head>/ && !styled {
+    print "        <link rel=\"manifest\" href=\"./site.webmanifest\" />"
     print "        <script type=\"application/ld+json\">"
     cat(jsonld)
     print "</script>"
