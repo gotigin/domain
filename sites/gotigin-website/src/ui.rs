@@ -211,14 +211,14 @@ script_mod! {
     let ActiveNav = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 10. right: 10. top: 14. bottom: 14.}
+        padding: Inset{left: 10. right: 10. top: 16. bottom: 16.}
         draw_bg +: { color: Amber }
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 12.} }
     }
     let GhostBtn = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 10. right: 10. top: 14. bottom: 14.}
+        padding: Inset{left: 10. right: 10. top: 16. bottom: 16.}
         draw_bg +: { color: Panel }
         draw_text +: { color: Paper text_style: theme.font_bold{font_size: 12.} }
     }

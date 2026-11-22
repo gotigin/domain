@@ -5,9 +5,12 @@
     "/about": "about",
     "/privacy": "privacy",
     "/terms": "terms",
+    "/cancellation": "cancellation",
     "/help": "help",
     "/support": "support",
-    "/data-deletion": "deletion"
+    "/data-deletion": "deletion",
+    "/cookies": "cookies",
+    "/security": "security"
   };
   var key = map[path];
   if (!key) return;
