@@ -1,6 +1,6 @@
 # About Gotigin
 
-_Last updated: 20 November 2026_
+_Last updated: 22 November 2026_
 
 **Gotigin** is the trademark of **GOTIGIN SOFTWARE & HARDWARE PRIVATE
 LIMITED**. In Memon, Gotigin means *find it* (*go-tee-geen*). Slogan:
