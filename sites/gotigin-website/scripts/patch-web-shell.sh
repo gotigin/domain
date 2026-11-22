@@ -77,7 +77,7 @@ awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" 
     sub(/<html/, "<html lang=\"en\"")
     htmllang = 1
   }
-  /name="viewport"/ {
+  /name=['\"]viewport['\"]/ {
     print "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\" />"
     next
   }
