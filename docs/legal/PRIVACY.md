@@ -104,15 +104,15 @@ or withdraw consent where processing is consent-based. See
 
 ## Product brands
 
-| Brand / product | Privacy URL |
+| Brand / product | Privacy page |
 | --- | --- |
-| Wadhu (Tools · Apps · More) | https://wadhu.com/privacy |
-| Kumkaj | https://kumkaj.com/privacy |
-| Khaynjo | https://khaynjo.com/privacy |
-| Moklanjo | https://moklanjo.com/privacy |
-| Kirano | https://kirano.shop/privacy |
-| Tabiyat | https://tabiyat.shop/privacy |
-| Ghal Bol | https://ghalbol.com/privacy |
+| Wadhu (Tools · Apps · More) | [wadhu.com/privacy](https://wadhu.com/privacy) |
+| Kumkaj | [kumkaj.com/privacy](https://kumkaj.com/privacy) |
+| Khaynjo | [khaynjo.com/privacy](https://khaynjo.com/privacy) |
+| Moklanjo | [moklanjo.com/privacy](https://moklanjo.com/privacy) |
+| Kirano | [kirano.shop/privacy](https://kirano.shop/privacy) |
+| Tabiyat | [tabiyat.shop/privacy](https://tabiyat.shop/privacy) |
+| Ghal Bol | [ghalbol.com/privacy](https://ghalbol.com/privacy) |
 
 If a product has no separate policy yet, contact
 [support@gotigin.com](mailto:support@gotigin.com) and we will treat the request

@@ -33,16 +33,16 @@ Registration, tax, directors, and the registered office: [/about](/about).
 
 | Brand | Product | Site |
 | --- | --- | --- |
-| Kumkaj | — | https://kumkaj.com |
-| Kumkaj | Khaynjo — restaurant OS | https://khaynjo.com |
-| Kumkaj | Moklanjo — courier desk | https://moklanjo.com |
-| Kumkaj | Kirano — kirana | https://kirano.shop |
-| Kumkaj | Tabiyat — pharmacy | https://tabiyat.shop |
-| Wadhu | — | https://wadhu.com |
-| Wadhu | SMS Gateway — Android SIM messaging | https://wadhu.com |
-| Wadhu | SMS Relay — optional internet plane | https://wadhu.com |
-| Wadhu | Wadhu Connect — WhatsApp Cloud API bridge | https://connect.wadhu.com |
-| Ghal Bol | Ghal Bol — encrypted messenger | https://ghalbol.com |
+| Kumkaj | — | [kumkaj.com](https://kumkaj.com) |
+| Kumkaj | Khaynjo — restaurant OS | [khaynjo.com](https://khaynjo.com) |
+| Kumkaj | Moklanjo — courier desk | [moklanjo.com](https://moklanjo.com) |
+| Kumkaj | Kirano — kirana | [kirano.shop](https://kirano.shop) |
+| Kumkaj | Tabiyat — pharmacy | [tabiyat.shop](https://tabiyat.shop) |
+| Wadhu | — | [wadhu.com](https://wadhu.com) |
+| Wadhu | SMS Gateway — Android SIM messaging | [wadhu.com](https://wadhu.com) |
+| Wadhu | SMS Relay — optional internet plane | [wadhu.com](https://wadhu.com) |
+| Wadhu | Wadhu Connect — WhatsApp Cloud API bridge | [connect.wadhu.com](https://connect.wadhu.com) |
+| Ghal Bol | Ghal Bol — encrypted messenger | [ghalbol.com](https://ghalbol.com) |
 
 Product privacy, terms, and deletion pages live on the product site when that site publishes them. Company pages on gotigin.com cover the company site and company contacts.
 

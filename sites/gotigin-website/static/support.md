@@ -43,14 +43,14 @@ Start on the product site. If that site has no support page, email the company a
 
 | Brand | Product | Start here |
 | --- | --- | --- |
-| Kumkaj | Khaynjo | https://khaynjo.com |
-| Kumkaj | Moklanjo | https://moklanjo.com |
-| Kumkaj | Kirano | https://kirano.shop |
-| Kumkaj | Tabiyat | https://tabiyat.shop |
-| Wadhu | SMS Gateway | https://wadhu.com/support |
-| Wadhu | SMS Relay | https://wadhu.com/support |
-| Wadhu | Wadhu Connect | https://connect.wadhu.com |
-| Ghal Bol | Ghal Bol | https://ghalbol.com |
+| Kumkaj | Khaynjo | [khaynjo.com](https://khaynjo.com) |
+| Kumkaj | Moklanjo | [moklanjo.com](https://moklanjo.com) |
+| Kumkaj | Kirano | [kirano.shop](https://kirano.shop) |
+| Kumkaj | Tabiyat | [tabiyat.shop](https://tabiyat.shop) |
+| Wadhu | SMS Gateway | [wadhu.com/support](https://wadhu.com/support) |
+| Wadhu | SMS Relay | [wadhu.com/support](https://wadhu.com/support) |
+| Wadhu | Wadhu Connect | [connect.wadhu.com](https://connect.wadhu.com) |
+| Ghal Bol | Ghal Bol | [ghalbol.com](https://ghalbol.com) |
 
 Wadhu is the tools brand (Memon *more* — Tools · Apps · More). SMS Gateway, SMS Relay, and Wadhu Connect are products under it.
 
