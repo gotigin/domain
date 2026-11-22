@@ -1,6 +1,6 @@
 # Gotigin privacy policy
 
-_Last updated: 20 November 2026_
+_Last updated: 22 November 2026_
 
 ## Who we are
 
@@ -19,8 +19,12 @@ contacts and forms at gotigin.com. Product brands publish **their own**
 privacy policies on their domains (for example
 [wadhu.com/privacy](https://wadhu.com/privacy),
 [khaynjo.com/privacy](https://khaynjo.com/privacy),
+[moklanjo.com/privacy](https://moklanjo.com/privacy),
+[kirano.shop/privacy](https://kirano.shop/privacy),
+[tabiyat.shop/privacy](https://tabiyat.shop/privacy),
 [ghalbol.com/privacy](https://ghalbol.com/privacy)). For an app or
 service, that product's policy applies first. Names: [About](/about).
+Related: [Cancellation](/cancellation) · [Terms](/terms) · [Support](/support).
 
 ## Summary
 
@@ -100,10 +104,14 @@ or withdraw consent where processing is consent-based. See
 
 ## Product brands
 
-| Brand | Privacy URL (primary for that product) |
+| Brand / product | Privacy URL |
 | --- | --- |
 | Wadhu (Tools · Apps · More) | https://wadhu.com/privacy |
-| Kumkaj / Khaynjo | https://khaynjo.com/privacy (and sibling product domains) |
+| Kumkaj | https://kumkaj.com/privacy |
+| Khaynjo | https://khaynjo.com/privacy |
+| Moklanjo | https://moklanjo.com/privacy |
+| Kirano | https://kirano.shop/privacy |
+| Tabiyat | https://tabiyat.shop/privacy |
 | Ghal Bol | https://ghalbol.com/privacy |
 
 If a product has no separate policy yet, contact
