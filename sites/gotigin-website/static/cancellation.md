@@ -80,15 +80,15 @@ apply to that checkout also apply to that purchase.
 
 ## Brand policies
 
-| Brand / product | Cancellation URL |
+| Brand / product | Cancellation page |
 | --- | --- |
-| Wadhu | https://wadhu.com/cancellation |
-| Kumkaj | https://kumkaj.com/cancellation |
-| Khaynjo | https://khaynjo.com/cancellation |
-| Moklanjo | https://moklanjo.com/cancellation |
-| Kirano | https://kirano.shop/cancellation |
-| Tabiyat | https://tabiyat.shop/cancellation |
-| Ghal Bol | (product / brand page when published) |
+| Wadhu | [wadhu.com/cancellation](https://wadhu.com/cancellation) |
+| Kumkaj | [kumkaj.com/cancellation](https://kumkaj.com/cancellation) |
+| Khaynjo | [khaynjo.com/cancellation](https://khaynjo.com/cancellation) |
+| Moklanjo | [moklanjo.com/cancellation](https://moklanjo.com/cancellation) |
+| Kirano | [kirano.shop/cancellation](https://kirano.shop/cancellation) |
+| Tabiyat | [tabiyat.shop/cancellation](https://tabiyat.shop/cancellation) |
+| Ghal Bol | [ghalbol.com/cancellation](https://ghalbol.com/cancellation) |
 
 Product apps under a brand may also publish their own `/cancellation` page
 that is **additional** to the brand policy.
