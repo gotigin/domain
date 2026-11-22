@@ -26,6 +26,7 @@ support. Use the director address only when a form or legal notice needs it.
 | Request | Subject | Page |
 | --- | --- | --- |
 | Data deletion | `Gotigin data deletion` | [/data-deletion](/data-deletion) |
+| Cancellation / refund | `Gotigin cancellation` | [/cancellation](/cancellation) |
 | Security report | `Gotigin security report` | [/security](/security) |
 | Privacy | `Gotigin privacy` | [/privacy](/privacy) |
 
