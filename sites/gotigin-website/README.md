@@ -18,6 +18,8 @@ public/
   /security/…
   /robots.txt
   /sitemap.xml
+  /site.webmanifest
+  /favicon.ico · /favicon.png
   /js/firebase-init.js
   /media/link-preview.jpg ← picture for link previews (see below)
   /build-id.txt           ← what is live
