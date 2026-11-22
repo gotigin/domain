@@ -22,3 +22,8 @@ Gate: `./scripts/check-web-mobile-layout.sh`.
 Legal Markdown is presented to HTML by
 `sites/gotigin-website/scripts/present-legal.sh`. Do not hand-edit generated
 HTML under `sites/gotigin-website/static/`.
+
+**Crawlable shell:** `sites/gotigin-website/shell/{json-ld.json,noscript.html}`
+are inlined by `patch-web-shell.sh` (Organization JSON-LD + plain-HTML
+summary). `static/robots.txt` and `static/sitemap.xml` ride the legal
+overlay into the Hosting tree.
