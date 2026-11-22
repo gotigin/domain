@@ -422,7 +422,7 @@ script_mod! {
                                 }
                                 hero_title := Headline{ body: "Gotigin" }
                                 hero_slogan := Subhead{ body: "Where Technology Meets Discovery." }
-                                hero_lede := Lede{ body: "Memon for find it. Pronounced go-tee-geen. House mark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." }
+                                hero_lede := Lede{ body: "Memon for “find it”. Pronounced go-tee-geen. House mark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." }
                                 cta_row := View{
                                     width: Fill height: Fit
                                     flow: Right{wrap: true}
