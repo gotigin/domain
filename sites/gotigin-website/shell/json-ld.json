@@ -7,8 +7,11 @@
   "logo": "https://gotigin.com/media/gotigin-brand-logo.png",
   "image": "https://gotigin.com/media/link-preview.jpg",
   "slogan": "Where Technology Meets Discovery",
+  "foundingDate": "2026-06-24",
   "email": "support@gotigin.com",
   "telephone": "+91-99677-17702",
+  "taxID": "AANCG1628G",
+  "vatID": "24AANCG1628G1ZP",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "C/O Mearaj AB, Gosiya Manzil, Darbargadh",
