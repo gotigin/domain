@@ -824,6 +824,8 @@ script_mod! {
                                     foot_help := GhostBtn{ text: "Help" }
                                     foot_support := GhostBtn{ text: "Support" }
                                     foot_about := GhostBtn{ text: "About" }
+                                    foot_cookies := GhostBtn{ text: "Cookies" }
+                                    foot_security := GhostBtn{ text: "Security" }
                                 }
                                 View{
                                     width: Fill height: Fit

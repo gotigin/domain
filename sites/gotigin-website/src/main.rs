@@ -359,10 +359,14 @@ impl MatchEvent for App {
         {
             open_site(cx, &Self::site_url(cx, SUPPORT_PATH));
         }
-        if self.ui.button(cx, ids!(open_pol_cookies)).clicked(actions) {
+        if self.ui.button(cx, ids!(open_pol_cookies)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_cookies)).clicked(actions)
+        {
             open_site(cx, &Self::site_url(cx, COOKIES_PATH));
         }
-        if self.ui.button(cx, ids!(open_pol_security)).clicked(actions) {
+        if self.ui.button(cx, ids!(open_pol_security)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_security)).clicked(actions)
+        {
             open_site(cx, &Self::site_url(cx, SECURITY_PATH));
         }
         if self.ui.button(cx, ids!(open_mail)).clicked(actions) {
