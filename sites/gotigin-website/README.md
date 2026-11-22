@@ -99,9 +99,13 @@ are drawn at 40–56 px on dark cards; keep new ones that small.
 | `/` | Makepad company SPA |
 | `/privacy` | Company privacy policy |
 | `/terms` | Terms of use |
+| `/cancellation` | Cancellation and refund policy |
 | `/data-deletion` | Play / Meta deletion instructions |
 | `/support` | Support contact |
 | `/help` | Help centre / verification links |
 | `/about` | Company + brand map |
 | `/cookies` | Cookie policy |
 | `/security` | Security & vulnerability reporting |
+| `/robots.txt` | Crawler rules (points at sitemap) |
+| `/sitemap.xml` | Home + legal URLs |
+| `/site.webmanifest` | PWA/manifest metadata |
