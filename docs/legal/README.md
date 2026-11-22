@@ -7,6 +7,7 @@ Canonical source for company legal pages. Presented to HTML by
 | --- | --- |
 | [`PRIVACY.md`](PRIVACY.md) | /privacy |
 | [`TERMS.md`](TERMS.md) | /terms |
+| [`CANCELLATION.md`](CANCELLATION.md) | /cancellation |
 | [`DATA_DELETION.md`](DATA_DELETION.md) | /data-deletion |
 | [`SUPPORT.md`](SUPPORT.md) | /support |
 | [`HELP.md`](HELP.md) | /help |

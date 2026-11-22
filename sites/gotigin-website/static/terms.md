@@ -15,6 +15,7 @@ office Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India.
 Names: [About](/about).
 
 Privacy: [gotigin.com/privacy](https://gotigin.com/privacy)  
+Cancellation and refund: [gotigin.com/cancellation](https://gotigin.com/cancellation)  
 Support: [gotigin.com/support](https://gotigin.com/support)  
 Data deletion: [gotigin.com/data-deletion](https://gotigin.com/data-deletion)
 

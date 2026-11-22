@@ -27,7 +27,7 @@
         ]
       },
       {
-        "source": "/{privacy,terms,data-deletion,support,help,about,cookies,security}/**",
+        "source": "/{privacy,terms,cancellation,data-deletion,support,help,about,cookies,security}/**",
         "headers": [
           { "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" }
         ]

@@ -106,6 +106,7 @@ customization, and technical support.
 | --- | --- |
 | Privacy | [/privacy](/privacy) |
 | Terms | [/terms](/terms) |
+| Cancellation and refund | [/cancellation](/cancellation) |
 | Data deletion | [/data-deletion](/data-deletion) |
 | Support | [/support](/support) |
 | Help | [/help](/help) |

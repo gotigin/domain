@@ -148,11 +148,16 @@ if ! grep -q "Gotigin privacy policy" "$OUT/privacy/index.html"; then
   echo "error: /privacy not generated from docs/legal/PRIVACY.md" >&2
   exit 1
 fi
+if ! grep -q "cancellation and refund policy" "$OUT/cancellation/index.html"; then
+  echo "error: /cancellation not generated from docs/legal/CANCELLATION.md" >&2
+  exit 1
+fi
 if ! grep -q "data deletion" "$OUT/data-deletion/index.html"; then
   echo "error: /data-deletion not generated from docs/legal/DATA_DELETION.md" >&2
   exit 1
 fi
 test -f "$LEGAL/PRIVACY.md"
+test -f "$LEGAL/CANCELLATION.md"
 test -f "$LEGAL/HELP.md"
 test -f "$LEGAL/SECURITY.md"
 
