@@ -51,7 +51,7 @@ Firebase project: **`gotigin-com`** (`.firebaserc`). Attach custom domain
 
 ## The shell around the wasm
 
-Three things live in the HTML, because nothing can run before the wasm has
+Several things live in the HTML, because nothing can run before the wasm has
 arrived and link crawlers never run it at all:
 
 - **Start-up screen** — `shell/boot.{css,html,js}` and `shell/logo.webp`,
@@ -60,6 +60,10 @@ arrived and link crawlers never run it at all:
   real wasm download, then the status reads "Starting" until the canvas has
   painted and the screen fades out. It says so when the connection is slow
   and offers Reload and the plain pages when the page cannot start.
+- **Crawlable summary** — `shell/noscript.html` and `shell/json-ld.json`
+  (Organization with `contactPoint` support@gotigin.com and
+  `sameAs` github.com/gotigin). Same patch script inlines them so
+  crawlers that skip wasm still see company, brands, products, and contact.
 - **Link preview** — `static/media/link-preview.jpg`, a 1200×630 JPEG of the
   real first screen, named by the Open Graph and Twitter tags on the home
   page and on every legal page. One set of tags serves WhatsApp, X,
