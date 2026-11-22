@@ -30,5 +30,6 @@ Do not include customer personal data in reports unless strictly necessary.
 ## Related
 
 - Privacy: [/privacy](/privacy)
+- Cancellation: [/cancellation](/cancellation)
 - Data deletion: [/data-deletion](/data-deletion)
 - Support: [/support](/support)

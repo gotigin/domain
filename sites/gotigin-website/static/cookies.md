@@ -4,6 +4,7 @@ _Last updated: 17 November 2026_
 
 This policy explains how [gotigin.com](https://gotigin.com) uses cookies and
 similar technologies. Privacy: [/privacy](/privacy).
+Cancellation: [/cancellation](/cancellation).
 
 ## What we use
 
