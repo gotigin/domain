@@ -78,11 +78,20 @@
         ]
       },
       {
-        "source": "/{robots.txt,sitemap.xml}",
+        "source": "/{robots.txt,sitemap.xml,site.webmanifest}",
         "headers": [
           {
             "key": "Cache-Control",
             "value": "public, max-age=3600, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/site.webmanifest",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/manifest+json"
           }
         ]
       }
