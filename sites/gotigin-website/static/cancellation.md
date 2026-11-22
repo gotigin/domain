@@ -9,7 +9,7 @@ _Last updated: 22 November 2026_
 | **Trademark / house mark** | **Gotigin** — [gotigin.com](https://gotigin.com) |
 | **Company** | **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** (“we”, “us”) |
 | CIN | U62011GJ2026PTC179660 |
-| Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
+| Registered office | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Contact | [support@gotigin.com](mailto:support@gotigin.com) |
 
 This is the **company-level** cancellation and refund policy. It sets the

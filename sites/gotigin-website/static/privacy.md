@@ -11,7 +11,7 @@ _Last updated: 22 November 2026_
 | CIN | U62011GJ2026PTC179660 |
 | PAN | AANCG1628G |
 | GSTIN | 24AANCG1628G1ZP |
-| Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
+| Registered office | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Contact | [support@gotigin.com](mailto:support@gotigin.com) |
 
 This policy covers the **Gotigin company website** and **company-level**
@@ -129,7 +129,7 @@ See [Cookies](/cookies).
 - Privacy / support: [support@gotigin.com](mailto:support@gotigin.com)
 - Director (official): [mearaj@gmail.com](mailto:mearaj@gmail.com)
 - Data deletion subject line: `Gotigin data deletion`
-- Registered office: Gosiya Manzil, Darbargadh, Dhoraji,
+- Registered office: C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji,
   Rajkot, Gujarat 360410, India
 - Primary contact (director): Mearaj Abdulaziz Bhagad
 

@@ -37,4 +37,4 @@ subject as above and name the product in the body.
 
 GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED  
 [support@gotigin.com](mailto:support@gotigin.com)  
-Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India
+C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India

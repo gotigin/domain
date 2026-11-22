@@ -734,6 +734,7 @@ script_mod! {
                                 company_row2 := AppGrid{
                                     PanelCard{
                                         CardTitle{ body: "Registered office" }
+                                        Body{ body: "C/O Mearaj AB" }
                                         Body{ body: "Gosiya Manzil, Darbargadh" }
                                         Body{ body: "Dhoraji, Rajkot" }
                                         Body{ body: "Gujarat 360410, India" }

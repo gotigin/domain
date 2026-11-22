@@ -10,7 +10,7 @@ _Last updated: 20 November 2026_
 | Director (official, when needed) | [mearaj@gmail.com](mailto:mearaj@gmail.com) |
 | Phone | +91 99677 17702 |
 | Company | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
-| Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
+| Registered office | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Help | [/help](/help) |
 | About | [/about](/about) |
 
