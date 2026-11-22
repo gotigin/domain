@@ -29,4 +29,4 @@ load correctly through our host.
 
 ## Contact
 
-[mearaj@gotigin.com](mailto:mearaj@gotigin.com)
+[support@gotigin.com](mailto:support@gotigin.com)

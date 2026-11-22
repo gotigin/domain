@@ -32,7 +32,7 @@ const MOKLANJO_URL: &str = "https://moklanjo.com";
 const KIRANO_URL: &str = "https://kirano.shop";
 const TABIYAT_URL: &str = "https://tabiyat.shop";
 const CONNECT_URL: &str = "https://connect.wadhu.com/";
-const MAILTO: &str = "mailto:mearaj@gotigin.com";
+const MAILTO: &str = "mailto:support@gotigin.com";
 
 // Window-width breakpoints used by apply_responsive (see Tier):
 //   <480 Phone, <720 Narrow, <1024 Tablet, >=1600 and tall → Wide, else Desk.

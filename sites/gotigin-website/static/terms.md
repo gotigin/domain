@@ -94,4 +94,4 @@ Continued use after the effective date constitutes acceptance.
 
 ## Contact
 
-[mearaj@gotigin.com](mailto:mearaj@gotigin.com)
+[support@gotigin.com](mailto:support@gotigin.com)

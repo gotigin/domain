@@ -13,7 +13,7 @@ Order is always **Trademark → Company → Brand → Product**.
 | Name | Role |
 | --- | --- |
 | **Gotigin** | Trademark / house mark — Memon *find it* (*go-tee-geen*); slogan *Where Technology Meets Discovery* |
-| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company · [support@gotigin.com](mailto:support@gotigin.com) |
 | **Kumkaj** | Brand — business operating systems |
 | **Wadhu** | Brand — Memon *more*. Tools · Apps · More. Reusable tools, utils, and apps. Not a messenger. |
 | **Ghal Bol** | Brand — communication products |
@@ -95,7 +95,8 @@ customization, and technical support.
 
 | | |
 | --- | --- |
-| Email | [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
+| Support | [support@gotigin.com](mailto:support@gotigin.com) |
+| Director (official) | [mearaj@gmail.com](mailto:mearaj@gmail.com) |
 | Phone | +91 99677 17702 |
 | Website | [https://gotigin.com](https://gotigin.com) |
 

@@ -11,7 +11,7 @@ personal data it holds about you. Privacy policy:
 gotigin.com does not create user accounts. To request deletion of personal
 data you sent us by email or form:
 
-1. Email [mearaj@gotigin.com](mailto:mearaj@gotigin.com)
+1. Email [support@gotigin.com](mailto:support@gotigin.com)
 2. Subject: `Gotigin data deletion`
 3. Include enough detail to find your records (date of contact, email used,
    topic)
@@ -36,5 +36,5 @@ subject as above and name the product in the body.
 ## Contact
 
 GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED  
-[mearaj@gotigin.com](mailto:mearaj@gotigin.com)  
+[support@gotigin.com](mailto:support@gotigin.com)  
 Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India

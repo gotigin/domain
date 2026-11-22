@@ -29,7 +29,9 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 
 | Use | Value |
 | --- | --- |
-| Business / legal / privacy | mearaj@gotigin.com |
+| Support (every public site) | support@gotigin.com |
+| Director — official | mearaj@gmail.com |
+| Director — personal (only when a form requires a personal address) | mearajbhagad@gmail.com |
 | Phone | +91 99677 17702 |
 | Company site | https://gotigin.com |
 | Privacy | https://gotigin.com/privacy |
@@ -38,6 +40,11 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 | Support | https://gotigin.com/support |
 | Help | https://gotigin.com/help |
 | About | https://gotigin.com/about |
+
+**Website rule:** every Gotigin / brand / product site must show **support@gotigin.com**.
+Show **mearaj@gmail.com** on company / about / grievance / legal contact where a
+director address is required. Do **not** put the personal Gmail on product sites
+unless a store or partner form explicitly needs a personal email.
 
 ## Brand map (summary)
 

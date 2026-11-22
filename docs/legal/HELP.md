@@ -9,7 +9,7 @@ Order is **Trademark → Company → Brand → Product**.
 | | |
 | --- | --- |
 | **Gotigin** | Trademark. Memon *find it* (*go-tee-geen*). Slogan: *Where Technology Meets Discovery*. Mark: circular **GTG**. |
-| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company · [mearaj@gotigin.com](mailto:mearaj@gotigin.com) · +91 99677 17702 |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company · support [support@gotigin.com](mailto:support@gotigin.com) · director [mearaj@gmail.com](mailto:mearaj@gmail.com) · +91 99677 17702 |
 | **Kumkaj** | Brand. Business operating systems. |
 | **Wadhu** | Brand. Memon *more*. Tools · Apps · More. Reusable tools, utils, and apps. Not a messenger. |
 | **Ghal Bol** | Brand. Communication products. |
@@ -47,7 +47,7 @@ Product privacy, terms, and deletion pages live on the product site when that si
 
 ## Contact
 
-[mearaj@gotigin.com](mailto:mearaj@gotigin.com) · +91 99677 17702
+[support@gotigin.com](mailto:support@gotigin.com) · director [mearaj@gmail.com](mailto:mearaj@gmail.com) · +91 99677 17702
 
 Deletion: subject `Gotigin data deletion` — [/data-deletion](/data-deletion).  
 Security: subject `Gotigin security report` — [/security](/security).

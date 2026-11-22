@@ -14,7 +14,7 @@ _Last updated: 17 November 2026_
 If you believe you found a security issue in gotigin.com or a Gotigin brand
 product:
 
-1. Email [mearaj@gotigin.com](mailto:mearaj@gotigin.com)
+1. Email [support@gotigin.com](mailto:support@gotigin.com)
 2. Subject: `Gotigin security report`
 3. Include steps to reproduce, affected URL or app id, and impact
 

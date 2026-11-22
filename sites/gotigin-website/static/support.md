@@ -6,14 +6,16 @@ _Last updated: 20 November 2026_
 
 | | |
 | --- | --- |
-| Email | [mearaj@gotigin.com](mailto:mearaj@gotigin.com) |
+| Support | [support@gotigin.com](mailto:support@gotigin.com) |
+| Director (official, when needed) | [mearaj@gmail.com](mailto:mearaj@gmail.com) |
 | Phone | +91 99677 17702 |
 | Company | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
 | Registered office | Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
 | Help | [/help](/help) |
 | About | [/about](/about) |
 
-Use this email and phone for privacy, deletion, security reports, and company contact.
+Use **support@gotigin.com** for privacy, deletion, security reports, and product
+support. Use the director address only when a form or legal notice needs it.
 
 ## What to include
 
