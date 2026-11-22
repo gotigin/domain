@@ -80,10 +80,14 @@ apply to that checkout also apply to that purchase.
 
 ## Brand policies
 
-| Brand | Cancellation URL |
+| Brand / product | Cancellation URL |
 | --- | --- |
 | Wadhu | https://wadhu.com/cancellation |
 | Kumkaj | https://kumkaj.com/cancellation |
+| Khaynjo | https://khaynjo.com/cancellation |
+| Moklanjo | https://moklanjo.com/cancellation |
+| Kirano | https://kirano.shop/cancellation |
+| Tabiyat | https://tabiyat.shop/cancellation |
 | Ghal Bol | (product / brand page when published) |
 
 Product apps under a brand may also publish their own `/cancellation` page
