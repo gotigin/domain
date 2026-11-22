@@ -315,21 +315,25 @@ impl MatchEvent for App {
         if self.ui.button(cx, ids!(nav_privacy)).clicked(actions)
             || self.ui.button(cx, ids!(cta_privacy)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_privacy)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_privacy)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, PRIVACY_PATH));
         }
         if self.ui.button(cx, ids!(nav_terms)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_terms)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_terms)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, TERMS_PATH));
         }
         if self.ui.button(cx, ids!(nav_cancellation)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_cancellation)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_cancellation)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, CANCELLATION_PATH));
         }
         if self.ui.button(cx, ids!(nav_deletion)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_deletion)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_deletion)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, DELETION_PATH));
         }
@@ -337,6 +341,7 @@ impl MatchEvent for App {
             || self.ui.button(cx, ids!(cta_about)).clicked(actions)
             || self.ui.button(cx, ids!(cta_about_full)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_about)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_about)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, ABOUT_PATH));
         }
@@ -349,6 +354,7 @@ impl MatchEvent for App {
         if self.ui.button(cx, ids!(nav_support)).clicked(actions)
             || self.ui.button(cx, ids!(cta_contact)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_support)).clicked(actions)
+            || self.ui.button(cx, ids!(foot_support)).clicked(actions)
         {
             open_site(cx, &Self::site_url(cx, SUPPORT_PATH));
         }

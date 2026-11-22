@@ -811,6 +811,18 @@ script_mod! {
                                         Body{ body: "Business systems · tools and apps · communication" }
                                     }
                                 }
+                                close_legal := View{
+                                    width: Fill height: Fit
+                                    flow: Right{wrap: true}
+                                    spacing: 6.
+                                    wrap_spacing: 6.
+                                    foot_privacy := GhostBtn{ text: "Privacy" }
+                                    foot_terms := GhostBtn{ text: "Terms" }
+                                    foot_cancellation := GhostBtn{ text: "Cancellation" }
+                                    foot_deletion := GhostBtn{ text: "Deletion" }
+                                    foot_support := GhostBtn{ text: "Support" }
+                                    foot_about := GhostBtn{ text: "About" }
+                                }
                                 View{
                                     width: Fill height: Fit
                                     flow: Down
