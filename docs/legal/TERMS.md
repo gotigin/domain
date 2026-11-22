@@ -1,6 +1,6 @@
 # Gotigin terms of use
 
-_Last updated: 20 November 2026_
+_Last updated: 22 November 2026_
 
 ## Agreement
 

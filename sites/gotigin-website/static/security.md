@@ -1,6 +1,6 @@
 # Gotigin security
 
-_Last updated: 17 November 2026_
+_Last updated: 22 November 2026_
 
 ## Practices (company site)
 

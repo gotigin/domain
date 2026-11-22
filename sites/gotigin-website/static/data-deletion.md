@@ -1,6 +1,6 @@
 # Gotigin data deletion
 
-_Last updated: 20 November 2026_
+_Last updated: 22 November 2026_
 
 How to ask **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** to delete
 personal data it holds about you. Privacy policy:

@@ -1,6 +1,6 @@
 # Gotigin cookie policy
 
-_Last updated: 17 November 2026_
+_Last updated: 22 November 2026_
 
 This policy explains how [gotigin.com](https://gotigin.com) uses cookies and
 similar technologies. Privacy: [/privacy](/privacy).
