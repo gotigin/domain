@@ -38,7 +38,7 @@ const MAILTO: &str = "mailto:support@gotigin.com";
 // Window-width breakpoints used by apply_responsive (see Tier):
 //   <480 Phone, <720 Narrow, <1024 Tablet, >=1600 and tall → Wide, else Desk.
 //   <720  brand heads, Kumkaj pairs, page pairs, and Ghal Bol stack.
-//   <960  top nav sits under the mark and scrolls sideways; company cards stack.
+//   <960  top nav sits under the mark and wraps; company cards stack.
 //   <1140 Wadhu's three products stack.
 //   Action rows (hero, company) wrap on their own at any width.
 const BRAND_HEAD_ROW_FROM: f64 = 720.0;
