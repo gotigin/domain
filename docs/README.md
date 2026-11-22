@@ -26,4 +26,5 @@ HTML under `sites/gotigin-website/static/`.
 **Crawlable shell:** `sites/gotigin-website/shell/{json-ld.json,noscript.html}`
 are inlined by `patch-web-shell.sh` (Organization JSON-LD + plain-HTML
 summary). `static/robots.txt` and `static/sitemap.xml` ride the legal
-overlay into the Hosting tree.
+overlay into the Hosting tree. `./scripts/check-web-mobile-layout.sh` also
+asserts those files, `/cancellation`, and JSON-LD contact/sameAs fields.
