@@ -115,13 +115,14 @@ script_mod! {
         paragraph_spacing: 0.
         pre_code_spacing: 0.
         font_color: Muted
-        font_size: 18.
-        text_style_normal: theme.font_regular{font_size: 18. line_spacing: 1.45}
-        text_style_bold: theme.font_bold{font_size: 18. line_spacing: 1.45}
-        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 18. line_spacing: 1.45} }
+        font_size: 17.
+        text_style_normal: theme.font_regular{font_size: 17. line_spacing: 1.45}
+        text_style_bold: theme.font_bold{font_size: 17. line_spacing: 1.45}
+        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 17. line_spacing: 1.45} }
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
+    // Normal body ~15.5 — align with Khaynjo/Moklanjo (phone pass 2026-11-22).
     let Body = Markdown{
         selectable: true
         height: Fit
@@ -130,10 +131,10 @@ script_mod! {
         paragraph_spacing: 0.
         pre_code_spacing: 0.
         font_color: Muted
-        font_size: 16.
-        text_style_normal: theme.font_regular{font_size: 16. line_spacing: 1.45}
-        text_style_bold: theme.font_bold{font_size: 16. line_spacing: 1.45}
-        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 16. line_spacing: 1.45} }
+        font_size: 15.5
+        text_style_normal: theme.font_regular{font_size: 15.5 line_spacing: 1.45}
+        text_style_bold: theme.font_bold{font_size: 15.5 line_spacing: 1.45}
+        draw_text +: { color: Muted text_style: theme.font_regular{font_size: 15.5 line_spacing: 1.45} }
         draw_selection +: { color: Select }
         draw_block +: { selection_color: Select }
     }
@@ -205,19 +206,21 @@ script_mod! {
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 14.} }
     }
     // Nav and quiet buttons are 44 px tall: a finger-sized target on every tier.
+    // Compact chips so seven nav labels fit / wrap on a phone (2026-11-22:
+    // 5th chip was cropped when padding stayed at 14).
     let ActiveNav = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 14. right: 14. top: 13. bottom: 13.}
+        padding: Inset{left: 10. right: 10. top: 10. bottom: 10.}
         draw_bg +: { color: Amber }
-        draw_text +: { color: Ink text_style: theme.font_bold{font_size: 13.} }
+        draw_text +: { color: Ink text_style: theme.font_bold{font_size: 12.} }
     }
     let GhostBtn = Button{
         width: Fit height: Fit
         margin: 0.
-        padding: Inset{left: 14. right: 14. top: 13. bottom: 13.}
+        padding: Inset{left: 10. right: 10. top: 10. bottom: 10.}
         draw_bg +: { color: Panel }
-        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 13.} }
+        draw_text +: { color: Paper text_style: theme.font_bold{font_size: 12.} }
     }
     // Full-card hit target. Later sibling in an Overlay, so hover and click
     // cover the tile. Label is zero-size; the wash is the affordance.
@@ -386,28 +389,15 @@ script_mod! {
                                 width: Fill
                                 height: 40.
                             }
-                            // Narrow widths scroll this strip sideways. The
-                            // bar is slim and sits in the bottom pad that
-                            // apply_responsive adds, never over the chips.
-                            nav_row := ScrollXView{
+                            // Phone: wrap so every chip stays visible (ScrollX
+                            // previously cropped the 5th chip — 2026-11-22).
+                            // Desk: one row (apply_responsive sets flow Right).
+                            nav_row := View{
                                 width: Fill height: Fit
-                                flow: Right
-                                spacing: 8.
+                                flow: Right{wrap: true}
+                                spacing: 6.
+                                wrap_spacing: 6.
                                 align: Align{y: 0.5}
-                                scroll_bars: mod.widgets.ScrollBars {
-                                    show_scroll_x: true show_scroll_y: false
-                                    scroll_bar_x: mod.widgets.ScrollBar{
-                                        drag_scrolling: true
-                                        bar_size: 4.
-                                        draw_bg +: {
-                                            size: 3.
-                                            border_radius: 2.
-                                            color: Line
-                                            color_hover: Muted
-                                            color_drag: SoftAmber
-                                        }
-                                    }
-                                }
                                 nav_home := ActiveNav{ text: "Home" }
                                 nav_about := GhostBtn{ text: "About" }
                                 nav_privacy := GhostBtn{ text: "Privacy" }

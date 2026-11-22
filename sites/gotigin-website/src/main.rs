@@ -203,14 +203,18 @@ impl App {
             .view(cx, ids!(top_spacer))
             .set_visible(cx, nav_inline);
         if let Some(mut nav) = self.ui.view(cx, ids!(nav_row)).borrow_mut() {
-            nav.layout.flow = Flow::right();
+            // Inline desk: one Right row. Narrow: wrap so no chip is cropped.
+            nav.layout.flow = if nav_inline {
+                Flow::right()
+            } else {
+                Flow::right_wrap()
+            };
             nav.walk.width = if nav_inline {
                 Size::fit()
             } else {
                 Size::fill()
             };
-            // The sideways strip keeps a lane under the chips for its bar.
-            nav.layout.padding.bottom = if nav_inline { 0.0 } else { 8.0 };
+            nav.layout.padding.bottom = 0.0;
         }
 
         let head_row = layout_w >= BRAND_HEAD_ROW_FROM;
