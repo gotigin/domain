@@ -206,8 +206,7 @@ script_mod! {
         draw_text +: { color: Ink text_style: theme.font_bold{font_size: 14.} }
     }
     // Nav and quiet buttons are ≥44 px tall: a finger-sized target on every tier.
-    // Horizontal pad stays compact so eight nav labels wrap on a phone
-    // (2026-11-22: 5th chip was cropped when padding stayed at 14).
+    // Phone uses a Menu control; chips live in the drawer (not a wrapped second row).
     let ActiveNav = Button{
         width: Fit height: Fit
         margin: 0.
@@ -353,8 +352,9 @@ script_mod! {
                         width: Fill height: Fill
                         draw_bg +: { color: Ink }
                         flow: Down
-                        // Default is the narrow bar (nav under the mark). Desk
-                        // widths pull the nav onto one row in apply_responsive.
+                        // Phone: [mark · Menu]. Desk: [mark ····· chips] on one row.
+                        // apply_responsive toggles Menu vs inline chips — never wrap
+                        // eight links onto a second row under the brand.
                         top := SolidView{
                             width: Fill height: Fit
                             padding: Inset{left: 16. right: 16. top: 12. bottom: 12.}
@@ -362,39 +362,43 @@ script_mod! {
                             flow: Down
                             spacing: 8.
                             align: Align{y: 0.5}
-                            brand_row := View{
-                                width: Fit height: Fit
+                            top_chrome := View{
+                                width: Fill height: Fit
                                 flow: Right
                                 spacing: 10.
                                 align: Align{y: 0.5}
-                                brand_icon := Image{
-                                    width: 40 height: 40
-                                    fit: ImageFit.Stretch
-                                    src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
-                                }
-                                brand_home := Button{
+                                brand_row := View{
                                     width: Fit height: Fit
-                                    margin: 0.
-                                    padding: Inset{left: 2. right: 4. top: 12. bottom: 12.}
-                                    text: "Gotigin"
-                                    draw_bg +: { color: #x00000000 }
-                                    draw_text +: {
-                                        color: SoftAmber
-                                        text_style: theme.font_bold{font_size: 16.}
+                                    flow: Right
+                                    spacing: 10.
+                                    align: Align{y: 0.5}
+                                    brand_icon := Image{
+                                        width: 40 height: 40
+                                        fit: ImageFit.Stretch
+                                        src: crate_resource("self:resources/media/gotigin-brand-logo.webp")
+                                    }
+                                    brand_home := Button{
+                                        width: Fit height: Fit
+                                        margin: 0.
+                                        padding: Inset{left: 2. right: 4. top: 12. bottom: 12.}
+                                        text: "Gotigin"
+                                        draw_bg +: { color: #x00000000 }
+                                        draw_text +: {
+                                            color: SoftAmber
+                                            text_style: theme.font_bold{font_size: 16.}
+                                        }
                                     }
                                 }
+                                top_spacer := View{
+                                    width: Fill
+                                    height: 1.
+                                }
+                                nav_toggle := GhostBtn{ text: "Menu" }
                             }
-                            top_spacer := View{
-                                visible: false
-                                width: Fill
-                                height: 40.
-                            }
-                            // Phone: wrap so every chip stays visible (ScrollX
-                            // previously cropped the 5th chip — 2026-11-22).
-                            // Desk: one row (apply_responsive sets flow Right).
                             nav_row := View{
+                                visible: false
                                 width: Fill height: Fit
-                                flow: Right{wrap: true}
+                                flow: Down
                                 spacing: 6.
                                 wrap_spacing: 6.
                                 align: Align{y: 0.5}
@@ -406,6 +410,8 @@ script_mod! {
                                 nav_deletion := GhostBtn{ text: "Deletion" }
                                 nav_help := GhostBtn{ text: "Help" }
                                 nav_support := GhostBtn{ text: "Support" }
+                                nav_login := GhostBtn{ text: "Login" }
+                                nav_lang := GhostBtn{ text: "EN" }
                             }
                         }
                         page := ScrollYView{
@@ -422,16 +428,6 @@ script_mod! {
                                 }
                                 hero_title := Headline{ body: "Gotigin" }
                                 hero_slogan := Subhead{ body: "Where Technology Meets Discovery." }
-                                hero_lede := Lede{ body: "Memon for “find it”. Pronounced go-tee-geen. House mark of GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED." }
-                                cta_row := View{
-                                    width: Fill height: Fit
-                                    flow: Right{wrap: true}
-                                    spacing: 12.
-                                    wrap_spacing: 10.
-                                    cta_about := LinkBtn{ text: "About" }
-                                    cta_privacy := GhostBtn{ text: "Privacy" }
-                                    cta_help := GhostBtn{ text: "Help" }
-                                }
                             }
 
                             brands := BandAlt{

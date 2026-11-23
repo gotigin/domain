@@ -24,6 +24,7 @@ const DELETION_PATH: &str = "/data-deletion";
 const COOKIES_PATH: &str = "/cookies";
 const SECURITY_PATH: &str = "/security";
 const HOME_PATH: &str = "/";
+const ACCOUNT_PATH: &str = "/account";
 
 const KUMKAJ_URL: &str = "https://kumkaj.com";
 const WADHU_URL: &str = "https://wadhu.com";
@@ -38,9 +39,9 @@ const MAILTO: &str = "mailto:support@gotigin.com";
 // Window-width breakpoints used by apply_responsive (see Tier):
 //   <480 Phone, <720 Narrow, <1024 Tablet, >=1600 and tall → Wide, else Desk.
 //   <720  brand heads, Kumkaj pairs, page pairs, and Ghal Bol stack.
-//   <960  top nav sits under the mark and wraps; company cards stack.
+//   <960  top nav is a Menu drawer (not wrapped chips); company cards stack.
 //   <1140 Wadhu's three products stack.
-//   Action rows (hero, company) wrap on their own at any width.
+//   Company action rows wrap on their own at any width.
 const BRAND_HEAD_ROW_FROM: f64 = 720.0;
 const PAIR_ROW_FROM: f64 = 720.0;
 const COMPANY_ROW_FROM: f64 = 960.0;
@@ -106,6 +107,8 @@ pub struct App {
     ui: WidgetRef,
     #[rust]
     laid_out: Option<(Tier, i64, i64)>,
+    #[rust]
+    nav_open: bool,
 }
 
 fn open_site(cx: &mut Cx, url: &str) {
@@ -187,6 +190,9 @@ impl App {
         }
 
         let nav_inline = layout_w >= NAV_INLINE_FROM;
+        if nav_inline {
+            self.nav_open = false;
+        }
         if let Some(mut bar) = self.ui.view(cx, ids!(top)).borrow_mut() {
             let pad = if tier == Tier::Phone { 12.0 } else { 20.0 };
             bar.layout.padding = Inset {
@@ -195,20 +201,27 @@ impl App {
                 top: 12.0,
                 bottom: 12.0,
             };
-            // Inline: [mark Gotigin] ---- [nav]. Narrow: mark above, then wrap
-            // so eight nav chips never paint off the window.
+            // Desk: [chrome | chips] on one row. Phone: chrome on top, drawer under.
             bar.layout.flow = if nav_inline { Flow::right() } else { Flow::Down };
             bar.layout.spacing = if nav_inline { 10.0 } else { 8.0 };
         }
+        if let Some(mut chrome) = self.ui.view(cx, ids!(top_chrome)).borrow_mut() {
+            chrome.walk.width = Size::fill();
+        }
         self.ui
-            .view(cx, ids!(top_spacer))
-            .set_visible(cx, nav_inline);
+            .button(cx, ids!(nav_toggle))
+            .set_visible(cx, !nav_inline);
+        self.ui.button(cx, ids!(nav_toggle)).set_text(
+            cx,
+            if self.nav_open { "Close" } else { "Menu" },
+        );
+        let show_nav = nav_inline || self.nav_open;
+        self.ui.view(cx, ids!(nav_row)).set_visible(cx, show_nav);
         if let Some(mut nav) = self.ui.view(cx, ids!(nav_row)).borrow_mut() {
-            // Inline desk: one Right row. Narrow: wrap so no chip is cropped.
             nav.layout.flow = if nav_inline {
                 Flow::right()
             } else {
-                Flow::right_wrap()
+                Flow::Down
             };
             nav.walk.width = if nav_inline {
                 Size::fit()
@@ -280,9 +293,7 @@ impl App {
         ] {
             Self::set_md_size(cx, &self.ui, id, sub_px);
         }
-        for id in [ids!(hero_lede), ids!(company_lede)] {
-            Self::set_md_size(cx, &self.ui, id, lede_px);
-        }
+        Self::set_md_size(cx, &self.ui, ids!(company_lede), lede_px);
     }
 
     fn set_md_size(cx: &mut Cx, ui: &WidgetRef, id: &[LiveId], size: f64) {
@@ -306,50 +317,62 @@ impl MatchEvent for App {
     }
 
     fn handle_actions(&mut self, cx: &mut Cx, actions: &Actions) {
+        if self.ui.button(cx, ids!(nav_toggle)).clicked(actions) {
+            self.nav_open = !self.nav_open;
+            self.laid_out = None;
+            self.apply_responsive(cx);
+            return;
+        }
+
+        let mut close_nav = false;
         if self.ui.button(cx, ids!(nav_home)).clicked(actions)
             || self.ui.button(cx, ids!(brand_home)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, HOME_PATH));
         }
 
         if self.ui.button(cx, ids!(nav_privacy)).clicked(actions)
-            || self.ui.button(cx, ids!(cta_privacy)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_privacy)).clicked(actions)
             || self.ui.button(cx, ids!(foot_privacy)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, PRIVACY_PATH));
         }
         if self.ui.button(cx, ids!(nav_terms)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_terms)).clicked(actions)
             || self.ui.button(cx, ids!(foot_terms)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, TERMS_PATH));
         }
         if self.ui.button(cx, ids!(nav_cancellation)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_cancellation)).clicked(actions)
             || self.ui.button(cx, ids!(foot_cancellation)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, CANCELLATION_PATH));
         }
         if self.ui.button(cx, ids!(nav_deletion)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_deletion)).clicked(actions)
             || self.ui.button(cx, ids!(foot_deletion)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, DELETION_PATH));
         }
         if self.ui.button(cx, ids!(nav_about)).clicked(actions)
-            || self.ui.button(cx, ids!(cta_about)).clicked(actions)
             || self.ui.button(cx, ids!(cta_about_full)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_about)).clicked(actions)
             || self.ui.button(cx, ids!(foot_about)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, ABOUT_PATH));
         }
         if self.ui.button(cx, ids!(nav_help)).clicked(actions)
-            || self.ui.button(cx, ids!(cta_help)).clicked(actions)
             || self.ui.button(cx, ids!(open_pol_help)).clicked(actions)
             || self.ui.button(cx, ids!(foot_help)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, HELP_PATH));
         }
         if self.ui.button(cx, ids!(nav_support)).clicked(actions)
@@ -357,7 +380,23 @@ impl MatchEvent for App {
             || self.ui.button(cx, ids!(open_pol_support)).clicked(actions)
             || self.ui.button(cx, ids!(foot_support)).clicked(actions)
         {
+            close_nav = true;
             open_site(cx, &Self::site_url(cx, SUPPORT_PATH));
+        }
+        if self.ui.button(cx, ids!(nav_login)).clicked(actions) {
+            close_nav = true;
+            open_site(cx, &Self::site_url(cx, ACCOUNT_PATH));
+        }
+        // EN: same chip style as other nav items. Preference is stored for HTML pages;
+        // full picker lives in HTML topnav (legal pages) until Makepad has its own menu.
+        if self.ui.button(cx, ids!(nav_lang)).clicked(actions) {
+            close_nav = true;
+            open_site(cx, &Self::site_url(cx, ABOUT_PATH));
+        }
+        if close_nav && self.nav_open {
+            self.nav_open = false;
+            self.laid_out = None;
+            self.apply_responsive(cx);
         }
         if self.ui.button(cx, ids!(open_pol_cookies)).clicked(actions)
             || self.ui.button(cx, ids!(foot_cookies)).clicked(actions)

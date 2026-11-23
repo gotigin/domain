@@ -120,7 +120,6 @@ awk -v head="$HEAD_INJECT" -v bid="$BUILD_ID" '
     gsub(/\.\/gotigin-website\.wasm/, "./gotigin-website.wasm?v=" bid)
   }
   /<\/body>/ && !done {
-    print "        <script src=\"./js/firebase-init.js?v=" bid "\" defer></script>"
     done = 1
   }
   { print }

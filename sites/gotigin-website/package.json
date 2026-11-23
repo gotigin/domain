@@ -1,9 +1,11 @@
 {
   "name": "gotigin-website",
   "private": true,
-  "description": "gotigin.com — Firebase client for the Makepad / static company site",
+  "description": "gotigin.com \u2014 Firebase client for the Makepad / static company site",
   "scripts": {
-    "build:firebase": "esbuild client/firebase-init.js --bundle --format=iife --outfile=static/js/firebase-init.js --minify"
+    "build:firebase": "esbuild client/firebase-init.js --bundle --format=iife --outfile=static/js/firebase-init.js --minify",
+    "build:account": "esbuild client/account-app.js --bundle --format=iife --outfile=static/js/account.js --minify",
+    "build": "npm run build:firebase && npm run build:account"
   },
   "dependencies": {
     "firebase": "^11.6.0"

@@ -60,7 +60,7 @@
         ]
       },
       {
-        "source": "/{privacy,terms,cancellation,data-deletion,support,help,about,cookies,security}/**",
+        "source": "/{account,privacy,terms,cancellation,data-deletion,support,help,about,cookies,security}/**",
         "headers": [
           {
             "key": "Cache-Control",
@@ -106,6 +106,10 @@
       {
         "source": "/",
         "destination": "/index.html"
+      },
+      {
+        "source": "/account",
+        "destination": "/account/index.html"
       }
     ]
   },
