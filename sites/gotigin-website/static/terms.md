@@ -1,6 +1,6 @@
 # Gotigin terms of use
 
-_Last updated: 22 November 2026_
+_Last updated: 24 November 2026_
 
 ## Agreement
 
@@ -9,10 +9,10 @@ Gotigin services described on this site, you agree to these Terms. If you
 act for a business, you represent that you have authority to bind that
 business.
 
-**Gotigin** is the trademark / house mark of **GOTIGIN SOFTWARE & HARDWARE
-PRIVATE LIMITED** (the company; “we”). CIN U62011GJ2026PTC179660, registered
-office C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India.
-Names: [About](/about).
+**Gotigin** is a trademark. **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED**
+(the company; “we”) is authorized to use, operate under, and represent it.
+CIN U62011GJ2026PTC179660, registered office C/O Mearaj AB, Gosiya Manzil,
+Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India. Names: [About](/about).
 
 Privacy: [gotigin.com/privacy](https://gotigin.com/privacy)  
 Cancellation and refund: [gotigin.com/cancellation](https://gotigin.com/cancellation)  

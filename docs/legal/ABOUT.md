@@ -1,10 +1,13 @@
 # About Gotigin
 
-_Last updated: 22 November 2026_
+_Last updated: 24 November 2026_
 
-**Gotigin** is the trademark of **GOTIGIN SOFTWARE & HARDWARE PRIVATE
-LIMITED**. In Memon, Gotigin means *find it* (*go-tee-geen*). Slogan:
-*Where Technology Meets Discovery*. The visual mark is the circular **GTG**.
+**Gotigin** is a trademark. In Memon, Gotigin means *find it*
+(*go-tee-geen*). Slogan: *Where Technology Meets Discovery*. The visual
+mark is the circular **GTG**.
+
+**GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** is authorized to use,
+operate under, and represent Gotigin.
 
 ## Names
 
@@ -13,7 +16,7 @@ Order is always **Trademark → Company → Brand → Product**.
 | Name | Role |
 | --- | --- |
 | **Gotigin** | Trademark / house mark — Memon *find it* (*go-tee-geen*); slogan *Where Technology Meets Discovery* |
-| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company · [support@gotigin.com](mailto:support@gotigin.com) |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Legal company authorized to use, operate under, and represent Gotigin · [support@gotigin.com](mailto:support@gotigin.com) |
 | **Kumkaj** | Brand — business operating systems |
 | **Wadhu** | Brand — Memon *more*. Tools · Apps · More. Reusable tools, utils, and apps. Not a messenger. |
 | **Ghal Bol** | Brand — communication products |

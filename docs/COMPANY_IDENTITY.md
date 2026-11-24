@@ -22,7 +22,7 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 | DPIIT startup recognition | DIPP271306 · issued 08 July 2026 · valid to 23 June 2036 · AI / Others |
 | Shops & Establishments | Dhoraji Nagarpalika · SR131000001 · commenced 02 July 2026 · cert 14 July 2026 |
 | Directors | Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj |
-| Trademark / house mark | **Gotigin** |
+| Trademark / house mark | **Gotigin** (company authorized to use, operate under, and represent it) |
 | Slogan | Where Technology Meets Discovery |
 
 ## Contacts (public)

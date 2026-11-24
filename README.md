@@ -11,8 +11,9 @@ Public code for **gotigin.com** and related company web surfaces.
 | **Firebase** | `gotigin-com` |
 | **GitHub** | [gotigin/domain](https://github.com/gotigin/domain) |
 
-**Gotigin** is the trademark (Memon *find it*). The company is
-**GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED**. Brands are **Kumkaj**,
+**Gotigin** is a trademark (Memon *find it*). **GOTIGIN SOFTWARE & HARDWARE
+PRIVATE LIMITED** is authorized to use, operate under, and represent it.
+Brands are **Kumkaj**,
 **Wadhu** (Memon *more* — Tools · Apps · More; not a messenger), and
 **Ghal Bol**. Store listings, Meta
 App Review, and other verifiers expect mature same-host pages here:

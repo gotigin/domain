@@ -1,6 +1,6 @@
 # Gotigin help
 
-_Last updated: 22 November 2026_
+_Last updated: 24 November 2026_
 
 ## Names
 
@@ -9,7 +9,7 @@ Order is **Trademark → Company → Brand → Product**.
 | | |
 | --- | --- |
 | **Gotigin** | Trademark. Memon *find it* (*go-tee-geen*). Slogan: *Where Technology Meets Discovery*. Mark: circular **GTG**. |
-| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company · support [support@gotigin.com](mailto:support@gotigin.com) · director [mearaj@gmail.com](mailto:mearaj@gmail.com) · +91 99677 17702 |
+| **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** | Company authorized to use, operate under, and represent Gotigin · support [support@gotigin.com](mailto:support@gotigin.com) · director [mearaj@gmail.com](mailto:mearaj@gmail.com) · +91 99677 17702 |
 | **Kumkaj** | Brand. Business operating systems. |
 | **Wadhu** | Brand. Memon *more*. Tools · Apps · More. Reusable tools, utils, and apps. Not a messenger. |
 | **Ghal Bol** | Brand. Communication products. |
