@@ -7,6 +7,7 @@
 pub use makepad_widgets;
 
 use makepad_widgets::*;
+use makepad_widgets::makepad_platform::event::TouchState;
 
 app_main!(App);
 
@@ -451,6 +452,28 @@ impl AppMain for App {
     }
 
     fn handle_event(&mut self, cx: &mut Cx, event: &Event) {
+        // Phone Menu drawer: press outside the top bar (+ open drawer) closes it.
+        if self.nav_open {
+            let abs = match event {
+                Event::MouseDown(e) if e.button.is_primary() => Some(e.abs),
+                Event::TouchUpdate(e) => e.touches.iter().find_map(|t| {
+                    if matches!(t.state, TouchState::Start) {
+                        Some(t.abs)
+                    } else {
+                        None
+                    }
+                }),
+                _ => None,
+            };
+            if let Some(abs) = abs {
+                let top = self.ui.view(cx, ids!(top)).area().rect(cx);
+                if top.size.x > 0.0 && top.size.y > 0.0 && !top.contains(abs) {
+                    self.nav_open = false;
+                    self.laid_out = None;
+                    self.apply_responsive(cx);
+                }
+            }
+        }
         self.match_event(cx, event);
         self.ui.handle_event(cx, event, &mut Scope::empty());
         match event {
