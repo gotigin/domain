@@ -1,103 +1,103 @@
-# Dutch — Nederlands (nl). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
+# nl. key<TAB>text. Keep {placeholders}. \n = line break.
 menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
+close	Sluiten
+home	Start
+about	Over ons
+privacy	Privacybeleid
+terms	Voorwaarden
+cancellation	Opzegging
+deletion	Verwijdering
 help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
+support	Ondersteuning
+login	Inloggen
+email	E-mail
+trademark	HANDELSMERK
+window_title	Gotigin — Waar technologie ontdekking ontmoet
+slogan	Waar technologie ontdekking ontmoet.
+brands	MERKEN
+brand	MERK
 product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
+kumkaj_blurb	Besturingssystemen voor bedrijven.
+khaynjo_blurb	Restaurant-OS. Tafels, KOT, rekeningen, dagafsluiting.
+moklanjo_blurb	Koeriersbalie. Boeking, partijen, dagboek.
+kirano_blurb	Kirana. Catalogus, voorraad, khata, GST-kassabon.
+tabiyat_blurb	Apotheekbalie. Partij, houdbaarheid, voorraad, GST-facturen.
+wadhu_blurb	Memon voor „meer”. Gereedschap · apps · meer.
+wadhu_note	Herbruikbaar gereedschap, utils en apps. Geen messenger.
+sms_gateway_blurb	SIM-berichten, Android eerst. LAN en Bluetooth blijven gratis.
+sms_relay_blurb	Optioneel internetvlak voor gekoppelde gateways.
+connect_blurb	Brug naar de WhatsApp Cloud API.
+ghalbol_blurb	Communicatieproducten.
+ghalbol_app_blurb	Versleutelde messenger.
+pages	PAGINA'S
+company_pages	Bedrijfspagina's
+page	PAGINA
+privacy_blurb	Privacybeleid van het bedrijf.
+terms_blurb	Gebruiksvoorwaarden voor gotigin.com.
+cancellation_blurb	Beleid voor annuleren en terugbetalen.
+data_deletion	Gegevens verwijderen
+deletion_blurb	Hoe je verwijdering aanvraagt.
+support_blurb	E-mail, telefoon en doorverwijzing naar het product.
+help_blurb	Namen, producten en sites.
+about_blurb	Registratie en contacten van het bedrijf.
 cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+cookies_blurb	Cookies op gotigin.com.
+security	Beveiliging
+security_blurb	Hoe je een kwetsbaarheid meldt.
+company	BEDRIJF
+company_lede	Besloten vennootschap met beperkte aansprakelijkheid. Dhoraji, Gujarat. Opgericht op 24 juni 2026.
+registration	Registratie
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
+incorporated	Opgericht op 24 juni 2026
+share_capital	Aandelenkapitaal ₹1,00,000
+limited_by_shares	Beperkt door aandelen · Gujarat
+tax	Belasting
+gst_regular	GST regulier · vanaf 04 juli 2026
+recognition	Erkenning
+issued	Uitgegeven op 08 juli 2026
+valid_to	Geldig tot 23 juni 2036
+registered_office	Statutaire zetel
+directors	Directeuren
 contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+find_it	Memon voor „vind het” · uitgesproken als go-tee-geen
+brands_line	Bedrijfssystemen · gereedschap en apps · communicatie
+account	Mijn account
+acct_page_title	Mijn account — Gotigin
+acct_lede	Meld je aan voor functies van de bedrijfssite van Gotigin. Dezelfde keuzes als op de productsites — e-mail, provider of telefoon.
+acct_continue_with	Ga verder met e-mail, een provider of je telefoon.
+acct_name_optional	Naam (optioneel)
+acct_password	Wachtwoord
+acct_continue	Doorgaan
+acct_or_continue	of ga verder met
+acct_federated	Gefedereerd inloggen
+acct_phone	Telefoon
+acct_mobile	Mobiel nummer
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Sms-code versturen
+acct_sms_code	Sms-code
+acct_confirm_code	Code bevestigen
+acct_signed_in	Ingelogd
+acct_signed_in_as	Ingelogd als
+acct_status_label	Accountstatus
+acct_resend_verify	Verificatiemail opnieuw versturen
+acct_sign_out	Uitloggen
+acct_home_aria	Startpagina van Gotigin
+acct_nav_aria	Primair
+err_invalid_email	Voer een geldig e-mailadres in.
+err_weak_password	Gebruik een wachtwoord van minstens 6 tekens.
+err_wrong_password	Verkeerd wachtwoord.
+err_invalid_credential	E-mail of wachtwoord is onjuist.
+err_popup_closed	Het inlogvenster is gesloten.
+err_cancelled	Inloggen is geannuleerd.
+err_unauthorized_domain	Dit domein is niet geautoriseerd voor Firebase Auth.
+err_not_allowed	Deze inlogmethode is nog niet ingeschakeld.
+err_too_many	Te veel pogingen. Probeer het later opnieuw.
+err_invalid_phone	Gebruik een volledig telefoonnummer met landcode (bv. +91…).
+err_bad_code	Die sms-code is onjuist of verlopen.
+err_generic	Er ging iets mis.
+acct_no_email	(geen e-mail)
+acct_email_verified	E-mail geverifieerd
+acct_email_unverified	E-mail nog niet geverifieerd — kijk in je inbox
+acct_phone_signed_in	Ingelogd met telefoon
+acct_you_are_in	Je bent ingelogd.
+acct_verify_sent	Verificatiemail verzonden — kijk in je inbox

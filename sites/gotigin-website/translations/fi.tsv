@@ -1,103 +1,103 @@
-# Finnish — Suomi (fi). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# fi. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Valikko
+close	Sulje
+home	Etusivu
+about	Tietoa
+privacy	Tietosuoja
+terms	Ehdot
+cancellation	Peruutus
+deletion	Poisto
+help	Ohje
+support	Tuki
+login	Kirjaudu
+email	Sähköposti
+trademark	TAVARAMERKKI
+window_title	Gotigin — Siellä missä teknologia kohtaa löytämisen
+slogan	Siellä missä teknologia kohtaa löytämisen.
+brands	TUOTEMERKIT
+brand	TUOTEMERKKI
+product	TUOTE
+kumkaj_blurb	Käyttöjärjestelmät yrityksille.
+khaynjo_blurb	Ravintolan käyttöjärjestelmä. Pöydät, KOT, laskut, päivän sulku.
+moklanjo_blurb	Lähetystiski. Varaus, osapuolet, päiväkirja.
+kirano_blurb	Kirana. Luettelo, varasto, khata, GST-kassakuitti.
+tabiyat_blurb	Apteekin tiski. Erä, vanheneminen, varasto, GST-laskut.
+wadhu_blurb	Memon ilmaukselle ”lisää”. Työkalut · sovellukset · lisää.
+wadhu_note	Uudelleen käytettävät työkalut, apuohjelmat ja sovellukset. Ei viestintäohjelma.
+sms_gateway_blurb	SIM-viestit, Android ensin. LAN ja Bluetooth pysyvät maksuttomina.
+sms_relay_blurb	Valinnainen internetkerros paritetuille yhdyskäytäville.
+connect_blurb	Silta WhatsApp Cloud API:hin.
+ghalbol_blurb	Viestinnän tuotteet.
+ghalbol_app_blurb	Salattu viestiohjelma.
+pages	SIVUT
+company_pages	Yhtiön sivut
+page	SIVU
+privacy_blurb	Yhtiön tietosuojakäytäntö.
+terms_blurb	gotigin.comin käyttöehdot.
+cancellation_blurb	Peruutuksen ja hyvityksen käytäntö.
+data_deletion	Tietojen poisto
+deletion_blurb	Näin pyydät poistoa.
+support_blurb	Sähköposti, puhelin ja ohjaus tuotteeseen.
+help_blurb	Nimet, tuotteet ja sivustot.
+about_blurb	Yhtiön rekisteröinti ja yhteystiedot.
+cookies	Evästeet
+cookies_blurb	Evästeet osoitteessa gotigin.com.
+security	Tietoturva
+security_blurb	Näin ilmoitat haavoittuvuudesta.
+company	YHTIÖ
+company_lede	Yksityinen osakeyhtiö. Dhoraji, Gujarat. Perustettu 24. kesäkuuta 2026.
+registration	Rekisteröinti
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Perustettu 24. kesäkuuta 2026
+share_capital	Osakepääoma ₹1,00,000
+limited_by_shares	Osakkeilla rajoitettu · Gujarat
+tax	Vero
+gst_regular	GST tavallinen · 04. heinäkuuta 2026 alkaen
+recognition	Tunnustus
+issued	Myönnetty 08. heinäkuuta 2026
+valid_to	Voimassa 23. kesäkuuta 2036 asti
+registered_office	Rekisteröity toimipaikka
+directors	Johtajat
+contact	Yhteys
+find_it	Memon ilmaukselle ”löydä se” · äännetään go-tee-geen
+brands_line	Liiketoimintajärjestelmät · työkalut ja sovellukset · viestintä
+account	Tili
+acct_page_title	Tili — Gotigin
+acct_lede	Kirjaudu Gotiginin yhtiösivuston ominaisuuksia varten. Samat valinnat kuin tuotesivustoilla — sähköposti, palveluntarjoaja tai puhelin.
+acct_continue_with	Jatka sähköpostilla, palveluntarjoajalla tai puhelimella.
+acct_name_optional	Nimi (valinnainen)
+acct_password	Salasana
+acct_continue	Jatka
+acct_or_continue	tai jatka käyttäen
+acct_federated	Federoitu kirjautuminen
+acct_phone	Puhelin
+acct_mobile	Matkapuhelinnumero
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Lähetä tekstiviestikoodi
+acct_sms_code	Tekstiviestikoodi
+acct_confirm_code	Vahvista koodi
+acct_signed_in	Kirjautunut
+acct_signed_in_as	Kirjautuneena
+acct_status_label	Tila
+acct_resend_verify	Lähetä vahvistusviesti uudelleen
+acct_sign_out	Kirjaudu ulos
+acct_home_aria	Gotiginin etusivu
+acct_nav_aria	Ensisijainen
+err_invalid_email	Anna kelvollinen sähköpostiosoite.
+err_weak_password	Käytä vähintään 6 merkin salasanaa.
+err_wrong_password	Väärä salasana.
+err_invalid_credential	Sähköposti tai salasana on väärin.
+err_popup_closed	Kirjautumisikkuna suljettiin.
+err_cancelled	Kirjautuminen peruttiin.
+err_unauthorized_domain	Tätä verkkotunnusta ei ole valtuutettu Firebase Authille.
+err_not_allowed	Tätä kirjautumistapaa ei ole vielä otettu käyttöön.
+err_too_many	Liian monta yritystä. Yritä myöhemmin uudelleen.
+err_invalid_phone	Käytä koko puhelinnumeroa maatunnuksen kanssa (esim. +91…).
+err_bad_code	Tekstiviestikoodi on väärä tai vanhentunut.
+err_generic	Jokin meni pieleen.
+acct_no_email	(ei sähköpostia)
+acct_email_verified	Sähköposti vahvistettu
+acct_email_unverified	Sähköpostia ei ole vielä vahvistettu — tarkista saapuneet viestit
+acct_phone_signed_in	Kirjautunut puhelimella
+acct_you_are_in	Olet kirjautunut sisään.
+acct_verify_sent	Vahvistusviesti lähetetty — tarkista saapuneet

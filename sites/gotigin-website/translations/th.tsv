@@ -1,103 +1,103 @@
-# Thai — ไทย (th). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# th. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	เมนู
+close	ปิด
+home	หน้า​แรก
+about	เกี่ยวกับ
+privacy	ความ​เป็น​ส่วน​ตัว
+terms	ข้อ​กำหนด
+cancellation	การ​ยกเลิก
+deletion	การ​ลบ
+help	ช่วย​เหลือ
+support	ฝ่าย​สนับสนุน
+login	เข้า​สู่​ระบบ
+email	อีเมล
+trademark	เครื่องหมาย​การค้า
+window_title	Gotigin — ที่​ซึ่ง​เทคโนโลยี​พบ​การ​ค้น​พบ
+slogan	ที่​ซึ่ง​เทคโนโลยี​พบ​การ​ค้น​พบ.
+brands	แบรนด์
+brand	แบรนด์
+product	ผลิตภัณฑ์
+kumkaj_blurb	ระบบ​ปฏิบัติ​การ​สำหรับ​ธุรกิจ.
+khaynjo_blurb	OS ร้าน​อาหาร. โต๊ะ, KOT, บิล, ปิด​วัน.
+moklanjo_blurb	เคาน์เตอร์​ขน​ส่ง. จอง, คู่​ค้า, สมุด​ราย​วัน.
+kirano_blurb	Kirana. บัญชี​ราย​การ, สต็อก, khata, ใบ​เสร็จ​เงิน​สด GST.
+tabiyat_blurb	เคาน์เตอร์​ร้าน​ยา. ล็อต, วัน​หมด​อายุ, สต็อก, บิล GST.
+wadhu_blurb	Memon ของ «มาก​ขึ้น». เครื่อง​มือ · แอป · มาก​ขึ้น.
+wadhu_note	เครื่อง​มือ​ยูทิล​และ​แอป​ที่​ใช้​ซ้ำ​ได้. ไม่​ใช่​ผู้​ส่ง​สาร.
+sms_gateway_blurb	ข้อความ SIM, Android ก่อน. LAN และ Bluetooth ยัง​ฟรี.
+sms_relay_blurb	ชั้น​อินเทอร์เน็ต​ที่​เลือก​ได้​สำหรับ​เกตเวย์​ที่​จับ​คู่.
+connect_blurb	สะพาน​ไป​ยัง WhatsApp Cloud API.
+ghalbol_blurb	ผลิตภัณฑ์​สื่อ​สาร.
+ghalbol_app_blurb	ผู้​ส่ง​สาร​ที่​เข้ารหัส.
+pages	หน้า
+company_pages	หน้า​ของ​บริษัท
+page	หน้า
+privacy_blurb	นโยบาย​ความ​เป็น​ส่วน​ตัว​ของ​บริษัท.
+terms_blurb	ข้อ​กำหนด​การ​ใช้ gotigin.com.
+cancellation_blurb	นโยบาย​การ​ยก​เลิก​และ​คืน​เงิน.
+data_deletion	การ​ลบ​ข้อมูล
+deletion_blurb	วิธี​ขอ​ให้​ลบ.
+support_blurb	อีเมล​โทรศัพท์​และ​ทาง​ไป​สู่​ผลิตภัณฑ์.
+help_blurb	ชื่อ​ผลิตภัณฑ์​และ​ไซต์.
+about_blurb	การ​จด​ทะเบียน​บริษัท​และ​การ​ติด​ต่อ.
+cookies	คุกกี้
+cookies_blurb	คุกกี้​บน gotigin.com.
+security	ความ​ปลอดภัย
+security_blurb	วิธี​แจ้ง​ช่อง​โหว่.
+company	บริษัท
+company_lede	บริษัท​จำกัด​เอกชน. Dhoraji, Gujarat. จด​ทะเบียน 24 มิถุนายน 2026.
+registration	การ​จด​ทะเบียน
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	จด​ทะเบียน 24 มิถุนายน 2026
+share_capital	ทุน​เรือน​หุ้น ₹1,00,000
+limited_by_shares	จำกัด​ด้วย​หุ้น · Gujarat
+tax	ภาษี
+gst_regular	GST ปกติ · ตั้ง​แต่ 04 กรกฎาคม 2026
+recognition	การ​รับ​รอง
+issued	ออก​ให้ 08 กรกฎาคม 2026
+valid_to	ใช้​ได้​ถึง 23 มิถุนายน 2036
+registered_office	สำนัก​งาน​จด​ทะเบียน
+directors	กรรมการ
+contact	ติด​ต่อ
+find_it	Memon ของ «หา​ให้​เจอ» · อ่าน​ว่า go-tee-geen
+brands_line	ระบบ​ธุรกิจ · เครื่อง​มือ​และ​แอป · การ​สื่อ​สาร
+account	บัญชี
+acct_page_title	บัญชี — Gotigin
+acct_lede	ลง​ชื่อ​เข้า​ใช้​สำหรับ​ฟีเจอร์​ของ​ไซต์​บริษัท Gotigin. ตัว​เลือก​เดียว​กัน​กับ​ไซต์​ผลิตภัณฑ์ — อีเมล​ผู้​ให้​บริการ​หรือ​โทรศัพท์.
+acct_continue_with	ดำเนิน​การ​ต่อ​ด้วย​อีเมล ผู้​ให้​บริการ หรือ​โทรศัพท์
+acct_name_optional	ชื่อ (ไม่​บังคับ)
+acct_password	รหัส​ผ่าน
+acct_continue	ดำเนิน​การ​ต่อ
+acct_or_continue	หรือ​ดำเนิน​การ​ต่อ​ด้วย
+acct_federated	การ​เข้า​สู่​ระบบ​แบบ​รวม​ศูนย์
+acct_phone	โทรศัพท์
+acct_mobile	เบอร์​มือ​ถือ
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	ส่ง​รหัส SMS
+acct_sms_code	รหัส SMS
+acct_confirm_code	ยืนยัน​รหัส
+acct_signed_in	เข้า​สู่​ระบบ​แล้ว
+acct_signed_in_as	เข้า​สู่​ระบบ​ใน​ชื่อ
+acct_status_label	สถานะ
+acct_resend_verify	ส่ง​อีเมล​ยืนยัน​อีก​ครั้ง
+acct_sign_out	ออก​จาก​ระบบ
+acct_home_aria	หน้า​แรก Gotigin
+acct_nav_aria	หลัก
+err_invalid_email	กรอก​อีเมล​ที่​ถูก​ต้อง
+err_weak_password	ใช้​รหัส​ผ่าน​อย่าง​น้อย 6 ตัว​อักษร
+err_wrong_password	รหัส​ผ่าน​ไม่​ถูก​ต้อง
+err_invalid_credential	อีเมล​หรือ​รหัส​ผ่าน​ไม่​ถูก​ต้อง
+err_popup_closed	หน้าต่าง​เข้า​สู่​ระบบ​ถูก​ปิด
+err_cancelled	การ​เข้า​สู่​ระบบ​ถูก​ยกเลิก
+err_unauthorized_domain	โดเมน​นี้​ไม่​ได้​รับ​อนุญาต​สำหรับ Firebase Auth
+err_not_allowed	วิธี​เข้า​สู่​ระบบ​นั้น​ยัง​ไม่​เปิด​ใช้
+err_too_many	ลอง​หลาย​ครั้ง​เกิน​ไป โปรด​ลอง​ใหม่​ภาย​หลัง
+err_invalid_phone	ใช้​เบอร์​โทรศัพท์​เต็ม​พร้อม​รหัส​ประเทศ (เช่น +91…)
+err_bad_code	รหัส SMS ไม่​ถูก​ต้อง​หรือ​หมด​อายุ​แล้ว
+err_generic	เกิด​ข้อ​ผิด​พลาด
+acct_no_email	(ไม่มี​อีเมล)
+acct_email_verified	ยืนยัน​อีเมล​แล้ว
+acct_email_unverified	ยัง​ไม่​ได้​ยืนยัน​อีเมล — ตรวจ​สอบ​กล่อง​จดหมาย
+acct_phone_signed_in	เข้า​สู่​ระบบ​ด้วย​โทรศัพท์​แล้ว
+acct_you_are_in	คุณ​เข้า​สู่​ระบบ​แล้ว
+acct_verify_sent	ส่ง​อีเมล​ยืนยัน​แล้ว — ตรวจ​สอบ​กล่อง​จดหมาย

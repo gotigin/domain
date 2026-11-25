@@ -1,103 +1,103 @@
-# Romanian — Română (ro). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# ro. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Meniu
+close	Închide
+home	Acasă
+about	Despre
+privacy	Confidențialitate
+terms	Termeni
+cancellation	Anulare
+deletion	Ștergere
+help	Ajutor
+support	Asistență
+login	Autentificare
+email	E-mail
+trademark	MARCĂ ÎNREGISTRATĂ
+window_title	Gotigin — Acolo unde tehnologia întâlnește descoperirea
+slogan	Acolo unde tehnologia întâlnește descoperirea.
+brands	MĂRCI
+brand	MARCĂ
+product	PRODUS
+kumkaj_blurb	Sisteme de operare pentru afaceri.
+khaynjo_blurb	OS de restaurant. Mese, KOT, note, închiderea zilei.
+moklanjo_blurb	Ghișeu de curierat. Rezervare, părți, cartea zilei.
+kirano_blurb	Kirana. Catalog, stoc, khata, bon de casă GST.
+tabiyat_blurb	Ghișeu de farmacie. Lot, expirare, stoc, facturi GST.
+wadhu_blurb	Memon pentru „mai mult”. Unelte · aplicații · mai mult.
+wadhu_note	Unelte, utilitare și aplicații reutilizabile. Nu e un mesager.
+sms_gateway_blurb	Mesaje SIM, Android întâi. LAN și Bluetooth rămân gratuite.
+sms_relay_blurb	Strat de internet opțional pentru gateway-urile împerecheate.
+connect_blurb	Punte către WhatsApp Cloud API.
+ghalbol_blurb	Produse de comunicare.
+ghalbol_app_blurb	Mesager cifrat.
+pages	PAGINI
+company_pages	Paginile societății
+page	PAGINĂ
+privacy_blurb	Politica de confidențialitate a societății.
+terms_blurb	Condițiile de utilizare pentru gotigin.com.
+cancellation_blurb	Politica de anulare și rambursare.
+data_deletion	Ștergerea datelor
+deletion_blurb	Cum ceri ștergerea.
+support_blurb	E-mail, telefon și drumul către produs.
+help_blurb	Nume, produse și site-uri.
+about_blurb	Înregistrarea societății și contactele.
+cookies	Cookie-uri
+cookies_blurb	Cookie-uri pe gotigin.com.
+security	Securitate
+security_blurb	Cum raportezi o vulnerabilitate.
+company	SOCIETATE
+company_lede	Societate privată cu răspundere limitată. Dhoraji, Gujarat. Înființată la 24 iunie 2026.
+registration	Înregistrare
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
+incorporated	Înființată la 24 iunie 2026
+share_capital	Capital social ₹1,00,000
+limited_by_shares	Limitată de acțiuni · Gujarat
+tax	Taxă
+gst_regular	GST obișnuit · din 04 iulie 2026
+recognition	Recunoaștere
+issued	Emis la 08 iulie 2026
+valid_to	Valabil până la 23 iunie 2036
+registered_office	Sediu înregistrat
+directors	Directori
 contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+find_it	Memon pentru „găsește-l” · se pronunță go-tee-geen
+brands_line	Sisteme de afaceri · unelte și aplicații · comunicare
+account	Cont
+acct_page_title	Cont — Gotigin
+acct_lede	Autentifică-te pentru funcțiile site-ului societății Gotigin. Aceleași opțiuni ca pe site-urile produselor — e-mail, furnizor sau telefon.
+acct_continue_with	Continuă cu e-mailul, un furnizor sau telefonul.
+acct_name_optional	Nume (opțional)
+acct_password	Parolă
+acct_continue	Continuă
+acct_or_continue	sau continuă cu
+acct_federated	Autentificare federată
+acct_phone	Telefon
+acct_mobile	Număr de mobil
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Trimite codul prin SMS
+acct_sms_code	Cod SMS
+acct_confirm_code	Confirmă codul
+acct_signed_in	Autentificat
+acct_signed_in_as	Autentificat ca
+acct_status_label	Stare
+acct_resend_verify	Retrimite e-mailul de verificare
+acct_sign_out	Deconectare
+acct_home_aria	Pagina de start Gotigin
+acct_nav_aria	Principal
+err_invalid_email	Introdu o adresă de e-mail validă.
+err_weak_password	Folosește o parolă de cel puțin 6 caractere.
+err_wrong_password	Parolă greșită.
+err_invalid_credential	E-mailul sau parola sunt greșite.
+err_popup_closed	Fereastra de autentificare a fost închisă.
+err_cancelled	Autentificarea a fost anulată.
+err_unauthorized_domain	Acest domeniu nu este autorizat pentru Firebase Auth.
+err_not_allowed	Această metodă de autentificare nu este încă activată.
+err_too_many	Prea multe încercări. Încearcă din nou mai târziu.
+err_invalid_phone	Folosește numărul de telefon complet, cu prefixul țării (de ex. +91…).
+err_bad_code	Codul SMS e greșit sau a expirat.
+err_generic	Ceva n-a mers bine.
+acct_no_email	(fără e-mail)
+acct_email_verified	E-mail verificat
+acct_email_unverified	E-mailul nu e încă verificat — verifică-ți căsuța de e-mail
+acct_phone_signed_in	Autentificat cu telefonul
+acct_you_are_in	Ești autentificat.
+acct_verify_sent	E-mailul de verificare a fost trimis — verifică-ți căsuța de e-mail

@@ -1,103 +1,103 @@
-# Ukrainian — Українська (uk). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# uk. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Меню
+close	Закрити
+home	Головна
+about	Про нас
+privacy	Конфіденційність
+terms	Умови
+cancellation	Скасування
+deletion	Видалення
+help	Довідка
+support	Підтримка
+login	Вхід
+email	Ел. пошта
+trademark	ТОРГОВЕЛЬНА МАРКА
+window_title	Gotigin — Там, де технологія зустрічається з відкриттям
+slogan	Там, де технологія зустрічається з відкриттям.
+brands	БРЕНДИ
+brand	БРЕНД
+product	ПРОДУКТ
+kumkaj_blurb	Операційні системи для бізнесу.
+khaynjo_blurb	ОС для ресторану. Столи, KOT, рахунки, закриття дня.
+moklanjo_blurb	Стійка кур’єра. Бронювання, сторони, денна книга.
+kirano_blurb	Kirana. Каталог, запас, khata, касовий чек GST.
+tabiyat_blurb	Аптечна стійка. Партія, строк, запас, рахунки GST.
+wadhu_blurb	Memon для «більше». Інструменти · застосунки · ще.
+wadhu_note	Багаторазові інструменти, утиліти й застосунки. Не месенджер.
+sms_gateway_blurb	Повідомлення SIM, спершу Android. LAN і Bluetooth лишаються безкоштовними.
+sms_relay_blurb	Необов’язковий інтернет-шар для спарованих шлюзів.
+connect_blurb	Міст до WhatsApp Cloud API.
+ghalbol_blurb	Продукти для зв’язку.
+ghalbol_app_blurb	Зашифрований месенджер.
+pages	СТОРІНКИ
+company_pages	Сторінки компанії
+page	СТОРІНКА
+privacy_blurb	Політика конфіденційності компанії.
+terms_blurb	Умови використання gotigin.com.
+cancellation_blurb	Правила скасування та повернення.
+data_deletion	Видалення даних
+deletion_blurb	Як попросити про видалення.
+support_blurb	Пошта, телефон і скерування до продукту.
+help_blurb	Імена, продукти й сайти.
+about_blurb	Реєстрація компанії та контакти.
+cookies	Файли cookie
+cookies_blurb	Файли cookie на gotigin.com.
+security	Безпека
+security_blurb	Як повідомити про вразливість.
+company	КОМПАНІЯ
+company_lede	Приватна компанія з обмеженою відповідальністю. Dhoraji, Gujarat. Заснована 24 червня 2026.
+registration	Реєстрація
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Заснована 24 червня 2026
+share_capital	Статутний капітал ₹1,00,000
+limited_by_shares	Обмежена акціями · Gujarat
+tax	Податок
+gst_regular	GST звичайний · від 04 липня 2026
+recognition	Визнання
+issued	Видано 08 липня 2026
+valid_to	Дійсне до 23 червня 2036
+registered_office	Юридична адреса
+directors	Директори
+contact	Контакт
+find_it	Memon для «знайти це» · вимовляється go-tee-geen
+brands_line	Системи для бізнесу · інструменти й застосунки · зв’язок
+account	Обліковий запис
+acct_page_title	Обліковий запис — Gotigin
+acct_lede	Увійдіть, щоб користуватися функціями сайту компанії Gotigin. Ті самі варіанти, що на сайтах продуктів — пошта, провайдер або телефон.
+acct_continue_with	Продовжте через пошту, провайдера або телефон.
+acct_name_optional	Ім’я (необов’язково)
+acct_password	Пароль
+acct_continue	Далі
+acct_or_continue	або продовжити через
+acct_federated	Федеративний вхід
+acct_phone	Телефон
+acct_mobile	Номер мобільного
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Надіслати SMS-код
+acct_sms_code	SMS-код
+acct_confirm_code	Підтвердити код
+acct_signed_in	Вхід виконано
+acct_signed_in_as	Ви ввійшли як
+acct_status_label	Статус
+acct_resend_verify	Надіслати лист підтвердження ще раз
+acct_sign_out	Вийти
+acct_home_aria	Головна Gotigin
+acct_nav_aria	Основне
+err_invalid_email	Введіть коректну адресу ел. пошти.
+err_weak_password	Використайте пароль щонайменше з 6 символів.
+err_wrong_password	Неправильний пароль.
+err_invalid_credential	Неправильна пошта або пароль.
+err_popup_closed	Вікно входу закрито.
+err_cancelled	Вхід скасовано.
+err_unauthorized_domain	Цей домен не авторизовано для Firebase Auth.
+err_not_allowed	Цей спосіб входу ще не ввімкнено.
+err_too_many	Забагато спроб. Повторіть пізніше.
+err_invalid_phone	Вкажіть повний номер телефону з кодом країни (наприклад, +91…).
+err_bad_code	Цей SMS-код неправильний або прострочений.
+err_generic	Щось пішло не так.
+acct_no_email	(немає пошти)
+acct_email_verified	Пошту підтверджено
+acct_email_unverified	Пошту ще не підтверджено — перевірте вхідні
+acct_phone_signed_in	Вхід за телефоном
+acct_you_are_in	Ви ввійшли.
+acct_verify_sent	Лист підтвердження надіслано — перевірте вхідні

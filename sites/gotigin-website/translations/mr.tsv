@@ -1,103 +1,103 @@
-# Marathi — मराठी (mr). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# mr. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	मेनू
+close	बंद
+home	मुख्य
+about	आमच्याबद्दल
+privacy	गोपनीयता
+terms	अटी
+cancellation	रद्दीकरण धोरण
+deletion	हटवणे
+help	मदत
+support	सहाय्य
+login	लॉग इन
+email	ईमेल
+trademark	ट्रेडमार्क
+window_title	Gotigin — जिथे तंत्रज्ञान शोधाला भेटते
+slogan	जिथे तंत्रज्ञान शोधाला भेटते.
+brands	ब्रँड
+brand	ब्रँड
+product	उत्पाद
+kumkaj_blurb	व्यवसायाची ऑपरेटिंग सिस्टिम.
+khaynjo_blurb	रेस्टॉरंट OS. टेबल, KOT, बिल, दिवस समाप्ती.
+moklanjo_blurb	कुरिअर डेस्क. बुकिंग, पक्ष, दिवसाची वही.
+kirano_blurb	Kirana. यादी, साठा, khata, GST रोख पावती.
+tabiyat_blurb	औषध काउंटर. बॅच, मुदत, साठा, GST बिल.
+wadhu_blurb	Memon मध्ये «अधिक». साधने · अॅप · अधिक.
+wadhu_note	पुन्हा वापरली जाणारी साधने, युटिल आणि अॅप. संदेशवाहक नाही.
+sms_gateway_blurb	आधी Android वर SIM संदेश. LAN आणि Bluetooth मोफत राहतात.
+sms_relay_blurb	जोडलेल्या गेटवेसाठी ऐच्छिक इंटरनेट थर.
+connect_blurb	WhatsApp Cloud API चा पूल.
+ghalbol_blurb	संवादाची उत्पादने.
+ghalbol_app_blurb	गुप्त संदेशवाहक.
+pages	पृष्ठे
+company_pages	कंपनीची पृष्ठे
+page	पृष्ठ
+privacy_blurb	कंपनीचे गोपनीयता धोरण.
+terms_blurb	gotigin.com च्या वापराच्या अटी.
+cancellation_blurb	रद्द आणि परताव्याचे धोरण.
+data_deletion	डेटा हटवणे
+deletion_blurb	हटवण्याची विनंती कशी करावी.
+support_blurb	ईमेल, फोन आणि उत्पादनाचा मार्ग.
+help_blurb	नावे, उत्पादने आणि साइट.
+about_blurb	कंपनीची नोंदणी आणि संपर्क.
+cookies	कुकीज
+cookies_blurb	gotigin.com वरील कुकीज.
+security	सुरक्षा
+security_blurb	कमकुवतपणा कसा कळवावा.
+company	कंपनी
+company_lede	प्रायव्हेट लिमिटेड कंपनी. Dhoraji, Gujarat. स्थापना 24 जून 2026.
+registration	नोंदणी
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	स्थापना 24 जून 2026
+share_capital	भाग भांडवल ₹1,00,000
+limited_by_shares	भागांनी मर्यादित · Gujarat
+tax	कर
+gst_regular	GST नियमित · 04 जुलै 2026 पासून
+recognition	मान्यता
+issued	जारी 08 जुलै 2026
+valid_to	23 जून 2036 पर्यंत वैध
+registered_office	नोंदणीकृत कार्यालय
+directors	संचालक
+contact	संपर्क
+find_it	Memon मध्ये «ते शोधा» · उच्चार go-tee-geen
+brands_line	व्यवसाय प्रणाली · साधने आणि अॅप · संवाद
+account	खाते
+acct_page_title	खाते — Gotigin
+acct_lede	Gotigin कंपनी साइटच्या सुविधांसाठी साइन इन करा. उत्पाद साइटवरील तेच पर्याय — ईमेल, प्रदाता किंवा फोन.
+acct_continue_with	ईमेल, एखादा प्रोव्हायडर किंवा फोनने पुढे जा.
+acct_name_optional	नाव (ऐच्छिक)
+acct_password	पासवर्ड
+acct_continue	पुढे जा
+acct_or_continue	किंवा याने पुढे जा
+acct_federated	फेडरेटेड साइन-इन
+acct_phone	फोन
+acct_mobile	मोबाइल नंबर
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	SMS कोड पाठवा
+acct_sms_code	SMS कोड
+acct_confirm_code	कोडची खात्री करा
+acct_signed_in	साइन इन आहे
+acct_signed_in_as	साइन इन केलेले खाते
+acct_status_label	स्थिती
+acct_resend_verify	पडताळणी ईमेल पुन्हा पाठवा
+acct_sign_out	साइन आउट
+acct_home_aria	Gotigin मुख्य
+acct_nav_aria	प्राथमिक
+err_invalid_email	वैध ईमेल पत्ता द्या.
+err_weak_password	किमान 6 अक्षरांचा पासवर्ड वापरा.
+err_wrong_password	पासवर्ड चुकीचा आहे.
+err_invalid_credential	ईमेल किंवा पासवर्ड चुकीचा आहे.
+err_popup_closed	साइन-इन विंडो बंद झाली.
+err_cancelled	साइन-इन रद्द झाले.
+err_unauthorized_domain	हे डोमेन Firebase Auth साठी अधिकृत नाही.
+err_not_allowed	ही साइन-इन पद्धत अजून सुरू केलेली नाही.
+err_too_many	खूप प्रयत्न झाले. नंतर पुन्हा प्रयत्न करा.
+err_invalid_phone	देश कोडसह संपूर्ण फोन नंबर द्या (उदा. +91…).
+err_bad_code	तो SMS कोड चुकीचा आहे किंवा त्याची मुदत संपली आहे.
+err_generic	काहीतरी चुकले.
+acct_no_email	(ईमेल नाही)
+acct_email_verified	ईमेलची पडताळणी झाली
+acct_email_unverified	ईमेलची पडताळणी अजून झाली नाही — तुमचा इनबॉक्स पाहा
+acct_phone_signed_in	फोनने साइन इन आहे
+acct_you_are_in	तुम्ही साइन इन आहात.
+acct_verify_sent	पडताळणी ईमेल पाठवला — तुमचा इनबॉक्स पाहा

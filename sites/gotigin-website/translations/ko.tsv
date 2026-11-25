@@ -1,103 +1,103 @@
-# Korean — 한국어 (ko). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# ko. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	메뉴
+close	닫기
+home	홈
+about	소개
+privacy	개인정보 처리방침
+terms	이용약관
+cancellation	취소
+deletion	삭제
+help	도움말
+support	지원
+login	로그인
+email	이메일
+trademark	상표
+window_title	Gotigin — 기술이 발견과 만나는 곳
+slogan	기술이 발견과 만나는 곳.
+brands	브랜드
+brand	브랜드
+product	제품
+kumkaj_blurb	사업을 위한 운영체제.
+khaynjo_blurb	식당 운영체제. 테이블, KOT, 계산서, 하루 마감.
+moklanjo_blurb	택배 창구. 예약, 거래처, 하루 장부.
+kirano_blurb	Kirana. 목록, 재고, khata, GST 현금 전표.
+tabiyat_blurb	약국 창구. 배치, 유효기간, 재고, GST 청구서.
+wadhu_blurb	Memon으로 «더». 도구 · 앱 · 더.
+wadhu_note	다시 쓰는 도구, 유틸, 앱. 메신저가 아닙니다.
+sms_gateway_blurb	Android를 먼저 두는 SIM 메시지. LAN과 Bluetooth는 무료로 남습니다.
+sms_relay_blurb	짝을 이룬 게이트웨이를 위한 선택적 인터넷 층.
+connect_blurb	WhatsApp Cloud API로 가는 다리.
+ghalbol_blurb	통신 제품.
+ghalbol_app_blurb	암호화된 메신저.
+pages	페이지
+company_pages	회사 페이지
+page	페이지
+privacy_blurb	회사 개인정보 처리방침.
+terms_blurb	gotigin.com 이용 약관.
+cancellation_blurb	취소 및 환불 정책.
+data_deletion	데이터 삭제
+deletion_blurb	삭제를 요청하는 방법.
+support_blurb	이메일, 전화, 제품으로의 안내.
+help_blurb	이름, 제품, 사이트.
+about_blurb	회사 등록과 연락처.
+cookies	쿠키
+cookies_blurb	gotigin.com의 쿠키.
+security	보안
+security_blurb	취약점을 알리는 방법.
+company	회사
+company_lede	주식으로 한정된 비상장 회사. Dhoraji, Gujarat. 2026년 6월 24일 설립.
+registration	등록
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	2026년 6월 24일 설립
+share_capital	주식 자본 ₹1,00,000
+limited_by_shares	주식으로 한정 · Gujarat
+tax	세금
+gst_regular	GST 일반 · 2026년 7월 4일부터
+recognition	인정
+issued	2026년 7월 8일 발급
+valid_to	2036년 6월 23일까지 유효
+registered_office	등기 사무소
+directors	이사
+contact	연락
+find_it	Memon으로 «그것을 찾다» · 발음 go-tee-geen
+brands_line	사업 시스템 · 도구와 앱 · 통신
+account	계정
+acct_page_title	계정 — Gotigin
+acct_lede	Gotigin 회사 사이트 기능을 쓰려면 로그인하세요. 제품 사이트와 같은 선택입니다 — 이메일, 로그인 서비스 또는 전화.
+acct_continue_with	이메일, 외부 로그인 서비스 또는 휴대폰으로 계속하세요.
+acct_name_optional	이름 (선택)
+acct_password	비밀번호
+acct_continue	계속
+acct_or_continue	또는 다음으로 계속
+acct_federated	통합 로그인
+acct_phone	전화
+acct_mobile	휴대폰 번호
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	SMS 코드 보내기
+acct_sms_code	SMS 코드
+acct_confirm_code	코드 확인
+acct_signed_in	로그인됨
+acct_signed_in_as	로그인 계정
+acct_status_label	상태
+acct_resend_verify	인증 메일 다시 보내기
+acct_sign_out	로그아웃
+acct_home_aria	Gotigin 홈
+acct_nav_aria	기본
+err_invalid_email	올바른 이메일 주소를 입력하세요.
+err_weak_password	6자 이상의 비밀번호를 사용하세요.
+err_wrong_password	비밀번호가 틀렸습니다.
+err_invalid_credential	이메일 또는 비밀번호가 틀렸습니다.
+err_popup_closed	로그인 창이 닫혔습니다.
+err_cancelled	로그인이 취소되었습니다.
+err_unauthorized_domain	이 도메인은 Firebase Auth에 승인되지 않았습니다.
+err_not_allowed	그 로그인 방법은 아직 사용할 수 없습니다.
+err_too_many	시도 횟수가 너무 많습니다. 나중에 다시 시도하세요.
+err_invalid_phone	국가 번호를 포함한 전체 전화번호를 입력하세요 (예: +91…).
+err_bad_code	SMS 코드가 틀렸거나 만료되었습니다.
+err_generic	문제가 발생했습니다.
+acct_no_email	(이메일 없음)
+acct_email_verified	이메일 인증됨
+acct_email_unverified	이메일이 아직 인증되지 않았습니다 — 받은편지함을 확인하세요
+acct_phone_signed_in	휴대폰으로 로그인됨
+acct_you_are_in	로그인되었습니다.
+acct_verify_sent	인증 메일을 보냈습니다 — 받은편지함을 확인하세요

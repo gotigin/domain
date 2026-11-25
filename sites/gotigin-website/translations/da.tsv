@@ -1,103 +1,103 @@
-# Danish — Dansk (da). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
+# da. key<TAB>text. Keep {placeholders}. \n = line break.
 menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
+close	Luk
+home	Hjem
+about	Om os
+privacy	Privatliv
+terms	Vilkår
+cancellation	Opsigelse
+deletion	Sletning
+help	Hjælp
 support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
+login	Log ind
+email	E-mail
+trademark	VAREMÆRKE
+window_title	Gotigin — Der hvor teknologien møder opdagelsen
+slogan	Der hvor teknologien møder opdagelsen.
+brands	MÆRKER
+brand	MÆRKE
+product	PRODUKT
+kumkaj_blurb	Styresystemer til virksomheder.
+khaynjo_blurb	Restaurant-OS. Borde, KOT, regninger, dagsafslutning.
+moklanjo_blurb	Kurérskranke. Booking, parter, dagbog.
+kirano_blurb	Kirana. Katalog, lager, khata, GST-kassebon.
+tabiyat_blurb	Apoteksskranke. Parti, udløb, lager, GST-fakturaer.
+wadhu_blurb	Memon for ”mere”. Værktøjer · apps · mere.
+wadhu_note	Genbrugelige værktøjer, hjælpeprogrammer og apps. Ikke en beskedtjeneste.
+sms_gateway_blurb	SIM-beskeder, Android først. LAN og Bluetooth forbliver gratis.
+sms_relay_blurb	Valgfrit internetlag til parrede gateways.
+connect_blurb	Bro til WhatsApp Cloud API.
+ghalbol_blurb	Kommunikationsprodukter.
+ghalbol_app_blurb	Krypteret beskedtjeneste.
+pages	SIDER
+company_pages	Virksomhedens sider
+page	SIDE
+privacy_blurb	Virksomhedens privatlivspolitik.
+terms_blurb	Brugsbetingelser for gotigin.com.
+cancellation_blurb	Politik for afbestilling og refundering.
+data_deletion	Sletning af data
+deletion_blurb	Sådan beder du om sletning.
+support_blurb	E-mail, telefon og vej til produktet.
+help_blurb	Navne, produkter og websteder.
+about_blurb	Virksomhedens registrering og kontakter.
 cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+cookies_blurb	Cookies på gotigin.com.
+security	Sikkerhed
+security_blurb	Sådan anmelder du en sårbarhed.
+company	VIRKSOMHED
+company_lede	Privat anpartsselskab. Dhoraji, Gujarat. Stiftet 24. juni 2026.
+registration	Registrering
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Stiftet 24. juni 2026
+share_capital	Aktiekapital ₹1,00,000
+limited_by_shares	Begrænset af anparter · Gujarat
+tax	Skat
+gst_regular	GST almindelig · fra 04. juli 2026
+recognition	Anerkendelse
+issued	Udstedt 08. juli 2026
+valid_to	Gyldig til 23. juni 2036
+registered_office	Registreret hjemsted
+directors	Direktører
+contact	Kontakt
+find_it	Memon for ”find det” · udtales go-tee-geen
+brands_line	Forretningssystemer · værktøjer og apps · kommunikation
+account	Konto
+acct_page_title	Konto — Gotigin
+acct_lede	Log ind for funktionerne på Gotigins virksomhedswebsted. De samme valg som på produktwebstederne — e-mail, udbyder eller telefon.
+acct_continue_with	Fortsæt med e-mail, en udbyder eller telefon.
+acct_name_optional	Navn (valgfrit)
+acct_password	Adgangskode
+acct_continue	Fortsæt
+acct_or_continue	eller fortsæt med
+acct_federated	Fødereret login
+acct_phone	Telefon
+acct_mobile	Mobilnummer
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Send SMS-kode
+acct_sms_code	SMS-kode
+acct_confirm_code	Bekræft kode
+acct_signed_in	Logget ind
+acct_signed_in_as	Logget ind som
+acct_status_label	Kontostatus
+acct_resend_verify	Send bekræftelsesmail igen
+acct_sign_out	Log ud
+acct_home_aria	Gotigins startside
+acct_nav_aria	Primær
+err_invalid_email	Indtast en gyldig e-mailadresse.
+err_weak_password	Brug en adgangskode på mindst 6 tegn.
+err_wrong_password	Forkert adgangskode.
+err_invalid_credential	E-mail eller adgangskode er forkert.
+err_popup_closed	Login-vinduet blev lukket.
+err_cancelled	Login blev annulleret.
+err_unauthorized_domain	Dette domæne er ikke godkendt til Firebase Auth.
+err_not_allowed	Den login-metode er ikke slået til endnu.
+err_too_many	For mange forsøg. Prøv igen senere.
+err_invalid_phone	Brug et fuldt telefonnummer med landekode (f.eks. +91…).
+err_bad_code	Den SMS-kode er forkert eller udløbet.
+err_generic	Noget gik galt.
+acct_no_email	(ingen e-mail)
+acct_email_verified	E-mail bekræftet
+acct_email_unverified	E-mail ikke bekræftet endnu — tjek din indbakke
+acct_phone_signed_in	Logget ind med telefon
+acct_you_are_in	Du er logget ind.
+acct_verify_sent	Bekræftelsesmail sendt — tjek din indbakke

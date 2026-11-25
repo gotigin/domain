@@ -1,103 +1,103 @@
-# Vietnamese — Tiếng Việt (vi). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# vi. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Trình đơn
+close	Đóng
+home	Trang chủ
+about	Giới thiệu
+privacy	Quyền riêng tư
+terms	Điều khoản
+cancellation	Hủy
+deletion	Xóa
+help	Trợ giúp
+support	Hỗ trợ
+login	Đăng nhập
+email	Địa chỉ email
+trademark	NHÃN HIỆU
+window_title	Gotigin — Nơi công nghệ gặp sự khám phá
+slogan	Nơi công nghệ gặp sự khám phá.
+brands	CÁC THƯƠNG HIỆU
+brand	THƯƠNG HIỆU
+product	SẢN PHẨM
+kumkaj_blurb	Hệ điều hành cho việc kinh doanh.
+khaynjo_blurb	Hệ điều hành nhà hàng. Bàn, KOT, hóa đơn, chốt ngày.
+moklanjo_blurb	Quầy chuyển phát. Đặt chỗ, các bên, sổ ngày.
+kirano_blurb	Kirana. Danh mục, tồn kho, khata, phiếu tiền mặt GST.
+tabiyat_blurb	Quầy thuốc. Lô, hạn dùng, tồn kho, hóa đơn GST.
+wadhu_blurb	Memon của «thêm». Công cụ · ứng dụng · thêm.
+wadhu_note	Công cụ, tiện ích và ứng dụng dùng lại được. Không phải trình nhắn tin.
+sms_gateway_blurb	Tin nhắn SIM, Android trước. LAN và Bluetooth vẫn miễn phí.
+sms_relay_blurb	Lớp internet tùy chọn cho cổng đã ghép.
+connect_blurb	Cầu tới WhatsApp Cloud API.
+ghalbol_blurb	Sản phẩm truyền thông.
+ghalbol_app_blurb	Trình nhắn tin mã hóa.
+pages	CÁC TRANG
+company_pages	Trang của công ty
+page	TRANG
+privacy_blurb	Chính sách quyền riêng tư của công ty.
+terms_blurb	Điều khoản sử dụng gotigin.com.
+cancellation_blurb	Chính sách hủy và hoàn tiền.
+data_deletion	Xóa dữ liệu
+deletion_blurb	Cách yêu cầu xóa.
+support_blurb	Email, điện thoại và lối tới sản phẩm.
+help_blurb	Tên, sản phẩm và trang.
+about_blurb	Đăng ký công ty và liên hệ.
+cookies	Cookie
+cookies_blurb	Cookie trên gotigin.com.
+security	Bảo mật
+security_blurb	Cách báo một lỗ hổng.
+company	CÔNG TY
+company_lede	Công ty trách nhiệm hữu hạn tư nhân. Dhoraji, Gujarat. Thành lập 24 tháng 6 năm 2026.
+registration	Đăng ký
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Thành lập 24 tháng 6 năm 2026
+share_capital	Vốn cổ phần ₹1,00,000
+limited_by_shares	Giới hạn bởi cổ phần · Gujarat
+tax	Thuế
+gst_regular	GST thông thường · từ 04 tháng 7 năm 2026
+recognition	Công nhận
+issued	Cấp 08 tháng 7 năm 2026
+valid_to	Có hiệu lực đến 23 tháng 6 năm 2036
+registered_office	Trụ sở đăng ký
+directors	Giám đốc
+contact	Liên hệ
+find_it	Memon của «tìm ra nó» · đọc là go-tee-geen
+brands_line	Hệ thống kinh doanh · công cụ và ứng dụng · truyền thông
+account	Tài khoản
+acct_page_title	Tài khoản — Gotigin
+acct_lede	Đăng nhập để dùng tính năng trang công ty Gotigin. Cùng lựa chọn như trên trang sản phẩm — email, nhà cung cấp hoặc điện thoại.
+acct_continue_with	Tiếp tục bằng email, nhà cung cấp đăng nhập hoặc điện thoại.
+acct_name_optional	Tên (không bắt buộc)
+acct_password	Mật khẩu
+acct_continue	Tiếp tục
+acct_or_continue	hoặc tiếp tục với
+acct_federated	Đăng nhập liên kết
+acct_phone	Điện thoại
+acct_mobile	Số di động
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Gửi mã SMS
+acct_sms_code	Mã SMS
+acct_confirm_code	Xác nhận mã
+acct_signed_in	Đã đăng nhập
+acct_signed_in_as	Đăng nhập với tên
+acct_status_label	Trạng thái
+acct_resend_verify	Gửi lại email xác minh
+acct_sign_out	Đăng xuất
+acct_home_aria	Trang chủ Gotigin
+acct_nav_aria	Chính
+err_invalid_email	Nhập địa chỉ email hợp lệ.
+err_weak_password	Dùng mật khẩu có ít nhất 6 ký tự.
+err_wrong_password	Sai mật khẩu.
+err_invalid_credential	Email hoặc mật khẩu không đúng.
+err_popup_closed	Cửa sổ đăng nhập đã bị đóng.
+err_cancelled	Đã hủy đăng nhập.
+err_unauthorized_domain	Tên miền này chưa được cấp quyền cho Firebase Auth.
+err_not_allowed	Cách đăng nhập đó chưa được bật.
+err_too_many	Thử quá nhiều lần. Vui lòng thử lại sau.
+err_invalid_phone	Dùng số điện thoại đầy đủ kèm mã quốc gia (ví dụ +91…).
+err_bad_code	Mã SMS sai hoặc đã hết hạn.
+err_generic	Đã xảy ra lỗi.
+acct_no_email	(không có email)
+acct_email_verified	Email đã xác minh
+acct_email_unverified	Email chưa được xác minh — hãy kiểm tra hộp thư
+acct_phone_signed_in	Đã đăng nhập bằng điện thoại
+acct_you_are_in	Bạn đã đăng nhập.
+acct_verify_sent	Email xác minh đã gửi — hãy kiểm tra hộp thư

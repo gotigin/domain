@@ -1,103 +1,103 @@
-# German — Deutsch (de). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
+# de. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Menü
+close	Schließen
+home	Startseite
+about	Über uns
+privacy	Datenschutz
+terms	Bedingungen
+cancellation	Kündigung
+deletion	Löschung
+help	Hilfe
 support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
+login	Anmelden
+email	E-Mail
+trademark	MARKENZEICHEN
+window_title	Gotigin — Wo Technologie auf Entdeckung trifft
+slogan	Wo Technologie auf Entdeckung trifft.
+brands	MARKEN
+brand	MARKE
+product	PRODUKT
+kumkaj_blurb	Betriebssysteme für Unternehmen.
+khaynjo_blurb	Restaurant-OS. Tische, KOT, Rechnungen, Tagesabschluss.
+moklanjo_blurb	Kurierschalter. Buchung, Parteien, Tagesbuch.
+kirano_blurb	Kirana. Katalog, Bestand, khata, GST-Kassenbeleg.
+tabiyat_blurb	Apothekenschalter. Charge, Verfall, Bestand, GST-Rechnungen.
+wadhu_blurb	Memon für „mehr“. Werkzeuge · Apps · Mehr.
+wadhu_note	Wiederverwendbare Werkzeuge, Hilfsprogramme und Apps. Kein Messenger.
+sms_gateway_blurb	SIM-Nachrichten, Android zuerst. LAN und Bluetooth bleiben kostenlos.
+sms_relay_blurb	Optionale Internet-Ebene für gekoppelte Gateways.
+connect_blurb	Brücke zur WhatsApp Cloud API.
+ghalbol_blurb	Kommunikationsprodukte.
+ghalbol_app_blurb	Verschlüsselter Messenger.
+pages	SEITEN
+company_pages	Seiten des Unternehmens
+page	SEITE
+privacy_blurb	Datenschutzerklärung des Unternehmens.
+terms_blurb	Nutzungsbedingungen für gotigin.com.
+cancellation_blurb	Richtlinie zu Stornierung und Erstattung.
+data_deletion	Datenlöschung
+deletion_blurb	So beantragen Sie die Löschung.
+support_blurb	E-Mail, Telefon und Zuordnung zum Produkt.
+help_blurb	Namen, Produkte und Seiten.
+about_blurb	Eintragung und Kontakte des Unternehmens.
 cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+cookies_blurb	Cookies auf gotigin.com.
+security	Sicherheit
+security_blurb	So melden Sie eine Schwachstelle.
+company	UNTERNEHMEN
+company_lede	Privatgesellschaft mit beschränkter Haftung. Dhoraji, Gujarat. Gegründet am 24. Juni 2026.
+registration	Eintragung
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Gegründet am 24. Juni 2026
+share_capital	Stammkapital ₹1,00,000
+limited_by_shares	Durch Anteile beschränkt · Gujarat
+tax	Steuer
+gst_regular	GST regulär · ab 04. Juli 2026
+recognition	Anerkennung
+issued	Ausgestellt am 08. Juli 2026
+valid_to	Gültig bis 23. Juni 2036
+registered_office	Eingetragener Sitz
+directors	Direktoren
+contact	Kontakt
+find_it	Memon für „finde es“ · ausgesprochen go-tee-geen
+brands_line	Geschäftssysteme · Werkzeuge und Apps · Kommunikation
+account	Konto
+acct_page_title	Konto — Gotigin
+acct_lede	Melden Sie sich für Funktionen der Unternehmensseite von Gotigin an. Dieselben Optionen wie auf den Produktseiten — E-Mail, Anbieter oder Telefon.
+acct_continue_with	Weiter mit E-Mail, einem Anbieter oder Telefon.
+acct_name_optional	Name (freiwillig)
+acct_password	Passwort
+acct_continue	Weiter
+acct_or_continue	oder weiter mit
+acct_federated	Föderierte Anmeldung
+acct_phone	Telefon
+acct_mobile	Handynummer
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	SMS-Code senden
+acct_sms_code	SMS-Code
+acct_confirm_code	Code bestätigen
+acct_signed_in	Angemeldet
+acct_signed_in_as	Angemeldet als
+acct_status_label	Kontostatus
+acct_resend_verify	Bestätigungs-E-Mail erneut senden
+acct_sign_out	Abmelden
+acct_home_aria	Startseite von Gotigin
+acct_nav_aria	Primär
+err_invalid_email	Geben Sie eine gültige E-Mail-Adresse ein.
+err_weak_password	Verwenden Sie ein Passwort mit mindestens 6 Zeichen.
+err_wrong_password	Falsches Passwort.
+err_invalid_credential	E-Mail oder Passwort ist falsch.
+err_popup_closed	Das Anmeldefenster wurde geschlossen.
+err_cancelled	Die Anmeldung wurde abgebrochen.
+err_unauthorized_domain	Diese Domain ist für Firebase Auth nicht autorisiert.
+err_not_allowed	Diese Anmeldemethode ist noch nicht aktiviert.
+err_too_many	Zu viele Versuche. Versuchen Sie es später erneut.
+err_invalid_phone	Verwenden Sie die vollständige Telefonnummer mit Ländervorwahl (z. B. +91…).
+err_bad_code	Dieser SMS-Code ist falsch oder abgelaufen.
+err_generic	Etwas ist schiefgelaufen.
+acct_no_email	(keine E-Mail)
+acct_email_verified	E-Mail bestätigt
+acct_email_unverified	E-Mail noch nicht bestätigt — prüfen Sie Ihren Posteingang
+acct_phone_signed_in	Mit Telefon angemeldet
+acct_you_are_in	Sie sind angemeldet.
+acct_verify_sent	Bestätigungs-E-Mail gesendet — prüfen Sie Ihren Posteingang

@@ -1,103 +1,103 @@
-# French — Français (fr). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
+# fr. key<TAB>text. Keep {placeholders}. \n = line break.
 menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
+close	Fermer
+home	Accueil
+about	À propos
+privacy	Confidentialité
+terms	Conditions
+cancellation	Résiliation
+deletion	Suppression
+help	Aide
+support	Assistance
+login	Connexion
+email	E-mail
+trademark	MARQUE DÉPOSÉE
+window_title	Gotigin — Là où la technologie rencontre la découverte
+slogan	Là où la technologie rencontre la découverte.
+brands	MARQUES
+brand	MARQUE
+product	PRODUIT
+kumkaj_blurb	Systèmes d'exploitation pour l'entreprise.
+khaynjo_blurb	OS pour restaurant. Tables, KOT, additions, clôture du jour.
+moklanjo_blurb	Comptoir coursier. Réservation, parties, livre du jour.
+kirano_blurb	Kirana. Catalogue, stock, khata, ticket de caisse GST.
+tabiyat_blurb	Comptoir de pharmacie. Lot, péremption, stock, factures GST.
+wadhu_blurb	Memon pour « plus ». Outils · applis · plus.
+wadhu_note	Outils, utilitaires et applis réutilisables. Pas une messagerie.
+sms_gateway_blurb	Messages SIM, Android d'abord. Le LAN et le Bluetooth restent gratuits.
+sms_relay_blurb	Plan Internet facultatif pour les passerelles appairées.
+connect_blurb	Passerelle vers l'API WhatsApp Cloud.
+ghalbol_blurb	Produits de communication.
+ghalbol_app_blurb	Messagerie chiffrée.
 pages	PAGES
-company_pages	Company pages
+company_pages	Pages de la société
 page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
+privacy_blurb	Politique de confidentialité de la société.
+terms_blurb	Conditions d'utilisation de gotigin.com.
+cancellation_blurb	Politique d'annulation et de remboursement.
+data_deletion	Suppression des données
+deletion_blurb	Comment demander la suppression.
+support_blurb	E-mail, téléphone et orientation vers le produit.
+help_blurb	Noms, produits et sites.
+about_blurb	Immatriculation et contacts de la société.
 cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+cookies_blurb	Cookies sur gotigin.com.
+security	Sécurité
+security_blurb	Comment signaler une faille.
+company	SOCIÉTÉ
+company_lede	Société privée à responsabilité limitée. Dhoraji, Gujarat. Constituée le 24 juin 2026.
+registration	Immatriculation
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
+incorporated	Constituée le 24 juin 2026
+share_capital	Capital social ₹1,00,000
+limited_by_shares	Responsabilité limitée aux actions · Gujarat
+tax	Taxe
+gst_regular	GST ordinaire · à partir du 04 juillet 2026
+recognition	Reconnaissance
+issued	Délivré le 08 juillet 2026
+valid_to	Valable jusqu'au 23 juin 2036
+registered_office	Siège social
+directors	Administrateurs
 contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+find_it	Memon pour « le trouver » · prononcé go-tee-geen
+brands_line	Systèmes d'entreprise · outils et applis · communication
+account	Compte
+acct_page_title	Compte — Gotigin
+acct_lede	Connectez-vous pour les fonctions du site de la société Gotigin. Les mêmes choix que sur les sites des produits — e-mail, fournisseur ou téléphone.
+acct_continue_with	Continuez avec un e-mail, un fournisseur ou un téléphone.
+acct_name_optional	Nom (facultatif)
+acct_password	Mot de passe
+acct_continue	Continuer
+acct_or_continue	ou continuer avec
+acct_federated	Connexion fédérée
+acct_phone	Téléphone
+acct_mobile	Numéro de mobile
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Envoyer le code SMS
+acct_sms_code	Code SMS
+acct_confirm_code	Confirmer le code
+acct_signed_in	Connecté
+acct_signed_in_as	Connecté en tant que
+acct_status_label	Statut
+acct_resend_verify	Renvoyer l'e-mail de vérification
+acct_sign_out	Se déconnecter
+acct_home_aria	Accueil de Gotigin
+acct_nav_aria	Principal
+err_invalid_email	Saisissez une adresse e-mail valide.
+err_weak_password	Utilisez un mot de passe d'au moins 6 caractères.
+err_wrong_password	Mot de passe incorrect.
+err_invalid_credential	E-mail ou mot de passe incorrect.
+err_popup_closed	La fenêtre de connexion a été fermée.
+err_cancelled	La connexion a été annulée.
+err_unauthorized_domain	Ce domaine n'est pas autorisé pour Firebase Auth.
+err_not_allowed	Cette méthode de connexion n'est pas encore activée.
+err_too_many	Trop de tentatives. Réessayez plus tard.
+err_invalid_phone	Utilisez un numéro de téléphone complet avec l'indicatif du pays (p. ex. +91…).
+err_bad_code	Ce code SMS est incorrect ou a expiré.
+err_generic	Une erreur s'est produite.
+acct_no_email	(pas d'e-mail)
+acct_email_verified	E-mail vérifié
+acct_email_unverified	E-mail pas encore vérifié — consultez votre boîte de réception
+acct_phone_signed_in	Connecté par téléphone
+acct_you_are_in	Vous êtes connecté.
+acct_verify_sent	E-mail de vérification envoyé — consultez votre boîte de réception

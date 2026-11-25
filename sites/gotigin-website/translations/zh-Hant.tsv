@@ -1,103 +1,103 @@
-# Chinese (Traditional) — 繁體中文 (zh-Hant). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# zh-Hant. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	選單
+close	關閉
+home	首頁
+about	關於
+privacy	隱私權
+terms	條款
+cancellation	取消政策
+deletion	刪除
+help	說明
+support	支援
+login	登入
+email	電子郵件
+trademark	商標
+window_title	Gotigin — 技術與發現相遇之處
+slogan	技術與發現相遇之處。
+brands	品牌
+brand	品牌
+product	產品
+kumkaj_blurb	面向經營的操作係统。
+khaynjo_blurb	餐厅操作係统。餐桌、KOT、帳單、日结。
+moklanjo_blurb	快遞柜臺。訂舱、往來方、日賬。
+kirano_blurb	Kirana。目錄、庫存、khata、GST 現金小票。
+tabiyat_blurb	藥房柜臺。批次、效期、庫存、GST 帳單。
+wadhu_blurb	Memon 语意為「更多」。工具 · 應用 · 更多。
+wadhu_note	可重用的工具、實用程式和應用。不是通訊軟體。
+sms_gateway_blurb	以 Android 為先的 SIM 訊息。LAN 和 Bluetooth 始终免費。
+sms_relay_blurb	給已配對閘道的可選網際網路層。
+connect_blurb	通往 WhatsApp Cloud API 的橋。
+ghalbol_blurb	通訊產品。
+ghalbol_app_blurb	加密通訊軟體。
+pages	頁面
+company_pages	公司頁面
+page	頁面
+privacy_blurb	公司隱私政策。
+terms_blurb	gotigin.com 的使用條款。
+cancellation_blurb	取消與退款政策。
+data_deletion	資料刪除
+deletion_blurb	如何申請刪除。
+support_blurb	電子郵件、電話和產品去向。
+help_blurb	名稱、產品和站點。
+about_blurb	公司登记與聯絡方式。
+cookies	Cookie
+cookies_blurb	gotigin.com 上的 Cookie。
+security	安全
+security_blurb	如何报告漏洞。
+company	公司
+company_lede	私人有限公司。Dhoraji，Gujarat。2026年6月24日成立。
+registration	登记
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	2026年6月24日成立
+share_capital	股本 ₹1,00,000
+limited_by_shares	股份有限 · Gujarat
+tax	税
+gst_regular	GST 常规 · 自2026年7月4日
+recognition	認可
+issued	2026年7月8日签發
+valid_to	有效期至2036年6月23日
+registered_office	註冊辦事處
+directors	董事
+contact	聯絡
+find_it	Memon 语意為「找到它」· 读作 go-tee-geen
+brands_line	經營係统 · 工具與應用 · 通信
+account	帳戶
+acct_page_title	帳戶 — Gotigin
+acct_lede	登入以使用 Gotigin 公司網站的功能。選項與各產品網站相同——電子郵件、登入服務或手機。
+acct_continue_with	透過電子郵件、第三方帳戶或手機繼續。
+acct_name_optional	姓名（選填）
+acct_password	密碼
+acct_continue	繼續
+acct_or_continue	或透過以下方式繼續
+acct_federated	聯合登入
+acct_phone	電話
+acct_mobile	手機號碼
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	傳送簡訊驗證碼
+acct_sms_code	簡訊驗證碼
+acct_confirm_code	確認驗證碼
+acct_signed_in	已登入
+acct_signed_in_as	目前登入的帳戶
+acct_status_label	狀態
+acct_resend_verify	重新寄送驗證信
+acct_sign_out	登出
+acct_home_aria	Gotigin 首頁
+acct_nav_aria	主導覽
+err_invalid_email	請輸入有效的電子郵件地址。
+err_weak_password	密碼至少需要 6 個字元。
+err_wrong_password	密碼錯誤。
+err_invalid_credential	電子郵件或密碼錯誤。
+err_popup_closed	登入視窗已關閉。
+err_cancelled	登入已取消。
+err_unauthorized_domain	此網域未獲 Firebase Auth 授權。
+err_not_allowed	該登入方式尚未啟用。
+err_too_many	嘗試次數過多，請稍後再試。
+err_invalid_phone	請輸入含國碼的完整電話號碼（例如 +91…）。
+err_bad_code	該簡訊驗證碼錯誤或已過期。
+err_generic	發生了一些問題。
+acct_no_email	（沒有電子郵件）
+acct_email_verified	電子郵件已驗證
+acct_email_unverified	電子郵件尚未驗證——請查看收件匣
+acct_phone_signed_in	已透過手機登入
+acct_you_are_in	您已登入。
+acct_verify_sent	驗證郵件已寄出——請查看收件匣

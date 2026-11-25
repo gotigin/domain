@@ -1,103 +1,103 @@
-# Hausa — Hausa (ha). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# ha. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Jerin
+close	Rufe
+home	Gida
+about	Game da mu
+privacy	Sirri
+terms	Sharuɗɗa
+cancellation	Sokewa
+deletion	Sharewa
+help	Taimako
+support	Tallafi
+login	Shiga
+email	Imel
+trademark	ALAMAR KASUWANCI
+window_title	Gotigin — Inda fasaha ta haɗu da gano
+slogan	Inda fasaha ta haɗu da gano.
+brands	ALAMOMI
+brand	ALAMA
+product	KAYA
+kumkaj_blurb	Tsarin aiki na kasuwanci.
+khaynjo_blurb	OS na gidan abinci. Tebur, KOT, lissafi, rufe rana.
+moklanjo_blurb	Tebur na aikawa. Yin rijista, ɓangarori, littafin rana.
+kirano_blurb	Kirana. Jeri, ajiya, khata, rasidin tsabar kudi na GST.
+tabiyat_blurb	Tebur na kantin magani. Rukuni, lokaci, ajiya, lissafin GST.
+wadhu_blurb	Memon na «ƙari». Kayan aiki · manhajoji · ƙari.
+wadhu_note	Kayan aiki, util, da manhajoji da ake sake amfani. Ba manzo ba.
+sms_gateway_blurb	Saƙon SIM, Android da farko. LAN da Bluetooth suna kasancewa kyauta.
+sms_relay_blurb	Sashin intanet na zaɓi ga ƙofofin da aka haɗa.
+connect_blurb	Gada zuwa WhatsApp Cloud API.
+ghalbol_blurb	Kayayyakin sadarwa.
+ghalbol_app_blurb	Manzo mai ɓoye saƙo.
+pages	SHAFUKA
+company_pages	Shafukan kamfani
+page	SHAFI
+privacy_blurb	Manufar sirri ta kamfani.
+terms_blurb	Sharuɗɗan amfani na gotigin.com.
+cancellation_blurb	Manufar soke da mayar da kuɗi.
+data_deletion	Share bayanai
+deletion_blurb	Yadda ake neman sharewa.
+support_blurb	Imel, waya, da hanya zuwa kaya.
+help_blurb	Sunaye, kayayyaki, da shafuka.
+about_blurb	Rijistar kamfani da tuntuɓa.
+cookies	Kukis
+cookies_blurb	Kukis a gotigin.com.
+security	Tsaro
+security_blurb	Yadda ake ba da rahoton rauni.
+company	KAMFANI
+company_lede	Kamfanin masu zaman kansu mai iyakancewa. Dhoraji, Gujarat. An kafa 24 Yuni 2026.
+registration	Rijista
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	An kafa 24 Yuni 2026
+share_capital	Jari na hannun jari ₹1,00,000
+limited_by_shares	An iyakance da hannun jari · Gujarat
+tax	Haraji
+gst_regular	GST na al'ada · daga 04 Yuli 2026
+recognition	Amincewa
+issued	An bayar 08 Yuli 2026
+valid_to	Yana aiki har 23 Yuni 2036
+registered_office	Ofishin da aka yi rajista
+directors	Daraktoci
+contact	Tuntuɓa
+find_it	Memon na «nemo shi» · ana furta go-tee-geen
+brands_line	Tsarin kasuwanci · kayan aiki da manhajoji · sadarwa
+account	Asusu
+acct_page_title	Asusu — Gotigin
+acct_lede	Shiga don fasalolin shafin kamfanin Gotigin. Zaɓuɓɓuka iri ɗaya da na shafukan kaya — imel, mai bayarwa, ko waya.
+acct_continue_with	Ci gaba da imel, mai samar da sabis, ko waya.
+acct_name_optional	Suna (zaɓi ne)
+acct_password	Kalmar sirri
+acct_continue	Ci gaba
+acct_or_continue	ko ci gaba da
+acct_federated	Shiga ta wani asusu
+acct_phone	Waya
+acct_mobile	Lambar waya
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Aika lambar SMS
+acct_sms_code	Lambar SMS
+acct_confirm_code	Tabbatar da lamba
+acct_signed_in	An shiga
+acct_signed_in_as	An shiga a matsayin
+acct_status_label	Matsayi
+acct_resend_verify	Sake aika imel na tabbatarwa
+acct_sign_out	Fita
+acct_home_aria	Gidan Gotigin
+acct_nav_aria	Babba
+err_invalid_email	Shigar da ingantaccen adireshin imel.
+err_weak_password	Yi amfani da kalmar sirri mai haruffa 6 aƙalla.
+err_wrong_password	Kalmar sirri ba daidai ba ce.
+err_invalid_credential	Imel ko kalmar sirri ba daidai ba ne.
+err_popup_closed	An rufe tagar shiga.
+err_cancelled	An soke shiga.
+err_unauthorized_domain	Ba a ba wannan yanki izini don Firebase Auth ba.
+err_not_allowed	Ba a kunna wannan hanyar shiga ba tukuna.
+err_too_many	Ƙoƙari ya yi yawa. Sake gwadawa daga baya.
+err_invalid_phone	Yi amfani da cikakkiyar lambar waya tare da lambar ƙasa (misali +91…).
+err_bad_code	Lambar SMS ɗin ba daidai ba ce ko ta ƙare.
+err_generic	An samu matsala.
+acct_no_email	(babu imel)
+acct_email_verified	An tabbatar da imel
+acct_email_unverified	Ba a tabbatar da imel ba tukuna — duba akwatin saƙonku
+acct_phone_signed_in	An shiga da waya
+acct_you_are_in	Kun shiga.
+acct_verify_sent	An aika imel na tabbatarwa — duba akwatin saƙonku

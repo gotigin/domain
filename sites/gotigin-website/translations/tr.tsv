@@ -1,103 +1,103 @@
-# Turkish — Türkçe (tr). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# tr. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Menü
+close	Kapat
+home	Ana sayfa
+about	Hakkında
+privacy	Gizlilik
+terms	Koşullar
+cancellation	İptal
+deletion	Silme
+help	Yardım
+support	Destek
+login	Giriş
+email	E-posta
+trademark	TİCARİ MARKA
+window_title	Gotigin — Teknolojinin keşifle buluştuğu yer
+slogan	Teknolojinin keşifle buluştuğu yer.
+brands	MARKALAR
+brand	MARKA
+product	ÜRÜN
+kumkaj_blurb	İşletme işletim sistemleri.
+khaynjo_blurb	Restoran işletim sistemi. Masalar, KOT, hesaplar, gün kapanışı.
+moklanjo_blurb	Kurye gişesi. Kayıt, taraflar, gün defteri.
+kirano_blurb	Kirana. Katalog, stok, khata, GST nakit fişi.
+tabiyat_blurb	Eczane gişesi. Parti, son kullanma, stok, GST faturaları.
+wadhu_blurb	Memon dilinde «daha». Araçlar · uygulamalar · daha.
+wadhu_note	Yeniden kullanılan araçlar, yardımcı programlar ve uygulamalar. Bir ileti uygulaması değil.
+sms_gateway_blurb	Önce Android’de SIM iletisi. LAN ve Bluetooth ücretsiz kalır.
+sms_relay_blurb	Eşlenmiş ağ geçitleri için isteğe bağlı internet katmanı.
+connect_blurb	WhatsApp Cloud API köprüsü.
+ghalbol_blurb	İletişim ürünleri.
+ghalbol_app_blurb	Şifreli ileti uygulaması.
+pages	SAYFALAR
+company_pages	Şirket sayfaları
+page	SAYFA
+privacy_blurb	Şirketin gizlilik ilkesi.
+terms_blurb	gotigin.com kullanım koşulları.
+cancellation_blurb	İptal ve iade ilkesi.
+data_deletion	Veri silme
+deletion_blurb	Silme nasıl istenir.
+support_blurb	E-posta, telefon ve ürüne yönlendirme.
+help_blurb	Adlar, ürünler ve siteler.
+about_blurb	Şirket kaydı ve iletişim.
+cookies	Çerezler
+cookies_blurb	gotigin.com üzerindeki çerezler.
+security	Güvenlik
+security_blurb	Bir açığı nasıl bildirirsiniz.
+company	ŞİRKET
+company_lede	Özel limited şirket. Dhoraji, Gujarat. Kuruluş 24 Haziran 2026.
+registration	Kayıt
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Kuruluş 24 Haziran 2026
+share_capital	Sermaye ₹1,00,000
+limited_by_shares	Paylarla sınırlı · Gujarat
+tax	Vergi
+gst_regular	GST olağan · 04 Temmuz 2026’dan
+recognition	Tanınma
+issued	Düzenlenme 08 Temmuz 2026
+valid_to	23 Haziran 2036’ya kadar geçerli
+registered_office	Kayıtlı merkez
+directors	Yöneticiler
+contact	İletişim
+find_it	Memon dilinde «onu bul» · söylenişi go-tee-geen
+brands_line	İş sistemleri · araçlar ve uygulamalar · iletişim
+account	Hesap
+acct_page_title	Hesap — Gotigin
+acct_lede	Gotigin şirket sitesinin özellikleri için oturum açın. Ürün sitelerindeki seçeneklerin aynısı — e-posta, sağlayıcı veya telefon.
+acct_continue_with	E-posta, bir sağlayıcı ya da telefonla devam edin.
+acct_name_optional	Ad (isteğe bağlı)
+acct_password	Parola
+acct_continue	Devam
+acct_or_continue	ya da şununla devam edin
+acct_federated	Birleşik giriş
+acct_phone	Telefon
+acct_mobile	Cep telefonu numarası
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	SMS kodu gönder
+acct_sms_code	SMS kodu
+acct_confirm_code	Kodu onayla
+acct_signed_in	Giriş yapıldı
+acct_signed_in_as	Giriş yapan
+acct_status_label	Durum
+acct_resend_verify	Doğrulama e-postasını yeniden gönder
+acct_sign_out	Çıkış yap
+acct_home_aria	Gotigin ana sayfası
+acct_nav_aria	Birincil
+err_invalid_email	Geçerli bir e-posta adresi girin.
+err_weak_password	En az 6 karakterli bir parola kullanın.
+err_wrong_password	Parola yanlış.
+err_invalid_credential	E-posta ya da parola yanlış.
+err_popup_closed	Giriş penceresi kapatıldı.
+err_cancelled	Giriş iptal edildi.
+err_unauthorized_domain	Bu alan adı Firebase Auth için yetkili değil.
+err_not_allowed	Bu giriş yöntemi henüz etkin değil.
+err_too_many	Çok fazla deneme. Daha sonra yeniden deneyin.
+err_invalid_phone	Ülke koduyla birlikte tam telefon numarası kullanın (ör. +91…).
+err_bad_code	Bu SMS kodu yanlış ya da süresi dolmuş.
+err_generic	Bir şeyler ters gitti.
+acct_no_email	(e-posta yok)
+acct_email_verified	E-posta doğrulandı
+acct_email_unverified	E-posta henüz doğrulanmadı — gelen kutunuza bakın
+acct_phone_signed_in	Telefonla giriş yapıldı
+acct_you_are_in	Giriş yaptınız.
+acct_verify_sent	Doğrulama e-postası gönderildi — gelen kutunuza bakın

@@ -1,103 +1,103 @@
-# Japanese — 日本語 (ja). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# ja. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	メニュー
+close	閉じる
+home	ホーム
+about	概要
+privacy	プライバシー
+terms	利用規約
+cancellation	キャンセル
+deletion	削除
+help	ヘルプ
+support	サポート
+login	ログイン
+email	メール
+trademark	商標
+window_title	Gotigin — 技術が発見と出会う場所
+slogan	技術が発見と出会う場所。
+brands	ブランド
+brand	ブランド
+product	製品
+kumkaj_blurb	事業のためのオペレーティングシステム。
+khaynjo_blurb	レストラン向け OS。テーブル、KOT、会計、日次締め。
+moklanjo_blurb	宅配カウンター。予約、取引先、日次帳簿。
+kirano_blurb	Kirana。カタログ、在庫、khata、GST 現金伝票。
+tabiyat_blurb	薬局カウンター。ロット、使用期限、在庫、GST 請求。
+wadhu_blurb	Memon で「もっと」。道具 · アプリ · もっと。
+wadhu_note	再利用できる道具、ユーティリティ、アプリ。メッセンジャーではありません。
+sms_gateway_blurb	Android を先にする SIM メッセージ。LAN と Bluetooth は無料のままです。
+sms_relay_blurb	ペアにしたゲートウェイのための任意のインターネット層。
+connect_blurb	WhatsApp Cloud API への橋。
+ghalbol_blurb	コミュニケーション製品。
+ghalbol_app_blurb	暗号化メッセンジャー。
+pages	ページ
+company_pages	会社のページ
+page	ページ
+privacy_blurb	会社のプライバシーポリシー。
+terms_blurb	gotigin.com の利用条件。
+cancellation_blurb	キャンセルと返金の方針。
+data_deletion	データの削除
+deletion_blurb	削除の依頼方法。
+support_blurb	メール、電話、製品への案内。
+help_blurb	名称、製品、サイト。
+about_blurb	会社の登記と連絡先。
+cookies	Cookie
+cookies_blurb	gotigin.com の Cookie。
+security	セキュリティ
+security_blurb	脆弱性の報告方法。
+company	会社
+company_lede	株式による非公開の有限会社。Dhoraji、Gujarat。2026年6月24日設立。
+registration	登記
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	2026年6月24日設立
+share_capital	株式資本 ₹1,00,000
+limited_by_shares	株式による有限責任 · Gujarat
+tax	税
+gst_regular	GST 通常 · 2026年7月4日から
+recognition	認定
+issued	2026年7月8日発行
+valid_to	2036年6月23日まで有効
+registered_office	登記上の事務所
+directors	取締役
+contact	連絡先
+find_it	Memon で「それを見つける」· 読みは go-tee-geen
+brands_line	事業システム · 道具とアプリ · コミュニケーション
+account	アカウント
+acct_page_title	アカウント — Gotigin
+acct_lede	Gotigin の会社サイトの機能を使うにはサインインします。製品サイトと同じ選択です — メール、ログインサービス、または電話。
+acct_continue_with	メール、外部サービス、または電話番号で続行します。
+acct_name_optional	名前（任意）
+acct_password	パスワード
+acct_continue	続ける
+acct_or_continue	または次の方法で続行
+acct_federated	フェデレーションログイン
+acct_phone	電話
+acct_mobile	携帯電話番号
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	SMS コードを送信
+acct_sms_code	SMS コード
+acct_confirm_code	コードを確認
+acct_signed_in	ログイン済み
+acct_signed_in_as	ログイン中のアカウント
+acct_status_label	状態
+acct_resend_verify	確認メールを再送信
+acct_sign_out	ログアウト
+acct_home_aria	Gotigin のホーム
+acct_nav_aria	メイン
+err_invalid_email	有効なメールアドレスを入力してください。
+err_weak_password	6 文字以上のパスワードを使ってください。
+err_wrong_password	パスワードが違います。
+err_invalid_credential	メールまたはパスワードが違います。
+err_popup_closed	ログイン画面が閉じられました。
+err_cancelled	ログインはキャンセルされました。
+err_unauthorized_domain	このドメインは Firebase Auth で許可されていません。
+err_not_allowed	そのログイン方法はまだ有効になっていません。
+err_too_many	試行回数が多すぎます。しばらくしてからもう一度お試しください。
+err_invalid_phone	国番号付きの電話番号を入力してください（例：+91…）。
+err_bad_code	その SMS コードは間違っているか、有効期限が切れています。
+err_generic	問題が発生しました。
+acct_no_email	（メールなし）
+acct_email_verified	メール確認済み
+acct_email_unverified	メールが未確認です——受信トレイをご確認ください
+acct_phone_signed_in	電話番号でログイン中
+acct_you_are_in	ログインしました。
+acct_verify_sent	確認メールを送信しました——受信トレイをご確認ください

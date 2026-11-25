@@ -1,103 +1,103 @@
-# Czech — Čeština (cs). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
-privacy	Privacy
-terms	Terms
-cancellation	Cancellation
-deletion	Deletion
-help	Help
-support	Support
-login	Login
-email	Email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+# cs. key<TAB>text. Keep {placeholders}. \n = line break.
+menu	Nabídka
+close	Zavřít
+home	Domů
+about	O nás
+privacy	Soukromí
+terms	Podmínky
+cancellation	Zrušení
+deletion	Výmaz
+help	Nápověda
+support	Podpora
+login	Přihlášení
+email	E-mail
+trademark	OCHRANNÁ ZNÁMKA
+window_title	Gotigin — Tam, kde se technologie setkává s objevem
+slogan	Tam, kde se technologie setkává s objevem.
+brands	ZNAČKY
+brand	ZNAČKA
+product	PRODUKT
+kumkaj_blurb	Operační systémy pro podnikání.
+khaynjo_blurb	OS pro restauraci. Stoly, KOT, účty, uzávěrka dne.
+moklanjo_blurb	Přepážka kurýra. Rezervace, strany, deník.
+kirano_blurb	Kirana. Katalog, zásoba, khata, pokladní účtenka GST.
+tabiyat_blurb	Lékárenský pult. Šarže, expirace, zásoba, účty GST.
+wadhu_blurb	Memon pro „víc“. Nástroje · aplikace · víc.
+wadhu_note	Znovu použitelné nástroje, utility a aplikace. Není to komunikátor.
+sms_gateway_blurb	Zprávy SIM, nejdřív Android. LAN a Bluetooth zůstávají zdarma.
+sms_relay_blurb	Volitelná internetová vrstva pro spárované brány.
+connect_blurb	Most k WhatsApp Cloud API.
+ghalbol_blurb	Produkty pro komunikaci.
+ghalbol_app_blurb	Šifrovaný komunikátor.
+pages	STRÁNKY
+company_pages	Stránky společnosti
+page	STRÁNKA
+privacy_blurb	Zásady ochrany soukromí společnosti.
+terms_blurb	Podmínky užívání gotigin.com.
+cancellation_blurb	Zásady zrušení a vrácení peněz.
+data_deletion	Výmaz dat
+deletion_blurb	Jak požádat o výmaz.
+support_blurb	E-mail, telefon a nasměrování k produktu.
+help_blurb	Názvy, produkty a weby.
+about_blurb	Registrace společnosti a kontakty.
+cookies	Soubory cookie
+cookies_blurb	Soubory cookie na gotigin.com.
+security	Zabezpečení
+security_blurb	Jak nahlásit zranitelnost.
+company	SPOLEČNOST
+company_lede	Soukromá společnost s ručením omezeným. Dhoraji, Gujarat. Založena 24. června 2026.
+registration	Registrace
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
-account	Account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
-acct_continue_with	Continue with email, a provider, or phone.
-acct_name_optional	Name (optional)
-acct_password	Password
-acct_continue	Continue
-acct_or_continue	or continue with
-acct_federated	Federated sign-in
-acct_phone	Phone
-acct_mobile	Mobile number
+incorporated	Založena 24. června 2026
+share_capital	Základní kapitál ₹1,00,000
+limited_by_shares	Omezena podíly · Gujarat
+tax	Daň
+gst_regular	GST běžná · od 04. července 2026
+recognition	Uznání
+issued	Vydáno 08. července 2026
+valid_to	Platné do 23. června 2036
+registered_office	Sídlo
+directors	Jednatelé
+contact	Kontakt
+find_it	Memon pro „najdi to“ · vyslovuje se go-tee-geen
+brands_line	Podnikové systémy · nástroje a aplikace · komunikace
+account	Můj účet
+acct_page_title	Můj účet — Gotigin
+acct_lede	Přihlaste se k funkcím firemního webu Gotigin. Stejné volby jako na webech produktů — e-mail, poskytovatel nebo telefon.
+acct_continue_with	Pokračujte e-mailem, přes poskytovatele nebo telefonem.
+acct_name_optional	Jméno (nepovinné)
+acct_password	Heslo
+acct_continue	Pokračovat
+acct_or_continue	nebo pokračovat přes
+acct_federated	Federované přihlášení
+acct_phone	Telefon
+acct_mobile	Číslo mobilu
 acct_phone_placeholder	+91…
-acct_send_sms	Send SMS code
-acct_sms_code	SMS code
-acct_confirm_code	Confirm code
-acct_signed_in	Signed in
-acct_signed_in_as	Signed in as
-acct_status_label	Status
-acct_resend_verify	Resend verification email
-acct_sign_out	Sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
-err_invalid_email	Enter a valid email address.
-err_weak_password	Use a password with at least 6 characters.
-err_wrong_password	Wrong password.
-err_invalid_credential	Email or password is wrong.
-err_popup_closed	Sign-in window was closed.
-err_cancelled	Sign-in was cancelled.
-err_unauthorized_domain	This domain is not authorized for Firebase Auth.
-err_not_allowed	That sign-in method is not enabled yet.
-err_too_many	Too many attempts. Try again later.
-err_invalid_phone	Use a full phone number with country code (e.g. +91…).
-err_bad_code	That SMS code is wrong or expired.
-err_generic	Something went wrong.
-acct_no_email	(no email)
-acct_email_verified	Email verified
-acct_email_unverified	Email not verified yet — check your inbox
-acct_phone_signed_in	Signed in with phone
-acct_you_are_in	You’re signed in.
-acct_verify_sent	Verification email sent — check your inbox
+acct_send_sms	Poslat kód SMS
+acct_sms_code	Kód z SMS
+acct_confirm_code	Potvrdit kód
+acct_signed_in	Přihlášeno
+acct_signed_in_as	Přihlášený účet
+acct_status_label	Stav
+acct_resend_verify	Znovu poslat ověřovací e-mail
+acct_sign_out	Odhlásit se
+acct_home_aria	Domů Gotigin
+acct_nav_aria	Hlavní
+err_invalid_email	Zadejte platnou e-mailovou adresu.
+err_weak_password	Použijte heslo s alespoň 6 znaky.
+err_wrong_password	Nesprávné heslo.
+err_invalid_credential	Nesprávný e-mail nebo heslo.
+err_popup_closed	Okno přihlášení bylo zavřeno.
+err_cancelled	Přihlášení bylo zrušeno.
+err_unauthorized_domain	Tato doména není pro Firebase Auth autorizována.
+err_not_allowed	Tento způsob přihlášení zatím není zapnutý.
+err_too_many	Příliš mnoho pokusů. Zkuste to později.
+err_invalid_phone	Použijte celé telefonní číslo s předvolbou země (např. +91…).
+err_bad_code	Tento kód z SMS je nesprávný nebo vypršel.
+err_generic	Něco se pokazilo.
+acct_no_email	(žádný e-mail)
+acct_email_verified	E-mail ověřen
+acct_email_unverified	E-mail zatím není ověřený — zkontrolujte doručenou poštu
+acct_phone_signed_in	Přihlášeno telefonem
+acct_you_are_in	Jste přihlášeni.
+acct_verify_sent	Ověřovací e-mail odeslán — zkontrolujte doručenou poštu
