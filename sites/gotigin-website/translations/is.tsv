@@ -1,69 +1,69 @@
 # is. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Valmynd
+close	Loka
+home	Heim
+about	Um okkur
 privacy	Persónuvernd
 terms	Skilmálar
 cancellation	Afpöntun
-deletion	Deletion
-help	Help
-support	Support
+deletion	Eyðing
+help	Hjálp
+support	Aðstoð
 login	Innskráning
 email	Netfang
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	VÖRUMERKI
+window_title	Gotigin — Þar sem tækni mætir uppgötvun
+slogan	Þar sem tækni mætir uppgötvun.
+brands	VÖRUMERKIN
+brand	VÖRUMERKI
+product	VARA
+kumkaj_blurb	Rekstrarkerfi fyrir fyrirtæki.
+khaynjo_blurb	Veitingahúss OS. Borð, KOT, reikningar, dagslok.
+moklanjo_blurb	Sendiborð. Bókun, aðilar, dagbók.
+kirano_blurb	Kirana. Skrá, birgðir, khata, GST sjóðskvittun.
+tabiyat_blurb	Lyfjaborð. Lota, fyrning, birgðir, GST reikningar.
+wadhu_blurb	Memon fyrir „meira“. Verkfæri · Forrit · Meira.
+wadhu_note	Endurnýtanleg verkfæri, tól og forrit. Ekki skilaboðaforrit.
+sms_gateway_blurb	SIM-skilaboð, Android fyrst. LAN og Bluetooth haldast ókeypis.
+sms_relay_blurb	Valfrjálst internetlag fyrir pöruð hlið.
+connect_blurb	Brú að WhatsApp Cloud API.
+ghalbol_blurb	Samskiptavörur.
+ghalbol_app_blurb	Dulritað skilaboðaforrit.
+pages	SÍÐUR
+company_pages	Síður fyrirtækisins
+page	SÍÐA
+privacy_blurb	Persónuverndarstefna fyrirtækisins.
+terms_blurb	Notkunarskilmálar fyrir gotigin.com.
+cancellation_blurb	Stefna um afpöntun og endurgreiðslu.
+data_deletion	Eyðing gagna
+deletion_blurb	Hvernig á að biðja um eyðingu.
+support_blurb	Netfang, sími og bein leið að vörunni.
+help_blurb	Nöfn, vörur og síður.
+about_blurb	Skráning fyrirtækis og tengiliðir.
+cookies	Vefkökur
+cookies_blurb	Vefkökur á gotigin.com.
+security	Öryggi
+security_blurb	Hvernig á að tilkynna veikleika.
+company	FYRIRTÆKI
+company_lede	Einkahlutafélag. Dhoraji, Gujarat. Stofnað 24. júní 2026.
+registration	Skráning
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Stofnað 24. júní 2026
+share_capital	Hlutafé ₹1,00,000
+limited_by_shares	Takmarkað af hlutum · Gujarat
+tax	Skattur
+gst_regular	GST venjulegt · frá 04. júlí 2026
+recognition	Viðurkenning
+issued	Gefið út 08. júlí 2026
+valid_to	Gildir til 23. júní 2036
+registered_office	Skráð skrifstofa
+directors	Stjórnendur
+contact	Tengiliður
+find_it	Memon fyrir „finndu það“ · borið fram go-tee-geen
+brands_line	Viðskiptakerfi · verkfæri og forrit · samskipti
 account	Aðgangur
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Aðgangur — Gotigin
+acct_lede	Skráðu þig inn fyrir eiginleika fyrirtækjasíðu Gotigin. Sömu valkostir og á vörusíðunum — netfang, þjónustur eða sími.
 acct_continue_with	Haltu áfram með netfangi, þjónustuaðila eða síma.
 acct_name_optional	Nafn (valfrjálst)
 acct_password	Lykilorð
@@ -81,8 +81,8 @@ acct_signed_in_as	Innskráð sem
 acct_status_label	Staða
 acct_resend_verify	Senda staðfestingarpóst aftur
 acct_sign_out	Skrá út
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin heim
+acct_nav_aria	Aðal
 err_invalid_email	Sláðu inn gilt netfang.
 err_weak_password	Notaðu lykilorð með minnst 6 stöfum.
 err_wrong_password	Rangt lykilorð.
@@ -95,9 +95,9 @@ err_too_many	Of margar tilraunir. Reyndu aftur síðar.
 err_invalid_phone	Notaðu fullt símanúmer með landsnúmeri (t.d. +91…).
 err_bad_code	Þessi SMS-kóði er rangur eða útrunninn.
 err_generic	Eitthvað fór úrskeiðis.
-acct_no_email	(no email)
+acct_no_email	(ekkert netfang)
 acct_email_verified	Netfang staðfest
 acct_email_unverified	Netfang ekki staðfest enn — athugaðu pósthólfið
 acct_phone_signed_in	Innskráð með síma
 acct_you_are_in	Innskráning tókst.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Staðfestingarpóstur sendur — athugaðu innhólfið

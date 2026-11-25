@@ -1,69 +1,69 @@
 # xh. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Uluhlu
+close	Vala
+home	Ikhaya
+about	Malunga
 privacy	Ubumfihlo
 terms	Imiqathango
 cancellation	Ukurhoxisa
-deletion	Deletion
-help	Help
-support	Support
+deletion	Ukucima
+help	Uncedo
+support	Inkxaso
 login	Ngena
 email	I-imeyile
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	UPHAWU LORHWEBO
+window_title	Gotigin — Apho ubugcisa buhlangana nokufumanisa
+slogan	Apho ubugcisa buhlangana nokufumanisa.
+brands	IIMPAWU
+brand	UPHAWU
+product	IMVELISO
+kumkaj_blurb	Iinkqubo zokusebenza zeshishini.
+khaynjo_blurb	I-OS yendawo yokutya. Iitafile, KOT, ii-akhawunti, ukuvala usuku.
+moklanjo_blurb	Idesika yomthumeli. Ukubhukisha, amacala, incwadi yosuku.
+kirano_blurb	Kirana. Uluhlu, isitokhwe, khata, irisithi ye-GST.
+tabiyat_blurb	Ikhawuntara yekhemesti. Iqela, ukuphelelwa, isitokhwe, ii-akhawunti ze-GST.
+wadhu_blurb	I-Memon yokuba «kuninzi». Izixhobo · Ii-app · Kuninzi.
+wadhu_note	Izixhobo, ii-util, nee-app ezisetyenziswa kwakhona. Asiyosithunywa.
+sms_gateway_blurb	Imiyalezo ye-SIM, i-Android kuqala. I-LAN ne-Bluetooth zihlala simahla.
+sms_relay_blurb	Umaleko we-intanethi okhethwayo wamasango adityanisiweyo.
+connect_blurb	Ibhulorho ye-WhatsApp Cloud API.
+ghalbol_blurb	Iimveliso zonxibelelwano.
+ghalbol_app_blurb	Isithunywa esifihliweyo.
+pages	AMAPHEPHA
+company_pages	Amaphepha enkampani
+page	IPHEPHA
+privacy_blurb	Umgaqo-nkqubo wobumfihlo wenkampani.
+terms_blurb	Imiqathango yokusetyenziswa kwe-gotigin.com.
+cancellation_blurb	Umgaqo-nkqubo wokurhoxisa nokubuyisela.
+data_deletion	Ukucima idatha
+deletion_blurb	Indlela yokucela ukucinywa.
+support_blurb	I-imeyile, ifowuni, nendlela eya kwimveliso.
+help_blurb	Amagama, iimveliso, neesayithi.
+about_blurb	Ubhaliso lwenkampani nonxibelelwano.
+cookies	Iikhuki
+cookies_blurb	Iikhuki ku-gotigin.com.
+security	Ukhuseleko
+security_blurb	Indlela yokuxela ubuthathaka.
+company	INKAMPANI
+company_lede	Inkampani yabucala enoxanduva olulinganiselweyo. Dhoraji, Gujarat. Yasekwa ngomhla we-24 Juni 2026.
+registration	Ubhaliso
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Yasekwa ngomhla we-24 Juni 2026
+share_capital	Inkalo yezabelo ₹1,00,000
+limited_by_shares	Ilinganiselwe ngezabelo · Gujarat
+tax	Irhafu
+gst_regular	I-GST eqhelekileyo · ukususela ngomhla we-04 Julayi 2026
+recognition	Ukwamkelwa
+issued	Yakhutshwa ngomhla we-08 Julayi 2026
+valid_to	Isebenza de kube ngomhla we-23 Juni 2036
+registered_office	Iofisi ebhalisiweyo
+directors	Abalawuli
+contact	Unxibelelwano
+find_it	I-Memon yokuba «yifumane» · kuthethwa go-tee-geen
+brands_line	Iinkqubo zeshishini · izixhobo nee-app · unxibelelwano
 account	I-akhawunti
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	I-akhawunti — Gotigin
+acct_lede	Ngena kwizinto zesayithi yenkampani ye-Gotigin. Ukhetho olufanayo nolo lweesayithi zeemveliso — i-imeyile, ababoneleli, okanye ifowuni.
 acct_continue_with	Qhubeka nge-imeyile, umboneleli, okanye ifowuni.
 acct_name_optional	Igama (ngokuzikhethela)
 acct_password	Igama lokugqitha
@@ -81,8 +81,8 @@ acct_signed_in_as	Ungene njengo
 acct_status_label	Isimo
 acct_resend_verify	Phinda uthumele i-imeyile yokuqinisekisa
 acct_sign_out	Phuma
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Ikhaya le-Gotigin
+acct_nav_aria	Eyona nto
 err_invalid_email	Faka idilesi ye-imeyile esebenzayo.
 err_weak_password	Sebenzisa igama lokugqitha elinoonobumba aba-6 ubuncinane.
 err_wrong_password	Igama lokugqitha elingachanekanga.
@@ -95,9 +95,9 @@ err_too_many	Iinzame ezininzi kakhulu. Zama kwakhona kamva.
 err_invalid_phone	Sebenzisa inombolo yefowuni epheleleyo enekhowudi yelizwe (umz. +91…).
 err_bad_code	Loo khowudi ye-SMS ayichanekanga okanye iphelelwe lixesha.
 err_generic	Kukho into engahambanga kakuhle.
-acct_no_email	(no email)
+acct_no_email	(akukho i-imeyile)
 acct_email_verified	I-imeyile iqinisekisiwe
 acct_email_unverified	I-imeyile ayikaqinisekiswa — jonga ibhokisi lakho lemiyalezo
 acct_phone_signed_in	Ungene ngefowuni
 acct_you_are_in	Ungenile.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	I-imeyile yokuqinisekisa ithunyelwe — jonga ibhokisi yakho

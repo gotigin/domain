@@ -1,69 +1,69 @@
 # ht. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Meni
+close	Fèmen
+home	Akèy
+about	Sou nou
 privacy	Konfidansyalite
 terms	Kondisyon
 cancellation	Anilasyon
-deletion	Deletion
-help	Help
-support	Support
+deletion	Efase
+help	Èd
+support	Sipò
 login	Konekte
 email	Imèl
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	MAK KOMÈSYAL
+window_title	Gotigin — Kote teknoloji rankontre dekouvèt
+slogan	Kote teknoloji rankontre dekouvèt.
+brands	MAK YO
+brand	MAK
+product	PWODWI
+kumkaj_blurb	Sistèm operasyon pou biznis.
+khaynjo_blurb	OS restoran. Tab, KOT, bòdwo, fèmti jounen.
+moklanjo_blurb	Biwo kourye. Rezèvasyon, pati, liv jounen.
+kirano_blurb	Kirana. Katalòg, estòk, khata, resi lajan GST.
+tabiyat_blurb	Kontwa famasi. Lo, ekspirasyon, estòk, bòdwo GST.
+wadhu_blurb	Memon pou «plis». Zouti · Aplikasyon · Plis.
+wadhu_note	Zouti, utilitè ak aplikasyon ki ka itilize ankò. Se pa yon mesaje.
+sms_gateway_blurb	Mesaj SIM, Android an premye. LAN ak Bluetooth rete gratis.
+sms_relay_blurb	Kouch entènèt si ou vle pou pòtay ki pè.
+connect_blurb	Pon vè WhatsApp Cloud API.
+ghalbol_blurb	Pwodwi kominikasyon.
+ghalbol_app_blurb	Mesaje chifre.
+pages	PAJ YO
+company_pages	Paj konpayi an
+page	PAJ
+privacy_blurb	Règleman sou vi prive konpayi an.
+terms_blurb	Kondisyon itilizasyon pou gotigin.com.
+cancellation_blurb	Règleman anilasyon ak ranbousman.
+data_deletion	Efase done
+deletion_blurb	Kijan pou mande efase.
+support_blurb	Imèl, telefòn, ak wout pou pwodwi a.
+help_blurb	Non, pwodwi, ak sit.
+about_blurb	Enskripsyon konpayi an ak kontak.
+cookies	Kuki
+cookies_blurb	Kuki sou gotigin.com.
+security	Sekirite
+security_blurb	Kijan pou rapòte yon feblès.
+company	KONPAYI
+company_lede	Konpayi prive ak responsablite limite. Dhoraji, Gujarat. Fonse 24 jen 2026.
+registration	Enskripsyon
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Fonse 24 jen 2026
+share_capital	Kapital aksyon ₹1,00,000
+limited_by_shares	Limite pa aksyon · Gujarat
+tax	Taks
+gst_regular	GST regilye · depi 04 jiyè 2026
+recognition	Rekonesans
+issued	Pibliye 08 jiyè 2026
+valid_to	Valab jiska 23 jen 2036
+registered_office	Biwo anrejistre
+directors	Direktè
+contact	Kontak
+find_it	Memon pou «jwenn li» · pwononse go-tee-geen
+brands_line	Sistèm biznis · zouti ak aplikasyon · kominikasyon
 account	Kont
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Kont — Gotigin
+acct_lede	Konekte pou fonksyon sit konpayi Gotigin. Menm opsyon yo tankou sou sit pwodwi yo — imèl, founisè, oswa telefòn.
 acct_continue_with	Kontinye ak imèl, yon founisè oswa telefòn.
 acct_name_optional	Non (opsyonèl)
 acct_password	Modpas
@@ -81,8 +81,8 @@ acct_signed_in_as	Konekte kòm
 acct_status_label	Estati
 acct_resend_verify	Revoye imèl verifikasyon an
 acct_sign_out	Dekonekte
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Akèy Gotigin
+acct_nav_aria	Prensipal
 err_invalid_email	Antre yon adrès imèl ki valab.
 err_weak_password	Sèvi ak yon modpas ki gen omwen 6 karaktè.
 err_wrong_password	Modpas la pa bon.
@@ -95,9 +95,9 @@ err_too_many	Twòp esè. Eseye ankò pita.
 err_invalid_phone	Sèvi ak yon nimewo telefòn konplè ak kòd peyi a (pa egzanp +91…).
 err_bad_code	Kòd SMS sa a pa bon oswa li ekspire.
 err_generic	Gen yon bagay ki mal pase.
-acct_no_email	(no email)
+acct_no_email	(pa gen imèl)
 acct_email_verified	Imèl verifye
 acct_email_unverified	Imèl la poko verifye — gade bwat resepsyon ou
 acct_phone_signed_in	Konekte ak telefòn
 acct_you_are_in	Ou konekte.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Imèl verifikasyon an voye — tcheke bwat resepsyon ou

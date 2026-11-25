@@ -1,69 +1,69 @@
 # ca. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Menú
+close	Tanca
+home	Inici
+about	Quant a nosaltres
 privacy	Privadesa
 terms	Condicions
 cancellation	Cancel·lació
-deletion	Deletion
-help	Help
-support	Support
+deletion	Supressió
+help	Ajuda
+support	Assistència
 login	Inicia la sessió
 email	Correu electrònic
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	MARCA REGISTRADA
+window_title	Gotigin — On la tecnologia es troba amb el descobriment
+slogan	On la tecnologia es troba amb el descobriment.
+brands	MARQUES
+brand	MARCA
+product	PRODUCTE
+kumkaj_blurb	Sistemes operatius per a negocis.
+khaynjo_blurb	OS de restaurant. Taules, KOT, comptes, tancament del dia.
+moklanjo_blurb	Taulell de missatgeria. Reserva, parts, llibre del dia.
+kirano_blurb	Kirana. Catàleg, estoc, khata, rebut d'efectiu GST.
+tabiyat_blurb	Taulell de farmàcia. Lot, caducitat, estoc, comptes GST.
+wadhu_blurb	Memon per a «més». Eines · Aplicacions · Més.
+wadhu_note	Eines, utilitats i aplicacions reutilitzables. No és un missatger.
+sms_gateway_blurb	Missatgeria SIM, Android primer. LAN i Bluetooth segueixen sent gratuïts.
+sms_relay_blurb	Capa d'internet opcional per a passarel·les aparellades.
+connect_blurb	Pont cap a la WhatsApp Cloud API.
+ghalbol_blurb	Productes de comunicació.
+ghalbol_app_blurb	Missatger xifrat.
+pages	PÀGINES
+company_pages	Pàgines de l'empresa
+page	PÀGINA
+privacy_blurb	Política de privadesa de l'empresa.
+terms_blurb	Condicions d'ús de gotigin.com.
+cancellation_blurb	Política de cancel·lació i reemborsament.
+data_deletion	Supressió de dades
+deletion_blurb	Com demanar la supressió.
+support_blurb	Correu electrònic, telèfon i encaminament al producte.
+help_blurb	Noms, productes i llocs.
+about_blurb	Registre de l'empresa i contactes.
+cookies	Galetes
+cookies_blurb	Galetes a gotigin.com.
+security	Seguretat
+security_blurb	Com informar d'una vulnerabilitat.
+company	EMPRESA
+company_lede	Societat limitada privada. Dhoraji, Gujarat. Constituïda el 24 de juny de 2026.
+registration	Registre
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
+incorporated	Constituïda el 24 de juny de 2026
+share_capital	Capital social ₹1,00,000
+limited_by_shares	Limitada per accions · Gujarat
+tax	Impost
+gst_regular	GST ordinari · des del 04 de juliol de 2026
+recognition	Reconeixement
+issued	Emès el 08 de juliol de 2026
+valid_to	Vàlid fins al 23 de juny de 2036
+registered_office	Domicili social
 directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+contact	Contacte
+find_it	Memon per a «troba-ho» · es pronuncia go-tee-geen
+brands_line	Sistemes de negoci · eines i aplicacions · comunicació
 account	Compte
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Compte — Gotigin
+acct_lede	Inicieu la sessió per a les funcions del lloc de l'empresa Gotigin. Les mateixes opcions que als llocs dels productes — correu electrònic, proveïdors o telèfon.
 acct_continue_with	Continua amb el correu, un proveïdor o el telèfon.
 acct_name_optional	Nom (opcional)
 acct_password	Contrasenya
@@ -81,8 +81,8 @@ acct_signed_in_as	Sessió iniciada com a
 acct_status_label	Estat
 acct_resend_verify	Torna a enviar el correu de verificació
 acct_sign_out	Tanca la sessió
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Inici de Gotigin
+acct_nav_aria	Principal
 err_invalid_email	Introdueix una adreça electrònica vàlida.
 err_weak_password	Fes servir una contrasenya d’almenys 6 caràcters.
 err_wrong_password	Contrasenya incorrecta.
@@ -95,9 +95,9 @@ err_too_many	Massa intents. Torna-ho a provar més tard.
 err_invalid_phone	Fes servir el número de telèfon complet amb el prefix del país (p. ex. +91…).
 err_bad_code	Aquest codi SMS és incorrecte o ha caducat.
 err_generic	Alguna cosa ha anat malament.
-acct_no_email	(no email)
+acct_no_email	(sense correu)
 acct_email_verified	Correu verificat
 acct_email_unverified	El correu encara no està verificat — revisa la safata d’entrada
 acct_phone_signed_in	Sessió iniciada amb el telèfon
 acct_you_are_in	Has iniciat la sessió.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	S'ha enviat el correu de verificació — reviseu la safata d'entrada

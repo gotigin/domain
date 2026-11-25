@@ -1,69 +1,69 @@
 # kok. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	मेनू
+close	बंद
+home	घर
+about	आमचें विशीं
 privacy	खाजगीपण
 terms	अटी
 cancellation	रद्द करपाचें धोरण
-deletion	Deletion
-help	Help
-support	Support
+deletion	काडून उडोवप
+help	मदत
+support	आदार
 login	लॉगिन
 email	ईमेल
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	ट्रेडमार्क
+window_title	Gotigin — जंय तंत्रज्ञान सोद मेळटा
+slogan	जंय तंत्रज्ञान सोद मेळटा.
+brands	ब्रांड
+brand	ब्रांड
+product	उत्पाद
+kumkaj_blurb	वेवसायाचीं चालना तंत्रां.
+khaynjo_blurb	जेवणाघराचो OS. मेजां, KOT, बिल, दिसाचो बंद.
+moklanjo_blurb	कुरियर मेज. बुकिंग, पक्ष, दिसाचें पुस्तक.
+kirano_blurb	Kirana. वळेरी, साठो, khata, GST रोख रसीद.
+tabiyat_blurb	वखदां मेज. बॅच, मुदत, साठो, GST बिल.
+wadhu_blurb	Memon म्हळ्यार «चड». अवजारां · अॅप · चड.
+wadhu_note	परतून वापरपाचीं अवजारां, युटिल आनी अॅप. निमाणो न्हय.
+sms_gateway_blurb	SIM संदेश, पयलीं Android. LAN आनी Bluetooth फुकट उरतात.
+sms_relay_blurb	जोडिल्ल्या गेटवे खातीर पर्यायी इंटरनेट थर.
+connect_blurb	WhatsApp Cloud API पूल.
+ghalbol_blurb	संवादाचीं उत्पाद.
+ghalbol_app_blurb	गुप्त निमाणो.
+pages	पानां
+company_pages	कंपनेचीं पानां
+page	पान
+privacy_blurb	कंपनेची गुप्तताय धोरण.
+terms_blurb	gotigin.com वापराचे नेम.
+cancellation_blurb	रद्द आनी परतफेड धोरण.
+data_deletion	डेटा काडून उडोवप
+deletion_blurb	काडून उडोवपाक कशें मागचें.
+support_blurb	ईमेल, फोन आनी उत्पाद मेरेन वाट.
+help_blurb	नांवां, उत्पाद आनी साइट.
+about_blurb	कंपनेची नोंदणी आनी संपर्क.
+cookies	कुकीज
+cookies_blurb	gotigin.com चे कुकीज.
+security	सुरक्षा
+security_blurb	कमजोरी कशी सांगची.
+company	कंपनी
+company_lede	खाजगी मर्यादीत कंपनी. Dhoraji, Gujarat. स्थापना 24 जून 2026.
+registration	नोंदणी
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	स्थापना 24 जून 2026
+share_capital	शेअर भांडवल ₹1,00,000
+limited_by_shares	शेयरांनी मर्यादीत · Gujarat
+tax	कर
+gst_regular	GST सामान्य · 04 जुलय 2026 सावन
+recognition	मान्यताय
+issued	जारी 08 जुलय 2026
+valid_to	23 जून 2036 मेरेन मान्य
+registered_office	नोंदणी केल्लें कार्यालय
+directors	संचालक
+contact	संपर्क
+find_it	Memon म्हळ्यार «सोदून काड» · उच्चार go-tee-geen
+brands_line	वेवसाय तंत्रां · अवजारां आनी अॅप · संवाद
 account	खातें
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	खातें — Gotigin
+acct_lede	Gotigin कंपनी साइटच्या सुविधां खातीर साइन इन करात. उत्पाद साइटांवरी पर्याय — ईमेल, पुरवणदार वा फोन.
 acct_continue_with	ईमेल, पुरवणदार वा फोना वरवीं फुडें वचात।
 acct_name_optional	नांव (पर्यायी)
 acct_password	पासवर्ड
@@ -81,8 +81,8 @@ acct_signed_in_as	ह्या रुपान साइन इन
 acct_status_label	स्थिती
 acct_resend_verify	पडताळणी ईमेल परत धाडात
 acct_sign_out	साइन आउट
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin घर
+acct_nav_aria	मुख्य
 err_invalid_email	योग्य ईमेल पत्तो बरयात।
 err_weak_password	उणांत उणें 6 अक्षरांचो पासवर्ड वापरात।
 err_wrong_password	चुकीचो पासवर्ड।
@@ -95,9 +95,9 @@ err_too_many	खूब यत्न जाले। उपरांत परत
 err_invalid_phone	देशाच्या कोडा वांगडा पुराय फोन क्रमांक वापरात (देखीक +91…)।
 err_bad_code	तो SMS कोड चुकीचो वा ताची मुदत सोंपल्या।
 err_generic	कांय तरी चुकलें।
-acct_no_email	(no email)
+acct_no_email	(ईमेल ना)
 acct_email_verified	ईमेल पडताळलो
 acct_email_unverified	ईमेल अजून पडताळूंक ना — तुमचो इनबॉक्स पळयात
 acct_phone_signed_in	फोना वरवीं साइन इन
 acct_you_are_in	तुमी साइन इन आसात।
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	खात्री ईमेल धाडला — इनबॉक्स पळयात

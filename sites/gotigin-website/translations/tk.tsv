@@ -1,69 +1,69 @@
 # tk. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Menýu
+close	Ýapmak
+home	Baş sahypa
+about	Biz barada
 privacy	Gizlinlik
 terms	Şertler
 cancellation	Ýatyrmak
-deletion	Deletion
-help	Help
-support	Support
+deletion	Pozmak
+help	Kömek
+support	Goldaw
 login	Giriş
 email	E-poçta
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	SÖWDA BELGISI
+window_title	Gotigin — Tehnologiýa açyş bilen duşýan ýer
+slogan	Tehnologiýa açyş bilen duşýan ýer.
+brands	BRENDLER
+brand	BREND
+product	ÖNÜM
+kumkaj_blurb	Işewürlik üçin operasiýa ulgamlary.
+khaynjo_blurb	Restoran OS. Stollar, KOT, hasaplar, güni ýapmak.
+moklanjo_blurb	Kurýer stoly. Bron, taraplar, gün depderi.
+kirano_blurb	Kirana. Katalog, ätiýaç, khata, GST nagt çek.
+tabiyat_blurb	Dermanhana peshtahtasy. Partiýa, möhlet, ätiýaç, GST hasaplary.
+wadhu_blurb	Memon dilinde «köpräk». Gurallar · Programmalar · Köpräk.
+wadhu_note	Gaýtadan ulanylýan gurallar, utilitler we programmalar. Habarçy däl.
+sms_gateway_blurb	SIM habarlar, ilki Android. LAN we Bluetooth mugt galýar.
+sms_relay_blurb	Jübütlenen şlýuzlar üçin islege görä internet gatlagy.
+connect_blurb	WhatsApp Cloud API köprüsi.
+ghalbol_blurb	Aragatnaşyk önümleri.
+ghalbol_app_blurb	Şifrlenen habarçy.
+pages	SAHYPALAR
+company_pages	Kompaniýanyň sahypalary
+page	SAHYPA
+privacy_blurb	Kompaniýanyň gizlinlik syýasaty.
+terms_blurb	gotigin.com ulanmak şertleri.
+cancellation_blurb	Ýatyrmak we yzyna gaýtarmak syýasaty.
+data_deletion	Maglumatlary pozmak
+deletion_blurb	Pozmagy nädip soramalydygy.
+support_blurb	E-poçta, telefon we önüme ugrukdyrma.
+help_blurb	Atlar, önümler we sahypalar.
+about_blurb	Kompaniýany hasaba almak we aragatnaşyklar.
+cookies	Kukiler
+cookies_blurb	gotigin.com daky kukiler.
+security	Howpsuzlyk
+security_blurb	Gowşaklygy nädip habar bermeli.
+company	KOMPANIÝA
+company_lede	Jogapkärçiligi çäkli hususy kompaniýa. Dhoraji, Gujarat. 2026-njy ýylyň 24-nji iýunynda döredildi.
+registration	Hasaba alyş
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	2026-njy ýylyň 24-nji iýunynda döredildi
+share_capital	Paý kapitaly ₹1,00,000
+limited_by_shares	Paýlar bilen çäkli · Gujarat
+tax	Salgyt
+gst_regular	GST adaty · 2026-njy ýylyň 04-nji iýulyndan
+recognition	Ykrar
+issued	2026-njy ýylyň 08-nji iýulynda berildi
+valid_to	2036-njy ýylyň 23-nji iýunyna çenli güýji bar
+registered_office	Hasaba alnan edara
+directors	Direktorlar
+contact	Aragatnaşyk
+find_it	Memon dilinde «ony tap» · aýdylyşy go-tee-geen
+brands_line	Işewürlik ulgamlary · gurallar we programmalar · aragatnaşyk
 account	Akkaunt
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Akkaunt — Gotigin
+acct_lede	Gotigin kompaniýa sahypasynyň mümkinçilikleri üçin giriň. Önüm sahypalaryndaky ýaly saýlawlar — e-poçta, üpjün ediji ýa-da telefon.
 acct_continue_with	E-poçta, prowaýder ýa-da telefon bilen dowam ediň.
 acct_name_optional	Ady (hökmany däl)
 acct_password	Parol
@@ -81,8 +81,8 @@ acct_signed_in_as	Giren akkaunt
 acct_status_label	Ýagdaýy
 acct_resend_verify	Tassyklama hatyny gaýtadan iber
 acct_sign_out	Çykmak
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin baş sahypasy
+acct_nav_aria	Esasy
 err_invalid_email	Dogry e-poçta salgysyny giriziň.
 err_weak_password	Azyndan 6 nyşanly parol ulanyň.
 err_wrong_password	Parol nädogry.
@@ -95,9 +95,9 @@ err_too_many	Synanyşyklar gaty köp. Soňrak gaýtadan synanyşyň.
 err_invalid_phone	Ýurt kody bilen doly telefon belgisini ulanyň (meselem +91…).
 err_bad_code	Bu SMS kody nädogry ýa-da möhleti geçen.
 err_generic	Bir zat ýalňyş boldy.
-acct_no_email	(no email)
+acct_no_email	(e-poçta ýok)
 acct_email_verified	E-poçta tassyklandy
 acct_email_unverified	E-poçta entek tassyklanmady — gelen hatlaryňyzy barlaň
 acct_phone_signed_in	Telefon bilen girildi
 acct_you_are_in	Siz girdiňiz.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Tassyklama haty iberildi — gelen hatlaryňyzy barlaň

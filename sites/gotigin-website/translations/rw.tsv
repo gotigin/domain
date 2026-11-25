@@ -1,69 +1,69 @@
 # rw. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Urutonde
+close	Funga
+home	Ahabanza
+about	Ibyerekeye
 privacy	Ibanga
 terms	Amabwiriza
 cancellation	Guhagarika
-deletion	Deletion
-help	Help
-support	Support
+deletion	Gusiba
+help	Ubufasha
+support	Inkunga
 login	Injira
 email	Imeri
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	IKIRANGO
+window_title	Gotigin — Aho ikoranabuhanga rihurira n'ubuvumbuzi
+slogan	Aho ikoranabuhanga rihurira n'ubuvumbuzi.
+brands	IBIRANGO
+brand	IKIRANGO
+product	IGICURUZWA
+kumkaj_blurb	Sisitemu z'imikorere z'ubucuruzi.
+khaynjo_blurb	OS y'iresitora. Ameza, KOT, fagitire, gufunga umunsi.
+moklanjo_blurb	Ibiro by'ikorerwa. Kubika, impande, igitabo cy'umunsi.
+kirano_blurb	Kirana. Urutonde, ububiko, khata, inyemezabuguzi ya GST.
+tabiyat_blurb	Ikonti y'ibitaro. Itsinda, itariki, ububiko, fagitire za GST.
+wadhu_blurb	Memon isobanura «byinshi». Ibikoresho · Porogaramu · Byinshi.
+wadhu_note	Ibikoresho, util, na porogaramu bikoreshwa kenshi. Si umbutumwa.
+sms_gateway_blurb	Ubutumwa bwa SIM, Android mbere. LAN na Bluetooth biguma ubuntu.
+sms_relay_blurb	Urubuga rw'interineti rw'ubushake ku marembo ahuza.
+connect_blurb	Ikiraro cya WhatsApp Cloud API.
+ghalbol_blurb	Ibicuruzwa by'itumanaho.
+ghalbol_app_blurb	Umbutumwa w'ibanga.
+pages	AMAPEJI
+company_pages	Amapaji y'ikigo
+page	URUPAPURO
+privacy_blurb	Politiki y'ibanga ry'ikigo.
+terms_blurb	Amabwiriza yo gukoresha gotigin.com.
+cancellation_blurb	Politiki yo guhagarika no gusubiza.
+data_deletion	Gusiba amakuru
+deletion_blurb	Uko usaba gusiba.
+support_blurb	Imeri, telefone, n'inzira ijya ku gicuruzwa.
+help_blurb	Amazina, ibicuruzwa, n'imbuga.
+about_blurb	Kwiyandikisha kw'ikigo n'itumanaho.
+cookies	Kuki
+cookies_blurb	Kuki kuri gotigin.com.
+security	Umutekano
+security_blurb	Uko utanga raporo y'ubugoryi.
+company	IKIGO
+company_lede	Ikigo cyigenga gifite inshingano nke. Dhoraji, Gujarat. Cyashinzwe ku wa 24 Kamena 2026.
+registration	Kwiyandikisha
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Cyashinzwe ku wa 24 Kamena 2026
+share_capital	Imari y'imigabane ₹1,00,000
+limited_by_shares	Igabanyijwe n'imigabane · Gujarat
+tax	Umusoro
+gst_regular	GST isanzwe · kuva 04 Nyakanga 2026
+recognition	Kwemera
+issued	Cyatanzwe ku wa 08 Nyakanga 2026
+valid_to	Gikora kugeza 23 Kamena 2036
+registered_office	Ibiro byanditswe
+directors	Abayobozi
+contact	Itumanaho
+find_it	Memon isobanura «shaka» · ivugwa go-tee-geen
+brands_line	Sisitemu z'ubucuruzi · ibikoresho na porogaramu · itumanaho
 account	Konti
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Konti — Gotigin
+acct_lede	Injira mu bintu by'urubuga rw'ikigo cya Gotigin. Amahitamo amwe n'ayo ku mbuga z'ibicuruzwa — imeri, utanga serivisi, cyangwa telefone.
 acct_continue_with	Komeza ukoresheje imeri, utanga serivisi, cyangwa telefone.
 acct_name_optional	Izina (ku bushake)
 acct_password	Ijambo ry’ibanga
@@ -81,8 +81,8 @@ acct_signed_in_as	Winjiye nka
 acct_status_label	Imiterere
 acct_resend_verify	Ongera wohereze imeri yo kwemeza
 acct_sign_out	Sohoka
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Ahabanza ka Gotigin
+acct_nav_aria	Ibanze
 err_invalid_email	Andika aderesi ya imeri yemewe.
 err_weak_password	Koresha ijambo ry’ibanga rifite nibura inyuguti 6.
 err_wrong_password	Ijambo ry’ibanga si ryo.
@@ -95,9 +95,9 @@ err_too_many	Wagerageje inshuro nyinshi cyane. Ongera ugerageze nyuma.
 err_invalid_phone	Koresha nimero ya telefone yuzuye ifite kode y’igihugu (urugero +91…).
 err_bad_code	Iyo kode ya SMS si yo cyangwa yararengeje igihe.
 err_generic	Hari ikitagenze neza.
-acct_no_email	(no email)
+acct_no_email	(nta meri)
 acct_email_verified	Imeri yemejwe
 acct_email_unverified	Imeri ntiraremezwa — reba agasanduku k’ubutumwa bwawe
 acct_phone_signed_in	Winjiye ukoresheje telefone
 acct_you_are_in	Winjiye.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Imeri yo kwemeza yoherejwe — reba agasanduku k'ubutumwa bwawe

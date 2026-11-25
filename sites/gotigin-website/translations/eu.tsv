@@ -1,69 +1,69 @@
 # eu. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Menua
+close	Itxi
+home	Hasiera
+about	Guri buruz
 privacy	Pribatutasuna
 terms	Baldintzak
 cancellation	Ezeztapena
-deletion	Deletion
-help	Help
-support	Support
+deletion	Ezabatzea
+help	Laguntza
+support	Euskarria
 login	Hasi saioa
 email	Posta elektronikoa
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	MARKA ERREGISTRATUA
+window_title	Gotigin — Teknologia aurkikuntzarekin elkartzen den tokia
+slogan	Teknologia aurkikuntzarekin elkartzen den tokia.
+brands	MARKAK
+brand	MARKA
+product	PRODUKTUA
+kumkaj_blurb	Negozioetarako sistema eragileak.
+khaynjo_blurb	Jatetxeko OS. Mahaiak, KOT, fakturak, egunaren itxiera.
+moklanjo_blurb	Mezularitza-mahaia. Erreserba, aldeak, eguneko liburua.
+kirano_blurb	Kirana. Katalogoa, stocka, khata, GST diru-ordainagiria.
+tabiyat_blurb	Farmazia-mostradorea. Lotea, iraungitzea, stocka, GST fakturak.
+wadhu_blurb	Memoneraz «gehiago». Tresnak · Aplikazioak · Gehiago.
+wadhu_note	Berrerabiltzeko tresnak, utilitateak eta aplikazioak. Ez da mezularia.
+sms_gateway_blurb	SIM mezuak, Android lehenik. LAN eta Bluetooth doan geratzen dira.
+sms_relay_blurb	Aukerako internet-geruza parekatutako atebideentzat.
+connect_blurb	Zubia WhatsApp Cloud API aldera.
+ghalbol_blurb	Komunikazio-produktuak.
+ghalbol_app_blurb	Mezularia zifratua.
+pages	ORRIAK
+company_pages	Enpresaren orriak
+page	ORRIA
+privacy_blurb	Enpresaren pribatutasun-politika.
+terms_blurb	gotigin.com erabiltzeko baldintzak.
+cancellation_blurb	Baliogabetze- eta itzulketa-politika.
+data_deletion	Datuen ezabatzea
+deletion_blurb	Nola eskatu ezabatzea.
+support_blurb	Posta elektronikoa, telefonoa eta produktuaren bideratzea.
+help_blurb	Izenak, produktuak eta guneak.
+about_blurb	Enpresaren erregistroa eta kontaktuak.
+cookies	Cookieak
+cookies_blurb	Cookieak gotigin.com gunean.
+security	Segurtasuna
+security_blurb	Nola jakinarazi ahultasun bat.
+company	ENPRESA
+company_lede	Erantzukizun mugatuko sozietate pribatua. Dhoraji, Gujarat. 2026ko ekainaren 24an eratua.
+registration	Erregistroa
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	2026ko ekainaren 24an eratua
+share_capital	Kapital soziala ₹1,00,000
+limited_by_shares	Akzioek mugatua · Gujarat
+tax	Zerga
+gst_regular	GST arrunta · 2026ko uztailaren 04tik
+recognition	Aitortza
+issued	2026ko uztailaren 08an emana
+valid_to	2036ko ekainaren 23ra arte baliozkoa
+registered_office	Egoitza soziala
+directors	Zuzendariak
+contact	Kontaktua
+find_it	Memoneraz «aurkitu» · ahoskatzen da go-tee-geen
+brands_line	Negozio-sistemak · tresnak eta aplikazioak · komunikazioa
 account	Kontua
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Kontua — Gotigin
+acct_lede	Hasi saioa Gotigin enpresaren gunearen eginbideetarako. Produktuen guneetako aukera berak — posta elektronikoa, hornitzaileak edo telefonoa.
 acct_continue_with	Jarraitu posta elektronikoarekin, hornitzaile batekin edo telefonoarekin.
 acct_name_optional	Izena (aukerakoa)
 acct_password	Pasahitza
@@ -81,8 +81,8 @@ acct_signed_in_as	Saioa hasita honela:
 acct_status_label	Egoera
 acct_resend_verify	Bidali berriro egiaztapen-mezua
 acct_sign_out	Amaitu saioa
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin hasiera
+acct_nav_aria	Nagusia
 err_invalid_email	Idatzi baliozko helbide elektroniko bat.
 err_weak_password	Erabili gutxienez 6 karaktereko pasahitz bat.
 err_wrong_password	Pasahitz okerra.
@@ -95,9 +95,9 @@ err_too_many	Saiakera gehiegi. Saiatu berriro geroago.
 err_invalid_phone	Erabili telefono-zenbaki osoa herrialde-kodearekin (adib. +91…).
 err_bad_code	SMS kode hori okerra da edo iraungi da.
 err_generic	Zerbait gaizki atera da.
-acct_no_email	(no email)
+acct_no_email	(posta elektronikorik ez)
 acct_email_verified	Posta egiaztatuta
 acct_email_unverified	Posta ez dago egiaztatuta oraindik — begiratu sarrera-ontzia
 acct_phone_signed_in	Saioa telefonoz hasita
 acct_you_are_in	Saioa hasi duzu.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Egiaztapen-mezua bidali da — begiratu sarrera-ontzia

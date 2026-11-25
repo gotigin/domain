@@ -1,69 +1,69 @@
 # tg. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Меню
+close	Пӯшидан
+home	Асосӣ
+about	Дар бораи мо
 privacy	Махфият
 terms	Шартҳо
 cancellation	Бекоркунӣ
-deletion	Deletion
-help	Help
-support	Support
+deletion	Несткунӣ
+help	Ёрӣ
+support	Дастгирӣ
 login	Воридшавӣ
 email	Почтаи электронӣ
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	НИШОНИ ТИҶОРАТӢ
+window_title	Gotigin — Ҷое, ки технология бо кашфиёт вомехӯрад
+slogan	Ҷое, ки технология бо кашфиёт вомехӯрад.
+brands	БРЕНДҲО
+brand	БРЕНД
+product	МАҲСУЛ
+kumkaj_blurb	Системаҳои амалиётӣ барои тиҷорат.
+khaynjo_blurb	OS тарабхона. Мизҳо, KOT, ҳисобҳо, пӯшидани рӯз.
+moklanjo_blurb	Мизи қосид. Захира, тарафҳо, дафтари рӯз.
+kirano_blurb	Kirana. Феҳрист, захира, khata, расиди нақди GST.
+tabiyat_blurb	Пештахтаи дорухона. Даста, муҳлат, захира, ҳисобҳои GST.
+wadhu_blurb	Memon барои «бештар». Асбобҳо · Барномаҳо · Бештар.
+wadhu_note	Асбоб, утилит ва барномаҳои такроран истифодашаванда. Паёмрасон нест.
+sms_gateway_blurb	Паёмҳои SIM, аввал Android. LAN ва Bluetooth ройгон мемонанд.
+sms_relay_blurb	Қабати ихтиёрии интернет барои дарвозаҳои ҷуфт.
+connect_blurb	Пули WhatsApp Cloud API.
+ghalbol_blurb	Маҳсулоти муошират.
+ghalbol_app_blurb	Паёмрасони рамзгузорӣ.
+pages	САҲИФАҲО
+company_pages	Саҳифаҳои ширкат
+page	САҲИФА
+privacy_blurb	Сиёсати махфияти ширкат.
+terms_blurb	Шартҳои истифодаи gotigin.com.
+cancellation_blurb	Сиёсати бекоркунӣ ва баргардонидан.
+data_deletion	Нест кардани додаҳо
+deletion_blurb	Чӣ тавр несткунӣ хоҳиш кардан.
+support_blurb	Почтаи электронӣ, телефон ва равона ба маҳсул.
+help_blurb	Номҳо, маҳсулот ва сайтҳо.
+about_blurb	Бақайдгирии ширкат ва тамосҳо.
+cookies	Кукиҳо
+cookies_blurb	Кукиҳо дар gotigin.com.
+security	Амният
+security_blurb	Чӣ тавр осебпазириро гузориш додан.
+company	ШИРКАТ
+company_lede	Ширкати хусусии масъулияташ маҳдуд. Dhoraji, Gujarat. 24 июни 2026 таъсис ёфт.
+registration	Бақайдгирӣ
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	24 июни 2026 таъсис ёфт
+share_capital	Сармояи саҳҳомӣ ₹1,00,000
+limited_by_shares	Бо саҳмҳо маҳдуд · Gujarat
+tax	Андоз
+gst_regular	GST оддӣ · аз 04 июли 2026
+recognition	Эътироф
+issued	08 июли 2026 дода шуд
+valid_to	То 23 июни 2036 эътибор дорад
+registered_office	Идораи бақайдшуда
+directors	Директорон
+contact	Тамос
+find_it	Memon барои «ёбаш» · талаффуз go-tee-geen
+brands_line	Системаҳои тиҷорат · асбоб ва барномаҳо · муошират
 account	Аккаунт
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Аккаунт — Gotigin
+acct_lede	Барои имкониятҳои сайти ширкати Gotigin ворид шавед. Ҳамон имконот чун дар сайтҳои маҳсулот — почтаи электронӣ, таъминкунанда ё телефон.
 acct_continue_with	Бо почтаи электронӣ, провайдер ё телефон давом диҳед.
 acct_name_optional	Ном (ихтиёрӣ)
 acct_password	Парол
@@ -81,8 +81,8 @@ acct_signed_in_as	Ворид шуда ҳамчун
 acct_status_label	Ҳолат
 acct_resend_verify	Номаи тасдиқро бори дигар фиристед
 acct_sign_out	Баромадан
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Асосии Gotigin
+acct_nav_aria	Асосӣ
 err_invalid_email	Суроғаи дурусти почтаи электрониро ворид кунед.
 err_weak_password	Паролеро истифода баред, ки на камтар аз 6 аломат дошта бошад.
 err_wrong_password	Парол нодуруст аст.
@@ -95,9 +95,9 @@ err_too_many	Кӯшишҳо аз ҳад зиёданд. Баъдтар боз к
 err_invalid_phone	Рақами пурраи телефонро бо рамзи кишвар истифода баред (масалан +91…).
 err_bad_code	Ин рамзи SMS нодуруст аст ё мӯҳлаташ гузаштааст.
 err_generic	Хатое рух дод.
-acct_no_email	(no email)
+acct_no_email	(почтаи электронӣ нест)
 acct_email_verified	Почта тасдиқ шуд
 acct_email_unverified	Почта ҳанӯз тасдиқ нашудааст — қуттии воридотиро санҷед
 acct_phone_signed_in	Бо телефон ворид шуд
 acct_you_are_in	Шумо ворид шудед.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Номаи тасдиқ фиристода шуд — қуттии воридотро бинед

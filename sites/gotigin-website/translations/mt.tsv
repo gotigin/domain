@@ -1,69 +1,69 @@
 # mt. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Lista
+close	Agħlaq
+home	Bidu
+about	Dwarna
 privacy	Privatezza
 terms	Termini
 cancellation	Kanċellazzjoni
-deletion	Deletion
-help	Help
-support	Support
+deletion	Tħassir
+help	Għajnuna
+support	Appoġġ
 login	Idħol
 email	Imejl
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	MARKA
+window_title	Gotigin — Fejn it-teknoloġija tiltaqa' mal-iskoperta
+slogan	Fejn it-teknoloġija tiltaqa' mal-iskoperta.
+brands	MARKI
+brand	MARKA
+product	PRODOTT
+kumkaj_blurb	Sistemi operattivi għan-negozju.
+khaynjo_blurb	OS tar-ristorant. Mwejjed, KOT, kontijiet, għeluq tal-jum.
+moklanjo_blurb	Bank tal-kurrier. Riservazzjoni, partijiet, ktieb tal-jum.
+kirano_blurb	Kirana. Katalogu, stokk, khata, riċevuta GST.
+tabiyat_blurb	Bank tal-ispiżerija. Lott, skadenza, stokk, kontijiet GST.
+wadhu_blurb	Memon għal «aktar». Għodda · Apps · Aktar.
+wadhu_note	Għodda, utilitajiet u apps li jerġgħu jintużaw. Mhux messaġġier.
+sms_gateway_blurb	Messaġġi SIM, Android l-ewwel. LAN u Bluetooth jibqgħu b'xejn.
+sms_relay_blurb	Saff tal-internet fakultattiv għal gateways imqabbdin.
+connect_blurb	Pont lejn WhatsApp Cloud API.
+ghalbol_blurb	Prodotti tal-komunikazzjoni.
+ghalbol_app_blurb	Messaġġier ikkriptat.
+pages	PAĠNI
+company_pages	Paġni tal-kumpanija
+page	PAĠNA
+privacy_blurb	Politika tal-privatezza tal-kumpanija.
+terms_blurb	Termini tal-użu għal gotigin.com.
+cancellation_blurb	Politika ta' kanċellazzjoni u rifużjoni.
+data_deletion	Tħassir tad-data
+deletion_blurb	Kif titlob it-tħassir.
+support_blurb	Imejl, telefon u rotta lejn il-prodott.
+help_blurb	Ismijiet, prodotti u siti.
+about_blurb	Reġistrazzjoni tal-kumpanija u kuntatti.
+cookies	Kukiji
+cookies_blurb	Kukiji fuq gotigin.com.
+security	Sigurtà
+security_blurb	Kif tirrapporta vulnerabbiltà.
+company	KUMPANIJA
+company_lede	Kumpanija privata b'responsabbiltà limitata. Dhoraji, Gujarat. Inkorporata fl-24 ta' Ġunju 2026.
+registration	Reġistrazzjoni
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Inkorporata fl-24 ta' Ġunju 2026
+share_capital	Kapital azzjonarju ₹1,00,000
+limited_by_shares	Limitata bl-azzjonijiet · Gujarat
+tax	Taxxa
+gst_regular	GST regolari · mill-04 ta' Lulju 2026
+recognition	Rikonoxximent
+issued	Maħruġ fit-08 ta' Lulju 2026
+valid_to	Validu sa 23 ta' Ġunju 2036
+registered_office	Uffiċċju reġistrat
+directors	Diretturi
+contact	Kuntatt
+find_it	Memon għal «sibha» · titkellem go-tee-geen
+brands_line	Sistemi tan-negozju · għodda u apps · komunikazzjoni
 account	Kont
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Kont — Gotigin
+acct_lede	Idħol għall-karatteristiċi tas-sit tal-kumpanija Gotigin. L-istess għażliet bħal fuq is-siti tal-prodotti — imejl, fornituri jew telefon.
 acct_continue_with	Kompli bl-imejl, b’fornitur jew bit-telefon.
 acct_name_optional	Isem (mhux obbligatorju)
 acct_password	Kelma tal-passaġġ
@@ -81,8 +81,8 @@ acct_signed_in_as	Dħalt bħala
 acct_status_label	Stat
 acct_resend_verify	Erġa’ ibgħat l-imejl tal-verifika
 acct_sign_out	Oħroġ
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Bidu ta' Gotigin
+acct_nav_aria	Primarju
 err_invalid_email	Daħħal indirizz tal-imejl validu.
 err_weak_password	Uża kelma tal-passaġġ ta’ mill-inqas 6 karattri.
 err_wrong_password	Kelma tal-passaġġ ħażina.
@@ -95,9 +95,9 @@ err_too_many	Wisq tentattivi. Erġa’ pprova aktar tard.
 err_invalid_phone	Uża n-numru tat-telefon sħiħ bil-kodiċi tal-pajjiż (eż. +91…).
 err_bad_code	Dak il-kodiċi SMS huwa ħażin jew skada.
 err_generic	Xi ħaġa marret ħażin.
-acct_no_email	(no email)
+acct_no_email	(l-ebda imejl)
 acct_email_verified	Imejl ivverifikat
 acct_email_unverified	L-imejl għadu mhux ivverifikat — iċċekkja l-kaxxa tal-posta
 acct_phone_signed_in	Dħalt bit-telefon
 acct_you_are_in	Dħalt.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Intbagħat l-imejl tal-verifika — iċċekkja l-kaxxa

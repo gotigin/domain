@@ -1,69 +1,69 @@
 # ga. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Roghchlár
+close	Dún
+home	Baile
+about	Fúinn
 privacy	Príobháideacht
 terms	Téarmaí
 cancellation	Cealú
-deletion	Deletion
-help	Help
-support	Support
+deletion	Scriosadh
+help	Cabhair
+support	Tacaíocht
 login	Logáil isteach
 email	Ríomhphost
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	TRÁDMHARCA
+window_title	Gotigin — Áit a mbuaileann an teicneolaíocht leis an bhfionnachtain
+slogan	Áit a mbuaileann an teicneolaíocht leis an bhfionnachtain.
+brands	TRÁDMHARCANNA
+brand	TRÁDMHARCA
+product	TÁIRGE
+kumkaj_blurb	Córais oibriúcháin do ghnóthaí.
+khaynjo_blurb	OS bialainne. Boird, KOT, billí, dúnadh an lae.
+moklanjo_blurb	Deasc teachtaire. Áirithint, páirtithe, leabhar an lae.
+kirano_blurb	Kirana. Catalóg, stoc, khata, admháil airgid GST.
+tabiyat_blurb	Cuntar cógaisíochta. Baisc, dul in éag, stoc, billí GST.
+wadhu_blurb	Memon ar «tuilleadh». Uirlisí · Aipeanna · Tuilleadh.
+wadhu_note	Uirlisí, fóntais agus aipeanna in-athúsáidte. Ní teachtaire é.
+sms_gateway_blurb	Teachtaireachtaí SIM, Android ar dtús. Fanann LAN agus Bluetooth saor in aisce.
+sms_relay_blurb	Sraith idirlín roghnach do gheataí péireáilte.
+connect_blurb	Droichead chuig WhatsApp Cloud API.
+ghalbol_blurb	Táirgí cumarsáide.
+ghalbol_app_blurb	Teachtaire criptithe.
+pages	LEATHANAIGH
+company_pages	Leathanaigh na cuideachta
+page	LEATHANACH
+privacy_blurb	Polasaí príobháideachais na cuideachta.
+terms_blurb	Téarmaí úsáide do gotigin.com.
+cancellation_blurb	Polasaí cealaithe agus aisíocaíochta.
+data_deletion	Scriosadh sonraí
+deletion_blurb	Conas scriosadh a iarraidh.
+support_blurb	Ríomhphost, fón agus bealach chuig an táirge.
+help_blurb	Ainmneacha, táirgí agus suíomhanna.
+about_blurb	Clárú na cuideachta agus teagmhálacha.
+cookies	Fianáin
+cookies_blurb	Fianáin ar gotigin.com.
+security	Slándáil
+security_blurb	Conas leochaileacht a thuairisciú.
+company	CUIDEACHTA
+company_lede	Cuideachta phríobháideach theoranta. Dhoraji, Gujarat. Corpraíodh 24 Meitheamh 2026.
+registration	Clárú
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Corpraíodh 24 Meitheamh 2026
+share_capital	Caipiteal scaireanna ₹1,00,000
+limited_by_shares	Teoranta ag scaireanna · Gujarat
+tax	Cáin
+gst_regular	GST rialta · ó 04 Iúil 2026
+recognition	Aitheantas
+issued	Eisithe 08 Iúil 2026
+valid_to	Bailí go 23 Meitheamh 2036
+registered_office	Oifig chláraithe
+directors	Stiúrthóirí
+contact	Teagmháil
+find_it	Memon ar «aimsigh é» · fuaimnítear go-tee-geen
+brands_line	Córais ghnó · uirlisí agus aipeanna · cumarsáid
 account	Cuntas
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Cuntas — Gotigin
+acct_lede	Logáil isteach le haghaidh gnéithe shuíomh cuideachta Gotigin. Na roghanna céanna agus ar shuíomhanna na dtáirgí — ríomhphost, soláthraithe nó fón.
 acct_continue_with	Lean ar aghaidh le ríomhphost, soláthraí nó fón.
 acct_name_optional	Ainm (roghnach)
 acct_password	Pasfhocal
@@ -81,8 +81,8 @@ acct_signed_in_as	Logáilte isteach mar
 acct_status_label	Stádas
 acct_resend_verify	Athsheol ríomhphost fíoraithe
 acct_sign_out	Logáil amach
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Baile Gotigin
+acct_nav_aria	Príomhúil
 err_invalid_email	Cuir isteach seoladh ríomhphoist bailí.
 err_weak_password	Úsáid pasfhocal ina bhfuil 6 charachtar ar a laghad.
 err_wrong_password	Pasfhocal mícheart.
@@ -95,9 +95,9 @@ err_too_many	An iomarca iarrachtaí. Bain triail eile as ar ball.
 err_invalid_phone	Úsáid uimhir fóin iomlán le cód tíre (m.sh. +91…).
 err_bad_code	Tá an cód SMS sin mícheart nó imithe in éag.
 err_generic	Chuaigh rud éigin amú.
-acct_no_email	(no email)
+acct_no_email	(gan ríomhphost)
 acct_email_verified	Ríomhphost fíoraithe
 acct_email_unverified	Níl an ríomhphost fíoraithe fós — féach ar do bhosca isteach
 acct_phone_signed_in	Logáilte isteach le fón
 acct_you_are_in	Tá tú logáilte isteach.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Seoladh an ríomhphost deimhnithe — seiceáil do bhosca isteach

@@ -1,69 +1,69 @@
 # kk. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Мәзір
+close	Жабу
+home	Басты бет
+about	Біз туралы
 privacy	Құпиялылық
 terms	Шарттар
 cancellation	Бас тарту
-deletion	Deletion
-help	Help
-support	Support
+deletion	Жою
+help	Көмек
+support	Қолдау
 login	Кіру
 email	Электрондық пошта
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	САУДА БЕЛГІСІ
+window_title	Gotigin — Технология жаңалықпен тоғысатын жер
+slogan	Технология жаңалықпен тоғысатын жер.
+brands	БРЕНДТЕР
+brand	БРЕНД
+product	ӨНІМ
+kumkaj_blurb	Бизнеске арналған операциялық жүйелер.
+khaynjo_blurb	Мейрамхана OS. Үстелдер, KOT, шоттар, күнді жабу.
+moklanjo_blurb	Курьер үстелі. Брондау, тараптар, күнделік.
+kirano_blurb	Kirana. Каталог, қор, khata, GST кассалық түбіртек.
+tabiyat_blurb	Дәріхана үстелі. Топтама, мерзім, қор, GST шоттары.
+wadhu_blurb	Memon тілінде «көбірек». Құралдар · Қолданбалар · Көбірек.
+wadhu_note	Қайта қолданылатын құралдар, утилиталар және қолданбалар. Хабаршы емес.
+sms_gateway_blurb	SIM хабарламалары, алдымен Android. LAN және Bluetooth тегін қалады.
+sms_relay_blurb	Жұпталған шлюздерге арналған қосымша интернет қабаты.
+connect_blurb	WhatsApp Cloud API көпірі.
+ghalbol_blurb	Байланыс өнімдері.
+ghalbol_app_blurb	Шифрланған хабаршы.
+pages	БЕТТЕР
+company_pages	Компания беттері
+page	БЕТ
+privacy_blurb	Компанияның құпиялылық саясаты.
+terms_blurb	gotigin.com пайдалану шарттары.
+cancellation_blurb	Бас тарту және қайтару саясаты.
+data_deletion	Деректерді жою
+deletion_blurb	Жоюды қалай сұрауға болады.
+support_blurb	Электрондық пошта, телефон және өнімге бағыттау.
+help_blurb	Атаулар, өнімдер және сайттар.
+about_blurb	Компанияны тіркеу және байланыстар.
+cookies	Кукилер
+cookies_blurb	Кукилер gotigin.com сайтында.
+security	Қауіпсіздік
+security_blurb	Осалдықты қалай хабарлауға болады.
+company	КОМПАНИЯ
+company_lede	Жауапкершілігі шектеулі жеке компания. Dhoraji, Gujarat. 2026 жылғы 24 маусымда құрылған.
+registration	Тіркеу
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	2026 жылғы 24 маусымда құрылған
+share_capital	Акция капиталы ₹1,00,000
+limited_by_shares	Акциямен шектелген · Gujarat
+tax	Салық
+gst_regular	GST қалыпты · 2026 жылғы 04 шілдеден
+recognition	Тану
+issued	2026 жылғы 08 шілдеде берілген
+valid_to	2036 жылғы 23 маусымға дейін жарамды
+registered_office	Тіркелген кеңсе
+directors	Директорлар
+contact	Байланыс
+find_it	Memon тілінде «оны тап» · айтылуы go-tee-geen
+brands_line	Бизнес жүйелері · құралдар мен қолданбалар · байланыс
 account	Аккаунт
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Аккаунт — Gotigin
+acct_lede	Gotigin компания сайтының мүмкіндіктері үшін кіріңіз. Өнім сайттарындағыдай нұсқалар — электрондық пошта, провайдер немесе телефон.
 acct_continue_with	Электрондық пошта, провайдер немесе телефонмен жалғастырыңыз.
 acct_name_optional	Аты (міндетті емес)
 acct_password	Құпиясөз
@@ -81,8 +81,8 @@ acct_signed_in_as	Кірген аккаунт
 acct_status_label	Күйі
 acct_resend_verify	Растау хатын қайта жіберу
 acct_sign_out	Шығу
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin басты беті
+acct_nav_aria	Негізгі
 err_invalid_email	Дұрыс электрондық пошта мекенжайын енгізіңіз.
 err_weak_password	Кемінде 6 таңбалы құпиясөз қолданыңыз.
 err_wrong_password	Құпиясөз қате.
@@ -95,9 +95,9 @@ err_too_many	Әрекет тым көп. Кейінірек қайталаңыз
 err_invalid_phone	Ел кодымен толық телефон нөмірін қолданыңыз (мыс. +91…).
 err_bad_code	Бұл SMS коды қате немесе мерзімі өткен.
 err_generic	Бірдеңе дұрыс болмады.
-acct_no_email	(no email)
+acct_no_email	(электрондық пошта жоқ)
 acct_email_verified	Пошта расталды
 acct_email_unverified	Пошта әлі расталмаған — кіріс жәшігін тексеріңіз
 acct_phone_signed_in	Телефонмен кірді
 acct_you_are_in	Сіз кірдіңіз.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Растау хаты жіберілді — кіріс жәшігін тексеріңіз

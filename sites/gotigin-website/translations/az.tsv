@@ -1,69 +1,69 @@
 # az. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Menyu
+close	Bağla
+home	Ana səhifə
+about	Haqqımızda
 privacy	Məxfilik
 terms	Şərtlər
 cancellation	Ləğvetmə
-deletion	Deletion
-help	Help
-support	Support
+deletion	Silinmə
+help	Kömək
+support	Dəstək
 login	Giriş
 email	E-poçt
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	ƏMTƏƏ NİŞANI
+window_title	Gotigin — Texnologiyanın kəşflə qovuşduğu yer
+slogan	Texnologiyanın kəşflə qovuşduğu yer.
+brands	BRENDLƏR
+brand	BREND
+product	MƏHSUL
+kumkaj_blurb	Biznes əməliyyat sistemləri.
+khaynjo_blurb	Restoran OS. Masalar, KOT, hesablar, günün bağlanışı.
+moklanjo_blurb	Kuryer masası. Bron, tərəflər, gün kitabı.
+kirano_blurb	Kirana. Kataloq, ehtiyat, khata, GST nağd qəbz.
+tabiyat_blurb	Aptek piştaxtası. Partiya, son istifadə, ehtiyat, GST hesabları.
+wadhu_blurb	Memonca «daha çox». Alətlər · Tətbiqlər · Daha çox.
+wadhu_note	Təkrar işlənən alətlər, utilitlər və tətbiqlər. Mesencer deyil.
+sms_gateway_blurb	SIM mesajları, öncə Android. LAN və Bluetooth pulsuz qalır.
+sms_relay_blurb	Qoşulmuş şlüzlər üçün istəyə bağlı internet qatı.
+connect_blurb	WhatsApp Cloud API körpüsü.
+ghalbol_blurb	Ünsiyyət məhsulları.
+ghalbol_app_blurb	Şifrələnmiş mesencer.
+pages	SƏHİFƏLƏR
+company_pages	Şirkət səhifələri
+page	SƏHİFƏ
+privacy_blurb	Şirkətin məxfilik siyasəti.
+terms_blurb	gotigin.com üçün istifadə şərtləri.
+cancellation_blurb	Ləğv və geri ödəniş siyasəti.
+data_deletion	Verilənlərin silinməsi
+deletion_blurb	Silinməni necə istəmək olar.
+support_blurb	E-poçt, telefon və məhsula yönləndirmə.
+help_blurb	Adlar, məhsullar və saytlar.
+about_blurb	Şirkətin qeydiyyatı və əlaqələr.
+cookies	Kukilər
+cookies_blurb	gotigin.com saytında kukilər.
+security	Təhlükəsizlik
+security_blurb	Zəifliyi necə bildirmək olar.
+company	ŞİRKƏT
+company_lede	Məhdud məsuliyyətli özəl şirkət. Dhoraji, Gujarat. 24 iyun 2026-cı ildə təsis olunub.
+registration	Qeydiyyat
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	24 iyun 2026-cı ildə təsis olunub
+share_capital	Nizamnamə kapitalı ₹1,00,000
+limited_by_shares	Səhmlərlə məhdud · Gujarat
+tax	Vergi
+gst_regular	GST adi · 04 iyul 2026-dan
+recognition	Tanınma
+issued	08 iyul 2026-da verilib
+valid_to	23 iyun 2036-dək etibarlıdır
+registered_office	Qeydiyyat ünvanı
+directors	Direktorlar
+contact	Əlaqə
+find_it	Memonca «onu tap» · tələffüz go-tee-geen
+brands_line	Biznes sistemləri · alətlər və tətbiqlər · ünsiyyət
 account	Hesab
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Hesab — Gotigin
+acct_lede	Gotigin şirkət saytının imkanları üçün daxil olun. Məhsul saytlarındakı eyni seçimlər — e-poçt, təminatçı və ya telefon.
 acct_continue_with	E-poçt, provayder və ya telefonla davam edin.
 acct_name_optional	Ad (istəyə bağlı)
 acct_password	Parol
@@ -81,8 +81,8 @@ acct_signed_in_as	Daxil olan
 acct_status_label	Vəziyyət
 acct_resend_verify	Təsdiq məktubunu yenidən göndər
 acct_sign_out	Çıxış
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin ana səhifəsi
+acct_nav_aria	Əsas
 err_invalid_email	Düzgün e-poçt ünvanı daxil edin.
 err_weak_password	Ən azı 6 simvollu parol istifadə edin.
 err_wrong_password	Parol səhvdir.
@@ -95,9 +95,9 @@ err_too_many	Həddən çox cəhd. Sonra yenidən cəhd edin.
 err_invalid_phone	Ölkə kodu ilə tam telefon nömrəsi istifadə edin (məs. +91…).
 err_bad_code	Bu SMS kodu səhvdir və ya vaxtı keçib.
 err_generic	Nəsə səhv getdi.
-acct_no_email	(no email)
+acct_no_email	(e-poçt yoxdur)
 acct_email_verified	E-poçt təsdiqlənib
 acct_email_unverified	E-poçt hələ təsdiqlənməyib — gələnlər qutusuna baxın
 acct_phone_signed_in	Telefonla daxil olunub
 acct_you_are_in	Daxil oldunuz.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Təsdiq e-poçtu göndərildi — gələnlər qutusuna baxın

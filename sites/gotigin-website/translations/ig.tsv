@@ -1,69 +1,69 @@
 # ig. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Ndepụta
+close	Mechie
+home	Ụlọ
+about	Gbasara anyị
 privacy	Nzuzo
 terms	Usoro
 cancellation	Nkagbu
-deletion	Deletion
-help	Help
-support	Support
+deletion	Ihichapụ
+help	Enyemaka
+support	Nkwado
 login	Banye
 email	Ozi-e
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	AKARA AHỊA
+window_title	Gotigin — Ebe teknụzụ na nchọpụta na-ezute
+slogan	Ebe teknụzụ na nchọpụta na-ezute.
+brands	AKARA
+brand	AKARA
+product	NGWAAHỊA
+kumkaj_blurb	Sistemụ ọrụ maka azụmahịa.
+khaynjo_blurb	OS ụlọ nri. Tebụl, KOT, ụgwọ, mmechi ụbọchị.
+moklanjo_blurb	Deski ozi. Ndebanye, ndị otu, akwụkwọ ụbọchị.
+kirano_blurb	Kirana. Ndepụta, ngwaahịa, khata, akwụkwọ ego GST.
+tabiyat_blurb	Deski ọgwụ. Otu, njedebe, ngwaahịa, ụgwọ GST.
+wadhu_blurb	Memon maka «karịa». Ngwaọrụ · Ngwa · Karịa.
+wadhu_note	Ngwaọrụ, util, na ngwa a na-eji ọzọ. Ọ bụghị onye ozi.
+sms_gateway_blurb	Ozi SIM, Android mbụ. LAN na Bluetooth na-anọgide n'efu.
+sms_relay_blurb	Otu intanetị nhọrọ maka ọnụ ụzọ ejikọtara.
+connect_blurb	Àkwà mmiri gaa na WhatsApp Cloud API.
+ghalbol_blurb	Ngwaahịa nkwukọrịta.
+ghalbol_app_blurb	Onye ozi ezoro ezo.
+pages	AKWỤKWỌ
+company_pages	Ibe ụlọ ọrụ
+page	IBE
+privacy_blurb	Iwu nzuzo ụlọ ọrụ.
+terms_blurb	Usoro iji gotigin.com.
+cancellation_blurb	Iwu nkagbu na nkwụghachi.
+data_deletion	Ihichapụ data
+deletion_blurb	Otu esi arịọ ihichapụ.
+support_blurb	Ozi-e, ekwentị, na ụzọ gaa na ngwaahịa.
+help_blurb	Aha, ngwaahịa, na saịtị.
+about_blurb	Ndebanye ụlọ ọrụ na kọntaktị.
+cookies	Kuki
+cookies_blurb	Kuki na gotigin.com.
+security	Nchekwa
+security_blurb	Otu esi akọ adịghị ike.
+company	ỤLỌ ỌRỤ
+company_lede	Ụlọ ọrụ nkeonwe nwere ibu oke. Dhoraji, Gujarat. E hiwere ya na 24 Juun 2026.
+registration	Ndebanye
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	E hiwere ya na 24 Juun 2026
+share_capital	Isi ego ₹1,00,000
+limited_by_shares	Oke site na ego · Gujarat
+tax	Ụtụ isi
+gst_regular	GST nkịtị · site na 04 Julaị 2026
+recognition	Nnabata
+issued	E nyere ya na 08 Julaị 2026
+valid_to	Ọ dị irè ruo 23 Juun 2036
+registered_office	Ụlọ ọrụ edebanyere aha
+directors	Ndị isi
+contact	Kọntaktị
+find_it	Memon maka «chọta ya» · a na-akpọ ya go-tee-geen
+brands_line	Sistemụ azụmahịa · ngwaọrụ na ngwa · nkwukọrịta
 account	Akaụntụ
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Akaụntụ — Gotigin
+acct_lede	Banye maka ihe saịtị ụlọ ọrụ Gotigin. Nhọrọ ndị ahụ dị na saịtị ngwaahịa — ozi-e, onye na-enye, ma ọ bụ ekwentị.
 acct_continue_with	Gaa n’ihu site n’ozi-e, onye na-enye ọrụ ịbanye, ma ọ bụ ekwentị.
 acct_name_optional	Aha (nhọrọ)
 acct_password	Okwuntughe
@@ -81,8 +81,8 @@ acct_signed_in_as	Ị banyere dịka
 acct_status_label	Ọnọdụ
 acct_resend_verify	Ziga ozi-e nkwenye ọzọ
 acct_sign_out	Pụọ
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Ụlọ Gotigin
+acct_nav_aria	Isi
 err_invalid_email	Tinye adreesị ozi-e ziri ezi.
 err_weak_password	Jiri okwuntughe nwere opekata mpe mkpụrụedemede 6.
 err_wrong_password	Okwuntughe ezighị ezi.
@@ -95,9 +95,9 @@ err_too_many	Ị nwaala ọtụtụ ugboro. Nwaa ọzọ emechaa.
 err_invalid_phone	Jiri nọmba ekwentị zuru oke ya na koodu mba (dịka +91…).
 err_bad_code	Koodu SMS ahụ ezighị ezi ma ọ bụ agwụla.
 err_generic	Ihe ezighị ezi mere.
-acct_no_email	(no email)
+acct_no_email	(enweghị ozi-e)
 acct_email_verified	E kwadoro ozi-e
 acct_email_unverified	A kwadobeghị ozi-e — lee igbe ozi gị
 acct_phone_signed_in	Ị banyere site n’ekwentị
 acct_you_are_in	Ị banyela.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	E zigara ozi-e nkwenye — lelee igbe ozi gị

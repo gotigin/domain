@@ -1,69 +1,69 @@
 # sl. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Meni
+close	Zapri
+home	Domov
+about	O nas
 privacy	Zasebnost
 terms	Pogoji
 cancellation	Odpoved
-deletion	Deletion
-help	Help
-support	Support
+deletion	Izbris
+help	Pomoč
+support	Podpora
 login	Prijava
 email	E-pošta
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	BLAGOVNA ZNAMKA
+window_title	Gotigin — Kjer se tehnologija sreča z odkritjem
+slogan	Kjer se tehnologija sreča z odkritjem.
+brands	ZNAMKE
+brand	ZNAMKA
+product	IZDELEK
+kumkaj_blurb	Poslovni operacijski sistemi.
+khaynjo_blurb	Restavracijski OS. Mize, KOT, računi, zaključek dneva.
+moklanjo_blurb	Kurirski pult. Rezervacija, stranke, dnevnik.
+kirano_blurb	Kirana. Katalog, zaloga, khata, GST blagajniški nalog.
+tabiyat_blurb	Lekarniški pult. Serija, rok, zaloga, GST računi.
+wadhu_blurb	Memonsko za „več“. Orodja · Aplikacije · Več.
+wadhu_note	Orodja, pripomočki in aplikacije za vnovično uporabo. Ni glasnik.
+sms_gateway_blurb	SIM sporočila, najprej Android. LAN in Bluetooth ostaneta brezplačna.
+sms_relay_blurb	Izbirna internetna plast za seznanjena vozlišča.
+connect_blurb	Most do WhatsApp Cloud API.
+ghalbol_blurb	Izdelki za sporazumevanje.
+ghalbol_app_blurb	Šifrirani glasnik.
+pages	STRANI
+company_pages	Strani podjetja
+page	STRAN
+privacy_blurb	Pravilnik o zasebnosti podjetja.
+terms_blurb	Pogoji uporabe za gotigin.com.
+cancellation_blurb	Pravilnik o preklicu in vračilu.
+data_deletion	Izbris podatkov
+deletion_blurb	Kako zahtevati izbris.
+support_blurb	E-pošta, telefon in usmerjanje k izdelku.
+help_blurb	Imena, izdelki in mesta.
+about_blurb	Registracija podjetja in stiki.
+cookies	Piškotki
+cookies_blurb	Piškotki na gotigin.com.
+security	Varnost
+security_blurb	Kako prijaviti ranljivost.
+company	PODJETJE
+company_lede	Zasebna družba z omejeno odgovornostjo. Dhoraji, Gujarat. Ustanovljeno 24. junija 2026.
+registration	Registracija
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Ustanovljeno 24. junija 2026
+share_capital	Osnovni kapital ₹1,00,000
+limited_by_shares	Omejeno z deleži · Gujarat
+tax	Davek
+gst_regular	GST redni · od 04. julija 2026
+recognition	Priznanje
+issued	Izdano 08. julija 2026
+valid_to	Velja do 23. junija 2036
+registered_office	Registrirani sedež
+directors	Direktorji
+contact	Stik
+find_it	Memonsko za „najdi“ · izgovorjava go-tee-geen
+brands_line	Poslovni sistemi · orodja in aplikacije · sporazumevanje
 account	Moj račun
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Račun — Gotigin
+acct_lede	Prijavite se za možnosti spletnega mesta podjetja Gotigin. Enake možnosti kot na mestih izdelkov — e-pošta, ponudniki ali telefon.
 acct_continue_with	Nadaljujte z e-pošto, prek ponudnika ali s telefonom.
 acct_name_optional	Ime (neobvezno)
 acct_password	Geslo
@@ -81,8 +81,8 @@ acct_signed_in_as	Prijavljeni račun
 acct_status_label	Stanje
 acct_resend_verify	Znova pošlji potrditveno e-pošto
 acct_sign_out	Odjava
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Domov Gotigin
+acct_nav_aria	Primarno
 err_invalid_email	Vnesite veljaven e-poštni naslov.
 err_weak_password	Uporabite geslo z vsaj 6 znaki.
 err_wrong_password	Napačno geslo.
@@ -95,9 +95,9 @@ err_too_many	Preveč poskusov. Poskusite pozneje.
 err_invalid_phone	Uporabite celotno telefonsko številko s kodo države (npr. +91…).
 err_bad_code	Ta koda SMS je napačna ali je potekla.
 err_generic	Nekaj je šlo narobe.
-acct_no_email	(no email)
+acct_no_email	(ni e-pošte)
 acct_email_verified	E-pošta potrjena
 acct_email_unverified	E-pošta še ni potrjena — preverite prejeto pošto
 acct_phone_signed_in	Prijavljeni s telefonom
 acct_you_are_in	Prijavljeni ste.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Potrditveno e-poštno sporočilo je poslano — preverite prejeto pošto

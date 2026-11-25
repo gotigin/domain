@@ -1,69 +1,69 @@
 # or. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	ମେନୁ
+close	ବନ୍ଦ କରନ୍ତୁ
+home	ଘର
+about	ଆମ ବିଷୟରେ
 privacy	ଗୋପନୀୟତା
 terms	ସର୍ତ୍ତାବଳୀ
 cancellation	ବାତିଲ ନୀତି
-deletion	Deletion
-help	Help
-support	Support
+deletion	ଲିଭାଇବା
+help	ସାହାଯ୍ୟ
+support	ସହଯୋଗ
 login	ଲଗ ଇନ
 email	ଇମେଲ୍
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	ଟ୍ରେଡମାର୍କ
+window_title	Gotigin — ଯେଉଁଠି ପ୍ରଯୁକ୍ତି ଆବିଷ୍କାର ସହ ମିଳେ
+slogan	ଯେଉଁଠି ପ୍ରଯୁକ୍ତି ଆବିଷ୍କାର ସହ ମିଳେ.
+brands	ବ୍ରାଣ୍ଡ
+brand	ବ୍ରାଣ୍ଡ
+product	ଉତ୍ପାଦ
+kumkaj_blurb	ବ୍ୟବସାୟର ଚାଳନା ବ୍ୟବସ୍ଥା.
+khaynjo_blurb	ଭୋଜନାଳୟର OS. ମେଜ, KOT, ବିଲ, ଦିନର ସମାପ୍ତି.
+moklanjo_blurb	କୁରିୟର ମେଜ. ବୁକିଂ, ପକ୍ଷ, ଦିନର ବହି.
+kirano_blurb	Kirana. ତାଲିକା, ଷ୍ଟକ, khata, GST ନଗଦ ରସିଦ.
+tabiyat_blurb	ଔଷଧ କାଉଣ୍ଟର. ବ୍ୟାଚ, ମିଆଦ, ଷ୍ଟକ, GST ବିଲ.
+wadhu_blurb	Memon ଅର୍ଥ «ଅଧିକ». ଉପକରଣ · ଆପ · ଅଧିକ.
+wadhu_note	ପୁନର୍ବାର ବ୍ୟବହାରଯୋଗ୍ୟ ଉପକରଣ, ଇଉଟିଲ ଓ ଆପ. ବାର୍ତ୍ତାବାହକ ନୁହେଁ.
+sms_gateway_blurb	SIM ବାର୍ତ୍ତା, ପ୍ରଥମେ Android. LAN ଓ Bluetooth ମାଗଣା ରହେ.
+sms_relay_blurb	ଯୋଡ଼ା ଗେଟୱେ ପାଇଁ ଐଚ୍ଛିକ ଇଣ୍ଟରନେଟ ସ୍ତର.
+connect_blurb	WhatsApp Cloud API ପୋଲ.
+ghalbol_blurb	ଯୋଗାଯୋଗର ଉତ୍ପାଦ.
+ghalbol_app_blurb	ଗୁପ୍ତ ବାର୍ତ୍ତାବାହକ.
+pages	ପୃଷ୍ଠା
+company_pages	କମ୍ପାନୀ ପୃଷ୍ଠା
+page	ପୃଷ୍ଠା
+privacy_blurb	କମ୍ପାନୀ ଗୋପନୀୟତା ନୀତି.
+terms_blurb	gotigin.com ବ୍ୟବହାର ସର୍ତ୍ତ.
+cancellation_blurb	ବାତିଲ ଓ ଫେରସ୍ତ ନୀତି.
+data_deletion	ଡାଟା ଲିଭାଇବା
+deletion_blurb	ଲିଭାଇବା କିପରି ମାଗିବେ.
+support_blurb	ଇମେଲ, ଫୋନ ଓ ଉତ୍ପାଦ ପର୍ଯ୍ୟନ୍ତ ରାସ୍ତା.
+help_blurb	ନାମ, ଉତ୍ପାଦ ଓ ସାଇଟ.
+about_blurb	କମ୍ପାନୀ ପଞ୍ଜୀକରଣ ଓ ଯୋଗାଯୋଗ.
+cookies	କୁକି
+cookies_blurb	gotigin.com ରେ କୁକି.
+security	ସୁରକ୍ଷା
+security_blurb	ଦୁର୍ବଳତା କିପରି ଜଣାଇବେ.
+company	କମ୍ପାନୀ
+company_lede	ବ୍ୟକ୍ତିଗତ ସୀମିତ କମ୍ପାନୀ. Dhoraji, Gujarat. ସ୍ଥାପନା 24 ଜୁନ 2026.
+registration	ପଞ୍ଜୀକରଣ
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	ସ୍ଥାପନା 24 ଜୁନ 2026
+share_capital	ସେୟାର ପୁଞ୍ଜି ₹1,00,000
+limited_by_shares	ସେୟାରରେ ସୀମିତ · Gujarat
+tax	କର
+gst_regular	GST ସାଧାରଣ · 04 ଜୁଲାଇ 2026 ଠାରୁ
+recognition	ସ୍ୱୀକୃତି
+issued	ଜାରି 08 ଜୁଲାଇ 2026
+valid_to	23 ଜୁନ 2036 ପର୍ଯ୍ୟନ୍ତ ବୈଧ
+registered_office	ପଞ୍ଜିକୃତ କାର୍ଯ୍ୟାଳୟ
+directors	ନିର୍ଦ୍ଦେଶକ
+contact	ଯୋଗାଯୋଗ
+find_it	Memon ଅର୍ଥ «ଖୋଜି ବାହାର କରନ୍ତୁ» · ଉଚ୍ଚାରଣ go-tee-geen
+brands_line	ବ୍ୟବସାୟ ବ୍ୟବସ୍ଥା · ଉପକରଣ ଓ ଆପ · ଯୋଗାଯୋଗ
 account	ଆକାଉଣ୍ଟ
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	ଆକାଉଣ୍ଟ — Gotigin
+acct_lede	Gotigin କମ୍ପାନୀ ସାଇଟ ସୁବିଧା ପାଇଁ ସାଇନ ଇନ କରନ୍ତୁ. ଉତ୍ପାଦ ସାଇଟରେ ଯେଉଁ ବିକଳ୍ପ — ଇମେଲ, ପ୍ରଦାନକାରୀ କିମ୍ବା ଫୋନ.
 acct_continue_with	ଇମେଲ, କୌଣସି ପ୍ରଦାନକାରୀ ବା ଫୋନରେ ଆଗକୁ ବଢ଼ନ୍ତୁ।
 acct_name_optional	ନାମ (ଇଚ୍ଛାଧୀନ)
 acct_password	ପାସୱାର୍ଡ
@@ -81,8 +81,8 @@ acct_signed_in_as	ସାଇନ ଇନ ଥିବା ଆକାଉଣ୍ଟ
 acct_status_label	ସ୍ଥିତି
 acct_resend_verify	ଯାଞ୍ଚ ଇମେଲ ପୁଣି ପଠାନ୍ତୁ
 acct_sign_out	ସାଇନ ଆଉଟ
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin ଘର
+acct_nav_aria	ମୁଖ୍ୟ
 err_invalid_email	ଠିକ୍ ଇମେଲ ଠିକଣା ଦିଅନ୍ତୁ।
 err_weak_password	ଅତି କମରେ 6 ଅକ୍ଷରର ପାସୱାର୍ଡ ବ୍ୟବହାର କରନ୍ତୁ।
 err_wrong_password	ଭୁଲ ପାସୱାର୍ଡ।
@@ -95,9 +95,9 @@ err_too_many	ବହୁତ ଥର ଚେଷ୍ଟା ହେଲା। ପରେ �
 err_invalid_phone	ଦେଶ କୋଡ ସହ ପୂରା ଫୋନ ନମ୍ବର ଦିଅନ୍ତୁ (ଯେପରି +91…)।
 err_bad_code	ସେହି SMS କୋଡ ଭୁଲ ବା ଅବଧି ସରିଯାଇଛି।
 err_generic	କିଛି ଭୁଲ ହେଲା।
-acct_no_email	(no email)
+acct_no_email	(ଇମେଲ ନାହିଁ)
 acct_email_verified	ଇମେଲ ଯାଞ୍ଚ ହେଲା
 acct_email_unverified	ଇମେଲ ଏଯାଏଁ ଯାଞ୍ଚ ହୋଇନାହିଁ — ଆପଣଙ୍କ ଇନବକ୍ସ ଦେଖନ୍ତୁ
 acct_phone_signed_in	ଫୋନରେ ସାଇନ ଇନ ହୋଇଛି
 acct_you_are_in	ଆପଣ ସାଇନ ଇନ ହୋଇଛନ୍ତି।
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	ସତ୍ୟାପନ ଇମେଲ ପଠାଗଲା — ଇନବକ୍ସ ଦେଖନ୍ତୁ

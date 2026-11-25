@@ -1,69 +1,69 @@
 # gn. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Poravorã
+close	Mboty
+home	Ñepyrũ
+about	Ore rehegua
 privacy	Ñemigua
 terms	Ñemboguata rape
 cancellation	Jeheja rei
-deletion	Deletion
-help	Help
-support	Support
+deletion	Mbogue
+help	Pytyvõ
+support	Ñepytyvõ
 login	Eike
 email	Ñandutiveve
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	TERAÑEMI
+window_title	Gotigin — Moõpa tembiporu ojuajú ojejuhúvare
+slogan	Moõpa tembiporu ojuajú ojejuhúvare.
+brands	TERAÑEMI KUÉRA
+brand	TERAÑEMI
+product	MBA'E
+kumkaj_blurb	Apopyvusu ojejapóva viru rehe.
+khaynjo_blurb	OS óga hi'upy. Mesakuéra, KOT, kuatia viru, ára ñemboty.
+moklanjo_blurb	Mesa ñe'ẽmondo. Ñemomba'apo, atykuéra, kuatia ára.
+kirano_blurb	Kirana. Tysýi, ñeñongatu, khata, kuatia viru GST.
+tabiyat_blurb	Mesa pohã. Aty, aravo paha, ñeñongatu, kuatia viru GST.
+wadhu_blurb	Memon he'iséva «hetave». Tembiporu · Tembipuru'i · Hetave.
+wadhu_note	Tembiporu, util, ha tembipuru'i ojepurujeyva. Ndaha'éi ñe'ẽmondoha.
+sms_gateway_blurb	Ñe'ẽñemi SIM, Android tenonde. LAN ha Bluetooth opyta rei.
+sms_relay_blurb	Ñanduti mbojeporu oñembojoajúva puertakuérape.
+connect_blurb	Jepokuaa WhatsApp Cloud API.
+ghalbol_blurb	Mba'e ñe'ẽmondo.
+ghalbol_app_blurb	Ñe'ẽmondoha ñemi.
+pages	KUATIAROGUEKUÉRA
+company_pages	Kuatiarogue atýra
+page	KUATIAROGUE
+privacy_blurb	Ñemigua atýra.
+terms_blurb	Tembiporu reko gotigin.com peg̃uarã.
+cancellation_blurb	Ñembogue ha ñemuhaguero reko.
+data_deletion	Mba'ekuaarã mbogue
+deletion_blurb	Mba'éichapa ojejerure mbogue.
+support_blurb	Ñanduti veve, pumbyry, ha tape oho hag̃ua mba'épe.
+help_blurb	Téra, mba'e, ha tenda.
+about_blurb	Atýra jehaipy ha ñe'ẽmondo.
+cookies	Kuki
+cookies_blurb	Kuki gotigin.com-pe.
+security	Ñeñangareko
+security_blurb	Mba'éichapa ojehechauka peteĩ vái.
+company	ATÝRA
+company_lede	Atýra ñemigua iñembohovake'ỹva. Dhoraji, Gujarat. Oñemoheñói 24 Jasypoteĩ 2026.
+registration	Jehaipy
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Oñemoheñói 24 Jasypoteĩ 2026
+share_capital	Viru ñembyaty ₹1,00,000
+limited_by_shares	Oñemombyky virúpe · Gujarat
+tax	Jehepyme'ẽ
+gst_regular	GST hekoitéva · 04 Jasypokõi 2026 guive
+recognition	Ñemoneĩ
+issued	Oñeme'ẽ 08 Jasypokõi 2026
+valid_to	Oiko 23 Jasypoteĩ 2036 peve
+registered_office	Róga jehaipyréva
+directors	Motenondehára
+contact	Ñe'ẽmondo
+find_it	Memon he'iséva «ejuhu» · oñe'ẽ go-tee-geen
+brands_line	Apopyvusu viru · tembiporu ha tembipuru'i · ñe'ẽmondo
 account	Kuénta
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Kuénta — Gotigin
+acct_lede	Eike Gotigin atýra tenda rembiporúpe. Ojeporavóva peteĩcha tenda mba'épe — ñanduti veve, ome'ẽva, térã pumbyry.
 acct_continue_with	Eho tenonde ñandutiveve, me’ẽhára térã pumbyry rupive.
 acct_name_optional	Téra (reiporavóramo)
 acct_password	Ñe’ẽñemi
@@ -81,8 +81,8 @@ acct_signed_in_as	Reikéma ko kuénta rupive
 acct_status_label	Mba’éichapa oĩ
 acct_resend_verify	Emondo jey ñandutiveve ñemoneĩrã
 acct_sign_out	Esẽ
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Ñepyrũ Gotigin
+acct_nav_aria	Tenondegua
 err_invalid_email	Emoinge ñandutiveve oikóva.
 err_weak_password	Eiporu ñe’ẽñemi orekóva 6 tai sa’ivéramo.
 err_wrong_password	Ñe’ẽñemi ndaha’éi hekopete.
@@ -95,9 +95,9 @@ err_too_many	Heta ñeha’ã. Eha’ã jey upéi.
 err_invalid_phone	Eiporu pumbyry papapy henyhẽva tetã papapy ndive (techapyrã +91…).
 err_bad_code	Upe SMS papapy ndaha’éi hekopete térã opáma.
 err_generic	Oiko peteĩ mba’e vai.
-acct_no_email	(no email)
+acct_no_email	(ndaipóri ñanduti veve)
 acct_email_verified	Ñandutiveve oñemoneĩma
 acct_email_unverified	Ñandutiveve noñemoneĩri gueteri — ehecha nde marandu ryru
 acct_phone_signed_in	Reike pumbyry rupive
 acct_you_are_in	Reikéma.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Oñemondo ñanduti veve ñemoneĩ — ehecha nde kasilla

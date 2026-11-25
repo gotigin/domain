@@ -1,69 +1,69 @@
 # so. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Liiska
+close	Xir
+home	Guriga
+about	Nagu saabsan
 privacy	Asturnaanta
 terms	Shuruudaha
 cancellation	Joojinta
-deletion	Deletion
-help	Help
-support	Support
+deletion	Tirtirid
+help	Caawimaad
+support	Taageero
 login	Soo gal
 email	Iimayl
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	SUMMAD GANACSI
+window_title	Gotigin — Meesha tignoolajiyadu ay la kulanto daahfurka
+slogan	Meesha tignoolajiyadu ay la kulanto daahfurka.
+brands	SUMMADO
+brand	SUMMAD
+product	ALAAB
+kumkaj_blurb	Nidaamyada hawlgalka ganacsiga.
+khaynjo_blurb	OS maqaayadda. Miisas, KOT, biilal, xiritaanka maalinta.
+moklanjo_blurb	Miiska wariye. Ballan, dhinacyo, buugga maalinta.
+kirano_blurb	Kirana. Liiska, kaydka, khata, rasiidka GST.
+tabiyat_blurb	Miiska farmashiyaha. Dufcad, dhicitaan, kayd, biilal GST.
+wadhu_blurb	Memon oo macnaheedu yahay «dheeraad». Qalab · App · Dheeraad.
+wadhu_note	Qalab, util, iyo app dib loo isticmaalo. Ma aha wariye.
+sms_gateway_blurb	Farriimaha SIM, Android marka hore. LAN iyo Bluetooth way sii ahaanayaan bilaash.
+sms_relay_blurb	Lakab internet oo ikhtiyaari ah oo loogu talagalay albaabbada la isku lammaaniyay.
+connect_blurb	Buundada WhatsApp Cloud API.
+ghalbol_blurb	Alaabada isgaarsiinta.
+ghalbol_app_blurb	Wariye qarsoon.
+pages	BOGAG
+company_pages	Bogagga shirkadda
+page	BOG
+privacy_blurb	Siyaasadda asturnaanta shirkadda.
+terms_blurb	Shuruudaha isticmaalka gotigin.com.
+cancellation_blurb	Siyaasadda joojinta iyo celinta.
+data_deletion	Tirtiridda xogta
+deletion_blurb	Sida loo codsado tirtiridda.
+support_blurb	Iimayl, taleefan, iyo hagidda alaabta.
+help_blurb	Magacyo, alaab, iyo goobo.
+about_blurb	Diiwaangelinta shirkadda iyo xiriirada.
+cookies	Kukiyada
+cookies_blurb	Kukiyada gotigin.com.
+security	Amniga
+security_blurb	Sida loo sheego nuglaanta.
+company	SHIRKAD
+company_lede	Shirkad gaar ah oo mas'uuliyaddeedu xaddidan tahay. Dhoraji, Gujarat. La aasaasay 24 Juun 2026.
+registration	Diiwaangelin
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	La aasaasay 24 Juun 2026
+share_capital	Raasamaalka saamiyada ₹1,00,000
+limited_by_shares	Ku xaddidan saamiyada · Gujarat
+tax	Canshuur
+gst_regular	GST caadi · laga bilaabo 04 Luuliyo 2026
+recognition	Aqoonsi
+issued	La bixiyay 08 Luuliyo 2026
+valid_to	Waxay shaqeynaysaa ilaa 23 Juun 2036
+registered_office	Xafiiska diiwaangashan
+directors	Agaasimayaasha
+contact	Xiriir
+find_it	Memon oo macnaheedu yahay «hel» · loo dhawaaqo go-tee-geen
+brands_line	Nidaamyada ganacsiga · qalab iyo app · isgaarsiin
 account	Akoon
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Akoon — Gotigin
+acct_lede	Soo gal astaamaha goobta shirkadda Gotigin. Doorashooyinka la midka ah kuwa goobaha alaabta — iimayl, bixiye, ama taleefan.
 acct_continue_with	Ku sii wad iimayl, bixiye ama taleefan.
 acct_name_optional	Magac (ikhtiyaari)
 acct_password	Furaha sirta
@@ -81,8 +81,8 @@ acct_signed_in_as	Waxaad ku soo gashay
 acct_status_label	Xaaladda
 acct_resend_verify	Dib u dir iimaylka xaqiijinta
 acct_sign_out	Ka bax
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Guriga Gotigin
+acct_nav_aria	Aasaasi
 err_invalid_email	Geli ciwaan iimayl oo sax ah.
 err_weak_password	Isticmaal furaha sirta oo ugu yaraan 6 xaraf leh.
 err_wrong_password	Furaha sirta waa khalad.
@@ -95,9 +95,9 @@ err_too_many	Isku dayo aad u badan. Mar kale isku day hadhow.
 err_invalid_phone	Isticmaal lambarka taleefanka oo dhammaystiran oo leh koodhka waddanka (tusaale +91…).
 err_bad_code	Koodhkaas SMS waa khalad ama wuu dhacay.
 err_generic	Wax baa khaldamay.
-acct_no_email	(no email)
+acct_no_email	(iimayl ma jiro)
 acct_email_verified	Iimaylka waa la xaqiijiyay
 acct_email_unverified	Iimaylka weli lama xaqiijin — eeg sanduuqa fariimahaaga
 acct_phone_signed_in	Waxaad ku gashay taleefan
 acct_you_are_in	Waad soo gashay.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Iimaylka xaqiijinta waa la diray — eeg sanduuqa fariimahaaga

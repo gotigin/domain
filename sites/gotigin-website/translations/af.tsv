@@ -1,69 +1,69 @@
 # af. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Kieslys
+close	Maak toe
+home	Tuis
+about	Oor ons
 privacy	Privaatheid
 terms	Bepalings
 cancellation	Kansellasie
-deletion	Deletion
-help	Help
-support	Support
+deletion	Skrapping
+help	Hulp
+support	Ondersteuning
 login	Meld aan
 email	E-pos
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	HANDELSMERK
+window_title	Gotigin — Waar tegnologie ontdekking ontmoet
+slogan	Waar tegnologie ontdekking ontmoet.
+brands	HANDELSMERKE
+brand	HANDELSMERK
+product	PRODUK
+kumkaj_blurb	Bedryfstelsels vir besighede.
+khaynjo_blurb	Restaurant-OS. Tafels, KOT, rekeninge, dagafsluiting.
+moklanjo_blurb	Koerierbank. Bespreking, partye, dagboek.
+kirano_blurb	Kirana. Katalogus, voorraad, khata, GST-kontantnota.
+tabiyat_blurb	Apteektoonbank. Lot, verval, voorraad, GST-rekeninge.
+wadhu_blurb	Memon vir “meer”. Gereedskap · Toepassings · Meer.
+wadhu_note	Herbruikbare gereedskap, nutsprogramme en toepassings. Nie ’n boodskapper nie.
+sms_gateway_blurb	SIM-boodskappe, Android eerste. LAN en Bluetooth bly gratis.
+sms_relay_blurb	Opsionele internetvlak vir gekoppelde deurgange.
+connect_blurb	Brug na die WhatsApp Cloud API.
+ghalbol_blurb	Kommunikasieprodukte.
+ghalbol_app_blurb	Geënkripteerde boodskapper.
+pages	BLADSYE
+company_pages	Maatskappybladsye
+page	BLADSY
+privacy_blurb	Privaatheidsbeleid van die maatskappy.
+terms_blurb	Gebruiksvoorwaardes vir gotigin.com.
+cancellation_blurb	Kansellasie- en terugbetalingsbeleid.
+data_deletion	Dataskrapping
+deletion_blurb	Hoe om skrapping te vra.
+support_blurb	E-pos, telefoon en roetering na die produk.
+help_blurb	Name, produkte en werwe.
+about_blurb	Registrasie en kontakte van die maatskappy.
+cookies	Koekies
+cookies_blurb	Koekies op gotigin.com.
+security	Sekuriteit
+security_blurb	Hoe om ’n kwesbaarheid aan te meld.
+company	MAATSKAPPY
+company_lede	Privaat maatskappy met beperkte aanspreeklikheid. Dhoraji, Gujarat. Opgerig 24 Junie 2026.
+registration	Registrasie
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Opgerig 24 Junie 2026
+share_capital	Aandelekapitaal ₹1,00,000
+limited_by_shares	Beperk deur aandele · Gujarat
+tax	Belasting
+gst_regular	GST gewone · vanaf 04 Julie 2026
+recognition	Erkenning
+issued	Uitgereik 08 Julie 2026
+valid_to	Geldig tot 23 Junie 2036
+registered_office	Geregistreerde kantoor
+directors	Direkteure
+contact	Kontak
+find_it	Memon vir “vind dit” · uitgespreek go-tee-geen
+brands_line	Besigheidstelsels · gereedskap en toepassings · kommunikasie
 account	Rekening
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Rekening — Gotigin
+acct_lede	Meld aan vir funksies van die Gotigin-maatskappywerf. Dieselfde keuses as op die produkwerwe — e-pos, verskaffers of telefoon.
 acct_continue_with	Gaan voort met e-pos, ’n verskaffer of foon.
 acct_name_optional	Naam (opsioneel)
 acct_password	Wagwoord
@@ -81,8 +81,8 @@ acct_signed_in_as	Aangemeld as
 acct_status_label	Stand
 acct_resend_verify	Stuur verifikasie-e-pos weer
 acct_sign_out	Meld af
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin-tuis
+acct_nav_aria	Primêr
 err_invalid_email	Voer ’n geldige e-posadres in.
 err_weak_password	Gebruik ’n wagwoord met minstens 6 karakters.
 err_wrong_password	Verkeerde wagwoord.
@@ -95,9 +95,9 @@ err_too_many	Te veel pogings. Probeer later weer.
 err_invalid_phone	Gebruik ’n volledige foonnommer met landkode (bv. +91…).
 err_bad_code	Daardie SMS-kode is verkeerd of het verval.
 err_generic	Iets het verkeerd geloop.
-acct_no_email	(no email)
+acct_no_email	(geen e-pos)
 acct_email_verified	E-pos geverifieer
 acct_email_unverified	E-pos nog nie geverifieer nie — kyk in jou inkassie
 acct_phone_signed_in	Met foon aangemeld
 acct_you_are_in	Jy is aangemeld.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Bevestigings-e-pos gestuur — kyk in jou inkassie

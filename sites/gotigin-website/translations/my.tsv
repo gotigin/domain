@@ -1,69 +1,69 @@
 # my. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	မီနူး
+close	ပိတ်ရန်
+home	အိမ်
+about	အကြောင်း
 privacy	ကိုယ်ရေးကိုယ်တာ
 terms	စည်းကမ်း​ချက်​များ
 cancellation	ပယ်ဖျက်​ခြင်း
-deletion	Deletion
-help	Help
-support	Support
+deletion	ဖျက်ခြင်း
+help	အကူအညီ
+support	ပံ့ပိုးမှု
 login	ဝင်​ရောက်​ရန်
 email	အီး​မေး​လ်
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	ကုန်​အမှတ်​တံဆိပ်
+window_title	Gotigin — နည်း​ပညာ​ရှာ​ဖွေ​မှု​နှင့်​တွေ့​ဆုံ​ရာ
+slogan	နည်း​ပညာ​ရှာ​ဖွေ​မှု​နှင့်​တွေ့​ဆုံ​ရာ.
+brands	အမှတ်​တံဆိပ်
+brand	အမှတ်​တံဆိပ်
+product	ထုတ်​ကုန်
+kumkaj_blurb	လုပ်ငန်း​လည်​ပတ်​စနစ်​များ.
+khaynjo_blurb	စား​သောက်​ဆိုင် OS. စား​ပွဲ, KOT, ဘီလ်, နေ့​ပိတ်.
+moklanjo_blurb	ပို့​ဆောင်​စား​ပွဲ. ကြို​တင်, ဘက်, နေ့​စာ​အုပ်.
+kirano_blurb	Kirana. စာ​ရင်း, လက်​ကျန်, khata, GST ငွေ​သား​မှတ်​တမ်း.
+tabiyat_blurb	ဆေး​ကောင်တာ. အသုတ်, သက်​တမ်း, လက်​ကျန်, GST ဘီလ်.
+wadhu_blurb	Memon ဆို​သည် «ပို». ကိရိယာ · အက်ပ် · ပို.
+wadhu_note	ပြန်​သုံး​ကိရိယာ, ယူတီလ်​နှင့်​အက်ပ်. စာ​ပို့​သူ​မ​ဟုတ်.
+sms_gateway_blurb	Android ဦး​စား​ပေး SIM စာ. LAN နှင့် Bluetooth အခ​မဲ့​နေ​သည်.
+sms_relay_blurb	တွဲ​ဂိတ်​အတွက်​ရွေး​ချယ်​ရန်​အင်တာ​နက်​အလွှာ.
+connect_blurb	WhatsApp Cloud API တံ​တား.
+ghalbol_blurb	ဆက်​သွယ်​ရေး​ထုတ်​ကုန်.
+ghalbol_app_blurb	လျှို့​ဝှက်​စာ​ပို့​သူ.
+pages	စာ​မျက်​နှာ
+company_pages	ကုမ္ပဏီ​စာ​မျက်​နှာ
+page	စာ​မျက်​နှာ
+privacy_blurb	ကုမ္ပဏီ​ကိုယ်​ရေး​ကိုယ်​တာ​မူ​ဝါဒ.
+terms_blurb	gotigin.com အသုံး​ပြု​စည်း​ကမ်း.
+cancellation_blurb	ပယ်​ဖျက်​နှင့်​ပြန်​အမ်း​မူ​ဝါဒ.
+data_deletion	ဒေတာ​ဖျက်​ခြင်း
+deletion_blurb	ဖျက်​ရန်​ဘယ်လို​တောင်း​ရ​မည်.
+support_blurb	အီး​မေး​လ်, ဖုန်း, နှင့်​ထုတ်​ကုန်​လမ်း​ကြောင်း.
+help_blurb	အမည်, ထုတ်​ကုန်, နှင့်​ဆိုက်.
+about_blurb	ကုမ္ပဏီ​မှတ်​ပုံ​တင်​နှင့်​ဆက်​သွယ်​ရန်.
+cookies	ကွတ်​ကီး
+cookies_blurb	gotigin.com ရှိ​ကွတ်​ကီး.
+security	လုံ​ခြုံ​ရေး
+security_blurb	အား​နည်း​ချက်​ဘယ်လို​တင်​ပြ​ရ​မည်.
+company	ကုမ္ပဏီ
+company_lede	ပုဂ္ဂလိက​ကန့်​သတ်​ကုမ္ပဏီ. Dhoraji, Gujarat. တည်​ထောင် 24 ဇွန် 2026.
+registration	မှတ်​ပုံ​တင်
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	တည်​ထောင် 24 ဇွန် 2026
+share_capital	ရှယ်ယာ​အရင်း​အနှီး ₹1,00,000
+limited_by_shares	ရှယ်ယာ​ဖြင့်​ကန့်​သတ် · Gujarat
+tax	အခွန်
+gst_regular	GST ပုံ​မှန် · 04 ဇူလိုင် 2026 မှ
+recognition	အသိ​အမှတ်​ပြု
+issued	ထုတ် 08 ဇူလိုင် 2026
+valid_to	23 ဇွန် 2036 အထိ​သက်​တမ်း​ရှိ
+registered_office	မှတ်​ပုံ​တင်​ရုံး
+directors	ဒါရိုက်​တာ
+contact	ဆက်​သွယ်​ရန်
+find_it	Memon ဆို​သည် «ရှာ​ပါ» · အသံ​ထွက် go-tee-geen
+brands_line	လုပ်ငန်း​စနစ် · ကိရိယာ​နှင့်​အက်ပ် · ဆက်​သွယ်​ရေး
 account	အ​ကော​င့်
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	အ​ကော​င့် — Gotigin
+acct_lede	Gotigin ကုမ္ပဏီ​ဆိုက်​လုပ်​ဆောင်​ချက်​အတွက်​ဝင်​ရောက်​ပါ. ထုတ်​ကုန်​ဆိုက်​နှင့်​တူ​သော​ရွေး​ချယ်​မှု — အီး​မေး​လ်, ပေး​သူ, သို့​မ​ဟုတ်​ဖုန်း.
 acct_continue_with	အီး​မေး​လ်၊ ဝန်ဆောင်မှု​ပေး​သူ သို့မဟုတ် ဖုန်း​ဖြင့် ဆက်​လုပ်​ပါ။
 acct_name_optional	အမည် (မ​ဖြစ်​မ​နေ မဟုတ်)
 acct_password	စကားဝှက်
@@ -81,8 +81,8 @@ acct_signed_in_as	ဝင်​ရောက်​ထား​သည့် အ​�
 acct_status_label	အခြေအနေ
 acct_resend_verify	အတည်ပြု အီး​မေး​လ် ပြန်​ပို့​ပါ
 acct_sign_out	ထွက်​ရန်
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin အိမ်
+acct_nav_aria	အဓိက
 err_invalid_email	မှန်ကန်​သော အီး​မေး​လ်​လိပ်စာ ထည့်​ပါ။
 err_weak_password	အနည်းဆုံး စာလုံး 6 လုံး​ပါ​သော စကားဝှက် သုံး​ပါ။
 err_wrong_password	စကားဝှက် မှား​နေသည်။
@@ -95,9 +95,9 @@ err_too_many	ကြိုးစား​မှု များ​လွန်း
 err_invalid_phone	နိုင်ငံ​ကုဒ်​ပါ​သော ဖုန်း​နံပါတ် အပြည့်အစုံ သုံး​ပါ (ဥပမာ +91…)။
 err_bad_code	ထို SMS ကုဒ် မှား​နေသည် သို့မဟုတ် သက်တမ်း​ကုန်​သွား​ပြီ။
 err_generic	တစ်ခုခု မှားယွင်း​သွား​သည်။
-acct_no_email	(no email)
+acct_no_email	(အီး​မေး​လ်​မ​ရှိ)
 acct_email_verified	အီး​မေး​လ် အတည်ပြု​ပြီး
 acct_email_unverified	အီး​မေး​လ် အတည်​မ​ပြု​ရ​သေးပါ — သင့်​စာ​ဝင်​ပုံး​ကို စစ်​ပါ
 acct_phone_signed_in	ဖုန်း​ဖြင့် ဝင်​ရောက်​ပြီး
 acct_you_are_in	သင် ဝင်​ရောက်​ပြီး​ပါ​ပြီ။
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	အတည်​ပြု​အီး​မေး​လ်​ပို့​ပြီး — စာ​ဝင်​ပုံး​ကြည့်​ပါ

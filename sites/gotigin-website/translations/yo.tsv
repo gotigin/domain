@@ -1,69 +1,69 @@
 # yo. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Àkójọ
+close	Padé
+home	Ilé
+about	Nípa wa
 privacy	Àṣírí
 terms	Àwọn òfin
 cancellation	Ìfagilé
-deletion	Deletion
-help	Help
-support	Support
+deletion	Píparẹ́
+help	Ìrànlọ́wọ́
+support	Àtìlẹ́yìn
 login	Wọlé
 email	Ímeèlì
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	ÀMÌ ÌṢÒWÒ
+window_title	Gotigin — Ibí ìmọ̀ ẹ̀rọ tí pàdé ìwárí
+slogan	Ibí ìmọ̀ ẹ̀rọ tí pàdé ìwárí.
+brands	ÀWỌN ÀMÌ
+brand	ÀMÌ
+product	ỌJA
+kumkaj_blurb	Àwọn ètò iṣẹ́ fún òwò.
+khaynjo_blurb	OS ilé oúnjẹ. Àwọn tábìlì, KOT, àwọn ìwé owó, pípa ọjọ́.
+moklanjo_blurb	Tábìlì olùránṣẹ́. Ìforúkọsílẹ̀, àwọn ẹgbẹ́, ìwé ọjọ́.
+kirano_blurb	Kirana. Àkójọ, ìpamọ́, khata, ìwé owó GST.
+tabiyat_blurb	Tábìlì ilé òògùn. Ẹgbẹ́, ọjọ́ ìparí, ìpamọ́, àwọn ìwé owó GST.
+wadhu_blurb	Memon fún «púpọ̀ sí i». Irinṣẹ́ · Áàpù · Púpọ̀ sí i.
+wadhu_note	Irinṣẹ́, util, àti áàpù tí a lè tún lò. Kì í ṣe oníṣẹ́ ìránṣẹ́.
+sms_gateway_blurb	Àwọn ìránṣẹ́ SIM, Android ní àkọ́kọ́. LAN àti Bluetooth ń wà lọ́fẹ̀ẹ́.
+sms_relay_blurb	Ìpele íńtánẹ́ẹ̀tì àṣàyàn fún àwọn ẹnu-ọ̀nà tí a so pọ̀.
+connect_blurb	Afárá sí WhatsApp Cloud API.
+ghalbol_blurb	Àwọn ọjà ìbánisọ̀rọ̀.
+ghalbol_app_blurb	Oníṣẹ́ ìránṣẹ́ tí a pa mọ́.
+pages	ÀWỌN OJÚ EWÉ
+company_pages	Àwọn ojú ewé ilé iṣẹ́
+page	OJÚ EWÉ
+privacy_blurb	Ìlànà ìkọ̀kọ̀ ilé iṣẹ́.
+terms_blurb	Àwọn òfin lílo fún gotigin.com.
+cancellation_blurb	Ìlànà ìfagilé àti ìdápadà.
+data_deletion	Píparẹ́ dátà
+deletion_blurb	Bí a ṣe ń tọrọ píparẹ́.
+support_blurb	Ímeèlì, fóònù, àti ọ̀nà sí ọjà.
+help_blurb	Àwọn orúkọ, ọjà, àti àwọn ojú òpó.
+about_blurb	Ìforúkọsílẹ̀ ilé iṣẹ́ àti àwọn olùbásọ̀rọ̀.
+cookies	Àwọn kúkì
+cookies_blurb	Àwọn kúkì lórí gotigin.com.
+security	Ààbò
+security_blurb	Bí a ṣe ń jábọ̀ àìlera.
+company	ILÉ IṢẸ́
+company_lede	Ilé iṣẹ́ aládàáni tó ní ẹ̀bi tó díwọ̀n. Dhoraji, Gujarat. A dá a sílẹ̀ ní 24 Oṣù Kẹfà 2026.
+registration	Ìforúkọsílẹ̀
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	A dá a sílẹ̀ ní 24 Oṣù Kẹfà 2026
+share_capital	Olórí ẹ̀bùn ₹1,00,000
+limited_by_shares	Tó díwọ̀n nípasẹ̀ àwọn ẹ̀bùn · Gujarat
+tax	Owó orí
+gst_regular	GST déédé · láti 04 Oṣù Keje 2026
+recognition	Ìmúdájú
+issued	A gbé e jáde ní 08 Oṣù Keje 2026
+valid_to	Ó wúlò títí di 23 Oṣù Kẹfà 2036
+registered_office	Ọ́fíìsì tí a forúkọsílẹ̀
+directors	Àwọn olùdarí
+contact	Olùbásọ̀rọ̀
+find_it	Memon fún «wá a» · a ń pè é go-tee-geen
+brands_line	Àwọn ètò òwò · irinṣẹ́ àti áàpù · ìbánisọ̀rọ̀
 account	Àkáǹtì
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Àkáǹtì — Gotigin
+acct_lede	Wọlé fún àwọn ohun tó wà lórí ojú òpó ilé iṣẹ́ Gotigin. Àwọn àṣàyàn kan náà bíi lórí àwọn ojú òpó ọjà — ímeèlì, olùpèsè, tàbí fóònù.
 acct_continue_with	Ẹ tẹ̀síwájú pẹ̀lú ímeèlì, olùpèsè ìwọlé, tàbí fóònù.
 acct_name_optional	Orúkọ (àṣàyàn)
 acct_password	Ọ̀rọ̀ ìgbaniwọlé
@@ -81,8 +81,8 @@ acct_signed_in_as	Ẹ wọlé gẹ́gẹ́ bí
 acct_status_label	Ipò
 acct_resend_verify	Tún fi ímeèlì ìjẹ́rìísí ránṣẹ́
 acct_sign_out	Jáde
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Ilé Gotigin
+acct_nav_aria	Pàtàkì
 err_invalid_email	Tẹ àdírẹ́sì ímeèlì tí ó tọ́.
 err_weak_password	Lo ọ̀rọ̀ ìgbaniwọlé tí ó ní ó kéré tán lẹ́tà 6.
 err_wrong_password	Ọ̀rọ̀ ìgbaniwọlé kò tọ́.
@@ -95,9 +95,9 @@ err_too_many	Ìgbìyànjú ti pọ̀ jù. Gbìyànjú lẹ́ẹ̀kan sí i nígb
 err_invalid_phone	Lo nọ́ńbà fóònù kíkún pẹ̀lú kóòdù orílẹ̀-èdè (fún àpẹẹrẹ +91…).
 err_bad_code	Kóòdù SMS yẹn kò tọ́ tàbí ó ti parí.
 err_generic	Nǹkan kan ṣàṣìṣe.
-acct_no_email	(no email)
+acct_no_email	(kò sí ímeèlì)
 acct_email_verified	A ti jẹ́rìí ímeèlì
 acct_email_unverified	A kò tí ì jẹ́rìí ímeèlì — ẹ wo àpótí ímeèlì yín
 acct_phone_signed_in	Ẹ wọlé pẹ̀lú fóònù
 acct_you_are_in	Ẹ ti wọlé.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	A ti fi ímeèlì ìjẹ́rìísí ránṣẹ́ — wo àpótí rẹ

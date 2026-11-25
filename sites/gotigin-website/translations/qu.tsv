@@ -1,69 +1,69 @@
 # qu. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Akllana
+close	Wichqay
+home	Wasi
+about	Ñuqaykumanta
 privacy	Pakasqa kay
 terms	Kamachikuykuna
 cancellation	Chinkachiy
-deletion	Deletion
-help	Help
-support	Support
+deletion	Pichay
+help	Yanapay
+support	Yanapakuy
 login	Yaykuy
 email	Correo
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	RIKCH'A
+window_title	Gotigin — Maypi llamk'ana tariywan tinkun
+slogan	Maypi llamk'ana tariywan tinkun.
+brands	RIKCH'AKUNA
+brand	RIKCH'A
+product	RUNA
+kumkaj_blurb	Llamk'ay sistimakuna qhatuypaq.
+khaynjo_blurb	OS mikhuna wasi. Mesakuna, KOT, qillqakuna, p'unchaw wichqay.
+moklanjo_blurb	Apaq mesa. Wakichiy, ayllukuna, p'unchaw qillqa.
+kirano_blurb	Kirana. Sutisuyu, waqaychay, khata, GST qullqi qillqa.
+tabiyat_blurb	Hampi mesa. Tanta, puchukay, waqaychay, GST qillqakuna.
+wadhu_blurb	Memon «aswan» ninanpaq. Llamk'anakuna · Appkuna · Aswan.
+wadhu_note	Llamk'anakuna, utilkuna, appkuna hukmanta llamk'achinapaq. Manam willaqchu.
+sms_gateway_blurb	SIM willaykuna, Android ñawpaqta. LAN wan Bluetooth mana qullqiyuq kakunku.
+sms_relay_blurb	Munaspalla intirnit pata huñusqa punkukunapaq.
+connect_blurb	Chaka WhatsApp Cloud API man.
+ghalbol_blurb	Rimay rurukuna.
+ghalbol_app_blurb	Pakasqa willaq.
+pages	RAPHI
+company_pages	Ayllu raphinkuna
+page	RAPHI
+privacy_blurb	Ayllu pakasqa kaynin.
+terms_blurb	Llamk'achiy kamachiykuna gotigin.com.
+cancellation_blurb	Qulluchiy wan kutichiy kamachiy.
+data_deletion	Willayta pichay
+deletion_blurb	Imaynata pichayta mañay.
+support_blurb	Correo, teléfono, ruruman ñan.
+help_blurb	Sutikuna, rurukuna, tiyanakuna.
+about_blurb	Ayllu qillqay wan rimanakuy.
+cookies	Kuki
+cookies_blurb	Kuki gotigin.compi.
+security	Waqaychay
+security_blurb	Imaynata mana kallpata willay.
+company	AYLLU
+company_lede	Sapalla ayllu pisi ruwayniyuq. Dhoraji, Gujarat. 24 Junio 2026 p'unchawpi paqarichisqa.
+registration	Qillqay
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	24 Junio 2026 p'unchawpi paqarichisqa
+share_capital	Rakin qullqi ₹1,00,000
+limited_by_shares	Rakikunawan pisiyasqa · Gujarat
+tax	Qullqi
+gst_regular	GST sapaq · 04 Julio 2026manta
+recognition	Riqsichiy
+issued	08 Julio 2026 p'unchawpi qosqa
+valid_to	23 Junio 2036kama allin
+registered_office	Qillqasqa wasi
+directors	Kamachiqkuna
+contact	Rimanakuy
+find_it	Memon «tariy» ninanpaq · go-tee-geen nisqa
+brands_line	Qhatuy sistimakuna · llamk'anakuna wan appkuna · rimanakuy
 account	Cuenta
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Cuenta — Gotigin
+acct_lede	Yaykuy Gotigin ayllu tiyanan ruwayninkunapaq. Kikillan akllanakuna rurukuna tiyanankunapi hina — correo, quyquna, icha teléfono.
 acct_continue_with	Correowan, yaykuchiqwan, utaq teléfonowan qatiy.
 acct_name_optional	Suti (akllana)
 acct_password	Yaykuna rimay
@@ -81,8 +81,8 @@ acct_signed_in_as	Kay cuentawan yaykusqa
 acct_status_label	Imayna kasqan
 acct_resend_verify	Takyachina correota yapamanta kachay
 acct_sign_out	Lluqsiy
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Wasi Gotigin
+acct_nav_aria	Ñawpaq
 err_invalid_email	Allin correota qillqay.
 err_weak_password	Aswan pisimanta 6 sananchayuq yaykuna rimayta llamk’achiy.
 err_wrong_password	Yaykuna rimayqa pantasqam.
@@ -95,9 +95,9 @@ err_too_many	Ancha askha kuti malliykuna. Qhipaman yapamanta malliy.
 err_invalid_phone	Suyup unanchanwan hunt’asqa teléfono yupayta llamk’achiy (kayhina +91…).
 err_bad_code	Chay SMS unanchaqa pantasqam utaq tukukapunña.
 err_generic	Imapas mana allinchu karqan.
-acct_no_email	(no email)
+acct_no_email	(mana correo kanchu)
 acct_email_verified	Correo takyachisqa
 acct_email_unverified	Correoqa manaraq takyachisqachu — willakuy waqaychanaykita qhaway
 acct_phone_signed_in	Teléfonowan yaykusqa
 acct_you_are_in	Yaykusqañam kanki.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Chiqa correo apachisqa — yaykuna qillqata qhaway

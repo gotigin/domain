@@ -1,69 +1,69 @@
 # kha. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Ka list
+close	Khang
+home	Ka iing
+about	Shaphang jong ngi
 privacy	Ka jingrieh
 terms	Ki kyndon
 cancellation	Ka jingpynsangeh
-deletion	Deletion
-help	Help
-support	Support
+deletion	Pynjot
+help	Iarap
+support	Jingiarap
 login	Rung
 email	Ka email
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	KA MAR
+window_title	Gotigin — Haba ka teknologi i iakynduh bad ka jingshem
+slogan	Haba ka teknologi i iakynduh bad ka jingshem.
+brands	KI MAR
+brand	KA MAR
+product	KA JINGPULE
+kumkaj_blurb	Ki system kam na ka bynta ka business.
+khaynjo_blurb	OS jaka bam. Ki meja, KOT, ki bill, pynkut ka sngi.
+moklanjo_blurb	Ka meja courier. Book, ki party, kot sngi.
+kirano_blurb	Kirana. Ka katalog, stock, khata, ka receipt GST.
+tabiyat_blurb	Ka meja dawai. Batch, expiry, stock, ki bill GST.
+wadhu_blurb	Memon na ka bynta «shuh shuh». Ki tiar · Ki app · Shuh shuh.
+wadhu_note	Ki tiar, ki util, bad ki app kiba lah ban pyndonkam biang. Kam dei u messenger.
+sms_gateway_blurb	Ki khubor SIM, Android shwa. LAN bad Bluetooth ki sah sha free.
+sms_relay_blurb	Ka layer internet ba lah ban jied na ka bynta ki gateway ba la iasoh.
+connect_blurb	Ka jingkynthup sha WhatsApp Cloud API.
+ghalbol_blurb	Ki jingpule iti khubor.
+ghalbol_app_blurb	U messenger ba la encrypt.
+pages	KI SLAID
+company_pages	Ki slaid ka kompani
+page	KA SLAID
+privacy_blurb	Ka policy privacy ka kompani.
+terms_blurb	Ki rukom pyndonkam na ka bynta gotigin.com.
+cancellation_blurb	Ka policy pynkut bad pynphai pisa.
+data_deletion	Pynjot data
+deletion_blurb	Kumno ban pan pynjot.
+support_blurb	Ka email, ka phone, bad ka lynti sha ka jingpule.
+help_blurb	Ki kyrteng, ki jingpule, bad ki jaka.
+about_blurb	Ka registration ka kompani bad ki contact.
+cookies	Ki kuki
+cookies_blurb	Ki kuki ha gotigin.com.
+security	Ka jingiada
+security_blurb	Kumno ban iathuh ka jingshon.
+company	KA KOMPANI
+company_lede	Ka kompani private ba la khang ka jingkitkhlieh. Dhoraji, Gujarat. La pynlong ha ka 24 June 2026.
+registration	Ka registration
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	La pynlong ha ka 24 June 2026
+share_capital	Ka kapital share ₹1,00,000
+limited_by_shares	La khang da ki share · Gujarat
+tax	Ka tax
+gst_regular	GST ba jia · na ka 04 July 2026
+recognition	Ka jingpynskhem
+issued	La ai ha ka 08 July 2026
+valid_to	Ka long valid haduh ka 23 June 2036
+registered_office	Ka office ba la register
+directors	Ki director
+contact	Ka contact
+find_it	Memon na ka bynta «iap shem» · la kren go-tee-geen
+brands_line	Ki system business · ki tiar bad ki app · iti khubor
 account	Ka account
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Ka account — Gotigin
+acct_lede	Rung na ka bynta ki jingpule ka jaka kompani Gotigin. Ki jingsynshar kum ha ki jaka jingpule — ka email, u provider, ne ka phone.
 acct_continue_with	Bteng da ka email, u nongai, lane ka phone.
 acct_name_optional	Ka kyrteng (lada phi kwah)
 acct_password	Ka ktien rieh
@@ -81,8 +81,8 @@ acct_signed_in_as	La rung kum
 acct_status_label	Ka jinglong
 acct_resend_verify	Phah biang ia ka email jingpynshisha
 acct_sign_out	Mih
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Ka iing Gotigin
+acct_nav_aria	Ka ba kongsan
 err_invalid_email	Thoh ia ka address email ba dei.
 err_weak_password	Pyndonkam ia ka ktien rieh ba don 6 ki dak lane kham bun.
 err_wrong_password	Ka ktien rieh ka bakla.
@@ -95,9 +95,9 @@ err_too_many	Bun palat ki jingpyrshang. Pyrshang biang hadien.
 err_invalid_phone	Pyndonkam ia u nombar phone baroh bad u code ri (kum +91…).
 err_bad_code	Uta u code SMS u bakla lane u la kut ka por.
 err_generic	Don ei ei kaba la bakla.
-acct_no_email	(no email)
+acct_no_email	(ym don email)
 acct_email_verified	La pynshisha ia ka email
 acct_email_unverified	Ym pat pynshisha ia ka email — peit ia ka inbox jong phi
 acct_phone_signed_in	La rung da ka phone
 acct_you_are_in	Phi la rung.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	La phah ka email pynskhem — peit ia ka inbox jong phi

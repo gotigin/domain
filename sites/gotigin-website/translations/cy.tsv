@@ -1,69 +1,69 @@
 # cy. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Dewislen
+close	Cau
+home	Cartref
+about	Amdanom ni
 privacy	Preifatrwydd
 terms	Telerau
 cancellation	Canslo
-deletion	Deletion
-help	Help
-support	Support
+deletion	Dileu
+help	Cymorth
+support	Cefnogaeth
 login	Mewngofnodi
 email	E-bost
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	NOD MASNACH
+window_title	Gotigin — Lle mae technoleg yn cwrdd â darganfod
+slogan	Lle mae technoleg yn cwrdd â darganfod.
+brands	NODAU MASNACH
+brand	NOD MASNACH
+product	CYNNYRCH
+kumkaj_blurb	Systemau gweithredu i fusnesau.
+khaynjo_blurb	OS bwyty. Byrddau, KOT, biliau, cau'r dydd.
+moklanjo_blurb	Desg negesydd. Archebu, partïon, llyfr y dydd.
+kirano_blurb	Kirana. Catalog, stoc, khata, derbynneb arian GST.
+tabiyat_blurb	Cownter fferyllfa. Swp, dod i ben, stoc, biliau GST.
+wadhu_blurb	Memon am «mwy». Offer · Apiau · Mwy.
+wadhu_note	Offer, cyfleustodau ac apiau y gellir eu hailddefnyddio. Nid negesydd.
+sms_gateway_blurb	Negeseuon SIM, Android yn gyntaf. LAN a Bluetooth yn aros am ddim.
+sms_relay_blurb	Haen rhyngrwyd ddewisol ar gyfer pyrth wedi'u paru.
+connect_blurb	Pont at WhatsApp Cloud API.
+ghalbol_blurb	Cynhyrchion cyfathrebu.
+ghalbol_app_blurb	Negesydd wedi'i amgryptio.
+pages	TUDALENNAU
+company_pages	Tudalennau'r cwmni
+page	TUDALEN
+privacy_blurb	Polisi preifatrwydd y cwmni.
+terms_blurb	Amodau defnyddio gotigin.com.
+cancellation_blurb	Polisi canslo ac ad-daliad.
+data_deletion	Dileu data
+deletion_blurb	Sut i ofyn am ddileu.
+support_blurb	E-bost, ffôn a chyfeirio at y cynnyrch.
+help_blurb	Enwau, cynhyrchion a safleoedd.
+about_blurb	Cofrestru'r cwmni a chysylltiadau.
+cookies	Cwcis
+cookies_blurb	Cwcis ar gotigin.com.
+security	Diogelwch
+security_blurb	Sut i adrodd am wendid.
+company	CWMNI
+company_lede	Cwmni preifat cyfyngedig. Dhoraji, Gujarat. Ymgorfforwyd 24 Mehefin 2026.
+registration	Cofrestru
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Ymgorfforwyd 24 Mehefin 2026
+share_capital	Cyfalaf cyfranddaliadau ₹1,00,000
+limited_by_shares	Cyfyngedig gan gyfranddaliadau · Gujarat
+tax	Treth
+gst_regular	GST rheolaidd · o 04 Gorffennaf 2026
+recognition	Cydnabyddiaeth
+issued	Cyhoeddwyd 08 Gorffennaf 2026
+valid_to	Dilys tan 23 Mehefin 2036
+registered_office	Swyddfa gofrestredig
+directors	Cyfarwyddwyr
+contact	Cyswllt
+find_it	Memon am «dod o hyd iddo» · ynganer go-tee-geen
+brands_line	Systemau busnes · offer ac apiau · cyfathrebu
 account	Cyfrif
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Cyfrif — Gotigin
+acct_lede	Mewngofnodwch ar gyfer nodweddion safle cwmni Gotigin. Yr un opsiynau ag ar safleoedd y cynhyrchion — e-bost, darparwyr neu ffôn.
 acct_continue_with	Parhewch ag e-bost, darparwr neu ffôn.
 acct_name_optional	Enw (dewisol)
 acct_password	Cyfrinair
@@ -81,8 +81,8 @@ acct_signed_in_as	Wedi mewngofnodi fel
 acct_status_label	Statws
 acct_resend_verify	Ailanfon e-bost dilysu
 acct_sign_out	Allgofnodi
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Cartref Gotigin
+acct_nav_aria	Cynradd
 err_invalid_email	Rhowch gyfeiriad e-bost dilys.
 err_weak_password	Defnyddiwch gyfrinair gydag o leiaf 6 nod.
 err_wrong_password	Cyfrinair anghywir.
@@ -95,9 +95,9 @@ err_too_many	Gormod o ymdrechion. Rhowch gynnig arall arni nes ymlaen.
 err_invalid_phone	Defnyddiwch rif ffôn llawn gyda chod gwlad (e.e. +91…).
 err_bad_code	Mae’r cod SMS hwnnw’n anghywir neu wedi dod i ben.
 err_generic	Aeth rhywbeth o’i le.
-acct_no_email	(no email)
+acct_no_email	(dim e-bost)
 acct_email_verified	E-bost wedi’i ddilysu
 acct_email_unverified	E-bost heb ei ddilysu eto — gwiriwch eich mewnflwch
 acct_phone_signed_in	Wedi mewngofnodi â ffôn
 acct_you_are_in	Rydych wedi mewngofnodi.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Anfonwyd yr e-bost dilysu — gwiriwch eich mewnflwch

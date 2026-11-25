@@ -1,69 +1,69 @@
 # lus. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Thil zawng
+close	Khar rawh
+home	In
+about	Kan chungchang
 privacy	Mimal thuruk
 terms	Dan te
 cancellation	Tihbo dan
-deletion	Deletion
-help	Help
-support	Support
+deletion	Paihbo
+help	Tanpui
+support	Inkawp
 login	Lut rawh
 email	E-mail
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	THIL NEIH
+window_title	Gotigin — Technology leh hmuhchhuah inhmuhna
+slogan	Technology leh hmuhchhuah inhmuhna.
+brands	THIL NEIHTE
+brand	THIL NEIH
+product	THIL SIAM
+kumkaj_blurb	Sumdawnna operating system te.
+khaynjo_blurb	OS ei dawr. Bungraw te, KOT, bill te, ni khar.
+moklanjo_blurb	Thawn dawr. Book, party te, ni lehkhabu.
+kirano_blurb	Kirana. Zawna, stock, khata, GST sum chhiar.
+tabiyat_blurb	Damdawi dawr. Batch, a tawp ni, stock, GST bill te.
+wadhu_blurb	Memon chuan «tam zawk» a ti. Hmanraw · App · Tam zawk.
+wadhu_note	Hmanraw, util, leh app hman nawn theih. Thuchah a ni lo.
+sms_gateway_blurb	SIM thuchah, Android hmasa. LAN leh Bluetooth te a la awm free.
+sms_relay_blurb	Internet layer duhthusam, gateway inpawh tan.
+connect_blurb	WhatsApp Cloud API kaihhruai.
+ghalbol_blurb	Thuchah thil siam te.
+ghalbol_app_blurb	Thuchah thup.
+pages	PHEK TE
+company_pages	Company phek te
+page	PHEK
+privacy_blurb	Company thuruk dan.
+terms_blurb	gotigin.com hman dan te.
+cancellation_blurb	Tihbo leh sum hawhkir dan.
+data_deletion	Data paihbo
+deletion_blurb	Paihbo dil dan.
+support_blurb	E-mail, fon, leh thil siam lam.
+help_blurb	Hming te, thil siam te, leh hmun te.
+about_blurb	Company inziak leh biakpawh.
+cookies	Kuki
+cookies_blurb	Kuki gotigin.com-ah.
+security	Himna
+security_blurb	Chauhna report dan.
+company	PAWL
+company_lede	Company private, mawhphurhna a tlem. Dhoraji, Gujarat. 24 June 2026-ah a din.
+registration	Inziak
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	24 June 2026-ah a din
+share_capital	Share sum ₹1,00,000
+limited_by_shares	Share in a tlem · Gujarat
+tax	Chhiah
+gst_regular	GST pangai · 04 July 2026 atangin
+recognition	Pawmna
+issued	08 July 2026-ah a chhuah
+valid_to	23 June 2036 thleng a tling
+registered_office	Office inziak
+directors	Director te
+contact	Biak
+find_it	Memon chuan «zawng rawh» a ti · go-tee-geen tiin a aw
+brands_line	Sumdawn system · hmanraw leh app · thuchah
 account	Akaunt
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Akaunt — Gotigin
+acct_lede	Gotigin company site thil te tan lut rawh. Thil siam site te ang bawkin — e-mail, provider, emaw fon.
 acct_continue_with	E-mail, provider emaw fon hmangin chhunzawm rawh.
 acct_name_optional	Hming (i duh chuan)
 acct_password	Thuruk
@@ -81,8 +81,8 @@ acct_signed_in_as	Lut tawh
 acct_status_label	Dinhmun
 acct_resend_verify	Finfiahna e-mail thawn leh rawh
 acct_sign_out	Chhuak rawh
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin in
+acct_nav_aria	Pawimawh
 err_invalid_email	E-mail address dik ziak rawh.
 err_weak_password	Hawrawp 6 tal awmna thuruk hmang rawh.
 err_wrong_password	Thuruk a dik lo.
@@ -95,9 +95,9 @@ err_too_many	Tum tam lutuk. A hnuah tum leh rawh.
 err_invalid_phone	Ram code nen fon number pum hmang rawh (entirnan +91…).
 err_bad_code	SMS code chu a dik lo emaw a hun a tawp tawh.
 err_generic	Engemaw a dik lo.
-acct_no_email	(no email)
+acct_no_email	(e-mail a awm lo)
 acct_email_verified	E-mail finfiah a ni
 acct_email_unverified	E-mail a la finfiah lo — i inbox en rawh
 acct_phone_signed_in	Fon hmangin i lut
 acct_you_are_in	I lut tawh.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Thutlukna e-mail a thawn a — inbox en rawh

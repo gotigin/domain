@@ -1,69 +1,69 @@
 # fil. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Talaan
+close	Isara
+home	Tahanan
+about	Tungkol
 privacy	Pagkapribado
 terms	Mga tuntunin
 cancellation	Pagkansela
-deletion	Deletion
-help	Help
-support	Support
+deletion	Pagbura
+help	Tulong
+support	Suporta
 login	Mag-log in
 email	E-mail
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	TATAR
+window_title	Gotigin — Kung saan nagtatagpo ang teknolohiya at ang pagtuklas
+slogan	Kung saan nagtatagpo ang teknolohiya at ang pagtuklas.
+brands	MGA TATAR
+brand	TATAR
+product	PRODUKTO
+kumkaj_blurb	Mga sistema ng pagpapatakbo para sa negosyo.
+khaynjo_blurb	OS ng restawran. Mga mesa, KOT, mga bayarin, pagsasara ng araw.
+moklanjo_blurb	Mesa ng kuryer. Pag-book, mga partido, aklat ng araw.
+kirano_blurb	Kirana. Katalogo, stock, khata, resibo ng GST.
+tabiyat_blurb	Mesa ng botika. Lote, bisa, stock, mga bill ng GST.
+wadhu_blurb	Memon para sa «higit». Mga kasangkapan · Mga app · Higit.
+wadhu_note	Mga kasangkapan, utility, at app na magagamit ulit. Hindi mensahero.
+sms_gateway_blurb	Mga mensahe sa SIM, Android muna. Mananatiling libre ang LAN at Bluetooth.
+sms_relay_blurb	Opsyonal na patong ng internet para sa magkapares na gateway.
+connect_blurb	Tulay patungo sa WhatsApp Cloud API.
+ghalbol_blurb	Mga produkto ng komunikasyon.
+ghalbol_app_blurb	Naka-encrypt na mensahero.
+pages	MGA PAHINA
+company_pages	Mga pahina ng kumpanya
+page	PAHINA
+privacy_blurb	Patakaran sa privacy ng kumpanya.
+terms_blurb	Mga tuntunin ng paggamit para sa gotigin.com.
+cancellation_blurb	Patakaran sa pagkansela at refund.
+data_deletion	Pagbura ng data
+deletion_blurb	Paano humiling ng pagbura.
+support_blurb	E-mail, telepono, at pagruruta sa produkto.
+help_blurb	Mga pangalan, produkto, at site.
+about_blurb	Rehistrasyon ng kumpanya at mga contact.
+cookies	Mga kuki
+cookies_blurb	Mga kuki sa gotigin.com.
+security	Seguridad
+security_blurb	Paano mag-ulat ng kahinaan.
+company	KUMPANYA
+company_lede	Pribadong kumpanyang limitado. Dhoraji, Gujarat. Itinatag noong 24 Hunyo 2026.
+registration	Rehistrasyon
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Itinatag noong 24 Hunyo 2026
+share_capital	Kapital ng sapi ₹1,00,000
+limited_by_shares	Limitado ng mga sapi · Gujarat
+tax	Buwis
+gst_regular	GST karaniwan · mula 04 Hulyo 2026
+recognition	Pagkilala
+issued	Inilabas noong 08 Hulyo 2026
+valid_to	Balido hanggang 23 Hunyo 2036
+registered_office	Rehistradong opisina
+directors	Mga direktor
+contact	Makipag-ugnayan
+find_it	Memon para sa «hanapin ito» · bigkas go-tee-geen
+brands_line	Mga sistema ng negosyo · kasangkapan at app · komunikasyon
 account	Akawnt
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Akawnt — Gotigin
+acct_lede	Mag-sign in para sa mga tampok ng site ng kumpanyang Gotigin. Parehong opsyon gaya ng sa mga site ng produkto — e-mail, provider, o telepono.
 acct_continue_with	Magpatuloy gamit ang e-mail, isang provider, o telepono.
 acct_name_optional	Pangalan (opsyonal)
 acct_password	Kontrasenyas
@@ -81,8 +81,8 @@ acct_signed_in_as	Naka-sign in bilang
 acct_status_label	Katayuan
 acct_resend_verify	Ipadala muli ang e-mail ng beripikasyon
 acct_sign_out	Mag-sign out
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Tahanan ng Gotigin
+acct_nav_aria	Pangunahin
 err_invalid_email	Maglagay ng wastong e-mail address.
 err_weak_password	Gumamit ng kontrasenyas na may hindi bababa sa 6 na karakter.
 err_wrong_password	Mali ang kontrasenyas.
@@ -95,9 +95,9 @@ err_too_many	Masyadong maraming pagsubok. Subukang muli mamaya.
 err_invalid_phone	Gumamit ng buong numero ng telepono na may code ng bansa (hal. +91…).
 err_bad_code	Mali o expired na ang SMS code na iyon.
 err_generic	May nangyaring mali.
-acct_no_email	(no email)
+acct_no_email	(walang e-mail)
 acct_email_verified	Na-verify ang e-mail
 acct_email_unverified	Hindi pa na-verify ang e-mail — tingnan ang inbox mo
 acct_phone_signed_in	Naka-sign in gamit ang telepono
 acct_you_are_in	Naka-sign in ka na.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Naipadala ang e-mail sa pag-verify — tingnan ang inbox mo

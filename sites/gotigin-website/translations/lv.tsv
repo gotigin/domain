@@ -1,69 +1,69 @@
 # lv. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Izvēlne
+close	Aizvērt
+home	Sākums
+about	Par mums
 privacy	Privātums
 terms	Noteikumi
 cancellation	Atcelšana
-deletion	Deletion
-help	Help
-support	Support
+deletion	Dzēšana
+help	Palīdzība
+support	Atbalsts
 login	Pieteikties
 email	E-pasts
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	PREČU ZĪME
+window_title	Gotigin — Kur tehnoloģija satiek atklājumu
+slogan	Kur tehnoloģija satiek atklājumu.
+brands	ZĪMOLI
+brand	ZĪMOLS
+product	PRODUKTS
+kumkaj_blurb	Biznesa operētājsistēmas.
+khaynjo_blurb	Restorāna OS. Galdi, KOT, rēķini, dienas slēgšana.
+moklanjo_blurb	Kurjera galds. Rezervācija, puses, dienas grāmata.
+kirano_blurb	Kirana. Katalogs, krājums, khata, GST kases kvīts.
+tabiyat_blurb	Aptiekas lete. Partija, derīgums, krājums, GST rēķini.
+wadhu_blurb	Memonu valodā „vairāk“. Rīki · Lietotnes · Vairāk.
+wadhu_note	Atkārtoti lietojami rīki, utilītas un lietotnes. Nav ziņotājs.
+sms_gateway_blurb	SIM ziņas, vispirms Android. LAN un Bluetooth paliek bez maksas.
+sms_relay_blurb	Neobligāts interneta slānis sapārotiem vārtejiem.
+connect_blurb	Tilts uz WhatsApp Cloud API.
+ghalbol_blurb	Saziņas produkti.
+ghalbol_app_blurb	Šifrēts ziņotājs.
+pages	LAPAS
+company_pages	Uzņēmuma lapas
+page	LAPA
+privacy_blurb	Uzņēmuma privātuma politika.
+terms_blurb	gotigin.com lietošanas noteikumi.
+cancellation_blurb	Atcelšanas un atmaksas politika.
+data_deletion	Datu dzēšana
+deletion_blurb	Kā lūgt dzēšanu.
+support_blurb	E-pasts, tālrunis un novirzīšana uz produktu.
+help_blurb	Nosaukumi, produkti un vietnes.
+about_blurb	Uzņēmuma reģistrācija un kontakti.
+cookies	Sīkdatnes
+cookies_blurb	Sīkdatnes vietnē gotigin.com.
+security	Drošība
+security_blurb	Kā ziņot par ievainojamību.
+company	UZŅĒMUMS
+company_lede	Sabiedrība ar ierobežotu atbildību. Dhoraji, Gujarat. Dibināta 24. jūnijā 2026.
+registration	Reģistrācija
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Dibināta 24. jūnijā 2026.
+share_capital	Pamatkapitāls ₹1,00,000
+limited_by_shares	Ierobežota ar daļām · Gujarat
+tax	Nodoklis
+gst_regular	GST parastais · no 04. jūlija 2026.
+recognition	Atzīšana
+issued	Izdots 08. jūlijā 2026.
+valid_to	Derīgs līdz 23. jūnijam 2036.
+registered_office	Reģistrētais birojs
+directors	Direktori
+contact	Kontakts
+find_it	Memonu valodā „atrod to“ · izruna go-tee-geen
+brands_line	Biznesa sistēmas · rīki un lietotnes · saziņa
 account	Konts
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Konts — Gotigin
+acct_lede	Piesakieties Gotigin uzņēmuma vietnes iespējām. Tās pašas iespējas kā produktu vietnēs — e-pasts, sniedzēji vai tālrunis.
 acct_continue_with	Turpiniet ar e-pastu, pakalpojuma sniedzēju vai tālruni.
 acct_name_optional	Vārds (nav obligāts)
 acct_password	Parole
@@ -81,8 +81,8 @@ acct_signed_in_as	Pieteicies kā
 acct_status_label	Statuss
 acct_resend_verify	Atkārtoti nosūtīt apstiprinājuma e-pastu
 acct_sign_out	Izrakstīties
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin sākums
+acct_nav_aria	Primārais
 err_invalid_email	Ievadiet derīgu e-pasta adresi.
 err_weak_password	Izmantojiet paroli ar vismaz 6 rakstzīmēm.
 err_wrong_password	Nepareiza parole.
@@ -95,9 +95,9 @@ err_too_many	Pārāk daudz mēģinājumu. Mēģiniet vēlāk vēlreiz.
 err_invalid_phone	Izmantojiet pilnu tālruņa numuru ar valsts kodu (piem., +91…).
 err_bad_code	Šis SMS kods ir nepareizs, vai tā derīgums ir beidzies.
 err_generic	Kaut kas nogāja greizi.
-acct_no_email	(no email)
+acct_no_email	(nav e-pasta)
 acct_email_verified	E-pasts apstiprināts
 acct_email_unverified	E-pasts vēl nav apstiprināts — pārbaudiet iesūtni
 acct_phone_signed_in	Pieteicies ar tālruni
 acct_you_are_in	Jūs esat pieteicies.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Apstiprinājuma e-pasts nosūtīts — pārbaudiet iesūtni

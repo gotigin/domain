@@ -1,69 +1,69 @@
 # sq. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Menyja
+close	Mbyll
+home	Kreu
+about	Rreth nesh
 privacy	Privatësia
 terms	Kushtet
 cancellation	Anulimi
-deletion	Deletion
-help	Help
-support	Support
+deletion	Fshirja
+help	Ndihmë
+support	Mbështetje
 login	Hyr
 email	Posta elektronike
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	MARKË TREGTARE
+window_title	Gotigin — Ku teknologjia takon zbulimin
+slogan	Ku teknologjia takon zbulimin.
+brands	MARKAT
+brand	MARKA
+product	PRODUKTI
+kumkaj_blurb	Sisteme operative për biznesin.
+khaynjo_blurb	OS restoranti. Tavolina, KOT, fatura, mbyllja e ditës.
+moklanjo_blurb	Sportel korrieri. Rezervim, palë, libri i ditës.
+kirano_blurb	Kirana. Katalog, stok, khata, fletë arkë GST.
+tabiyat_blurb	Sportel farmacie. Parti, skadencë, stok, fatura GST.
+wadhu_blurb	Memonisht për «më shumë». Mjete · Aplikacione · Më shumë.
+wadhu_note	Mjete, utilitete dhe aplikacione të ripërdorshme. Nuk është lajmëtar.
+sms_gateway_blurb	Mesazhe SIM, Android së pari. LAN dhe Bluetooth mbeten falas.
+sms_relay_blurb	Shtresë interneti opsionale për porta të çiftuara.
+connect_blurb	Urë drejt WhatsApp Cloud API.
+ghalbol_blurb	Produkte komunikimi.
+ghalbol_app_blurb	Lajmëtar i shifruar.
+pages	FAQET
+company_pages	Faqet e kompanisë
+page	FAQE
+privacy_blurb	Politika e privatësisë së kompanisë.
+terms_blurb	Kushtet e përdorimit për gotigin.com.
+cancellation_blurb	Politika e anulimit dhe rimbursimit.
+data_deletion	Fshirja e të dhënave
+deletion_blurb	Si të kërkoni fshirjen.
+support_blurb	Postë elektronike, telefon dhe drejtim te produkti.
+help_blurb	Emra, produkte dhe sajte.
+about_blurb	Regjistrimi i kompanisë dhe kontaktet.
+cookies	Kukit
+cookies_blurb	Kuki në gotigin.com.
+security	Siguria
+security_blurb	Si të raportoni një dobësi.
+company	KOMPANIA
+company_lede	Shoqëri private me përgjegjësi të kufizuar. Dhoraji, Gujarat. Themeluar më 24 qershor 2026.
+registration	Regjistrimi
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Themeluar më 24 qershor 2026
+share_capital	Kapitali aksionar ₹1,00,000
+limited_by_shares	E kufizuar nga aksionet · Gujarat
+tax	Taksa
+gst_regular	GST i rregullt · nga 04 korrik 2026
+recognition	Njohja
+issued	Lëshuar më 08 korrik 2026
+valid_to	E vlefshme deri më 23 qershor 2036
+registered_office	Zyra e regjistruar
+directors	Drejtorët
+contact	Kontakti
+find_it	Memonisht për «gjeje» · shqiptohet go-tee-geen
+brands_line	Sisteme biznesi · mjete dhe aplikacione · komunikim
 account	Llogaria
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Llogaria — Gotigin
+acct_lede	Hyni për veçoritë e sajtit të kompanisë Gotigin. Të njëjtat mundësi si në sajtet e produkteve — postë elektronike, ofrues ose telefon.
 acct_continue_with	Vazhdo me email, një ofrues ose telefon.
 acct_name_optional	Emri (opsional)
 acct_password	Fjalëkalimi
@@ -81,8 +81,8 @@ acct_signed_in_as	Hyrje si
 acct_status_label	Statusi
 acct_resend_verify	Ridërgo email-in e verifikimit
 acct_sign_out	Dil
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Kreu i Gotigin
+acct_nav_aria	Kryesore
 err_invalid_email	Fut një adresë email të vlefshme.
 err_weak_password	Përdor një fjalëkalim me të paktën 6 karaktere.
 err_wrong_password	Fjalëkalim i gabuar.
@@ -95,9 +95,9 @@ err_too_many	Shumë përpjekje. Provo përsëri më vonë.
 err_invalid_phone	Përdor numrin e plotë të telefonit me kodin e vendit (p.sh. +91…).
 err_bad_code	Ky kod SMS është i gabuar ose ka skaduar.
 err_generic	Diçka shkoi keq.
-acct_no_email	(no email)
+acct_no_email	(pa postë elektronike)
 acct_email_verified	Email-i u verifikua
 acct_email_unverified	Email-i nuk është verifikuar ende — kontrollo kutinë postare
 acct_phone_signed_in	Hyrje me telefon
 acct_you_are_in	Ke hyrë.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Email-i i verifikimit u dërgua — kontrollo kutinë postare

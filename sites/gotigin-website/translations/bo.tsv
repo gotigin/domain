@@ -1,69 +1,69 @@
 # bo. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	ཐོ་གཞུང་།
+close	ཁ་རྒྱག
+home	ཁྱིམ།
+about	ང་ཚོའི་སྐོར།
 privacy	སྒེར་གསང་།
 terms	ཆ་རྐྱེན།
 cancellation	ཆ་མེད་གཏོང་བ།
-deletion	Deletion
-help	Help
-support	Support
+deletion	སུབ་པ།
+help	རོགས་རམ།
+support	རྒྱབ་སྐྱོར།
 login	ནང་འཛུལ།
 email	གློག་འཕྲིན།
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	ཚོང་རྟགས།
+window_title	Gotigin — ལག་རྩལ་དང་རྙེད་པ་འཕྲད་ས།
+slogan	ལག་རྩལ་དང་རྙེད་པ་འཕྲད་ས།
+brands	རྟགས།
+brand	རྟགས།
+product	ཐོན་རྫས།
+kumkaj_blurb	ཚོང་ལས་འཁོར་སྐྱོད་མ་ལག
+khaynjo_blurb	ཟ་ཁང་གི་ OS. ཅོག་ཙེ། KOT. འཛིན་ཤོག ཉིན་མཇུག
+moklanjo_blurb	འཕྲིན་སྐྱེལ་ཅོག་ཙེ། སྔོན་འཛིན། ཕྱོགས། ཉིན་དེབ།
+kirano_blurb	Kirana. ཐོ་གཞུང་། མཛོད། khata. GST དངུལ་དྲན་ཐོ།
+tabiyat_blurb	སྨན་ཁང་གི་ཅོག་ཙེ། ཚོགས། དུས་ཡོལ། མཛོད། GST འཛིན་ཤོག
+wadhu_blurb	Memon ནི་«མང་བ»ཡིན། ལག་ཆ་ · ཉེར་སྤྱོད་ · མང་བ།
+wadhu_note	བསྐྱར་སྤྱོད་ལག་ཆ་། ཡུ་ཊིལ། ཉེར་སྤྱོད། འཕྲིན་སྐྱེལ་མིན།
+sms_gateway_blurb	Android སྔོན་གྱི་ SIM འཕྲིན། LAN དང་ Bluetooth རྒྱུན་དུ་རིན་མེད།
+sms_relay_blurb	ཆ་སྒྲིག་སྒོ་མོར་འདེམས་རུང་དྲ་རྒྱའི་རིམ་པ།
+connect_blurb	WhatsApp Cloud API ཟམ་པ།
+ghalbol_blurb	འབྲེལ་འདྲིས་ཐོན་རྫས།
+ghalbol_app_blurb	གསང་བའི་འཕྲིན་སྐྱེལ།
+pages	ཤོག་ངོས།
+company_pages	ཀུང་སིའི་ཤོག་ངོས།
+page	ཤོག་ངོས།
+privacy_blurb	ཀུང་སིའི་སྒེར་གསང་སྲིད་བྱུས།
+terms_blurb	gotigin.com བཀོལ་སྤྱོད་ཆ་རྐྱེན།
+cancellation_blurb	ཆ་མེད་དང་ཕྱིར་སློག་སྲིད་བྱུས།
+data_deletion	གཞི་གྲངས་སུབ་པ།
+deletion_blurb	སུབ་པ་ཇི་ལྟར་ཞུ་དགོས།
+support_blurb	གློག་འཕྲིན། ཁ་པར། ཐོན་རྫས་ཀྱི་ལམ།
+help_blurb	མིང་། ཐོན་རྫས། དྲ་ཚིགས།
+about_blurb	ཀུང་སིའི་ཐོ་འགོད་དང་འབྲེལ་གཏུག
+cookies	ཁུ་ཀི།
+cookies_blurb	gotigin.com སྟེང་གི་ཁུ་ཀི།
+security	བདེ་འཇགས།
+security_blurb	ཉེན་ཁ་ཇི་ལྟར་སྙན་ཞུ་བྱེད།
+company	ཀུང་སི།
+company_lede	སྒེར་གྱི་ཚད་ཡོད་ཀུང་སི། Dhoraji, Gujarat. 24 ཟླ་དྲུག་ 2026 ལ་བཙུགས།
+registration	ཐོ་འགོད།
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	24 ཟླ་དྲུག་ 2026 ལ་བཙུགས།
+share_capital	ཤ་ཡི་མ་དངུལ་ ₹1,00,000
+limited_by_shares	ཤ་ཡིས་ཚད་བཀག་ · Gujarat
+tax	ཁྲལ།
+gst_regular	GST རྒྱུན་ལྡན་ · 04 ཟླ་བདུན་ 2026 ནས།
+recognition	ངོས་ལེན།
+issued	08 ཟླ་བདུན་ 2026 ལ་བཏང་།
+valid_to	23 ཟླ་དྲུག་ 2036 བར་ཆོག
+registered_office	ཐོ་འགོད་ཡིག་ཚང་།
+directors	ལམ་སྟོན་པ།
+contact	འབྲེལ་གཏུག
+find_it	Memon ནི་«རྙེད»ཡིན་ · ཀློག་སྟངས་ go-tee-geen
+brands_line	ཚོང་ལས་མ་ལག་ · ལག་ཆ་དང་ཉེར་སྤྱོད་ · འབྲེལ་འདྲིས།
 account	ཐོ་ཁོངས།
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	ཐོ་ཁོངས། — Gotigin
+acct_lede	Gotigin ཀུང་སིའི་དྲ་ཚིགས་ཀྱི་ནུས་པར་ནང་འཛུལ། ཐོན་རྫས་དྲ་ཚིགས་དང་འདྲ་བའི་འདེམས་ཚན་ — གློག་འཕྲིན། མཁོ་སྤྲོད། ཡང་ན་ཁ་པར།
 acct_continue_with	གློག་འཕྲིན། ཞབས་ཞུ་མཁོ་སྤྲོད་པ། ཡང་ན་ཁ་པར་གྱིས་མུ་མཐུད།
 acct_name_optional	མིང་། (འདོད་བློ་ལྟར།)
 acct_password	གསང་གྲངས།
@@ -81,8 +81,8 @@ acct_signed_in_as	འདི་ལྟར་ནང་འཛུལ།
 acct_status_label	གནས་བབ།
 acct_resend_verify	ར་སྤྲོད་གློག་འཕྲིན་བསྐྱར་དུ་བསྐུར།
 acct_sign_out	ཕྱིར་ཐོན།
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin ཁྱིམ།
+acct_nav_aria	གཙོ་བོ།
 err_invalid_email	གློག་འཕྲིན་ཁ་བྱང་ཏག་ཏག་འབྲི་རོགས།
 err_weak_password	ཉུང་མཐར་ཡིག་འབྲུ་ 6 ཡོད་པའི་གསང་གྲངས་བེད་སྤྱོད་རོགས།
 err_wrong_password	གསང་གྲངས་ནོར་འདུག
@@ -95,9 +95,9 @@ err_too_many	ཚོད་ལྟ་མང་དྲགས་སོང་། རྗ
 err_invalid_phone	རྒྱལ་ཁབ་ཀྱི་ཨང་རྟགས་དང་བཅས་པའི་ཁ་པར་ཨང་གྲངས་ཆ་ཚང་བེད་སྤྱོད་རོགས། (དཔེར་ན། +91…)
 err_bad_code	SMS ཨང་རྟགས་དེ་ནོར་བའམ་དུས་ཡོལ་སོང་།
 err_generic	ནོར་འཁྲུལ་ཞིག་བྱུང་སོང་།
-acct_no_email	(no email)
+acct_no_email	(གློག་འཕྲིན་མེད།)
 acct_email_verified	གློག་འཕྲིན་ར་སྤྲོད་ཟིན།
 acct_email_unverified	གློག་འཕྲིན་ད་དུང་ར་སྤྲོད་མེད། — ཁྱེད་ཀྱི་འབྱོར་སྒམ་ལ་ལྟ་རོགས།
 acct_phone_signed_in	ཁ་པར་གྱིས་ནང་འཛུལ་ཟིན།
 acct_you_are_in	ཁྱེད་ནང་འཛུལ་ཟིན།
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	ར་སྤྲོད་གློག་འཕྲིན་བཏང་ཟིན་ — འབྱོར་སྒམ་ལ་ལྟ་རོགས།

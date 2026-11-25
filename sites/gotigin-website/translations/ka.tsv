@@ -1,69 +1,69 @@
 # ka. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	მენიუ
+close	დახურვა
+home	მთავარი
+about	ჩვენს შესახებ
 privacy	კონფიდენციალურობა
 terms	პირობები
 cancellation	გაუქმება
-deletion	Deletion
-help	Help
-support	Support
+deletion	წაშლა
+help	დახმარება
+support	მხარდაჭერა
 login	შესვლა
 email	ელფოსტა
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	სავაჭრო ნიშანი
+window_title	Gotigin — სადაც ტექნოლოგია აღმოჩენას ხვდება
+slogan	სადაც ტექნოლოგია აღმოჩენას ხვდება.
+brands	ბრენდები
+brand	ბრენდი
+product	პროდუქტი
+kumkaj_blurb	ბიზნესის მოქმედი სისტემები.
+khaynjo_blurb	რესტორნის OS. მაგიდები, KOT, ანგარიშები, დღის დახურვა.
+moklanjo_blurb	საკურიერო მაგიდა. ჯავშანი, მხარეები, დღის წიგნი.
+kirano_blurb	Kirana. კატალოგი, მარაგი, khata, GST ნაღდი მემო.
+tabiyat_blurb	აფთიაქის დახლი. პარტია, ვადა, მარაგი, GST ანგარიშები.
+wadhu_blurb	Memon ნიშნავს «მეტს». ხელსაწყოები · აპები · მეტი.
+wadhu_note	ხელახლა გამოსაყენებელი ხელსაწყოები, უტილები და აპები. მესენჯერი არ არის.
+sms_gateway_blurb	ჯერ Android SIM შეტყობინება. LAN და Bluetooth უფასო რჩება.
+sms_relay_blurb	არასავალდებულო ინტერნეტის შრე დაწყვილებული კარიბჭეებისთვის.
+connect_blurb	WhatsApp Cloud API ხიდი.
+ghalbol_blurb	საკომუნიკაციო პროდუქტები.
+ghalbol_app_blurb	დაშიფრული მესენჯერი.
+pages	გვერდები
+company_pages	კომპანიის გვერდები
+page	გვერდი
+privacy_blurb	კომპანიის კონფიდენციალურობის პოლიტიკა.
+terms_blurb	gotigin.com-ის გამოყენების პირობები.
+cancellation_blurb	გაუქმების და დაბრუნების პოლიტიკა.
+data_deletion	მონაცემების წაშლა
+deletion_blurb	როგორ მოითხოვოთ წაშლა.
+support_blurb	ელფოსტა, ტელეფონი და პროდუქტის მარშრუტი.
+help_blurb	სახელები, პროდუქტები და საიტები.
+about_blurb	კომპანიის რეგისტრაცია და კონტაქტები.
+cookies	ქუქიები
+cookies_blurb	ქუქიები gotigin.com-ზე.
+security	უსაფრთხოება
+security_blurb	როგორ შეატყობინოთ სისუსტის შესახებ.
+company	კომპანია
+company_lede	კერძო შეზღუდული კომპანია. Dhoraji, Gujarat. დაფუძნებული 24 ივნისს 2026.
+registration	რეგისტრაცია
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	დაფუძნებული 24 ივნისს 2026
+share_capital	სააქციო კაპიტალი ₹1,00,000
+limited_by_shares	შეზღუდული აქციებით · Gujarat
+tax	გადასახადი
+gst_regular	GST ჩვეულებრივი · 04 ივლისიდან 2026
+recognition	აღიარება
+issued	გაცემული 08 ივლისს 2026
+valid_to	მოქმედია 23 ივნისამდე 2036
+registered_office	რეგისტრირებული ოფისი
+directors	დირექტორები
+contact	კონტაქტი
+find_it	Memon ნიშნავს «იპოვე» · წარმოთქმა go-tee-geen
+brands_line	ბიზნეს სისტემები · ხელსაწყოები და აპები · კომუნიკაცია
 account	ანგარიში
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	ანგარიში — Gotigin
+acct_lede	შედით Gotigin კომპანიის საიტის შესაძლებლობებისთვის. იგივე არჩევანი, რაც პროდუქტის საიტებზე — ელფოსტა, პროვაიდერები ან ტელეფონი.
 acct_continue_with	განაგრძეთ ელფოსტით, პროვაიდერით ან ტელეფონით.
 acct_name_optional	სახელი (არასავალდებულო)
 acct_password	პაროლი
@@ -81,8 +81,8 @@ acct_signed_in_as	შესული ხართ როგორც
 acct_status_label	სტატუსი
 acct_resend_verify	დადასტურების წერილის ხელახლა გაგზავნა
 acct_sign_out	გასვლა
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin მთავარი
+acct_nav_aria	ძირითადი
 err_invalid_email	შეიყვანეთ სწორი ელფოსტის მისამართი.
 err_weak_password	გამოიყენეთ მინიმუმ 6 სიმბოლოიანი პაროლი.
 err_wrong_password	პაროლი არასწორია.
@@ -95,9 +95,9 @@ err_too_many	ძალიან ბევრი მცდელობა. სც
 err_invalid_phone	გამოიყენეთ სრული ტელეფონის ნომერი ქვეყნის კოდით (მაგ. +91…).
 err_bad_code	SMS კოდი არასწორია ან ვადა გაუვიდა.
 err_generic	რაღაც შეცდომა მოხდა.
-acct_no_email	(no email)
+acct_no_email	(ელფოსტა არ არის)
 acct_email_verified	ელფოსტა დადასტურებულია
 acct_email_unverified	ელფოსტა ჯერ არ არის დადასტურებული — შეამოწმეთ შემოსულები
 acct_phone_signed_in	შესული ხართ ტელეფონით
 acct_you_are_in	შესული ხართ.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	დამადასტურებელი წერილი გაიგზავნა — შეამოწმეთ შემოსულები

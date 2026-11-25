@@ -1,69 +1,69 @@
 # mg. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Lisitra
+close	Hidio
+home	Fandraisana
+about	Momba anay
 privacy	Fiainana manokana
 terms	Fepetra
 cancellation	Fanafoanana
-deletion	Deletion
-help	Help
-support	Support
+deletion	Fafana
+help	Fanampiana
+support	Fanohanana
 login	Hiditra
 email	Mailaka
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	MARIKA
+window_title	Gotigin — Izay ihaonan'ny teknolojia sy ny fahitana
+slogan	Izay ihaonan'ny teknolojia sy ny fahitana.
+brands	MARIKA
+brand	MARIKA
+product	VOKATRA
+kumkaj_blurb	Rafitra fampandehanana ho an'ny raharaham-barotra.
+khaynjo_blurb	OS trano fisakafoanana. Latabatra, KOT, faktiora, fanakatonana andro.
+moklanjo_blurb	Latabatra mpitondra. Famandrihana, andaniny, boky andro.
+kirano_blurb	Kirana. Lisitra, tahiry, khata, tapakila GST.
+tabiyat_blurb	Kaontera fanafody. Vondrona, lany daty, tahiry, faktiora GST.
+wadhu_blurb	Memon midika «be kokoa». Fitaovana · Fampiharana · Be kokoa.
+wadhu_note	Fitaovana, util, ary fampiharana azo ampiasaina indray. Tsy iraka.
+sms_gateway_blurb	Hafatra SIM, Android aloha. LAN sy Bluetooth mijanona maimaim-poana.
+sms_relay_blurb	Sarin-tany aterineto azo fidina ho an'ny vavahady mifamatotra.
+connect_blurb	Tetezana mankany amin'ny WhatsApp Cloud API.
+ghalbol_blurb	Vokatra fifandraisana.
+ghalbol_app_blurb	Iraka miafina.
+pages	PEJY
+company_pages	Pejin'ny orinasa
+page	PEJY
+privacy_blurb	Politika tsiambaratelo an'ny orinasa.
+terms_blurb	Fepetra fampiasana ny gotigin.com.
+cancellation_blurb	Politika fanafoanana sy famerenana.
+data_deletion	Famafana angona
+deletion_blurb	Ahoana no hangataka famafana.
+support_blurb	Mailaka, finday, ary lalana mankany amin'ny vokatra.
+help_blurb	Anarana, vokatra, ary toerana.
+about_blurb	Fisoratana anarana ny orinasa sy fifandraisana.
+cookies	Kuki
+cookies_blurb	Kuki ao amin'ny gotigin.com.
+security	Fiarovana
+security_blurb	Ahoana no hanaovana tatitra momba ny fahalemena.
+company	ORINASA
+company_lede	Orinasa manokana voafetra ny andraikiny. Dhoraji, Gujarat. Naorina tamin'ny 24 Jona 2026.
+registration	Fisoratana anarana
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Naorina tamin'ny 24 Jona 2026
+share_capital	Renivola ₹1,00,000
+limited_by_shares	Voafetra amin'ny anjara · Gujarat
+tax	Hetra
+gst_regular	GST mahazatra · hatramin'ny 04 Jolay 2026
+recognition	Fankatoavana
+issued	Navoaka tamin'ny 08 Jolay 2026
+valid_to	Manan-kery hatramin'ny 23 Jona 2036
+registered_office	Birao voasoratra anarana
+directors	Tale
+contact	Fifandraisana
+find_it	Memon midika «tadiavo» · tononina go-tee-geen
+brands_line	Rafitra raharaham-barotra · fitaovana sy fampiharana · fifandraisana
 account	Kaonty
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Kaonty — Gotigin
+acct_lede	Midira ho an'ny endriky ny tranokalan'ny orinasa Gotigin. Safidy mitovy amin'ny an'ny tranokalan'ny vokatra — mailaka, mpanome, na finday.
 acct_continue_with	Tohizo amin’ny mailaka, mpamatsy na finday.
 acct_name_optional	Anarana (tsy voatery)
 acct_password	Tenimiafina
@@ -81,8 +81,8 @@ acct_signed_in_as	Tafiditra amin’ny anarana
 acct_status_label	Toe-javatra
 acct_resend_verify	Avereno alefa ny mailaka fanamarinana
 acct_sign_out	Hivoaka
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Fandraisana Gotigin
+acct_nav_aria	Voalohany
 err_invalid_email	Ampidiro adiresy mailaka manan-kery.
 err_weak_password	Ampiasao tenimiafina misy tarehin-tsoratra 6 farafahakeliny.
 err_wrong_password	Diso ny tenimiafina.
@@ -95,9 +95,9 @@ err_too_many	Andrana be loatra. Andramo indray any aoriana.
 err_invalid_phone	Ampiasao ny laharana finday feno miaraka amin’ny kaodin’ny firenena (ohatra +91…).
 err_bad_code	Diso na lany daty io kaody SMS io.
 err_generic	Nisy zavatra tsy nety.
-acct_no_email	(no email)
+acct_no_email	(tsy misy mailaka)
 acct_email_verified	Voamarina ny mailaka
 acct_email_unverified	Mbola tsy voamarina ny mailaka — jereo ny boaty fandraisanao
 acct_phone_signed_in	Tafiditra tamin’ny finday
 acct_you_are_in	Tafiditra ianao.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Nalefa ny mailaka fanamarinana — jereo ny boaty fandraisanao

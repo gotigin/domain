@@ -1,69 +1,69 @@
 # uz. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Menyu
+close	Yopish
+home	Bosh sahifa
+about	Biz haqimizda
 privacy	Maxfiylik
 terms	Shartlar
 cancellation	Bekor qilish
-deletion	Deletion
-help	Help
-support	Support
+deletion	O'chirish
+help	Yordam
+support	Qo'llab-quvvatlash
 login	Kirish
 email	Elektron pochta
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
-cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+trademark	SAVDO BELGISI
+window_title	Gotigin — Texnologiya kashfiyot bilan uchrashadigan joy
+slogan	Texnologiya kashfiyot bilan uchrashadigan joy.
+brands	BRENDLAR
+brand	BREND
+product	MAHSULOT
+kumkaj_blurb	Biznes uchun operatsion tizimlar.
+khaynjo_blurb	Restoran OS. Stollar, KOT, hisoblar, kunni yopish.
+moklanjo_blurb	Kuryer stoli. Bron, tomonlar, kun daftari.
+kirano_blurb	Kirana. Katalog, zaxira, khata, GST naqd chek.
+tabiyat_blurb	Dorixona peshtaxtasi. Partiya, muddat, zaxira, GST hisoblari.
+wadhu_blurb	Memon tilida «ko'proq». Asboblar · Ilovalar · Ko'proq.
+wadhu_note	Qayta ishlatiladigan asboblar, utilitalar va ilovalar. Xabarchi emas.
+sms_gateway_blurb	SIM xabarlar, avval Android. LAN va Bluetooth bepul qoladi.
+sms_relay_blurb	Juftlangan shlyuzlar uchun ixtiyoriy internet qatlami.
+connect_blurb	WhatsApp Cloud API ko'prigi.
+ghalbol_blurb	Aloqa mahsulotlari.
+ghalbol_app_blurb	Shifrlangan xabarchi.
+pages	SAHIFALAR
+company_pages	Kompaniya sahifalari
+page	SAHIFA
+privacy_blurb	Kompaniya maxfiylik siyosati.
+terms_blurb	gotigin.com foydalanish shartlari.
+cancellation_blurb	Bekor qilish va qaytarish siyosati.
+data_deletion	Ma'lumotlarni o'chirish
+deletion_blurb	O'chirishni qanday so'rash.
+support_blurb	Elektron pochta, telefon va mahsulotga yo'naltirish.
+help_blurb	Nomlar, mahsulotlar va saytlar.
+about_blurb	Kompaniyani ro'yxatdan o'tkazish va aloqalar.
+cookies	Kukilar
+cookies_blurb	gotigin.com dagi kukilar.
+security	Xavfsizlik
+security_blurb	Zaiflikni qanday xabar qilish.
+company	KOMPANIYA
+company_lede	Mas'uliyati cheklangan xususiy kompaniya. Dhoraji, Gujarat. 2026-yil 24-iyunda tashkil etilgan.
+registration	Ro'yxat
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	2026-yil 24-iyunda tashkil etilgan
+share_capital	Aksiyadorlik kapitali ₹1,00,000
+limited_by_shares	Aksiyalar bilan cheklangan · Gujarat
+tax	Soliq
+gst_regular	GST oddiy · 2026-yil 04-iyuldan
+recognition	E'tirof
+issued	2026-yil 08-iyulda berilgan
+valid_to	2036-yil 23-iyungacha amal qiladi
+registered_office	Ro'yxatdan o'tgan ofis
+directors	Direktorlar
+contact	Aloqa
+find_it	Memon tilida «uni top» · talaffuzi go-tee-geen
+brands_line	Biznes tizimlari · asboblar va ilovalar · aloqa
 account	Hisob
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Hisob — Gotigin
+acct_lede	Gotigin kompaniya sayti imkoniyatlari uchun kiring. Mahsulot saytlaridagi kabi variantlar — elektron pochta, provayder yoki telefon.
 acct_continue_with	Elektron pochta, provayder yoki telefon bilan davom eting.
 acct_name_optional	Ism (ixtiyoriy)
 acct_password	Parol
@@ -81,8 +81,8 @@ acct_signed_in_as	Kirgan hisob
 acct_status_label	Holat
 acct_resend_verify	Tasdiqlash xatini qayta yuborish
 acct_sign_out	Chiqish
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Gotigin bosh sahifasi
+acct_nav_aria	Asosiy
 err_invalid_email	Toʻgʻri elektron pochta manzilini kiriting.
 err_weak_password	Kamida 6 belgili parol ishlating.
 err_wrong_password	Parol notoʻgʻri.
@@ -95,9 +95,9 @@ err_too_many	Urinishlar juda koʻp. Keyinroq qayta urinib koʻring.
 err_invalid_phone	Davlat kodi bilan toʻliq telefon raqamini ishlating (masalan, +91…).
 err_bad_code	Bu SMS kod notoʻgʻri yoki muddati oʻtgan.
 err_generic	Nimadir xato ketdi.
-acct_no_email	(no email)
+acct_no_email	(elektron pochta yo'q)
 acct_email_verified	Pochta tasdiqlangan
 acct_email_unverified	Pochta hali tasdiqlanmagan — kiruvchi qutini tekshiring
 acct_phone_signed_in	Telefon bilan kirildi
 acct_you_are_in	Siz kirdingiz.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Tasdiqlash xati yuborildi — kiruvchi qutini tekshiring
