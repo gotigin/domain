@@ -1,4 +1,4 @@
-# uz. key<TAB>text. Keep {placeholders}. \n = line break.
+# Uzbek — Oʻzbekcha (uz). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menyu
 close	Yopish
 home	Bosh sahifa
@@ -14,6 +14,24 @@ email	Elektron pochta
 trademark	SAVDO BELGISI
 window_title	Gotigin — Texnologiya kashfiyot bilan uchrashadigan joy
 slogan	Texnologiya kashfiyot bilan uchrashadigan joy.
+hero_lede	Ishloq va shaxsiy foydalanish uchun kundalik dasturiy ta'minot — qurilmalaringizda bepul.
+promise	VA'DO
+promise_title	To'liq mahsulotlar. Iste'mol qilish bepul.
+promise_lede	Mahsulotning to'liq versiyasini yuklab oling va hech qanday xarajat bilan ishga tushiring. Biz faqat siz tanlagan ixtiyoriy xizmatlar uchun pul olamiz.
+promise_free_title	Mahalliy ravishda bepul
+promise_free_body	Qurilmalaringizdagi to'liq mahsulot doim bepul bo'lib qoladi. Asosiy vosita uchun to'lov devori yo'q.
+promise_ads_title	Majburiy reklama yo'q
+promise_ads_body	Ishingizni buzuvchi reklamalarsiz dasturni ishlatib ko'ring.
+promise_charge_title	Xizmatlar uchun to'lang
+promise_charge_body	Bulutli xizmatlar, namoyishlar, tashriflar va yordam — faqat siz so'raganingizda.
+promise_open_title	Nashr etilgan joyda ochiq
+promise_open_body	github.com/gotigin ostidagi umumiy kod. Mahalliy va LAN rejimi offline rejimda ham ishlaydi.
+built_with	QURILGANI
+tech_title	Rust va Makepad
+tech_lede	Ko'p Gotigin mahsulotlari Rust tilida yozilgan. GUIlar Makepad orqali tez dasturlar va veb-saytlarni ishlab chiqish uchun ishlatiladi, bu kompyuter, mobil qurilmalar va veb-ga mos keladi.
+tech_rust_body	Xavfsiz, tez va ishonchli — haqiqiy ishlarni kundalik bajaradigan dasturlar uchun yaratilgan.
+tech_makepad_body	Asl ilovalar va wasm saytlari uchun bitta Rust UI steki — samarali va mahalliy birinchi.
+close_lede	Mahsulotlar bepul. Xizmatlar ixtiyoriy.
 brands	BRENDLAR
 brand	BREND
 product	MAHSULOT

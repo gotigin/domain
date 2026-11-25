@@ -1,4 +1,4 @@
-# ks. key<TAB>text. Keep {placeholders}. \n = line break.
+# Kashmiri — كٲشُر (ks). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	مینو
 close	بند کٔرِو
 home	گھر
@@ -14,6 +14,24 @@ email	ای میل
 trademark	تجارتی نشان
 window_title	Gotigin — یتہِ ٹیکنالوجی دریافتَس سٟتۍ مِلان چھِ
 slogan	یتہِ ٹیکنالوجی دریافتَس سٟتۍ مِلان چھِ.
+hero_lede	روزانہ سافټویر کاروبار اور ذاتی استعمال کے لیے — آپ کے ڈیوائسز پر مفت۔
+promise	پرومیس
+promise_title	مکمل پروڈکٹس۔ مفت استعمال کے لیے۔
+promise_lede	بغیر کسی خرچ کے مکمل پروڈکٹ ڈاؤنلوڈ کریں اور چلائیں۔ ہم صرف ان اختیاری سروسز کے لیے فیس لیتے ہیں جو آپ منتخب کرتے ہیں۔
+promise_free_title	مفت مقامی طور پر
+promise_free_body	آپ کے ڈیوائسز پر مکمل پروڈکٹ مفت رہتا ہے۔ بنیادی ٹول پر کوئی پی ویل نہیں۔
+promise_ads_title	کوئی مجبوری وار اشتہارات نہیں
+promise_ads_body	اپنی کام کی رفتار کو متاثر کرنے والے اشتہارات کے بغیر سافټویر استعمال کریں۔
+promise_charge_title	سروسز کے لیے ادا کریں
+promise_charge_body	اختیاری کلاؤڈ، ڈیموز، دور دراز ملاقاتیں اور مدد — صرف تب جب آپ انہیں مانگیں۔
+promise_open_title	جہاں شائع کیا گیا وہاں کھلا
+promise_open_body	github.com/gotigin پر پبلک کوڈ۔ مقامی اور LAN آف لائن بھی کام کرتے ہیں۔
+built_with	بنایا گیا ہے
+tech_title	Rust اور Makepad
+tech_lede	زیادہ تر Gotigin پروڈکٹس Rust میں لکھے گئے ہیں۔ GUIs Makepad کا استعمال کرتے ہیں تیز ایپس اور ویب سائٹس کے لیے ڈیسک ٹاپ، موبائل اور ویب پر۔
+tech_rust_body	محفوظ، تیز اور قابل اعتماد — روزانہ حقیقی کام کو ہینڈل کرنے والے سافټویر کے لیے بنایا گیا۔
+tech_makepad_body	Native ایپس اور wasm ویب سائٹس کے لیے ایک Rust UI اسٹیک — پرفارمنٹ اور مقامی پہلے۔
+close_lede	پروڈکٹس مفت۔ سروسز اختیاری۔
 brands	برانڈ
 brand	برانڈ
 product	پروڈکٹ

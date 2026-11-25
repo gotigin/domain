@@ -1,4 +1,4 @@
-# mg. key<TAB>text. Keep {placeholders}. \n = line break.
+# Malagasy — Malagasy (mg). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Lisitra
 close	Hidio
 home	Fandraisana
@@ -14,6 +14,24 @@ email	Mailaka
 trademark	MARIKA
 window_title	Gotigin — Izay ihaonan'ny teknolojia sy ny fahitana
 slogan	Izay ihaonan'ny teknolojia sy ny fahitana.
+hero_lede	Logofa ho an'ny asa sy ny fampiasana ara-persôna — tsy misy vidiny amin'ny alalan'ny toeranao.
+promise	PROMISE
+promise_title	Volafovoana manontolo. Ampiasaina tsy misy vidiny.
+promise_lede	Manao fividianana sy mampiasa ny vokatra manontolo tsy misy vidiny. Mety hianarana tanana noho ny serivisy ara-pilambena izay efa nandeha anao.
+promise_free_title	Tsy misy vidiny ao amin'ny toeranao
+promise_free_body	Ny vokatra manontolo ao amin'ny toeranao dia tsy misy vidiny. Tsy misy fampidirana vola amin'ny alalan'ny fitaovana.
+promise_ads_title	Tsy misy soratra voafetra
+promise_ads_body	Mampiasa ny logofa tsy misy soratra manakaiky ny asa ianao.
+promise_charge_title	Manao vidiny amin'ny serivisy
+promise_charge_body	Ny cloud, ny fampisehoana, ny fandehana, ary ny fanampiana — fa tanana noho ny efa nandeha anao.
+promise_open_title	Miankina amin'ny fampidirana
+promise_open_body	Kôdina momba ny github.com/gotigin. Ny toerana sy ny LAN dia manao asa tsy misy internety.
+built_with	NO ANOSONINA AVEC
+tech_title	Rust ary Makepad
+tech_lede	Ny vokatra Gotigin maro no nomena amin'ny Rust. Ny GUI dia manao Makepad ho an'ny fitaovana haingana sy ny tranonkala ao amin'ny desktop, mobile, ary ny web.
+tech_rust_body	Miafina, haingana, ary azo antoka — nomena ho an'ny logofa manao asa manontolo isan'andro.
+tech_makepad_body	Ny kôdina UI iray amin'ny Rust ho an'ny fitaovana natia sy ny tranonkala wasm — haingana ary miankina amin'ny toeranao.
+close_lede	Vokatra tsy misy vidiny. Serivisy ara-pilambena.
 brands	MARIKA
 brand	MARIKA
 product	VOKATRA

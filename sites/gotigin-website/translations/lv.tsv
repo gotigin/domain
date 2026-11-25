@@ -1,4 +1,4 @@
-# lv. key<TAB>text. Keep {placeholders}. \n = line break.
+# Latvian — Latviešu (lv). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Izvēlne
 close	Aizvērt
 home	Sākums
@@ -14,6 +14,24 @@ email	E-pasts
 trademark	PREČU ZĪME
 window_title	Gotigin — Kur tehnoloģija satiek atklājumu
 slogan	Kur tehnoloģija satiek atklājumu.
+hero_lede	Ikdienas programmatūra biznesam un personīgai lietošanai – bez maksas uz jūsu ierīcēm.
+promise	PILNĪBA
+promise_title	Pilni produkti. Bez maksas lietošanai.
+promise_lede	Lejupielādējiet un palaiciet pilnu produktu bez izmaksām. Mēs uzlīdzinām tikai par papildu pakalpojumiem, ko jūs izvēlaties.
+promise_free_title	Bez maksas lokāli
+promise_free_body	Pilns produkts uz jūsu ierīcēm paliek bez maksas. Nav maksas sliekšņa pamatierīcē.
+promise_ads_title	Nav spiestu reklāmu
+promise_ads_body	Izmantojiet programmatūru bez reklām, kas traucē jūsu darbam.
+promise_charge_title	Samaksājiet par pakalpojumiem
+promise_charge_body	Papildu mākoņa pakalpojumi, demonstrācijas, apmeklējumi un palīdzība – tikai tad, kad jūs to pieprasāt.
+promise_open_title	Atvērti tur, kur publicēti
+promise_open_body	Publiskais kods zem github.com/gotigin. Lokālais un LAN darbs turpinās arī bez interneta savienojuma.
+built_with	IZGATAVOTS AR
+tech_title	Rust un Makepad
+tech_lede	Lielākā daļa Gotigin produktu ir rakstīti Rust. GUI izmanto Makepad ātriem lietotņu un tīmekļa vietņu izveidei datoros, mobilajās ierīcēs un tīklā.
+tech_rust_body	Droši, ātri un uzticami – izstrādāti programmatūrai, kas katru dienu apstrādā reālus darbus.
+tech_makepad_body	Viena Rust UI kārta indīvajām lietotnēm un wasm vietnēm – augstas veiktspējas un lokālās prioritātes.
+close_lede	Produkti bez maksas. Pakalpojumi pēc izvēles.
 brands	ZĪMOLI
 brand	ZĪMOLS
 product	PRODUKTS

@@ -1,4 +1,4 @@
-# nl. key<TAB>text. Keep {placeholders}. \n = line break.
+# Dutch — Nederlands (nl). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menu
 close	Sluiten
 home	Start
@@ -14,6 +14,24 @@ email	E-mail
 trademark	HANDELSMERK
 window_title	Gotigin — Waar technologie ontdekking ontmoet
 slogan	Waar technologie ontdekking ontmoet.
+hero_lede	Software voor dagelijks gebruik voor zakelijk en persoonlijk – gratis op uw apparaten.
+promise	BELOFTES
+promise_title	Volledige producten. Gratis te gebruiken.
+promise_lede	Download en draai het volledige product zonder kosten. Wij rekenen alleen inkomsten voor optionele diensten die u kiest.
+promise_free_title	Lokaal gratis
+promise_free_body	Het volledige product op uw apparaten blijft gratis. Geen betalingsmuur bij de kernfunctionaliteit.
+promise_ads_title	Geen gedwongen advertenties
+promise_ads_body	Gebruik de software zonder advertenties die uw werk onderbreken.
+promise_charge_title	Betaal voor diensten
+promise_charge_body	Optionele cloud, demos, bezoeken en ondersteuning – alleen wanneer u dit vraagt.
+promise_open_title	Open waar gepubliceerd
+promise_open_body	Publieke code onder github.com/gotigin. Lokaal en LAN blijven werken offline.
+built_with	GEBOUWDE MET
+tech_title	Rust en Makepad
+tech_lede	De meeste Gotigin-producten zijn geschreven in Rust. GUIs gebruiken Makepad voor snelle apps en websites op desktop, mobiel en het web.
+tech_rust_body	Veilig, snel en betrouwbaar – gebouwd voor software die elke dag echt werk aankan.
+tech_makepad_body	Eén Rust UI-stack voor native apps en wasm-websites – presterend en lokaal eerst.
+close_lede	Producten gratis. Diensten optioneel.
 brands	MERKEN
 brand	MERK
 product	PRODUCT

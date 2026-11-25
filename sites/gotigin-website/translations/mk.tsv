@@ -1,4 +1,4 @@
-# mk. key<TAB>text. Keep {placeholders}. \n = line break.
+# Macedonian — Македонски (mk). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Мени
 close	Затвори
 home	Почеток
@@ -14,6 +14,24 @@ email	Е-пошта
 trademark	ЗАШТИТЕН ЗНАК
 window_title	Gotigin — Каде технологијата се среќава со откритието
 slogan	Каде технологијата се среќава со откритието.
+hero_lede	Софтвер за секојдневна работа за бизнис и лична употреба — бесплатно на вашите уреди.
+promise	ОБЕТУВАЊЕ
+promise_title	Полни производи. Бесплатно за користење.
+promise_lede	Скочете ја и побарајте го целосниот производ без трошок. Ние наплаќаме само за опционални услуги што ги изберете.
+promise_free_title	Бесплатно локално
+promise_free_body	Целосниот производ на вашите уреди останува бесплатен. Без платена ѕид на основниот алат.
+promise_ads_title	Без присилна реклама
+promise_ads_body	Користете го софтверот без реклами кои го прекинуваат вашиот работен процес.
+promise_charge_title	Платете за услуги
+promise_charge_body	Опционална облак, демонстрации, посети и помош — само кога ќе побарате.
+promise_open_title	Отворено каде што е објавено
+promise_open_body	Јавен код под github.com/gotigin. Локалното и LAN продолжуваат да работат офлајн.
+built_with	ИЗГРАДЕНО СО
+tech_title	Rust и Makepad
+tech_lede	Најголем дел од Gotigin производите се напишани во Rust. GUIs користат Makepad за брзи апликации и веб-страници на десктоп, мобилни уреди и во мрежата.
+tech_rust_body	Безбедно, брзо и надежно — изградено за софтвер што секојдневно ги обработува реалните задачи.
+tech_makepad_body	Еден Rust UI стек за нативни апликации и wasm сајтови — перформансни и прво локално.
+close_lede	Производи бесплатно. Услуги опционални.
 brands	МАРКИ
 brand	МАРКА
 product	ПРОИЗВОД

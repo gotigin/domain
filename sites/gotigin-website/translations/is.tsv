@@ -1,4 +1,4 @@
-# is. key<TAB>text. Keep {placeholders}. \n = line break.
+# Icelandic — Íslenska (is). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Valmynd
 close	Loka
 home	Heim
@@ -14,6 +14,24 @@ email	Netfang
 trademark	VÖRUMERKI
 window_title	Gotigin — Þar sem tækni mætir uppgötvun
 slogan	Þar sem tækni mætir uppgötvun.
+hero_lede	Daglegt hugbúnaður fyrir starfsemi og einkalíf – ókeypis á tækjum þínum.
+promise	LOFTORÐ
+promise_title	Fullir vörur. Ókeypis í notkun.
+promise_lede	Sækja og keyra fullan vöru án kostnaðar. Við höfum aðeins gjald fyrir valfrjálar þjónustu sem þú velur.
+promise_free_title	Ókeypis staðlað
+promise_free_body	Fulli vöran á tækjum þínum helst ókeypis. Enginn greiðsluverndur á kjarnaverkfærinu.
+promise_ads_title	Engin tvungin auglýsingar
+promise_ads_body	Notaðu hugbúnaðinn án auglýsinga sem trufla starfssemi þína.
+promise_charge_title	Greitt fyrir þjónustu
+promise_charge_body	Valfrjálsir skyggn, sýningar, heimsóknir og hjálpar – aðeins þegar þú biðst þeirra.
+promise_open_title	Opin þar sem birt er
+promise_open_body	Opinn kóði undir github.com/gotigin. Staðlað og LAN virka án nettengingar.
+built_with	BYGGT Á
+tech_title	Rust og Makepad
+tech_lede	Flest Gotigin vörur eru rituð í Rust. GUIs nota Makepad fyrir fljótlegar forrit og vefsíður á skjáborði, farsímum og netinu.
+tech_rust_body	Ört, hratt og traust – byggt fyrir hugbúnað sem stundar raunverulegt starf daglega.
+tech_makepad_body	Einn Rust UI-stakur fyrir upprunaleg forrit og wasm vefsíður – áreiðanlegur og fyrst og fremst staðlaður.
+close_lede	Vörur ókeypis. Þjónusta valfrjáls.
 brands	VÖRUMERKIN
 brand	VÖRUMERKI
 product	VARA

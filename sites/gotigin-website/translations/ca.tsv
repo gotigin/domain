@@ -1,4 +1,4 @@
-# ca. key<TAB>text. Keep {placeholders}. \n = line break.
+# Catalan — Català (ca). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menú
 close	Tanca
 home	Inici
@@ -14,6 +14,24 @@ email	Correu electrònic
 trademark	MARCA REGISTRADA
 window_title	Gotigin — On la tecnologia es troba amb el descobriment
 slogan	On la tecnologia es troba amb el descobriment.
+hero_lede	Programari quotidià per a negocis i ús personal — gratuït als teus dispositius.
+promise	PROMESA
+promise_title	Productes complets. Gratuïts d'utilitzar.
+promise_lede	Baixa i executa el producte complet sense cost. Només cobrem pels serveis opcionals que triïs.
+promise_free_title	Gratuït localment
+promise_free_body	El producte complet als teus dispositius roman gratuït. Sense paywall a l'eina central.
+promise_ads_title	Sense anuncis obligatoris
+promise_ads_body	Utilitza el programari sense anuncis que interrompin la teva feina.
+promise_charge_title	Paga pels serveis
+promise_charge_body	Núvol, demostracions, visites i assistència opcionals — només quan les demanes.
+promise_open_title	Obert on es publica
+promise_open_body	Codi públic sota github.com/gotigin. El local i el LAN funcionen sense connexió.
+built_with	CONSTRUÏT AMB
+tech_title	Rust i Makepad
+tech_lede	La majoria dels productes Gotigin estan escrits en Rust. Les GUIs utilitzen Makepad per a aplicacions ràpides i llocs web al escriptori, mòbil i la xarxa.
+tech_rust_body	Segur, ràpid i fiable — dissenyat per a programari que gestiona feina real cada dia.
+tech_makepad_body	Una pila d'interfície Rust per a aplicacions natives i llocs wasm — rendiment i prioritat local.
+close_lede	Productes gratuïts. Serveis opcionals.
 brands	MARQUES
 brand	MARCA
 product	PRODUCTE

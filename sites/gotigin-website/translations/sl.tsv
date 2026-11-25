@@ -1,4 +1,4 @@
-# sl. key<TAB>text. Keep {placeholders}. \n = line break.
+# Slovenian — Slovenščina (sl). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Meni
 close	Zapri
 home	Domov
@@ -14,6 +14,24 @@ email	E-pošta
 trademark	BLAGOVNA ZNAMKA
 window_title	Gotigin — Kjer se tehnologija sreča z odkritjem
 slogan	Kjer se tehnologija sreča z odkritjem.
+hero_lede	Vsakodnevna programska oprema za poslovne in osebne namene – brezplačno na vaših napravah.
+promise	OBETANJE
+promise_title	Popolni izdelki. Brezplačni za uporabo.
+promise_lede	Prenesite in zagnajte popoln izdelek brez stroškov. Zbiramo plačilo le za izvoljene dodatne storitve.
+promise_free_title	Brezplačno lokalno
+promise_free_body	Popoln izdelek na vaših napravah ostane brezplačen. Brez plačilnega zidu v osrednjem orodju.
+promise_ads_title	Brez prisilnih oglasov
+promise_ads_body	Uporabljajte programsko opremo brez oglasov, ki motijo vašo delovno okolico.
+promise_charge_title	Plačilo za storitve
+promise_charge_body	Izvoljena oblak, demonstracije, obiski in pomoč – le ko jih zahtevate.
+promise_open_title	Odprto kjer je objavljeno
+promise_open_body	Javni kod pod github.com/gotigin. Lokalno in LAN delujeta tudi brez povezave na internet.
+built_with	IZGRAJENO Z
+tech_title	Rust in Makepad
+tech_lede	Večina Gotigin izdelkov je napisana v Rustu. GUI-ji uporabljajo Makepad za hitre aplikacije in spletne strani na namiznih računalnikih, mobilnih napravah in spletnem.
+tech_rust_body	Varen, hiter in zanesljiv – zasnovan za programsko opremo, ki vsak dan obvladuje resnično delo.
+tech_makepad_body	Ena Rust UI zasnova za domače aplikacije in wasm spletne strani – zmogljiva in lokalno prva.
+close_lede	Izdelki brezplačni. Storitve izvoljene.
 brands	ZNAMKE
 brand	ZNAMKA
 product	IZDELEK

@@ -1,4 +1,4 @@
-# sw. key<TAB>text. Keep {placeholders}. \n = line break.
+# Swahili — Kiswahili (sw). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menyu
 close	Funga
 home	Mwanzo
@@ -14,6 +14,24 @@ email	Barua pepe
 trademark	ALAMA YA BIASHARA
 window_title	Gotigin — Pale teknolojia inapokutana na ugunduzi
 slogan	Pale teknolojia inapokutana na ugunduzi.
+hero_lede	Programu la kila siku kwa biashara na matumizi ya kibinafsi — bure kwenye vifaa vyako.
+promise	MAJUMUI
+promise_title	Bidhaa kamili. Bure kutumia.
+promise_lede	Pakua na runge bidhaa kamili bila gharama. Tunagharimu tu kwa huduma za chaguo unazochagua.
+promise_free_title	Bure mahali pa ndani
+promise_free_body	Bidhaa kamili kwenye vifaa vyako hubaki bure. Hakuna ukosefu wa malipo kwenye zana ya msingi.
+promise_ads_title	Vidokezo visivyotakiwa
+promise_ads_body	Tumia programu bila vidokezo vinavyovunja kazi yako.
+promise_charge_title	Lipa huduma
+promise_charge_body	Mawasiliano ya anga, majaribio, maonyesho, na usaidizi — tu unapowataka.
+promise_open_title	Wafuataile wapo kwenye uchapishaji
+promise_open_body	Kodi ya umma chini ya github.com/gotigin. Mahali na LAN hubaki kufanya kazi bila mtandao.
+built_with	IMEJENZIWA NA
+tech_title	Rust na Makepad
+tech_lede	Zaidi ya bidhaa za Gotigin zimeandikwa kwa Rust. GUIs hutumia Makepad kwa programu na tovuti za haraka kwenye kompyuta, simu, na mtandao.
+tech_rust_body	Salama, haraka, na inayoweza kuaminika — imejengwa kwa programu zinazoshughulikia kazi halisi kila siku.
+tech_makepad_body	Mfumo mmoja wa UI wa Rust kwa programu za asili na tovuti za wasm — zinaendesha vizuri na zinategemea mahali pa ndani.
+close_lede	Bidhaa bure. Huduma ni za chaguo.
 brands	ALAMU
 brand	CHAPA
 product	BIDHAA

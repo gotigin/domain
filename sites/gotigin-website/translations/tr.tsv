@@ -1,4 +1,4 @@
-# tr. key<TAB>text. Keep {placeholders}. \n = line break.
+# Turkish — Türkçe (tr). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menü
 close	Kapat
 home	Ana sayfa
@@ -14,6 +14,24 @@ email	E-posta
 trademark	TİCARİ MARKA
 window_title	Gotigin — Teknolojinin keşifle buluştuğu yer
 slogan	Teknolojinin keşifle buluştuğu yer.
+hero_lede	İş ve kişisel kullanım için günlük yazılım — cihazlarınızda ücretsiz.
+promise	VAAD
+promise_title	Tam ürünler. Ücretsiz kullanım.
+promise_lede	Ürünün tamamını indirim yapmadan indirin ve çalıştırın. Sadece seçtiğiniz opsiyonel hizmetler için ücret alıyoruz.
+promise_free_title	Yerel olarak ücretsiz
+promise_free_body	Cihazlardaki tam ürün ücretsiz kalır. Temel araçta ödeme duvarı yoktur.
+promise_ads_title	Zorunlu reklamlar yok
+promise_ads_body	İşinizi aksatan reklamlar olmadan yazılımı kullanın.
+promise_charge_title	Hizmetler için ödeyin
+promise_charge_body	Opsiyonel bulut, demoslar, ziyaretler ve yardım — sadece talep ettiğinizde.
+promise_open_title	Yayınlanan yerlerde açık
+promise_open_body	github.com/gotigin altında halka açık kod. Yerel ve LAN çevrimdışı çalışmaya devam eder.
+built_with	ŞUNLARLA YAPILDI
+tech_title	Rust ve Makepad
+tech_lede	Çoğu Gotigin ürünü Rust ile yazılmıştır. GUIs, masaüstü, mobil ve web'de hızlı uygulamalar ve web siteleri için Makepad kullanır.
+tech_rust_body	Güvenli, hızlı ve güvenilir — her gün gerçek işle uğraşan yazılımlar için inşa edildi.
+tech_makepad_body	Yerel öncelikli ve performanslı yerel uygulamalar ve wasm siteleri için tek bir Rust UI yığını.
+close_lede	Ürünler ücretsiz. Hizmetler opsiyoneldir.
 brands	MARKALAR
 brand	MARKA
 product	ÜRÜN

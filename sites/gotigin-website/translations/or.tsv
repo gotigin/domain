@@ -1,4 +1,4 @@
-# or. key<TAB>text. Keep {placeholders}. \n = line break.
+# Odia — ଓଡ଼ିଆ (or). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	ମେନୁ
 close	ବନ୍ଦ କରନ୍ତୁ
 home	ଘର
@@ -14,6 +14,24 @@ email	ଇମେଲ୍
 trademark	ଟ୍ରେଡମାର୍କ
 window_title	Gotigin — ଯେଉଁଠି ପ୍ରଯୁକ୍ତି ଆବିଷ୍କାର ସହ ମିଳେ
 slogan	ଯେଉଁଠି ପ୍ରଯୁକ୍ତି ଆବିଷ୍କାର ସହ ମିଳେ.
+hero_lede	ବିଜ୍ଞାନ ଏବଂ ବ୍ୟକ୍ତିଗତ ବ୍ୟବହାର ପାଇଁ ଦୈନନ୍ଦିନ ସଫ୍ଟୱେର — ଆପଣଙ୍କ ଉପକରଣରେ ମୁକ୍ତ।
+promise	ସମର୍ପଣ
+promise_title	ପୂର୍ଣ୍ଣ ଉତ୍ପାଦ। ବ୍ୟବହାର ପାଇଁ ମୁକ୍ତ।
+promise_lede	ଆୟୋଜନ ଏବଂ ପୂର୍ଣ୍ଣ ଉତ୍ପାଦକୁ ନିମ୍ମଲରେ ରନ୍ କରନ୍ତୁ। ଆମେ କେବଳ ସେହି ଅନୁକୂଳ ସେବା ପାଇଁ ଚାର୍ଜ କରୁ ଯାହା ଆପଣ ବାଛିଥାନ୍ତି।
+promise_free_title	ସ୍ଥାନୀୟ ଭାବରେ ମୁକ୍ତ
+promise_free_body	ଆପଣଙ୍କ ଉପକରଣରେ ଥିବା ପୂର୍ଣ୍ଣ ଉତ୍ପାଦ ସର୍ବଦା ମୁକ୍ତ ରହିବ। ମୁଖ୍ୟ ଉପକରଣରେ କୌଣସି ବେଚାରୀ ନଥାଏ।
+promise_ads_title	ଅନୁକୂଳ ବିଜ୍ଞାପନ ନାହିଁ
+promise_ads_body	ଆପଣଙ୍କ କାର୍ଯ୍ୟକୁ ବାଧା ଦେଉଥିବା ବିଜ୍ଞାପନ ବିନା ସଫ୍ଟୱେର ବ୍ୟବହାର କରନ୍ତୁ।
+promise_charge_title	ସେବା ପାଇଁ ଚାର୍ଜ କରନ୍ତୁ
+promise_charge_body	ଅନୁକୂଳ କ୍ଲାଉଡ୍, ଡିମୋ, ସମ୍ମାନ ଏବଂ ସହାୟତା — କେବଳ ଯେତେବେଳେ ଆପଣ ତାହା ପାଇଁ ଅପେକ୍ଷା କରନ୍ତି।
+promise_open_title	ପ୍ରକାଶିତ ସ୍ଥାନରେ ଖୋଲା
+promise_open_body	github.com/gotigin ରେ ଥିବା ସାଧାରଣ କୋଡ୍। ସ୍ଥାନୀୟ ଏବଂ LAN ଅଫ୍ଲାଇନ୍ ମଧ୍ୟ କାର୍ଯ୍ୟ କରିପାରିବ।
+built_with	ଏହା ନିର୍ମିତ ହୋଇଛି
+tech_title	Rust ଏବଂ Makepad
+tech_lede	ଅଧିକାଂଶ Gotigin ଉତ୍ପାଦ Rust ରେ ଲେଖାଯାଇଛି। GUIs Makepad ବ୍ୟବହାର କରେ ଦ୍ରୁତ ଆପ୍ ଏବଂ ସାଇଟ୍ ପାଇଁ ଡେସ୍କଟପ୍, ମୋବାଇଲ୍ ଏବଂ ଉତ୍ସର୍ଗରେ।
+tech_rust_body	ସୁରକ୍ଷିତ, ଦ୍ରୁତ ଏବଂ ବିଶ୍ୱସନୀୟ — ପ୍ରତିଦିନ ବାସ୍ତବ କାର୍ଯ୍ୟ ସହାୟତା କରିବା ପାଇଁ ନିର୍ମିତ।
+tech_makepad_body	ନେଟିଭ୍ ଆପ୍ ଏବଂ wasm ସାଇଟ୍ ପାଇଁ ଗୋଟିଏ Rust UI ସ୍ଟାକ୍ — ଦ୍ରୁତ କାର୍ଯ୍ୟକ୍ଷମ ଏବଂ ସ୍ଥାନୀୟ-ପ୍ରଥମ।
+close_lede	ଉତ୍ପାଦ ମୁକ୍ତ। ସେବା ଅନୁକୂଳ।
 brands	ବ୍ରାଣ୍ଡ
 brand	ବ୍ରାଣ୍ଡ
 product	ଉତ୍ପାଦ

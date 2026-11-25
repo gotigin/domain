@@ -87,7 +87,7 @@ fi
 # Facebook keep a preview for days and only fetch again for a new address.
 PREVIEW_URL="https://gotigin.com/media/link-preview.jpg?v=$(sha256sum "$PREVIEW" | cut -c1-10)"
 HEAD_INJECT='    <title>Gotigin — Where Technology Meets Discovery</title>
-    <meta name="description" content="Gotigin — Where Technology Meets Discovery. Gotigin is a trademark; GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED is authorized to use, operate under, and represent it. Brands: Kumkaj, Wadhu (Tools · Apps · More), Ghal Bol." />
+    <meta name="description" content="Gotigin — Where Technology Meets Discovery. Full products free on your devices; optional paid services. Built with Rust and Makepad. Brands: Kumkaj, Wadhu, Ghal Bol." />
     <meta name="gotigin-build" content="'"$BUILD_ID"'" />
     <meta name="theme-color" content="#12102a" />
     <meta name="robots" content="max-image-preview:large" />
@@ -97,7 +97,7 @@ HEAD_INJECT='    <title>Gotigin — Where Technology Meets Discovery</title>
     <link rel="manifest" href="./site.webmanifest" />
     <meta property="og:site_name" content="Gotigin" />
     <meta property="og:title" content="Gotigin — Where Technology Meets Discovery" />
-    <meta property="og:description" content="Gotigin is a trademark. GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED is authorized to use, operate under, and represent it. Brands: Kumkaj, Wadhu, Ghal Bol." />
+    <meta property="og:description" content="Full products free on your devices. Optional cloud, demos, and assistance when you ask. Built with Rust and Makepad." />
     <meta property="og:url" content="https://gotigin.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_IN" />
@@ -108,7 +108,7 @@ HEAD_INJECT='    <title>Gotigin — Where Technology Meets Discovery</title>
     <meta property="og:image:alt" content="The gotigin.com home page: Gotigin — Where Technology Meets Discovery." />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Gotigin — Where Technology Meets Discovery" />
-    <meta name="twitter:description" content="Gotigin is a trademark. GOTIGIN SOFTWARE &amp; HARDWARE PRIVATE LIMITED is authorized to use, operate under, and represent it. Brands: Kumkaj, Wadhu, Ghal Bol." />
+    <meta name="twitter:description" content="Full products free on your devices. Optional cloud, demos, and assistance when you ask. Built with Rust and Makepad." />
     <meta name="twitter:image" content="'"$PREVIEW_URL"'" />
     <meta name="twitter:image:alt" content="The gotigin.com home page: Gotigin — Where Technology Meets Discovery." />'
 awk -v head="$HEAD_INJECT" -v bid="$BUILD_ID" '

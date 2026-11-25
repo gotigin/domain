@@ -1,4 +1,4 @@
-# hu. key<TAB>text. Keep {placeholders}. \n = line break.
+# Hungarian — Magyar (hu). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menü
 close	Bezárás
 home	Kezdőlap
@@ -14,6 +14,24 @@ email	E-mail
 trademark	VÉDJEGY
 window_title	Gotigin — Ahol a technológia találkozik a felfedezéssel
 slogan	Ahol a technológia találkozik a felfedezéssel.
+hero_lede	Mindennapi szoftver üzleti és magáncélra – ingyenes a készülékein.
+promise	IGÉNY
+promise_title	Teljes termékek. Ingyenes használat.
+promise_lede	Töltse le és futtassa a teljes terméket díj nélkül. Csak azokat a szolgáltatásokat fizetjük, amelyeket Ön választ.
+promise_free_title	Ingyenes helyileg
+promise_free_body	A készülékein lévő teljes termék ingyenes marad. Nincs fizetőfal az alapvető eszközön.
+promise_ads_title	Nem kényszerített hirdetések
+promise_ads_body	Használja a szoftvert olyan hirdetések nélkül, amelyek nem zavarnák meg a munkáját.
+promise_charge_title	Szolgáltatásokért fizessen
+promise_charge_body	Opcionális felhő, bemutatók, látogatások és segítségnyújtás – csak akkor, ha Ön kéri őket.
+promise_open_title	Nyílt a közzététel helyén
+promise_open_body	Nyílt forráskód github.com/gotigin alatt. A helyi és LAN működés offline is.
+built_with	MEGBUJTVA
+tech_title	Rust és Makepad
+tech_lede	A legtöbb Gotigin termék Rust nyelven íródott. A GUI-k a Makepadot használják gyors alkalmazások és weboldalak készítésére asztali gépen, mobilon és a weben.
+tech_rust_body	Biztonságos, gyors és megbízható – valódi munkát végző szoftverekhez tervezve minden nap.
+tech_makepad_body	Egy Rust UI-stapel natív alkalmazásokhoz és wasm oldalakhoz – teljesítményes és helyi előtérben.
+close_lede	Termékek ingyenesek. Szolgáltatások opcionálisak.
 brands	MÁRKÁK
 brand	MÁRKA
 product	TERMÉK

@@ -1,4 +1,4 @@
-# af. key<TAB>text. Keep {placeholders}. \n = line break.
+# Afrikaans — Afrikaans (af). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Kieslys
 close	Maak toe
 home	Tuis
@@ -14,6 +14,24 @@ email	E-pos
 trademark	HANDELSMERK
 window_title	Gotigin — Waar tegnologie ontdekking ontmoet
 slogan	Waar tegnologie ontdekking ontmoet.
+hero_lede	Daaglikse sagteware vir besigheid en persoonlike gebruik – gratis op jou toestelle.
+promise	BELOFTE
+promise_title	Volledige produkte. Gratis om te gebruik.
+promise_lede	Laai die volledige produk af en dra dit uit sonder enige koste. Ons laai slegs vir opsionele dienste wat jy kies.
+promise_free_title	Gratis lokaal
+promise_free_body	Die volledige produk op jou toestelle bly gratis. Geen betalingsmuur op die kernhulpmiddel nie.
+promise_ads_title	Geen gedwonge reklames nie
+promise_ads_body	Gebruik die sagteware sonder reklames wat jou werk onderbreek.
+promise_charge_title	Betaal vir dienste
+promise_charge_body	Opsionele cloud, demoes, besoekers en assistensie – slegs wanneer jy dit vra.
+promise_open_title	Oop waar gepubliseer
+promise_open_body	Openbare kode onder github.com/gotigin. Lokaal en LAN werk steeds aflyn.
+built_with	GEBOU MET
+tech_title	Rust en Makepad
+tech_lede	Die meeste Gotigin-produkte is geskryf in Rust. GUIs gebruik Makepad vir vinnige apps en webwerwe op desktop, mobiele toestelle en die web.
+tech_rust_body	Veilig, vinnig en betroubaar – gebou vir sagteware wat elke dag werklike werk hanteer.
+tech_makepad_body	Een Rust UI-stapel vir native apps en wasm-websye – prestasie-georiënteerd en lokaal eerstelik.
+close_lede	Produkte gratis. Dienste opsioneel.
 brands	HANDELSMERKE
 brand	HANDELSMERK
 product	PRODUK

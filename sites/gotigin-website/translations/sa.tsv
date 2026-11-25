@@ -1,4 +1,4 @@
-# sa. key<TAB>text. Keep {placeholders}. \n = line break.
+# Sanskrit — संस्कृतम् (sa). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	सूची
 close	पिधत्स्व
 home	गृहम्
@@ -14,6 +14,24 @@ email	ईपत्रम्
 trademark	व्यापारचिह्नम्
 window_title	Gotigin — यत्र तन्त्रज्ञानम् अन्वेषणेन मिलति
 slogan	यत्र तन्त्रज्ञानम् अन्वेषणेन मिलति.
+hero_lede	व्यावसायिक और व्यक्तिगत उपयोग के लिए दैनिक सॉफ्टवेयर — आपके उपकरणों पर मुक्त।
+promise	प्रतिज्ञा
+promise_title	पूर्ण उत्पाद। उपयोग करने के लिए मुक्त।
+promise_lede	कोई लागत के बिना पूर्ण उत्पाद डाउनलोड करें और चलाएं। हम केवल उन वैकल्पिक सेवाओं के लिए शुल्क करते हैं जो आप चुनते हैं।
+promise_free_title	स्थानीय रूप से मुक्त
+promise_free_body	आपके उपकरणों पर पूर्ण उत्पाद मुक्त रहता है। मुख्य टूल पर कोई भुगतान दीवार नहीं।
+promise_ads_title	कोई अनिवार्य विज्ञापन
+promise_ads_body	अपने काम को बाधित करने वाले विज्ञापनों के बिना सॉफ्टवेयर का उपयोग करें।
+promise_charge_title	सेवाओं के लिए भुगतान करें
+promise_charge_body	वैकल्पिक क्लाउड, डेमो, यात्राएं और सहायता — केवल तभी जब आप उनका अनुरोध करते हैं।
+promise_open_title	जहाँ प्रकाशित किया गया है, वहाँ खुला
+promise_open_body	github.com/gotigin के नीचे सार्वजनिक कोड। स्थानीय और LAN ऑफलाइन काम करना जारी रखता है।
+built_with	निर्मित किया गया है
+tech_title	रस्ट और मैकपैड
+tech_lede	अधिकतर गोटिगिन उत्पाद रस्ट में लिखे गए हैं। GUIs डेस्कटॉप, मोबाइल और वेब पर तेज ऐप्स और वेबसाइटों के लिए मैकपैड का उपयोग करते हैं।
+tech_rust_body	सुरक्षित, तेज और विश्वसनीय — दैनिक वास्तविक कार्य को संभालने वाले सॉफ्टवेयर के लिए निर्मित।
+tech_makepad_body	मूल ऐप्स और wasm साइटों के लिए एक ही रस्ट UI स्टैक — प्रदर्शनशील और स्थानीय-पहला।
+close_lede	उत्पाद मुक्त। सेवाएं वैकल्पिक।
 brands	चिह्नानि
 brand	चिह्नम्
 product	उत्पादः

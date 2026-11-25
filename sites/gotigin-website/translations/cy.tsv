@@ -1,4 +1,4 @@
-# cy. key<TAB>text. Keep {placeholders}. \n = line break.
+# Welsh — Cymraeg (cy). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Dewislen
 close	Cau
 home	Cartref
@@ -14,6 +14,24 @@ email	E-bost
 trademark	NOD MASNACH
 window_title	Gotigin — Lle mae technoleg yn cwrdd â darganfod
 slogan	Lle mae technoleg yn cwrdd â darganfod.
+hero_lede	Meddalweddau pob dydd ar gyfer busnes a defnydd personol — yn rhad ar eich ddyfais.
+promise	PROMISE
+promise_title	Cynhyrchion llawn. Rhad i'w defnyddio.
+promise_lede	Lawrlwytho a chymryd y cynnyrch cyflawn heb gost. Rydym yn talu dim ond am wasanaethau dewisol rydych chi'n eu dewis.
+promise_free_title	Rhad lleol
+promise_free_body	Mae'r cynnyrch llawn ar eich ddyfais yn aros yn rhad. Dim wal talu ar yr offeryn canolog.
+promise_ads_title	Dim hysbysebion gorfodedig
+promise_ads_body	Defnyddiwch y meddalwedd heb hysbysebion sy'n torri eich gwaith.
+promise_charge_title	Talu am wasanaethau
+promise_charge_body	Cwmwl dewisol, arddangosfeydd, ymweliadau, a chymorth — dim ond pan fyddwch chi'n gofyn amdanynt.
+promise_open_title	Agored lle cyhoeddwyd
+promise_open_body	Cod cyhoeddus dan github.com/gotigin. Mae lleol a LAN yn parhau i weithio heb gysylltiad â'r rhyngrwyd.
+built_with	WEDI'I GWEITHREDDU GYDA
+tech_title	Rust a Makepad
+tech_lede	Mae'r rhan fwyaf o gynhyrchion Gotigin wedi'u ysgrifennu yn Rust. Mae GUIs yn defnyddio Makepad ar gyfer appau cyflym a gwefannau ar ddesg, symudol, a'r rhyngrwyd.
+tech_rust_body	Diogel, cyflym, a dibynadwy — wedi'i adeiladu ar gyfer meddalwedd sy'n trin gwaith go iawn bob dydd.
+tech_makepad_body	Un stack UI Rust ar gyfer appau lleol a gwefannau wasm — perfformiad da a chynnyrch cyntaf lleol.
+close_lede	Cynhyrchion rhad. Gwasanaethau dewisol.
 brands	NODAU MASNACH
 brand	NOD MASNACH
 product	CYNNYRCH

@@ -1,4 +1,4 @@
-# ur. key<TAB>text. Keep {placeholders}. \n = line break.
+# Urdu — اردو (ur). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	مینیو
 close	بند کریں
 home	گھر
@@ -14,6 +14,24 @@ email	ای میل
 trademark	تجارتی نشان
 window_title	Gotigin — جہاں ٹیکنالوجی دریافت سے ملتی ہے
 slogan	جہاں ٹیکنالوجی دریافت سے ملتی ہے۔
+hero_lede	کاروبار اور ذاتی استعمال کے روزمرہ سافٹ ویئر — آپ کے آلات پر مفت۔
+promise	وعدہ
+promise_title	مکمل مصنوعات۔ استعمال مفت۔
+promise_lede	مکمل مصنوعہ بغیر لاگت ڈاؤن لوڈ کر کے چلائیں۔ ہم صرف اختیاری خدمات پر چارج کرتے ہیں جو آپ خود منتخب کریں۔
+promise_free_title	مقامی طور پر مفت
+promise_free_body	آپ کے آلات پر مکمل مصنوعہ مفت رہتی ہے۔ بنیادی ٹول پر کوئی پے وال نہیں۔
+promise_ads_title	زبردستی اشتہار نہیں
+promise_ads_body	کام میں خلل ڈالنے والے اشتہارات کے بغیر سافٹ ویئر استعمال کریں۔
+promise_charge_title	خدمات کے لیے ادائیگی
+promise_charge_body	اختیاری کلاؤڈ، ڈیمو، وزٹ اور مدد — صرف جب آپ مانگیں۔
+promise_open_title	جہاں شائع ہو، کھلا
+promise_open_body	github.com/gotigin پر عوامی کوڈ۔ مقامی اور LAN آف لائن بھی چلتے رہتے ہیں۔
+built_with	بنایا گیا
+tech_title	Rust اور Makepad
+tech_lede	زیادہ تر Gotigin مصنوعات Rust میں لکھی گئی ہیں۔ GUI کے لیے Makepad — ڈیسک ٹاپ، موبائل اور ویب پر تیز ایپس اور سائٹس۔
+tech_rust_body	محفوظ، تیز اور قابلِ اعتماد — روزمرہ حقیقی کام سنبھالنے والے سافٹ ویئر کے لیے۔
+tech_makepad_body	نیٹو ایپس اور wasm سائٹس کے لیے ایک Rust UI اسٹیک — کارکردگی والا اور مقامی اول۔
+close_lede	مصنوعات مفت۔ خدمات اختیاری۔
 brands	برانڈز
 brand	برانڈ
 product	مصنوع

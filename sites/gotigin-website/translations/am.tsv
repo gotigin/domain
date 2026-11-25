@@ -1,4 +1,4 @@
-# am. key<TAB>text. Keep {placeholders}. \n = line break.
+# Amharic — አማርኛ (am). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	ምናሌ
 close	ዝጋ
 home	መነሻ
@@ -14,6 +14,24 @@ email	ኢሜይል
 trademark	የንግድ ምልክት
 window_title	Gotigin — ቴክኖሎጂ ግኝትን የሚገናኝበት ቦታ
 slogan	ቴክኖሎጂ ግኝትን የሚገናኝበት ቦታ።
+hero_lede	የቢዝነስ እና የፕሮፌሽናል ሥራ ለእያንዳንዱ ቀን የሚሆን ሶፍትዌር — በመረጃ መሰሪያዎቻችላችሁ ላይ ነጻ
+promise	ፕሮሜስ
+promise_title	ሙሉ ውጤቶች፣ ነጻ ለመጠቀም
+promise_lede	በክፍያ አይደለም፤ የተሟላውን ምርት በማውረድ እና በመስራት ያግኙ። ነጻ እንዲቀጥል የሚያደርጉትን አማራጭ አገልግሎቶች ብቻ ነው የሚያስፈሩት።
+promise_free_title	በአካባቢ ነጻ
+promise_free_body	በመረጃ መሰሪያዎችዎ ላይ ያለው ሙሉ ምርት ነጻ ይቀጥላል። በአንድነት መሳሪያው ላይ የክፍያ መከላከያ አይኖርም።
+promise_ads_title	የተጣበቁ ሰዎች የለም
+promise_ads_body	ስራዎን የሚያቆሙ የተጣበቁ ሰዎች ከሌለው ሶፍትዌር ይጠቀሙ።
+promise_charge_title	አገልግሎቶችን ያግኙ
+promise_charge_body	የመረጃ ክላውድ፣ የዲሞ ሰዓት፣ ትምህርት እና አገልግሎት — በተለይ ሲጠይቁት ብቻ ነው የሚከፍሉት።
+promise_open_title	በተዘጋጀው ቦታ ይከፈታል
+promise_open_body	በ github.com/gotigin ላይ የተዘጋጀው ኮድ በህብረት ውስጥ ነው። LAN እና አካባቢያዊ ስራዎች በአንድነት ይሰራሉ።
+built_with	በእነዚህ የተሰራ
+tech_title	Rust እና Makepad
+tech_lede	በርካታ Gotigin ምርቶች በ Rust ተጻፈዋል። GUIs ለፍጥነት ያለውን መተግበሪያ እና የድሮችን ለመስራት Makepad ይጠቀማሉ።
+tech_rust_body	ጠባብ፣ ፍጹም እና አስተማማኝ — በእያንዳንዱ ቀን የሚሰራውን ሶፍትዌር ለመስራት የተሰራ
+tech_makepad_body	ለአባይነት መተግበሪያ እና wasm ድሮች አንድ Rust UI ስታክ — በፍጥነት እና በአካባቢ የተመሰረተ
+close_lede	ምርቶች ነጻ፣ አገልግሎቶች አማራጭ።
 brands	ብራንዶች
 brand	ብራንድ
 product	ምርት

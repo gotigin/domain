@@ -1,69 +1,87 @@
-# my. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	မီနူး
-close	ပိတ်ရန်
+# Burmese — မြန်မာ (my). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
+menu	မီ​နူး
+close	ပိတ်​ရန်
 home	အိမ်
 about	အကြောင်း
 privacy	ကိုယ်ရေးကိုယ်တာ
 terms	စည်းကမ်း​ချက်​များ
 cancellation	ပယ်ဖျက်​ခြင်း
-deletion	ဖျက်ခြင်း
+deletion	ဖျက်​ခြင်း
 help	အကူအညီ
-support	ပံ့ပိုးမှု
+support	ပံ့ပိုး​မှု
 login	ဝင်​ရောက်​ရန်
 email	အီး​မေး​လ်
 trademark	ကုန်​အမှတ်​တံဆိပ်
-window_title	Gotigin — နည်း​ပညာ​ရှာ​ဖွေ​မှု​နှင့်​တွေ့​ဆုံ​ရာ
-slogan	နည်း​ပညာ​ရှာ​ဖွေ​မှု​နှင့်​တွေ့​ဆုံ​ရာ.
+window_title	Gotigin — နည်း​ပညာရှာ​ဖွေ​မှု​နှင့်​တွေ့ဆုံ​ရာ
+slogan	နည်း​ပညာရှာ​ဖွေ​မှု​နှင့်​တွေ့ဆုံ​ရာ.
+hero_lede	လုပ်ငန်း​နှင့် ကိုယ်ရေးကိုယ်တာ အသုံးပြု​ရန်​အတွက် နေ့စဉ်​ဆော့​ဖ်​ဝဲ — သင့်​ပစ္စည်း​များ​တွင် လွတ်လပ်​စွာ အသုံးပြု​နိုင်​ပါသည်။
+promise	အမိန့်​ချမှတ်​ခြင်း
+promise_title	ပြည့်စုံ​သော ထုတ်ကုန်​များ။ အခမဲ့ အသုံးပြု​ရန်။
+promise_lede	လျှို့ဝှက်​ဆောင်​မှု မ​ရှိ​ဘဲ ပြည့်စုံ​သော ထုတ်ကုန်​ကို ဒေါင်း​လုပ်​ဆွဲ​ပြီး လည်ပတ်​ပါ။ ကျွန်ုပ်​တို့သည် သင်​ရွေးချယ်​လိုက်​သော ရွေးချယ်​ခွင့်​ရှိ​သော ဝန်ဆောင်မှု​များ​အတွက်​သာ အခကြေးငွေ တောင်းခံ​ပါသည်။
+promise_free_title	ဒေသ​တွင်း၌ လွတ်လပ်​စွာ
+promise_free_body	သင့်​ပစ္စည်း​များ​ရှိ ပြည့်စုံ​သော ထုတ်ကုန်​သည် လွတ်လပ်​နေ​ဆဲ​ဖြစ်သည်။ အဓိက ကိရိယာ​တွင် ငွေကြေး​တောင်းခံ​မှု မ​ရှိ​ပါ။
+promise_ads_title	အားပေး​ထား​သော နာမည်​များ မ​ရှိ
+promise_ads_body	သင့်​လုပ်ငန်း​ကို ရပ်တန့်​စေသော နာမည်​များ မ​ရှိ​ဘဲ ဆော့​ဖ်​ဝဲ​ကို အသုံးပြု​ပါ။
+promise_charge_title	ဝန်ဆောင်မှု​များ​အတွက် ပေး​ဆောင်​ပါ
+promise_charge_body	ရွေးချယ်​ခွင့်​ရှိ​သော ကာလ၊ န​မူ​နာ​ပုံစံ​များ၊ လာ​ရောက်​ကြည့်ရှု​ခြင်း​နှင့် အကူအညီ — သင်​တောင်း​ဆို​လိုက်​သောအခါ​မှ​သာ။
+promise_open_title	ဖော်ပြ​ထား​သော နေရာ​တွင် ပွင့်လင်း​ပါ
+promise_open_body	github.com/gotigin ၏ လူမှုရေး​ကုဒ်​များ။ ဒေသ​တွင်း​နှင့် LAN သည် အို​ဖ်​လိုင်း​တွင် ဆက်လက်​လည်ပတ်​နေ​ဆဲ​ဖြစ်သည်။
+built_with	ထုတ်လုပ်​ထား​ခြင်း
+tech_title	Rust နှင့် Makepad
+tech_lede	Gotigin ထုတ်ကုန်​အများ​စု​ကို Rust တွင် ရေးသား​ထားသည်။ GUIs သည် desktop, mobile နှင့် web တို့​တွင် အ​မြန်​ဆုံး အ​က်​ပ်​နှင့် ဝ​ဘ်​ဆိုက်​များ​အတွက် Makepad ကို အသုံးပြု​သည်။
+tech_rust_body	လုံခြုံ​ပြီး၊ အ​မြန်​ဆုံး​နှင့် ယုံကြည်​စိတ်ချ​ရ — နေ့စဉ် လုပ်ငန်း​စစ်​ကို စီမံ​ခန့်ခွဲ​နိုင်​သော ဆော့​ဖ်​ဝဲ​အတွက် တည်ဆောက်​ထားသည်။
+tech_makepad_body	Native apps နှင့် wasm sites အတွက် Rust UI stack တစ်​ခု — ထိ​ရောက်​ပြီး ဒေသ​တွင်း​ဦးစားပေး။
+close_lede	ထုတ်ကုန်​များ လွတ်လပ်။ ဝန်ဆောင်မှု​များ ရွေးချယ်​နိုင်သည်။
 brands	အမှတ်​တံဆိပ်
 brand	အမှတ်​တံဆိပ်
-product	ထုတ်​ကုန်
-kumkaj_blurb	လုပ်ငန်း​လည်​ပတ်​စနစ်​များ.
-khaynjo_blurb	စား​သောက်​ဆိုင် OS. စား​ပွဲ, KOT, ဘီလ်, နေ့​ပိတ်.
-moklanjo_blurb	ပို့​ဆောင်​စား​ပွဲ. ကြို​တင်, ဘက်, နေ့​စာ​အုပ်.
-kirano_blurb	Kirana. စာ​ရင်း, လက်​ကျန်, khata, GST ငွေ​သား​မှတ်​တမ်း.
-tabiyat_blurb	ဆေး​ကောင်တာ. အသုတ်, သက်​တမ်း, လက်​ကျန်, GST ဘီလ်.
-wadhu_blurb	Memon ဆို​သည် «ပို». ကိရိယာ · အက်ပ် · ပို.
-wadhu_note	ပြန်​သုံး​ကိရိယာ, ယူတီလ်​နှင့်​အက်ပ်. စာ​ပို့​သူ​မ​ဟုတ်.
-sms_gateway_blurb	Android ဦး​စား​ပေး SIM စာ. LAN နှင့် Bluetooth အခ​မဲ့​နေ​သည်.
-sms_relay_blurb	တွဲ​ဂိတ်​အတွက်​ရွေး​ချယ်​ရန်​အင်တာ​နက်​အလွှာ.
-connect_blurb	WhatsApp Cloud API တံ​တား.
-ghalbol_blurb	ဆက်​သွယ်​ရေး​ထုတ်​ကုန်.
-ghalbol_app_blurb	လျှို့​ဝှက်​စာ​ပို့​သူ.
-pages	စာ​မျက်​နှာ
-company_pages	ကုမ္ပဏီ​စာ​မျက်​နှာ
-page	စာ​မျက်​နှာ
-privacy_blurb	ကုမ္ပဏီ​ကိုယ်​ရေး​ကိုယ်​တာ​မူ​ဝါဒ.
-terms_blurb	gotigin.com အသုံး​ပြု​စည်း​ကမ်း.
-cancellation_blurb	ပယ်​ဖျက်​နှင့်​ပြန်​အမ်း​မူ​ဝါဒ.
-data_deletion	ဒေတာ​ဖျက်​ခြင်း
+product	ထုတ်ကုန်
+kumkaj_blurb	လုပ်ငန်း​လည်ပတ်​စနစ်​များ.
+khaynjo_blurb	စားသောက်ဆိုင် OS. စားပွဲ, KOT, ဘီ​လ်, နေ့​ပိတ်.
+moklanjo_blurb	ပို့ဆောင်​စားပွဲ. ကြိုတင်, ဘက်, နေ့​စာအုပ်.
+kirano_blurb	Kirana. စာရင်း, လက်ကျန်, khata, GST ငွေသား​မှတ်တမ်း.
+tabiyat_blurb	ဆေး​ကောင်တာ. အသုတ်, သက်တမ်း, လက်ကျန်, GST ဘီ​လ်.
+wadhu_blurb	Memon ဆိုသည် «ပို». ကိရိယာ · အ​က်​ပ် · ပို.
+wadhu_note	ပြန်​သုံး​ကိရိယာ, ယူ​တီ​လ်​နှင့်​အ​က်​ပ်. စာပို့​သူမ​ဟုတ်.
+sms_gateway_blurb	Android ဦးစားပေး SIM စာ. LAN နှင့် Bluetooth အခမဲ့​နေသည်.
+sms_relay_blurb	တွဲ​ဂိတ်​အတွက်​ရွေးချယ်​ရန်​အင်​တာ​နက်​အလွှာ.
+connect_blurb	WhatsApp Cloud API တံတား.
+ghalbol_blurb	ဆက်​သွယ်​ရေး​ထုတ်ကုန်.
+ghalbol_app_blurb	လျှို့ဝှက်​စာပို့​သူ.
+pages	စာမျက်နှာ
+company_pages	ကုမ္ပဏီ​စာမျက်နှာ
+page	စာမျက်နှာ
+privacy_blurb	ကုမ္ပဏီ​ကိုယ်ရေးကိုယ်တာ​မူ​ဝါဒ.
+terms_blurb	gotigin.com အသုံးပြု​စည်းကမ်း.
+cancellation_blurb	ပယ်ဖျက်​နှင့်​ပြန်​အမ်း​မူ​ဝါဒ.
+data_deletion	ဒေ​တာ​ဖျက်​ခြင်း
 deletion_blurb	ဖျက်​ရန်​ဘယ်လို​တောင်း​ရ​မည်.
-support_blurb	အီး​မေး​လ်, ဖုန်း, နှင့်​ထုတ်​ကုန်​လမ်း​ကြောင်း.
-help_blurb	အမည်, ထုတ်​ကုန်, နှင့်​ဆိုက်.
-about_blurb	ကုမ္ပဏီ​မှတ်​ပုံ​တင်​နှင့်​ဆက်​သွယ်​ရန်.
-cookies	ကွတ်​ကီး
-cookies_blurb	gotigin.com ရှိ​ကွတ်​ကီး.
-security	လုံ​ခြုံ​ရေး
-security_blurb	အား​နည်း​ချက်​ဘယ်လို​တင်​ပြ​ရ​မည်.
+support_blurb	အီး​မေး​လ်, ဖုန်း, နှင့်​ထုတ်ကုန်​လမ်းကြောင်း.
+help_blurb	အမည်, ထုတ်ကုန်, နှင့်​ဆိုက်.
+about_blurb	ကုမ္ပဏီ​မှတ်ပုံတင်​နှင့်​ဆက်​သွယ်​ရန်.
+cookies	ကွ​တ်​ကီး
+cookies_blurb	gotigin.com ရှိ​ကွ​တ်​ကီး.
+security	လုံခြုံရေး
+security_blurb	အားနည်းချက်​ဘယ်လို​တင်ပြ​ရ​မည်.
 company	ကုမ္ပဏီ
-company_lede	ပုဂ္ဂလိက​ကန့်​သတ်​ကုမ္ပဏီ. Dhoraji, Gujarat. တည်​ထောင် 24 ဇွန် 2026.
-registration	မှတ်​ပုံ​တင်
+company_lede	ပုဂ္ဂလိက​ကန့်သတ်​ကုမ္ပဏီ. Dhoraji, Gujarat. တည်ထောင် 24 ဇွန် 2026.
+registration	မှတ်ပုံတင်
 cin	CIN
-incorporated	တည်​ထောင် 24 ဇွန် 2026
-share_capital	ရှယ်ယာ​အရင်း​အနှီး ₹1,00,000
-limited_by_shares	ရှယ်ယာ​ဖြင့်​ကန့်​သတ် · Gujarat
+incorporated	တည်ထောင် 24 ဇွန် 2026
+share_capital	ရှယ်ယာ​အရင်းအနှီး ₹1,00,000
+limited_by_shares	ရှယ်ယာ​ဖြင့်​ကန့်သတ် · Gujarat
 tax	အခွန်
 gst_regular	GST ပုံ​မှန် · 04 ဇူလိုင် 2026 မှ
-recognition	အသိ​အမှတ်​ပြု
+recognition	အသိအမှတ်ပြု
 issued	ထုတ် 08 ဇူလိုင် 2026
-valid_to	23 ဇွန် 2036 အထိ​သက်​တမ်း​ရှိ
-registered_office	မှတ်​ပုံ​တင်​ရုံး
-directors	ဒါရိုက်​တာ
+valid_to	23 ဇွန် 2036 အထိ​သက်တမ်း​ရှိ
+registered_office	မှတ်ပုံတင်​ရုံး
+directors	ဒါရိုက်တာ
 contact	ဆက်​သွယ်​ရန်
-find_it	Memon ဆို​သည် «ရှာ​ပါ» · အသံ​ထွက် go-tee-geen
-brands_line	လုပ်ငန်း​စနစ် · ကိရိယာ​နှင့်​အက်ပ် · ဆက်​သွယ်​ရေး
+find_it	Memon ဆိုသည် «ရှာ​ပါ» · အသံထွက် go-tee-geen
+brands_line	လုပ်ငန်း​စနစ် · ကိရိယာ​နှင့်​အ​က်​ပ် · ဆက်​သွယ်​ရေး
 account	အ​ကော​င့်
 acct_page_title	အ​ကော​င့် — Gotigin
-acct_lede	Gotigin ကုမ္ပဏီ​ဆိုက်​လုပ်​ဆောင်​ချက်​အတွက်​ဝင်​ရောက်​ပါ. ထုတ်​ကုန်​ဆိုက်​နှင့်​တူ​သော​ရွေး​ချယ်​မှု — အီး​မေး​လ်, ပေး​သူ, သို့​မ​ဟုတ်​ဖုန်း.
+acct_lede	Gotigin ကုမ္ပဏီ​ဆိုက်​လုပ်ဆောင်ချက်​အတွက်​ဝင်​ရောက်​ပါ. ထုတ်ကုန်​ဆိုက်​နှင့်​တူသော​ရွေးချယ်​မှု — အီး​မေး​လ်, ပေး​သူ, သို့မဟုတ်​ဖုန်း.
 acct_continue_with	အီး​မေး​လ်၊ ဝန်ဆောင်မှု​ပေး​သူ သို့မဟုတ် ဖုန်း​ဖြင့် ဆက်​လုပ်​ပါ။
 acct_name_optional	အမည် (မ​ဖြစ်​မ​နေ မဟုတ်)
 acct_password	စကားဝှက်
@@ -100,4 +118,4 @@ acct_email_verified	အီး​မေး​လ် အတည်ပြု​ပ�
 acct_email_unverified	အီး​မေး​လ် အတည်​မ​ပြု​ရ​သေးပါ — သင့်​စာ​ဝင်​ပုံး​ကို စစ်​ပါ
 acct_phone_signed_in	ဖုန်း​ဖြင့် ဝင်​ရောက်​ပြီး
 acct_you_are_in	သင် ဝင်​ရောက်​ပြီး​ပါ​ပြီ။
-acct_verify_sent	အတည်​ပြု​အီး​မေး​လ်​ပို့​ပြီး — စာ​ဝင်​ပုံး​ကြည့်​ပါ
+acct_verify_sent	အတည်ပြု​အီး​မေး​လ်​ပို့​ပြီး — စာ​ဝင်​ပုံး​ကြည့်ပါ

@@ -1,4 +1,4 @@
-# lt. key<TAB>text. Keep {placeholders}. \n = line break.
+# Lithuanian — Lietuvių (lt). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Meniu
 close	Uždaryti
 home	Pradžia
@@ -14,6 +14,24 @@ email	El. paštas
 trademark	PREKĖS ŽENKLAS
 window_title	Gotigin — Kur technologija susitinka su atradimu
 slogan	Kur technologija susitinka su atradimu.
+hero_lede	Kasdieninė programinė įranga verslui ir asmeniniam naudojimui – nemokama jūsų įrenginiuose.
+promise	PROMISE
+promise_title	Visi produktai. Nemokamai naudoti.
+promise_lede	Atsisiųskite ir paleiskite pilną produktą nemokamai. Mokestį taikome tik pasirenkamoms paslaugoms, kurių prašote.
+promise_free_title	Nemokama vietiniu lygmeniu
+promise_free_body	Pilnas produktas jūsų įrenginiuose lieka nemokamas. Jokių mokėjimo sienų pagrindinėje įrankio dalyje.
+promise_ads_title	Jokie priverstiniai skelbimai
+promise_ads_body	Naudokite programinę įrangą be skelbimų, kurie sutrikdytų jūsų darbą.
+promise_charge_title	Mokėkite už paslaugas
+promise_charge_body	Pasirenkamos debesijos, demonstracinės versijos, vizitai ir pagalba – tik tada, kai jos prašote.
+promise_open_title	Atvira ten, kur paskelbta
+promise_open_body	Vieša kodo bazė github.com/gotigin. Vietinis ir LAN darbas veikia netgi esant nuolatiniam ryšiui.
+built_with	SUKURTA NAUDODAMA
+tech_title	Rust ir Makepad
+tech_lede	Dauguma Gotigin produktų parašyti Rust kalba. GUI naudoja Makepad greitiems programiniams įrenginiams ir svetainėms kompiuteriuose, mobiliuosiuose įrenginiuose ir internete.
+tech_rust_body	Saugu, greita ir patikima – sukurta programinei įrangai, kuri kasdien atlieka tikrą darbą.
+tech_makepad_body	Viena Rust vartotojo sąsajos sistema vietiniams programoms ir wasm svetainėms – efektyvi ir orientuota į vietinius duomenis.
+close_lede	Produktai nemokami. Paslaugos pasirenkamos.
 brands	PREKIŲ ŽENKLAI
 brand	PREKĖS ŽENKLAS
 product	PRODUKTAS

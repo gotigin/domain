@@ -1,4 +1,4 @@
-# as. key<TAB>text. Keep {placeholders}. \n = line break.
+# Assamese — অসমীয়া (as). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	মেনু
 close	বন্ধ কৰক
 home	ঘৰ
@@ -14,6 +14,24 @@ email	ইমেইল
 trademark	ট্ৰেডমাৰ্ক
 window_title	Gotigin — য'ত প্ৰযুক্তিয়ে আৱিষ্কাৰ লগ পায়
 slogan	য'ত প্ৰযুক্তিয়ে আৱিষ্কাৰ লগ পায়.
+hero_lede	ব্যবসা আৰু ব্যক্তিগত ব্যৱহাৰৰ বাবে দৈনন্দিন সফটৱেৰ — আপোনাৰ ডিভাইচত মুক্তভাৱে উপলব্ধ।
+promise	সমৰ্থন প্ৰতিজ্ঞা
+promise_title	পূৰ্ণ বৈশিষ্ট্যসম্পন্ন প্ৰডাক্ট। ব্যৱহাৰৰ বাবে মুক্ত।
+promise_lede	বিহীন খৰচত সম্পূৰ্ণ প্ৰডাক্টটো ডাউনলোড কৰক আৰু চলোৱা। আমি কেৱল আপুনি নিৰ্বাচিত অপ্ৰয়োজনীয় সেৱাবিধিবাবেই চাৰ্জ কৰোঁ।
+promise_free_title	স্থানীয়ভাৱে মুক্ত
+promise_free_body	আপোনাৰ ডিভাইচত থকা পূৰ্ণ প্ৰডাক্টটো সদায় মুক্ত থাকিব। মূল টুলত কোনো পেমৱল নেই।
+promise_ads_title	অপ্ৰয়োজনীয় বিজ্ঞাপন নাই
+promise_ads_body	আপোনাৰ কাম ব্যাহত কৰা বিজ্ঞাপনহীনভাৱে সফটৱেৰটো ব্যৱহাৰ কৰক।
+promise_charge_title	সেৱাবিধিবাবেই পৰিশোধ কৰক
+promise_charge_body	অপ্ৰয়োজনীয় কাউণ্ড, ডেম'ছ, ভিজিট আৰু সহায় — কেৱল যেতিয়া আপুনি তেওঁলোকৰ বাবে বিচাৰে।
+promise_open_title	প্ৰকাশিত ঠাইত ওপেন
+promise_open_body	github.com/gotigin ত থকা পাবলিক কোড। স্থানীয় আৰু LAN অফলাইনতো কাম কৰি থাকে।
+built_with	নিৰ্মিত হৈছে
+tech_title	Rust আৰু Makepad
+tech_lede	বেশীভাগো Gotigin প্ৰডাক্ট Rust ত লিখা হৈছে। GUIs-ত Makepad ব্যৱহাৰ কৰা হয় ডেক্সটপ, ম'বাইল আৰু ওয়েবত দ্ৰুত অৱয়োগ আৰু ৱেবছাইট নিৰ্মাণৰ বাবে।
+tech_rust_body	নিৰাপদ, দ্ৰুত আৰু বিশ্বাসযোগ্য — যি দৈনন্দিন প্ৰকৃত কামৰ সৈতে জড়িত সফটৱেৰৰ বাবে নিৰ্মিত।
+tech_makepad_body	নেটিভ অৱয়োগ আৰু wasm সাইটৰ বাবে এটা Rust UI ষ্ট্যাক — দক্ষ আৰু স্থানীয়-প্ৰধান।
+close_lede	প্ৰডাক্ট মুক্ত। সেৱাবিধি অপ্ৰয়োজনীয়।
 brands	ব্ৰেণ্ড
 brand	ব্ৰেণ্ড
 product	সামগ্ৰী

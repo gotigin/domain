@@ -1,4 +1,4 @@
-# yo. key<TAB>text. Keep {placeholders}. \n = line break.
+# Yoruba — Yorùbá (yo). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Àkójọ
 close	Padé
 home	Ilé
@@ -14,6 +14,24 @@ email	Ímeèlì
 trademark	ÀMÌ ÌṢÒWÒ
 window_title	Gotigin — Ibí ìmọ̀ ẹ̀rọ tí pàdé ìwárí
 slogan	Ibí ìmọ̀ ẹ̀rọ tí pàdé ìwárí.
+hero_lede	Software fun gbogbo ọjọ́ fun iṣẹ́ àti lilo pàtàkì — tí kò ní òwó ní àwọn ohun èlò rẹ.
+promise	ÌYÉ
+promise_title	Àwọn ọjà tó pọ̀. Lilo tí kò ní òwó.
+promise_lede	Fún sí i, ṣe àkójọpọ̀, kí o sì lo ohun èlò tí ó pọ́ láìsí ìfúnpa. A máa ń gba òwó fún àwọn òṣèlú tí a yàn nìkan.
+promise_free_title	Tí kò ní òwó ní ibi
+promise_free_body	Ohun èlò tó pọ̀ lórí àwọn ohun èlò rẹ máa dúró bí ó ti wà. Kò sí àgbékalẹ́ ìfúnpa fún ohun èlò tí ó ṣe pàtàkì.
+promise_ads_title	Kò sí àwọn àpèjúwe tí a fi ń pa
+promise_ads_body	Lo software náà láìsí àwọn àpèjúwe tí ó ń yọ iṣẹ́ rẹ̀ padà.
+promise_charge_title	Fi òwó sí àwọn òṣèlú
+promise_charge_body	Cloud, àwọn ìdánwo, àwọn ìrìn-àjò, àti ìrànlọ́wọ́ tí kò ní òwó — nìkan nígbà tí o bá fẹ́ wọn.
+promise_open_title	Àkókò tí a fi ṣe àtúnyẹ̀wò
+promise_open_body	Kódì tó wà lórí github.com/gotigin. LAN àti ibi tí kò ní ìmọ́lára máa ń ṣiṣẹ́ nígbà tí kò bá ní ìmọ́lára.
+built_with	TÍ A FI ÈYÍ BÌ
+tech_title	Rust àti Makepad
+tech_lede	Àwọn ọjà púpọ̀ nínú Gotigin a fi Rust ṣe. Àwọn GUIs máa ń lo Makepad fún àwọn app àti wẹ́ẹ̀bù tí ó yára lórí desktop, mobile, àti wẹ́ẹ̀bù.
+tech_rust_body	Dídúró sán, yára, àti dídúró sán — a fi é ṣe fún software tí ó ń gba iṣẹ́ tó tọ́ ní gbogbo ọjọ́.
+tech_makepad_body	Àkójọpọ̀ Rust kan fún àwọn app tí kò ní ìmọ́lára àti àwọn wẹ́ẹ̀bù wasm — yára àti tí ó bẹ̀rẹ̀ ní ibi.
+close_lede	Àwọn ọjà tí kò ní òwó. Àwọn òṣèlú tí a lè yan.
 brands	ÀWỌN ÀMÌ
 brand	ÀMÌ
 product	ỌJA

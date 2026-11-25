@@ -1,4 +1,4 @@
-# ha. key<TAB>text. Keep {placeholders}. \n = line break.
+# Hausa — Hausa (ha). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Jerin
 close	Rufe
 home	Gida
@@ -14,6 +14,24 @@ email	Imel
 trademark	ALAMAR KASUWANCI
 window_title	Gotigin — Inda fasaha ta haɗu da gano
 slogan	Inda fasaha ta haɗu da gano.
+hero_lede	Lissafi na kullum don aiki da amfani na mutum — ba wanda ke buƙatar kuɗi akan kayan aiki ku.
+promise	KAMANI
+promise_title	Samfurai cikakke. Ba tare da kulawa ba don amfani.
+promise_lede	Tura shi cikin jiki kuma yi aiki a matsayin samfur ɗin gaba ɗaya ba tare da kuɗi ba. Muna neman kuɗi kawai akan sabis na zaɓi wanda ka zabi.
+promise_free_title	Baƙi a cikin wurin
+promise_free_body	Samfur ɗin gaba ɗaya akan kayan aikinka yana kasancewa baƙi. Babu takardar kuɗi akan al'ada.
+promise_ads_title	Ba tare da iko ba
+promise_ads_body	Yi amfani da lissafin ba tare da iko masu cutar da aikinka ba.
+promise_charge_title	Ku biya sabis
+promise_charge_body	Cloud na zaɓi, bayyanawa, jawo, da taimako — kawai lokacin da ka nema su.
+promise_open_title	Fasaha a wurin da aka buga
+promise_open_body	Kodin gaba ɗaya yana kan github.com/gotigin. LAN da na cikin gida suna ci gaba tare ba tare da haɗin yanki ba.
+built_with	AN GINA TA HARKA DA
+tech_title	Rust da Makepad
+tech_lede	Yawan samfurin Gotigin an rubuta su a Rust. GUIs suna amfani da Makepad don fasalolin gajare akan desktop, wayar hannu, da yanki.
+tech_rust_body	Aminti, gajare, kuma ingantaccen — an gina shi don lissafi wanda ke kula da aiki na gaske kullum.
+tech_makepad_body	Wata hanya ta UI ta Rust don fasalolin asali da wasm sites — masu inganci da na farko a cikin gida.
+close_lede	Samfurai baƙi. Sabis na zaɓi.
 brands	ALAMOMI
 brand	ALAMA
 product	KAYA

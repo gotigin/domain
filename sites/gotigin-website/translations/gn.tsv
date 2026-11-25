@@ -1,4 +1,4 @@
-# gn. key<TAB>text. Keep {placeholders}. \n = line break.
+# Guarani — Avañe'ẽ (gn). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Poravorã
 close	Mboty
 home	Ñepyrũ
@@ -14,6 +14,24 @@ email	Ñandutiveve
 trademark	TERAÑEMI
 window_title	Gotigin — Moõpa tembiporu ojuajú ojejuhúvare
 slogan	Moõpa tembiporu ojuajú ojejuhúvare.
+hero_lede	Software diario pa negocios y uso personal — gratis en tus dispositivos.
+promise	PROMISE
+promise_title	Productos completos. Gratis de usar.
+promise_lede	Descargá i corré el producto completo sin costo. Cobramos solo por servicios opcionales que elegís.
+promise_free_title	Gratis localmente
+promise_free_body	El producto completo en tus dispositivos se queda gratis. Sin muro de pago en la herramienta central.
+promise_ads_title	Sin anuncios forzados
+promise_ads_body	Usá el software sin anuncios que interrumpen tu trabajo.
+promise_charge_title	Pagá por servicios
+promise_charge_body	Nube opcional, demos, visitas y asistencia — solo cuando los pedís.
+promise_open_title	Abierto donde se publica
+promise_open_body	Código público bajo github.com/gotigin. Local y LAN siguen funcionando sin conexión.
+built_with	CONSTRUIDO CON
+tech_title	Rust y Makepad
+tech_lede	La mayoría de los productos de Gotigin están escritos en Rust. Las GUIs usan Makepad para apps rápidas y sitios web en escritorio, móvil y la web.
+tech_rust_body	Seguro, rápido y confiable — construido para software que maneja trabajo real cada día.
+tech_makepad_body	Una pila de UI en Rust para apps nativas y sitios wasm — eficiente y primero local.
+close_lede	Productos gratis. Servicios opcionales.
 brands	TERAÑEMI KUÉRA
 brand	TERAÑEMI
 product	MBA'E

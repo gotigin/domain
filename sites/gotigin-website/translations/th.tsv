@@ -1,8 +1,8 @@
-# th. key<TAB>text. Keep {placeholders}. \n = line break.
+# Thai — ไทย (th). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	เมนู
 close	ปิด
 home	หน้า​แรก
-about	เกี่ยวกับ
+about	เกี่ยว​กับ
 privacy	ความ​เป็น​ส่วน​ตัว
 terms	ข้อ​กำหนด
 cancellation	การ​ยกเลิก
@@ -11,35 +11,53 @@ help	ช่วย​เหลือ
 support	ฝ่าย​สนับสนุน
 login	เข้า​สู่​ระบบ
 email	อีเมล
-trademark	เครื่องหมาย​การค้า
+trademark	เครื่องหมายการค้า
 window_title	Gotigin — ที่​ซึ่ง​เทคโนโลยี​พบ​การ​ค้น​พบ
 slogan	ที่​ซึ่ง​เทคโนโลยี​พบ​การ​ค้น​พบ.
+hero_lede	ซอฟต์แวร์​สำหรับ​ธุรกิจ​และ​การ​ใช้​งาน​ส่วน​ตัว — ฟรี​บน​อุปกรณ์​ของ​คุณ
+promise	คำมั่น​สัญญา
+promise_title	ผลิตภัณฑ์​ครบ​ถ้วน ใช้​ฟรี
+promise_lede	ดาวน์โหลด​และ​ใช้​งาน​ผลิตภัณฑ์​แบบ​เต็ม​โดย​ไม่​ต้อง​เสีย​ค่า​ใช้​จ่าย เรา​คิด​เงิน​เฉพาะ​บริการ​เสริม​ที่​คุณ​เลือก​เท่านั้น
+promise_free_title	ฟรี​ใน​ท้อง​ถิ่น
+promise_free_body	ผลิตภัณฑ์​แบบ​เต็ม​บน​อุปกรณ์​ของ​คุณ​ยัง​คง​เป็น​อิสระ ไม่มี​กำแพง​การ​ชำระ​เงิน​สำหรับ​เครื่อง​มือ​หลัก
+promise_ads_title	ไม่มี​โฆษณา​ที่​บังคับ
+promise_ads_body	ใช้​งาน​ซอฟต์แวร์​โดย​ไม่มี​โฆษณา​ที่​ขัดจังหวะ​การ​ทำงาน​ของ​คุณ
+promise_charge_title	ชำระ​ค่า​บริการ
+promise_charge_body	คลา​วด์​แบบ​เลือก​ได้, การ​สาธิต, การ​เยี่ยมเยียน และ​การ​ช่วย​เหลือ — เฉพาะ​เมื่อ​คุณ​ร้องขอ
+promise_open_title	เปิด​กว้าง​ตาม​ที่​เผย​แพร่
+promise_open_body	โค้ด​สาธารณะ​ภาย​ใต้ github.com/gotigin. ระบบ​ท้อง​ถิ่น​และ LAN ยัง​คง​ใช้​งาน​ได้​แม้​ไม่มี​อินเทอร์เน็ต
+built_with	สร้าง​ด้วย
+tech_title	Rust และ Makepad
+tech_lede	ผลิตภัณฑ์ Gotigin ส่วน​ใหญ่​เขียน​ด้วย Rust GUIs ใช้ Makepad สำหรับ​แอป​และ​เว็บไซต์​ที่​รวด​เร็ว​บน​เด​สก์ท็อป มือ​ถือ และ​เว็บ
+tech_rust_body	ปลอดภัย รวดเร็ว และ​เชื่อ​ถือ​ได้ — สร้าง​ขึ้น​สำหรับ​ซอฟต์แวร์​ที่​จัดการ​งาน​จริง​ทุก​วัน
+tech_makepad_body	ชุด UI แบบ Rust เดียว​สำหรับ​แอป​เน​ทีฟ​และ​เว็บไซต์ wasm — ประสิทธิภาพ​สูง​และ​เน้น​การ​ทำงาน​ใน​ท้อง​ถิ่น
+close_lede	ผลิตภัณฑ์​ฟรี บริการ​แบบ​เลือก​ได้
 brands	แบรนด์
 brand	แบรนด์
 product	ผลิตภัณฑ์
 kumkaj_blurb	ระบบ​ปฏิบัติ​การ​สำหรับ​ธุรกิจ.
 khaynjo_blurb	OS ร้าน​อาหาร. โต๊ะ, KOT, บิล, ปิด​วัน.
-moklanjo_blurb	เคาน์เตอร์​ขน​ส่ง. จอง, คู่​ค้า, สมุด​ราย​วัน.
-kirano_blurb	Kirana. บัญชี​ราย​การ, สต็อก, khata, ใบ​เสร็จ​เงิน​สด GST.
-tabiyat_blurb	เคาน์เตอร์​ร้าน​ยา. ล็อต, วัน​หมด​อายุ, สต็อก, บิล GST.
+moklanjo_blurb	เคาน์เตอร์​ขนส่ง. จอง, คู่​ค้า, สมุด​ราย​วัน.
+kirano_blurb	Kirana. บัญชี​รายการ, สต็​อก, khata, ใบ​เสร็จ​เงินสด GST.
+tabiyat_blurb	เคาน์เตอร์​ร้าน​ยา. ล็อต, วัน​หมด​อายุ, สต็​อก, บิล GST.
 wadhu_blurb	Memon ของ «มาก​ขึ้น». เครื่อง​มือ · แอป · มาก​ขึ้น.
-wadhu_note	เครื่อง​มือ​ยูทิล​และ​แอป​ที่​ใช้​ซ้ำ​ได้. ไม่​ใช่​ผู้​ส่ง​สาร.
+wadhu_note	เครื่อง​มือ​ยู​ทิล​และ​แอป​ที่​ใช้​ซ้ำ​ได้. ไม่ใช่​ผู้​ส่ง​สาร.
 sms_gateway_blurb	ข้อความ SIM, Android ก่อน. LAN และ Bluetooth ยัง​ฟรี.
 sms_relay_blurb	ชั้น​อินเทอร์เน็ต​ที่​เลือก​ได้​สำหรับ​เกตเวย์​ที่​จับ​คู่.
 connect_blurb	สะพาน​ไป​ยัง WhatsApp Cloud API.
-ghalbol_blurb	ผลิตภัณฑ์​สื่อ​สาร.
-ghalbol_app_blurb	ผู้​ส่ง​สาร​ที่​เข้ารหัส.
+ghalbol_blurb	ผลิตภัณฑ์​สื่อสาร.
+ghalbol_app_blurb	ผู้​ส่ง​สาร​ที่​เข้า​รหัส.
 pages	หน้า
 company_pages	หน้า​ของ​บริษัท
 page	หน้า
 privacy_blurb	นโยบาย​ความ​เป็น​ส่วน​ตัว​ของ​บริษัท.
-terms_blurb	ข้อ​กำหนด​การ​ใช้ gotigin.com.
-cancellation_blurb	นโยบาย​การ​ยก​เลิก​และ​คืน​เงิน.
+terms_blurb	ข้อ​กำหนดการ​ใช้ gotigin.com.
+cancellation_blurb	นโยบาย​การ​ยกเลิก​และ​คืน​เงิน.
 data_deletion	การ​ลบ​ข้อมูล
 deletion_blurb	วิธี​ขอ​ให้​ลบ.
 support_blurb	อีเมล​โทรศัพท์​และ​ทาง​ไป​สู่​ผลิตภัณฑ์.
 help_blurb	ชื่อ​ผลิตภัณฑ์​และ​ไซต์.
-about_blurb	การ​จด​ทะเบียน​บริษัท​และ​การ​ติด​ต่อ.
+about_blurb	การ​จด​ทะเบียน​บริษัท​และ​การ​ติดต่อ.
 cookies	คุกกี้
 cookies_blurb	คุกกี้​บน gotigin.com.
 security	ความ​ปลอดภัย
@@ -52,18 +70,18 @@ incorporated	จด​ทะเบียน 24 มิถุนายน 2026
 share_capital	ทุน​เรือน​หุ้น ₹1,00,000
 limited_by_shares	จำกัด​ด้วย​หุ้น · Gujarat
 tax	ภาษี
-gst_regular	GST ปกติ · ตั้ง​แต่ 04 กรกฎาคม 2026
-recognition	การ​รับ​รอง
+gst_regular	GST ปกติ · ตั้งแต่ 04 กรกฎาคม 2026
+recognition	การ​รับรอง
 issued	ออก​ให้ 08 กรกฎาคม 2026
-valid_to	ใช้​ได้​ถึง 23 มิถุนายน 2036
-registered_office	สำนัก​งาน​จด​ทะเบียน
+valid_to	ใช้ได้​ถึง 23 มิถุนายน 2036
+registered_office	สำนักงาน​จด​ทะเบียน
 directors	กรรมการ
-contact	ติด​ต่อ
+contact	ติดต่อ
 find_it	Memon ของ «หา​ให้​เจอ» · อ่าน​ว่า go-tee-geen
-brands_line	ระบบ​ธุรกิจ · เครื่อง​มือ​และ​แอป · การ​สื่อ​สาร
+brands_line	ระบบ​ธุรกิจ · เครื่อง​มือ​และ​แอป · การ​สื่อสาร
 account	บัญชี
 acct_page_title	บัญชี — Gotigin
-acct_lede	ลง​ชื่อ​เข้า​ใช้​สำหรับ​ฟีเจอร์​ของ​ไซต์​บริษัท Gotigin. ตัว​เลือก​เดียว​กัน​กับ​ไซต์​ผลิตภัณฑ์ — อีเมล​ผู้​ให้​บริการ​หรือ​โทรศัพท์.
+acct_lede	ลงชื่อ​เข้า​ใช้​สำหรับ​ฟีเจอร์​ของ​ไซต์​บริษัท Gotigin. ตัว​เลือก​เดียวกัน​กับ​ไซต์​ผลิตภัณฑ์ — อีเมล​ผู้​ให้​บริการ​หรือ​โทรศัพท์.
 acct_continue_with	ดำเนิน​การ​ต่อ​ด้วย​อีเมล ผู้​ให้​บริการ หรือ​โทรศัพท์
 acct_name_optional	ชื่อ (ไม่​บังคับ)
 acct_password	รหัส​ผ่าน

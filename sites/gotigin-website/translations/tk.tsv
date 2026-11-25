@@ -1,4 +1,4 @@
-# tk. key<TAB>text. Keep {placeholders}. \n = line break.
+# Turkmen — Türkmençe (tk). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menýu
 close	Ýapmak
 home	Baş sahypa
@@ -14,6 +14,24 @@ email	E-poçta
 trademark	SÖWDA BELGISI
 window_title	Gotigin — Tehnologiýa açyş bilen duşýan ýer
 slogan	Tehnologiýa açyş bilen duşýan ýer.
+hero_lede	Käşgünliki programma üpjümi iş we şahsy ulanmak üçin — enjamlaryňyzda erkin.
+promise	WADA
+promise_title	Doly önümler. Ulanyşa erkin.
+promise_lede	Doly önümi pul tölemän ýükledip, işläp bilersiňiz. Biz diňe saýlanýan goşma hyzmatlar üçin töleg alýarys.
+promise_free_title	Ýerli derejede erkin
+promise_free_body	Enjamlaryňyzdaky doly önüm erkin galýar. Esasy serişde boýunça hiç hili töleg duwary ýok.
+promise_ads_title	Majbur edilmän elanlar
+promise_ads_body	Işiňyzy kesip geçýän elansyz programma üpjümini ulanyň.
+promise_charge_title	Hyzmatlar üçin töleg
+promise_charge_body	Goşma bulut, görkezme sapaklary, ýüzlenmeler we kömek — diňe siz sorasaňyz berilýär.
+promise_open_title	Ýaýratylan ýerlerde açyk
+promise_open_body	github.com/gotigin astyndaky umumy kod. Ýerli we LAN torlar internetiň bolmazlygynda hem işleýär.
+built_with	BUYNDA GURULDY
+tech_title	Rust we Makepad
+tech_lede	Köp Gotigin önümleri Rust dilinde ýazylan. GUIs Makepad ulanyp, desktop, mobil we web üçin çalt programma üpjümi we sahypalar döredýär.
+tech_rust_body	Howpsuz, çalt we isençli — her gün hakyky işleri ýerine ýetirýän programma üçin gurlan.
+tech_makepad_body	Täze programmalar we wasm sahypalary üçin bir Rust UI gatlagy — öndürijili we ýeriligiň ilkinji.
+close_lede	Önümler erkin. Hyzmatlar saýlanýar.
 brands	BRENDLER
 brand	BREND
 product	ÖNÜM

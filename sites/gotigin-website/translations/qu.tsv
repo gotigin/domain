@@ -1,4 +1,4 @@
-# qu. key<TAB>text. Keep {placeholders}. \n = line break.
+# Quechua — Runa Simi (qu). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Akllana
 close	Wichqay
 home	Wasi
@@ -14,6 +14,24 @@ email	Correo
 trademark	RIKCH'A
 window_title	Gotigin — Maypi llamk'ana tariywan tinkun
 slogan	Maypi llamk'ana tariywan tinkun.
+hero_lede	Yachaykunaqa kawsaypi llamk'anaqpaq hinaspa ñawpaq runapaqmi, imaymanatapas qhepanapi.
+promise	QILLQAY
+promise_title	Kikin yachaykuna. Qhepanapi llamk'anapaq.
+promise_lede	Yachayta ch'uspiy hinaspa kikin yachayta imaymanatapas qhepanapi ruway. Chaymanta, allinmi kayninchikqa manaraq qhawarisqa servicionkunallam.
+promise_free_title	Qhepanpi
+promise_free_body	Yachaykunaq kikin yachaykuna imaymanatapas qhepanapi kanku. Kikin yachaypi manaraq qhepaqa.
+promise_ads_title	Manam ancha ancha qillqakunachu
+promise_ads_body	Yachayta ruway, ichaqa imaymanatapas qhawarisqa qillqakunaman mana ch'uspiy.
+promise_charge_title	Servicionkunapaqmi
+promise_charge_body	Qhepaqlla: nina, demos, yachaykuna hinaspa allinllata. Chaymanta, manaraq qhawarisqa servicionkunallam.
+promise_open_title	Kikin yachaykuna
+promise_open_body	Qhepaqlla: github.com/gotigin. Imaymanatapas hinaspa LAN offlinepi llamk'anapaqmi.
+built_with	RUWISQA KAYNAPI
+tech_title	Rust hinaspa Makepad
+tech_lede	Kikin Gotigin yachaykunaqa Rust nisqapi ruwasqa. GUIs Makepad nisqapi ruwasqa, chaymi allinmi desktoppi, celularpi hinaspa webpi.
+tech_rust_body	Allinmi, ancha ancha qhawarisqa hinaspa yachaykuna. Chaymanta, kikin yachaykunaqa manaraq qhepaqlla.
+tech_makepad_body	Kikin Rust nisqapi ruwasqa GUIs hinaspa wasm sites — allinmi hinaspa imaymanatapas qhepanpi.
+close_lede	Yachaykuna qhepaq. Servicionkunallam.
 brands	RIKCH'AKUNA
 brand	RIKCH'A
 product	RUNA

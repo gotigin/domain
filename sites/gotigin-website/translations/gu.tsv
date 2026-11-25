@@ -1,4 +1,4 @@
-# gu. key<TAB>text. Keep {placeholders}. \n = line break.
+# Gujarati — ગુજરાતી (gu). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	મેનૂ
 close	બંધ
 home	હોમ
@@ -14,6 +14,24 @@ email	ઈમેલ
 trademark	ટ્રેડમાર્ક
 window_title	Gotigin — જ્યાં ટેક્નોલોજી શોધને મળે છે
 slogan	જ્યાં ટેક્નોલોજી શોધને મળે છે.
+hero_lede	વ્યવસાય અને વ્યક્તિગત ઉપયોગ માટે દરરોજનું સોફ્ટવેર — તમારા ઉપકરણો પર મફત.
+promise	પ્રતિજ્ઞા
+promise_title	પૂર્ણ ઉત્પાદનો. વ્યવહાર માટે મફત.
+promise_lede	ખર્ચ વિના પૂરું ઉત્પાદન ડાઉનલોડ કરો અને ચલાવો. આપણે ફક્ત તમે પસંદ કરેલા વિકલ્પી સેવાઓ માટે જ કિંમત લઈએ છીએ.
+promise_free_title	સ્થાનિક રીતે મફત
+promise_free_body	તમારા ઉપકરણો પરનું પૂર્ણ ઉત્પાદન મફત રહેશે. મુખ્ય સાધન પર કોઈ ચૂકવણીની અડચણ નથી.
+promise_ads_title	બળજબરીથી દેખાતા વિનાશક જાહેરાતો નહીં
+promise_ads_body	તમારા કામને અવરોધતી વિનાશક જાહેરાતો વિના સોફ્ટવેરનો ઉપયોગ કરો.
+promise_charge_title	સેવાઓ માટે ચૂકવણી
+promise_charge_body	વિકલ્પી ક્લાઉડ, ડેમો, મુલાકાતો અને સહાય — ફક્ત ત્યારે જ જ્યારે તમે તેની વિનંતી કરો.
+promise_open_title	જ્યાં પ્રકાશિત છે ત્યાં ખુલ્લું
+promise_open_body	github.com/gotigin ની જાહેર કોડ. ઓફલાઇન પર સ્થાનિક અને LAN ચાલુ રહે છે.
+built_with	આ બનાવ્યું છે
+tech_title	રસ્ટ અને મેકપેડ
+tech_lede	મોટાભાગના Gotigin ઉત્પાદનો રસ્ટમાં લખવામાં આવ્યા છે. GUIs ડેસ્કટોપ, મોબાઇલ અને વેબ પર ઝડપી એપ્સ અને વેબસાઈટ્સ માટે Makepad નો ઉપયોગ કરે છે.
+tech_rust_body	સુરક્ષિત, ઝડપી અને વિશ્વસનીય — દરરોજના વાસ્તવિક કામને સંભાળવા માટે બનાવ્યું છે.
+tech_makepad_body	નૈવત્વ એપ્સ અને wasm સાઈટ્સ માટે એક જ Rust UI સ્ટેક — પ્રદર્શનક્ષમ અને લોકલ-ફર્સ્ટ.
+close_lede	ઉત્પાદનો મફત. સેવાઓ વિકલ્પી.
 brands	બ્રાન્ડ
 brand	બ્રાન્ડ
 product	ઉત્પાદન

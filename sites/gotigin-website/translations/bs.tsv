@@ -1,4 +1,4 @@
-# bs. key<TAB>text. Keep {placeholders}. \n = line break.
+# Bosnian — Bosanski (bs). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Izbornik
 close	Zatvori
 home	Početna
@@ -14,6 +14,24 @@ email	E-pošta
 trademark	ŽIG
 window_title	Gotigin — Gdje se tehnologija susreće s otkrićem
 slogan	Gdje se tehnologija susreće s otkrićem.
+hero_lede	Svaki dan softver za poslovnu i privatnu upotrebu — besplatno na vašim uređajima.
+promise	OBVEZANJE
+promise_title	Potpuni proizvodi. Besplatno za korištenje.
+promise_lede	Preuzmite i pokrenite kompletan proizvod bez troškova. Naplaćujemo samo opcionalne usluge koje odaberete.
+promise_free_title	Besplatno lokalno
+promise_free_body	Potpuni proizvod na vašim uređajima ostaje besplatan. Bez plaćenske barijere u osnovnom alatu.
+promise_ads_title	Nema prisilnih reklama
+promise_ads_body	Koristite softver bez reklama koje prekidaju vaš rad.
+promise_charge_title	Platite za usluge
+promise_charge_body	Opcionalna oblak, demo verzije, posjete i pomoć — samo kada ih tražite.
+promise_open_title	Otvoreno gdje je objavljeno
+promise_open_body	Javni kod pod github.com/gotigin. Lokalno i LAN funkcioniraju offline.
+built_with	IZGRADNO S
+tech_title	Rust i Makepad
+tech_lede	Većina Gotigin proizvoda napisana je u Rustu. GUIs koriste Makepad za brze aplikacije i web stranice na desktopu, mobilnim uređajima i webu.
+tech_rust_body	Sigurno, brzo i pouzdano — izgrađeno za softver koji svaki dan obavlja pravi posao.
+tech_makepad_body	Jedno Rust UI okruženje za native aplikacije i wasm stranice — performantno i lokalno prvo.
+close_lede	Proizvodi besplatni. Usluge opcionalne.
 brands	BRENDOVI
 brand	BREND
 product	PROIZVOD

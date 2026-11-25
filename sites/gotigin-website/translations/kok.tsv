@@ -1,4 +1,4 @@
-# kok. key<TAB>text. Keep {placeholders}. \n = line break.
+# Konkani — कोंकणी (kok). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	मेनू
 close	बंद
 home	घर
@@ -14,6 +14,24 @@ email	ईमेल
 trademark	ट्रेडमार्क
 window_title	Gotigin — जंय तंत्रज्ञान सोद मेळटा
 slogan	जंय तंत्रज्ञान सोद मेळटा.
+hero_lede	व्यवसाय आणि वैयक्तिक वापरासाठी दररोही सॉफ्टवेअर — तुमच्या उपकरणांवर मोफत.
+promise	प्रतिज्ञा
+promise_title	पूर्ण उत्पादने. वापरण्यासाठी मोफत.
+promise_lede	कोणत्याही खर्चाशिवाय संपूर्ण उत्पादन डाउनलोड करा आणि चालवा. आपण केवळ तुम्ही निवडलेल्या पर्यायी सेवांसाठीच शुल्क आकारतो.
+promise_free_title	स्थानिकरित्या मोफत
+promise_free_body	तुमच्या उपकरणांवरील संपूर्ण उत्पादन हे नेहमीच मोफत राहते. मूलभूत साधनावर कोणताही भुगतानवाला नाही.
+promise_ads_title	कोणतेही अनिवार्य जाहिराती नाही
+promise_ads_body	तुमच्या कामाला अडथळा आणणाऱ्या जाहिरातींशिवाय सॉफ्टवेअर वापरा.
+promise_charge_title	सेवांसाठी भुगतान करा
+promise_charge_body	पर्यायी क्लाउड, डेमो, भेट आणि मदत — फक्त तेव्हाच जेव्हा तुम्ही त्यांची विचारता.
+promise_open_title	प्रकाशित झाल्यावर खुले
+promise_open_body	github.com/gotigin अंतर्गत सार्वजनिक कोड. स्थानिक आणि LAN ऑफलाईन काम करत राहते.
+built_with	निर्मित केले आहे
+tech_title	Rust आणि Makepad
+tech_lede	सर्वात जास्त Gotigin उत्पादने Rust मध्ये लिहिली आहेत. GUIs वेगवान अॅप्स आणि संकेतस्थळांसाठी Makepad वापरतात, जे डेस्कटॉप, मोबाईल आणि व्हेबवर काम करतात.
+tech_rust_body	सुरक्षित, वेगवान आणि विश्वासार्ह — दररोज खऱ्या कामासाठी तयार केलेले सॉफ्टवेअर.
+tech_makepad_body	मूळ अॅप्स आणि wasm संकेतस्थळांसाठी एक Rust UI स्टॅक — कार्यक्षम आणि स्थानिक-प्रथम.
+close_lede	उत्पादने मोफत. सेवा पर्यायी.
 brands	ब्रांड
 brand	ब्रांड
 product	उत्पाद

@@ -1,4 +1,4 @@
-# he. key<TAB>text. Keep {placeholders}. \n = line break.
+# Hebrew — עברית (he). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	תפריט
 close	סגור
 home	בית
@@ -14,6 +14,24 @@ email	אימייל
 trademark	סימן מסחר
 window_title	Gotigin — המקום שבו הטכנולוגיה פוגשת את הגילוי
 slogan	המקום שבו הטכנולוגיה פוגשת את הגילוי.
+hero_lede	תוכנה לשימוש יומיומי לעסקים ולשימוש אישי – חינם במכשיריכם.
+promise	הבטחה
+promise_title	מוצרים מלאים. חינם לשימוש.
+promise_lede	הורידו והפעילו את המוצר המלא ללא עלות. אנו גובים תשלום רק עבור שירותים אופציונליים שבחרתם.
+promise_free_title	חינם מקומית
+promise_free_body	המוצר המלא במכשיריכם נשאר חינם. אין חומת תשלום בכלי הגרעין.
+promise_ads_title	אין פרסומות כפויות
+promise_ads_body	שתמשו בתוכנה ללא פרסומות הפוגעות בעבודתכם.
+promise_charge_title	שילמו על שירותים
+promise_charge_body	ענן אופציונלי, הדגמות, ביקורים וסייעה – רק כשאתם מבקשים אותם.
+promise_open_title	פתוח במקומות שבהם מפורסם
+promise_open_body	קוד ציבורי תחת github.com/gotigin. מקומי ולנ נשארים עובדים גם באופן לא מקוון.
+built_with	בנוי עם
+tech_title	Rust ו-Makepad
+tech_lede	רוב מוצרי Gotigin כתובים ב-Rust. GUIs משתמשים ב-Makepad לאפליקציות מהירות ואתרים באופן מקומי, נייד ובאינטרנט.
+tech_rust_body	בטוח, מהיר ואמין – בנוי לתוכנה שמתמודדת עם עבודה אמיתית כל יום.
+tech_makepad_body	אוסף ממשק משתמש אחד ב-Rust לאפליקציות מקומיות ואתרי wasm – ביצועים גבוהים ותחילה מקומי.
+close_lede	מוצרים חינם. שירותים אופציונליים.
 brands	מותגים
 brand	מותג
 product	מוצר

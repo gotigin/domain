@@ -1,4 +1,4 @@
-# ig. key<TAB>text. Keep {placeholders}. \n = line break.
+# Igbo — Igbo (ig). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Ndepụta
 close	Mechie
 home	Ụlọ
@@ -14,6 +14,24 @@ email	Ozi-e
 trademark	AKARA AHỊA
 window_title	Gotigin — Ebe teknụzụ na nchọpụta na-ezute
 slogan	Ebe teknụzụ na nchọpụta na-ezute.
+hero_lede	Ngwaọrụ kwa ụbọchị maka ọrụ na ihe ndị onwe onye — nke e nyere ozugbo na gịgide.
+promise	PROMISE
+promise_title	Ihe nhazi zuru oke. Nnwere ike iji ya ozugbo.
+promise_lede	Tụfuo ma mee ka ọ rụọ ọrụ n'ozugbo na-enweghị ụgwọ. Anyị na-achụta naanị maka ọrụ nhọrọ ị chọrọ.
+promise_free_title	Nnwere ike ozugbo n'ebe dị
+promise_free_body	Ihe nhazi zuru oke na gịgide gị ka nnwere ike ozugbo. Enweghị ebe a chụrụ ego na ngwaọrụ isi.
+promise_ads_title	Enweghị ihe nkiri a tọọrọ
+promise_ads_body	Jiri ngwaọrụ ahụ n'enweghị ihe nkiri na-akwụsị ọrụ gị.
+promise_charge_title	Chaa maka ọrụ ndị ahụ
+promise_charge_body	Cloud, nhọrọ, njem, na nyere aka — naanị mgbe ị chọrọ ha.
+promise_open_title	Nwee ebe a pụtara
+promise_open_body	Koodu pụrụ iche n'okpuru github.com/gotigin. Ebe dị ala na LAN ka arụ ọrụ mgbe enweghị netwọk.
+built_with	E MEBERE YA
+tech_title	Rust na Makepad
+tech_lede	Ọ bụla ngwaọrụ Gotigin dị ukwuu nke a họọrọ n'usoro Rust. GUIs na-eji Makepad maka app na weeb saịtị mgbake na desktop, mobile, na web.
+tech_rust_body	Mma, mgbake, na nke kwụsiri ike — e mere ya maka ngwaọrụ na-emezu ọrụ ndị a na-eme kwa ụbọchị.
+tech_makepad_body	Otu usoro UI Rust maka app ndị dị ka na saịtị wasm — mgbake na mbụ nke ebe dị.
+close_lede	Ihe nhazi nnwere ike. Ọrụ ndị ahụ nhọrọ.
 brands	AKARA
 brand	AKARA
 product	NGWAAHỊA

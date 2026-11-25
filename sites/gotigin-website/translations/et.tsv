@@ -1,4 +1,4 @@
-# et. key<TAB>text. Keep {placeholders}. \n = line break.
+# Estonian — Eesti (et). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menüü
 close	Sulge
 home	Avaleht
@@ -14,6 +14,24 @@ email	E-post
 trademark	KAUBAMÄRK
 window_title	Gotigin — Kus tehnoloogia kohtub avastusega
 slogan	Kus tehnoloogia kohtub avastusega.
+hero_lede	Iga päeva tarkvara äri- ja isiklikuks kasutamiseks – tasuta seadmetel.
+promise	PILGUT
+promise_title	Täielikud tooted. Tasuta kasutada.
+promise_lede	Laadige alla ja käivitage täielik toode ilma lisakuludeta. Me võtame tasu ainult valikuliste teenuste eest, mida olete ise tellinud.
+promise_free_title	Tasuta kohalikult
+promise_free_body	Toote täielik versioon teie seadmetel jääb tasuta. Kõrge tööriista puhul ei ole makseseinat.
+promise_ads_title	Ei sunnitud reklaame
+promise_ads_body	Kasutage tarkvara ilma reklaamidega, mis katkestavad teie tööd.
+promise_charge_title	Maksta teenuste eest
+promise_charge_body	Valikuline pilv, demod, külastused ja abistamine – ainult siis, kui palute neid.
+promise_open_title	Avatud avaldatud kohas
+promise_open_body	Avalik kood all github.com/gotigin. Kohalik ja LAN töötavad ka veebiväljaolus.
+built_with	LOODUD KASUTAMATA
+tech_title	Rust ja Makepad
+tech_lede	Enamiku Gotigin toodete on kirjutatud Rustis. GUId kasutavad Makepadi kiirete rakenduste ja veebisaitide loomiseks töölaua, mobiilseadmete ja veebi jaoks.
+tech_rust_body	Ohutu, kiire ja usaldusväärne – loodud tarkvaraks, mis suudab igapäevast tegelikku tööd teha.
+tech_makepad_body	Üks Rusti kasutajaliidese stack kohalike rakenduste ja wasm saitide jaoks – efektiivne ja kohalikult esimesena.
+close_lede	Tooted tasuta. Teenused valikulised.
 brands	BRÄNDID
 brand	BRÄND
 product	TOODE

@@ -1,4 +1,4 @@
-# ko. key<TAB>text. Keep {placeholders}. \n = line break.
+# Korean — 한국어 (ko). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	메뉴
 close	닫기
 home	홈
@@ -14,6 +14,24 @@ email	이메일
 trademark	상표
 window_title	Gotigin — 기술이 발견과 만나는 곳
 slogan	기술이 발견과 만나는 곳.
+hero_lede	비즈니스와 개인 사용을 위한 일상 소프트웨어 — 기기에서 무료로 사용하세요.
+promise	약속
+promise_title	완전한 제품. 무료로 사용 가능.
+promise_lede	완전한 제품을 무료로 다운로드하고 실행하세요. 우리는 귀하가 선택한 선택적 서비스에만 요금을 부과합니다.
+promise_free_title	로컬에서 무료
+promise_free_body	귀하의 기기에는 완전한 제품이 무료로 유지됩니다. 핵심 도구에는 유료 장벽이 없습니다.
+promise_ads_title	강제 광고 없음
+promise_ads_body	작업을 방해하는 광고 없이 소프트웨어를 사용하세요.
+promise_charge_title	서비스에 대한 지불
+promise_charge_body	선택형 클라우드, 데모, 방문 및 지원 — 요청하신 경우에만 제공.
+promise_open_title	공개된 곳에서는 오픈 소스
+promise_open_body	github.com/gotigin 의 공개 코드. 로컬 및 LAN 은 오프라인에서도 계속 작동합니다.
+built_with	구축됨
+tech_title	Rust 와 Makepad
+tech_lede	대부분의 Gotigin 제품은 Rust 로 작성되었습니다. 데스크톱, 모바일 및 웹에서 빠른 앱과 웹사이트를 위해 Makepad 를 사용하여 GUIs 를 구축합니다.
+tech_rust_body	안전하고 빠르고 신뢰할 수 있음 — 매일 실제 작업을 처리하는 소프트웨어를 위해 구축됨.
+tech_makepad_body	네이티브 앱과 wasm 사이트용 하나의 Rust UI 스택 — 성능이 뛰어나고 로컬 우선.
+close_lede	제품은 무료. 서비스는 선택 사항입니다.
 brands	브랜드
 brand	브랜드
 product	제품

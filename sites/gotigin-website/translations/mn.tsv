@@ -1,4 +1,4 @@
-# mn. key<TAB>text. Keep {placeholders}. \n = line break.
+# Mongolian — Монгол (mn). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Цэс
 close	Хаах
 home	Нүүр
@@ -14,6 +14,24 @@ email	И-мэйл
 trademark	ХУДАЛДААНЫ ТЭМДЭГ
 window_title	Gotigin — Технологи нээлтийг угтах газар
 slogan	Технологи нээлтийг угтах газар.
+hero_lede	Бизнес болон хувийн ашиглалтанд зориулсан өдөр тутмын програм хангамж — таны төхөөрөмж дээр үнэгүй.
+promise	ЗОХИОЛТ
+promise_title	Бүтэн бүтээгдэхүүн. Ашиглах нь үнэгүй.
+promise_lede	Үнэ төлбөргүйгээр бүтэн бүтээгдэхүүнийг татаж авч ашиглаарай. Бид зөвхөн та сонгож байгаа сонгодог үйлчилгээнд л төлбөр хүснэ.
+promise_free_title	Үнэгүй хувийн орчинд
+promise_free_body	Таны төхөөрөмж дээрх бүтэн бүтээгдэхүүн үргэлж үнэгүй байна. Сүлжээний хаалгагүй.
+promise_ads_title	Эцэглүүлсэн зар сурвалжилгүй
+promise_ads_body	Ажиллахаа зогсоохгүйгээр зар сурвалжилгүй програм хангамжаар ашиглаарай.
+promise_charge_title	Үйлчилгээнд төлбөр төлөх
+promise_charge_body	Хүрэлцэх, дэмжлэг үзүүлэх, зочлох болон бусад сонгодог хуучин, демонстраци зэрэг нь зөвхөн та хүссэн тохиолдолд л төлбөр төлдөг.
+promise_open_title	Хэвлэгдсэн газар нутагт нээлттэй
+promise_open_body	github.com/gotigin дээр нээлттэй код. Хувийн болон LAN сүлжээ нь оффлайн ажиллана.
+built_with	Үйлдвэрлэсэн нь
+tech_title	Rust болон Makepad
+tech_lede	Хамгийн их Gotigin бүтээгдэхүүнүүдийг Rust хэлээр бичсэн байна. GUI-ууд нь Makepad ашиглан компьютер, мобайл болон вэб дээр хурдан апп болон цахим хуудас үүсгэдэг.
+tech_rust_body	Аюулгүй, хурдан, найдвартай — өдөр тутмын бодит ажил хийх програм хангамжид зориулсан.
+tech_makepad_body	Нэг Rust UI бүтэц нь үндсэн апп болон wasm сайт дээр ажиллана — үр ашигтай ба хувийн эхлэлтэй.
+close_lede	Бүтээгдэхүүн үнэгүй. Үйлчилгээ сонгодог.
 brands	БРЭНДҮҮД
 brand	БРЭНД
 product	БҮТЭЭГДЭХҮҮН

@@ -1,4 +1,4 @@
-# so. key<TAB>text. Keep {placeholders}. \n = line break.
+# Somali — Soomaali (so). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Liiska
 close	Xir
 home	Guriga
@@ -14,6 +14,24 @@ email	Iimayl
 trademark	SUMMAD GANACSI
 window_title	Gotigin — Meesha tignoolajiyadu ay la kulanto daahfurka
 slogan	Meesha tignoolajiyadu ay la kulanto daahfurka.
+hero_lede	Bari-soo software oo loogu talagalay ganacsiga iyo isticmaalka gaarka ah — bilaash oo ku jira alaabtaaga.
+promise	DAMAAAN
+promise_title	Mashiinno buuxa. Bilaash in la isticmaalo.
+promise_lede	Ka soo daawo oo diyaari mashiinka buuxa bila maalin. Waxaan ku bixinnaa kaliya adeegyada doorbidayda.
+promise_free_title	Bilaash meel kasta
+promise_free_body	Mashiinka buuxa ee alaabtaagu wuu noqonayaa bilaash. Ma jiro xadka bixinta mashiinka asalka ah.
+promise_ads_title	Adeegsiga aan la siin karin
+promise_ads_body	Isticmaal barnaamijka oo aan la siinin adeegyada qaladka ah ee ka hor istaaga shaqadaada.
+promise_charge_title	Bixi lacagta adeegyada
+promise_charge_body	Adeegyada diyaarsan, muuqaallada, booqashooyinka, iyo caawinaad — kaliya markaad codsanayso.
+promise_open_title	Furitaanka halka la soo bandhigay
+promise_open_body	Koodhka dadweynaha ee github.com/gotigin. LAN iyo meel kasta waxay shaqeeyaan marka aan la aheyn internet.
+built_with	LA DHIIGAY
+tech_title	Rust iyo Makepad
+tech_lede	Badankood Gotigin mashiinno waa la qoray Rust. GUIs waxay isticmaalaan Makepad si loo sameeyo barnaamijyo degdeg ah iyo bogag internet oo ku jira desktop, mobile, iyo web.
+tech_rust_body	Ammaan, degdeg, iyo macquul — la dhisay barnaamijyada shaqada rasmiga ah ee maalin kasta.
+tech_makepad_body	Mid ka mid ah Rust UI stack-ka mashiinno gaar ah iyo wasm websites — degdeg ah oo meel kasta loo diyaariyey.
+close_lede	Mashiinno bilaash. Adeegyada doorbidaya.
 brands	SUMMADO
 brand	SUMMAD
 product	ALAAB

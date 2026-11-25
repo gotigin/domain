@@ -1,4 +1,4 @@
-# ps. key<TAB>text. Keep {placeholders}. \n = line break.
+# Pashto — پښتو (ps). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	مینو
 close	تړل
 home	کور
@@ -14,6 +14,24 @@ email	برېښنالیک
 trademark	سوداګریزه نښه
 window_title	Gotigin — چیرې چې ټکنالوژي له موندنې سره یوځای کېږي
 slogan	چیرې چې ټکنالوژي له موندنې سره یوځای کېږي.
+hero_lede	بريډنۍ سافټوېر د کار او ذاتي کارونو لپاره — په تاسو د وسایلو کې بشپړ.
+promise	د پلي کولو وړ
+promise_title	کامل محصولات. د کار لپاره بشپړ.
+promise_lede	کامل محصول په خپل وسیله کې راټول او اجرا کړئ پرته له هیڅ له امله. موږ یوازې د هغو اختیاري خدماتو لپاره چارج کوو چې تاسو یې غوره کوئ.
+promise_free_title	محلي رایه
+promise_free_body	کامل محصول په تاسو د وسایلو کې پاتې کیږي. د اصلي وسیله پر بنسټ هیڅ له امله نشته.
+promise_ads_title	هیڅ جبري تبلیغات
+promise_ads_body	د سافټوېر کارونه پرته له هغو تبلیغونو چې تاسو د کار پورې اړه لري.
+promise_charge_title	د خدماتو لپاره ورکول
+promise_charge_body	اختیاري اوبه، دمو، سیمې او مرستې — یوازې هغه وخت چې تاسو یې غواړئ.
+promise_open_title	چیرته چې خپور شوی
+promise_open_body	عمومي کد لاندې github.com/gotigin. محلي او LAN د آفلاین کار پاتې کیږي.
+built_with	د جوړولو سره
+tech_title	Rust او Makepad
+tech_lede	اکثر Gotigin محصولات په Rust لیکل شوي دي. GUIs Makepad کاروي د چټک اپلیکیشنونو او ویب پاڼو لپاره په ډیسکټاپ، موبایل او وب پورې اړه لري.
+tech_rust_body	خوندور، چټک او ښه — د هغه سافټوېر لپاره جوړ شوی چې هر ورځ حقیقي کارونه ترسره کوي.
+tech_makepad_body	یوه Rust UI ټولګه د اصلي اپلیکیشنونو او wasm سایټونو لپاره — پرمختللي او محلي-لومړنی.
+close_lede	محصولات رایانې. خدمات اختیاري.
 brands	نښې
 brand	نښه
 product	محصول

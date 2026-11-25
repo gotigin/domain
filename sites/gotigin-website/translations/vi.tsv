@@ -1,4 +1,4 @@
-# vi. key<TAB>text. Keep {placeholders}. \n = line break.
+# Vietnamese — Tiếng Việt (vi). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Trình đơn
 close	Đóng
 home	Trang chủ
@@ -14,6 +14,24 @@ email	Địa chỉ email
 trademark	NHÃN HIỆU
 window_title	Gotigin — Nơi công nghệ gặp sự khám phá
 slogan	Nơi công nghệ gặp sự khám phá.
+hero_lede	Phần mềm hàng ngày cho doanh nghiệp và cá nhân — miễn phí trên thiết bị của bạn.
+promise	CAM KẾT
+promise_title	Sản phẩm đầy đủ. Miễn phí sử dụng.
+promise_lede	Tải xuống và chạy sản phẩm hoàn chỉnh mà không mất phí. Chúng tôi chỉ tính phí cho các dịch vụ tùy chọn mà bạn lựa chọn.
+promise_free_title	Miễn phí cục bộ
+promise_free_body	Sản phẩm đầy đủ trên thiết bị của bạn vẫn miễn phí. Không có tường trả tiền cho công cụ cốt lõi.
+promise_ads_title	Không quảng cáo bắt buộc
+promise_ads_body	Sử dụng phần mềm mà không có quảng cáo làm gián đoạn công việc của bạn.
+promise_charge_title	Trả phí cho dịch vụ
+promise_charge_body	Đám mây tùy chọn, bản demo, thăm viếng và hỗ trợ — chỉ khi bạn yêu cầu.
+promise_open_title	Mở nguồn nơi được công bố
+promise_open_body	Mã nguồn công khai dưới github.com/gotigin. Cục bộ và LAN vẫn hoạt động ngoại tuyến.
+built_with	ĐƯỢC XÂY DỰNG BẰNG
+tech_title	Rust và Makepad
+tech_lede	Hầu hết sản phẩm Gotigin được viết bằng Rust. GUIs sử dụng Makepad để tạo ứng dụng nhanh chóng và trang web trên máy tính, điện thoại và web.
+tech_rust_body	An toàn, nhanh chóng và đáng tin cậy — được xây dựng cho phần mềm xử lý công việc thực tế mỗi ngày.
+tech_makepad_body	Một bộ khung UI Rust cho ứng dụng bản địa và trang web wasm — hiệu năng cao và ưu tiên cục bộ.
+close_lede	Sản phẩm miễn phí. Dịch vụ tùy chọn.
 brands	CÁC THƯƠNG HIỆU
 brand	THƯƠNG HIỆU
 product	SẢN PHẨM

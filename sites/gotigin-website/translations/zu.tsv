@@ -1,4 +1,4 @@
-# zu. key<TAB>text. Keep {placeholders}. \n = line break.
+# Zulu — isiZulu (zu). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Imenyu
 close	Vala
 home	Ikhaya
@@ -14,6 +14,24 @@ email	I-imeyili
 trademark	UPHAWU LOKUHWEBA
 window_title	Gotigin — Lapho ubuchwepheshe buhlangana nokutholwa
 slogan	Lapho ubuchwepheshe buhlangana nokutholwa.
+hero_lede	Isixazululo sokusebenza ngokujwayelekile kwezibonelelo nezinto ezisemthethweni — amahhala emakhishini akho.
+promise	IPROMISE
+promise_title	Izinto ezizonke. Zisebenza ngokumnyama.
+promise_lede	Yakha kwaye usebenzise into ephelele ngaphandle kokwephula imali. Sithatha imali kuphela kwezinsiza ezikhethiwe ozizwa ukuzisebenzisa.
+promise_free_title	Mahhala endaweni yakho
+promise_free_body	Into ephelele emakhishini akho ihlala isebenza ngokumnyama. Akukho okuvaliwe kokwephula imali kuthuluzi olusemthethweni.
+promise_ads_title	Ama-ads angafuneki
+promise_ads_body	Sebenzisa isixazululo ngaphandle kwama-ads azoba umsebenzi wakho.
+promise_charge_title	Thatha imali kwezinsiza
+promise_charge_body	I-cloud, izibonelo, ukuvakasha, nokwazisa okungafuneki — kuphela lapho uzizwa ukuzisebenzisa.
+promise_open_title	Vuli lapho kushicilelwe khona
+promise_open_body	Icode ephambili ingaphandle kwegithub.com/gotigin. Indawo ne-LAN zihlala zisebenza ngaphandle kwethuluzi.
+built_with	SABUKHULISA NOKUSEBENZISA
+tech_title	Rust no-Makepad
+tech_lede	Kakhulu izinto ezitholakala ku-Gotigin zibhalwa nge-Rust. GUIs zisebenzisa u-Makepad kuma-apps amahhuku namasayithi emakompyutha, amafoni, kanye ne-intanethi.
+tech_rust_body	Okuphephile, okusheshayo, futhi okunembile — kubhalwa ukuze sisebenzise isixazululo esisebenza ngokujwayelekile ngezinto ezibalulekile.
+tech_makepad_body	Isistimu ye-Rust UI yama-apps angaphandle kanye nama-sayithi we-wasm — asheshayo futhi asebenza endaweni yakho.
+close_lede	Izinto ezisebenza ngokumnyama. Izinsiza ezikhethiwe.
 brands	IZIMPWALA
 brand	UPHAWU
 product	UMKHIQIZO

@@ -1,4 +1,4 @@
-# awa. key<TAB>text. Keep {placeholders}. \n = line break.
+# Awadhi — अवधी (awa). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	मेनू
 close	बंद करौ
 home	घर
@@ -14,6 +14,24 @@ email	ईमेल
 trademark	ट्रेडमार्क
 window_title	Gotigin — जहाँ तकनीक खोज से मिले अहै
 slogan	जहाँ तकनीक खोज से मिले अहै.
+hero_lede	रोजमर्रा सॉफ्टवेयर व्यापार और व्यक्तिगत उपयोग के लिए — आपके उपकरणों पर मुफ्त।
+promise	प्रतिज्ञा
+promise_title	पूर्ण उत्पाद। उपयोग करने के लिए मुफ्त।
+promise_lede	बिना किसी लागत के पूर्ण उत्पाद डाउनलोड करें और चलाएं। हम केवल उन वैकल्पिक सेवाओं के लिए शुल्क लेते हैं जो आप चुनते हैं।
+promise_free_title	स्थानीय रूप से मुफ्त
+promise_free_body	आपके उपकरणों पर पूर्ण उत्पाद मुफ्त रहता है। मुख्य टूल पर कोई भुगतान दीवार नहीं।
+promise_ads_title	कोई अनिवार्य विज्ञापन नहीं
+promise_ads_body	अपने काम को बाधित करने वाले विज्ञापनों के बिना सॉफ्टवेयर का उपयोग करें।
+promise_charge_title	सेवाओं के लिए भुगतान करें
+promise_charge_body	वैकल्पिक क्लाउड, डेमो, यात्राएं और सहायता — केवल तभी जब आप उनका अनुरोध करते हैं।
+promise_open_title	जहाँ प्रकाशित है वहाँ खुला
+promise_open_body	github.com/gotigin के नीचे सार्वजनिक कोड। स्थानीय और LAN ऑफलाइन काम करना जारी रखता है।
+built_with	निर्मित किया गया है
+tech_title	रस्ट और मेकपैड
+tech_lede	अधिकतर गोतिगिन उत्पाद रस्ट में लिखे गए हैं। GUIs डेस्कटॉप, मोबाइल और वेब पर तेज ऐप्स और वेबसाइटों के लिए मेकपैड का उपयोग करते हैं।
+tech_rust_body	सुरक्षित, तेज और विश्वसनीय — रोजमर्रा के वास्तविक काम को संभालने वाले सॉफ्टवेयर के लिए बनाया गया।
+tech_makepad_body	नैटिव ऐप्स और wasm साइटों के लिए एक ही रस्ट UI स्टैक — प्रदर्शनशील और स्थानीय-पहले।
+close_lede	उत्पाद मुफ्त। सेवाएं वैकल्पिक।
 brands	ब्रांड सब
 brand	ब्रांड
 product	उत्पाद

@@ -1,4 +1,4 @@
-# sq. key<TAB>text. Keep {placeholders}. \n = line break.
+# Albanian — Shqip (sq). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menyja
 close	Mbyll
 home	Kreu
@@ -14,6 +14,24 @@ email	Posta elektronike
 trademark	MARKË TREGTARE
 window_title	Gotigin — Ku teknologjia takon zbulimin
 slogan	Ku teknologjia takon zbulimin.
+hero_lede	Software për përdorim të përditshëm biznesi dhe personal — falas në pajisjet tuaja.
+promise	PREMTIM
+promise_title	Produkte plotë. Falas për përdorim.
+promise_lede	Shkarkoni dhe ekzekutoni produktin e plotë pa kosto. Ne ngarkojmë vetëm për shërbimet opsionale që zgjidhni.
+promise_free_title	Falas lokalisht
+promise_free_body	Produkti i plotë në pajisjet tuaja mbetet falas. Asnjë mur pagese mbi mjetin kryesor.
+promise_ads_title	Nuk ka reklama të detyruara
+promise_ads_body	Përdorni softuerin pa reklama që ndërprerë punën tuaj.
+promise_charge_title	Paguani për shërbime
+promise_charge_body	Shërbyes opsionale, demo, vizita dhe ndihmë — vetëm kur i keni kërkuar ato.
+promise_open_title	Hapur ku publikohet
+promise_open_body	Kodi publik nën github.com/gotigin. Lokali dhe LAN vazhdojnë të punojnë jashtë lidhjes.
+built_with	DHEM ME
+tech_title	Rust dhe Makepad
+tech_lede	Shumica e produkteve Gotigin janë shkruar në Rust. GUIs përdorin Makepad për aplikacione të shpejta dhe uebsajta në desktop, mobil dhe web.
+tech_rust_body	Sigur, i shpejtë dhe i besueshëm — ndërtuar për softuer që menaxhon punë reale çdo ditë.
+tech_makepad_body	Një stack UI Rust për aplikacione nativë dhe uebsajta wasm — performant dhe lokal-i-parshter.
+close_lede	Produkte falas. Shërbime opsionale.
 brands	MARKAT
 brand	MARKA
 product	PRODUKTI

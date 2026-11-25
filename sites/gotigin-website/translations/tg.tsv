@@ -1,4 +1,4 @@
-# tg. key<TAB>text. Keep {placeholders}. \n = line break.
+# Tajik — Тоҷикӣ (tg). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Меню
 close	Пӯшидан
 home	Асосӣ
@@ -14,6 +14,24 @@ email	Почтаи электронӣ
 trademark	НИШОНИ ТИҶОРАТӢ
 window_title	Gotigin — Ҷое, ки технология бо кашфиёт вомехӯрад
 slogan	Ҷое, ки технология бо кашфиёт вомехӯрад.
+hero_lede	Барномаҳои рӯзмарра барои тиҷорат ва истифодаи шахсӣ — бепул дар дастгоҳҳои шумо.
+promise	ИҲТИЁДОР
+promise_title	Маҳсулоти пурра. Барои истифода озод.
+promise_lede	Маҳсулоти пурроиро боргирӣ кунед ва беҳарҷи иҷро намоед. Мо танҳо барои хизматрасониҳои интихобии шумо пул мегирем.
+promise_free_title	Бепул дар маҳал
+promise_free_body	Маҳсулоти пурра дар дастгоҳҳои шумо бепул мемонад. Дар воситаи асосӣ девори пардохт нест.
+promise_ads_title	Рекламҳои маҷбуриро надоред
+promise_ads_body	Барномаеро бе реклама истифода баред, ки кори шуморо вайрон мекунанд.
+promise_charge_title	Барои хизматрасониҳо пардохт кунед
+promise_charge_body	Облаки интихобӣ, намунаҳои нишондиҳанда, сафарҳо ва кӯмак — танҳо ҳангоми дархости шумо.
+promise_open_title	Кушода дар ҷойи нашр
+promise_open_body	Коди ҷамъиятӣ дар github.com/gotigin. Маҳалӣ ва LAN офлайн кор мекунанд.
+built_with	БОҲАРИД ШУДА АСТ БО
+tech_title	Rust ва Makepad
+tech_lede	Бисёр маҳсулоти Gotigin бо Rust навишта шудаанд. GUIs барои барномаҳои тез ва вебсайтҳо дар мизи корӣ, мобилӣ ва интернет аз Makepad истифода мебаранд.
+tech_rust_body	Амнӣ, тез ва воқеан — сохташуда барои барномаҳое, ки ҳар рӯз кори воқеиро иҷро мекунанд.
+tech_makepad_body	Як қабати UI бо Rust барои барномаҳои аслий ва вебсайтҳои wasm — самаранок ва аввал маҳалӣ.
+close_lede	Маҳсулот озод. Хизматрасониҳо интихобӣ.
 brands	БРЕНДҲО
 brand	БРЕНД
 product	МАҲСУЛ

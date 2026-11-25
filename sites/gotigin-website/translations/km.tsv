@@ -1,4 +1,4 @@
-# km. key<TAB>text. Keep {placeholders}. \n = line break.
+# Khmer — ខ្មែរ (km). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	ម៉ឺនុយ
 close	បិទ
 home	ផ្ទះ
@@ -14,53 +14,71 @@ email	អ៊ីមែល
 trademark	សញ្ញា​ពាណិជ្ជ
 window_title	Gotigin — កន្លែង​ដែល​បច្ចេកវិទ្យា​ជួប​ការ​រក​ឃើញ
 slogan	កន្លែង​ដែល​បច្ចេកវិទ្យា​ជួប​ការ​រក​ឃើញ.
+hero_lede	កម្មវិធី​សម្រាប់​ប្រើប្រាស់​ប្រចាំថ្ងៃ​សម្រាប់​អាជីវកម្ម និង​ការប្រើ​ប្រាស់​ផ្ទាល់ខ្លួន — ឥតគិតថ្លៃ​លើ​ឧបករណ៍​របស់​អ្នក។
+promise	សន្យា
+promise_title	ផលិតផល​ពេញលេញ។ ឥតគិតថ្លៃ​ដើម្បី​ប្រើ។
+promise_lede	ទាញ​យក និង​ដំណើរការ​ផលិតផល​ពេញលេញ​ដោយ​មិន​ចំណាយ​លុយ។ យើង​គិតថ្លៃ​តែ​សេវាកម្ម​ជម្រើស​ដែល​អ្នក​ជ្រើសរើស​ប៉ុណ្ណោះ។
+promise_free_title	ឥតគិតថ្លៃ​នៅ​លើ​ទីកន្លែង
+promise_free_body	ផលិតផល​ពេញលេញ​នៅ​លើ​ឧបករណ៍​របស់​អ្នក​នៅតែ​ឥតគិតថ្លៃ។ គ្មាន​ការ​ទាមទារ​បង់លុយ​សម្រាប់​ឧបករណ៍​ចម្បង​នោះ​ទេ។
+promise_ads_title	គ្មាន​ពាស​វាយ​ដែល​ត្រូវ​បាន​បង្ខំ
+promise_ads_body	ប្រើ​កម្មវិធី​ដោយ​មិន​មាន​ពាស​វាយ​ដែល​រារាំង​ការងារ​របស់​អ្នក។
+promise_charge_title	បង់លុយ​សម្រាប់​សេវាកម្ម
+promise_charge_body	ឧបករណ៍​ពាស​វាយ ការ​បង្ហាញ​គំរូ ការ​ទៅ​ជួប និង​ការ​ជួយ — តែ​នៅពេល​ដែល​អ្នកសុំ។
+promise_open_title	បើក​នៅកន្លែង​ដែល​បាន​ផ្សព្វផ្សាយ
+promise_open_body	កូដ​សាធារណៈ​នៅ github.com/gotigin។ ទីកន្លែង និង LAN នៅតែ​ដំណើរការ​បាន​ដោយ​មិន​មាន​អ៊ីនធឺណិត។
+built_with	បង្កើត​ឡើង​ដោយ
+tech_title	Rust និង Makepad
+tech_lede	ផលិតផល Gotigin ភាគច្រើន​ត្រូវ​បាន​សរសេរជា​ភាសា Rust។ GUIs ប្រើ Makepad សម្រាប់​កម្មវិធី​លឿន និង​គេហទំព័រ​នៅ​លើ​កុំព្យូទ័រ ទូរស័ព្ទ​ដៃ និង​អ៊ីនធឺណិត។
+tech_rust_body	មាន​សុវត្ថិភាព លឿន និង​អាច​ទុកចិត្ត​បាន — បង្កើត​ឡើង​សម្រាប់​កម្មវិធី​ដែល​ដោះស្រាយ​ការងារ​ជាក់ស្តែង​ប្រចាំថ្ងៃ។
+tech_makepad_body	ស្រុក UI តែមួយ​សម្រាប់​កម្មវិធី​ដើម និង​គេហទំព័រ wasm — មានប្រសិទ្ធភាព និង​ផ្តោត​លើ​ទីកន្លែង។
+close_lede	ផលិតផល​ឥតគិតថ្លៃ។ សេវាកម្ម​ជម្រើស។
 brands	ម៉ាក
 brand	ម៉ាក
 product	ផលិតផល
-kumkaj_blurb	ប្រព័ន្ធ​ដំណើរ​ការ​អាជីវកម្ម.
+kumkaj_blurb	ប្រព័ន្ធ​ដំណើរការ​អាជីវកម្ម.
 khaynjo_blurb	ផ្ទះ​អាហារ OS. តុ, KOT, វិក្កយបត្រ, បិទ​ថ្ងៃ.
-moklanjo_blurb	តុ​ដឹក​ជញ្ជូន. កក់, ភាគី, សៀវភៅ​ថ្ងៃ.
-kirano_blurb	Kirana. បញ្ជី, ស្តុក, khata, GST កំណត់​ហេតុ​សាច់​ប្រាក់.
-tabiyat_blurb	បញ្ជរ​ឱសថ. បាច់, ផុត​កំណត់, ស្តុក, GST វិក្កយបត្រ.
-wadhu_blurb	Memon មាន​ន័យ «ច្រើន». ឧបករណ៍ · កម្មវិធី · ច្រើន.
-wadhu_note	ឧបករណ៍​ប្រើ​ឡើង​វិញ, យូធីល​និង​កម្មវិធី. មិន​មែន​អ្នក​នាំ​សារ.
-sms_gateway_blurb	សារ SIM Android មុន. LAN និង Bluetooth នៅ​ឥត​គិត​ថ្លៃ.
+moklanjo_blurb	តុ​ដឹកជញ្ជូន. កក់, ភាគី, សៀវភៅ​ថ្ងៃ.
+kirano_blurb	Kirana. បញ្ជី, ស្តុក, khata, GST កំណត់ហេតុ​សាច់ប្រាក់.
+tabiyat_blurb	បញ្ជរ​ឱសថ. បាច់, ផុតកំណត់, ស្តុក, GST វិក្កយបត្រ.
+wadhu_blurb	Memon មានន័យ «ច្រើន». ឧបករណ៍ · កម្មវិធី · ច្រើន.
+wadhu_note	ឧបករណ៍​ប្រើ​ឡើងវិញ, យូ​ធី​លនិង​កម្មវិធី. មិនមែន​អ្នកនាំសារ.
+sms_gateway_blurb	សារ SIM Android មុន. LAN និង Bluetooth នៅ​ឥតគិតថ្លៃ.
 sms_relay_blurb	ស្រទាប់​អ៊ីនធឺណិត​ជា​ជម្រើស​សម្រាប់​ច្រក​ផ្គូផ្គង.
 connect_blurb	ស្ពាន WhatsApp Cloud API.
-ghalbol_blurb	ផលិតផល​ទំនាក់​ទំនង.
-ghalbol_app_blurb	អ្នក​នាំ​សារ​អ៊ិនគ្រីប.
+ghalbol_blurb	ផលិតផល​ទំនាក់ទំនង.
+ghalbol_app_blurb	អ្នកនាំសារ​អ៊ិនគ្រីប.
 pages	ទំព័រ
 company_pages	ទំព័រ​ក្រុមហ៊ុន
 page	ទំព័រ
-privacy_blurb	គោល​នយោបាយ​ឯកជនភាព​ក្រុមហ៊ុន.
+privacy_blurb	គោលនយោបាយ​ឯកជន​ភាព​ក្រុមហ៊ុន.
 terms_blurb	លក្ខខណ្ឌ​ប្រើ gotigin.com.
-cancellation_blurb	គោល​នយោបាយ​បោះ​បង់​និង​សង​ប្រាក់.
+cancellation_blurb	គោលនយោបាយ​បោះបង់​និង​សង​ប្រាក់.
 data_deletion	លុប​ទិន្នន័យ
 deletion_blurb	របៀប​សុំ​លុប.
 support_blurb	អ៊ីមែល, ទូរស័ព្ទ, និង​ផ្លូវ​ផលិតផល.
 help_blurb	ឈ្មោះ, ផលិតផល, និង​គេហទំព័រ.
-about_blurb	ចុះ​ឈ្មោះ​ក្រុមហ៊ុន​និង​ទំនាក់​ទំនង.
+about_blurb	ចុះឈ្មោះ​ក្រុមហ៊ុន​និង​ទំនាក់ទំនង.
 cookies	ខូគី
 cookies_blurb	ខូគី​លើ gotigin.com.
 security	សុវត្ថិភាព
-security_blurb	របៀប​រាយការណ៍​ចំណុច​ខ្សោយ.
+security_blurb	របៀប​រាយការណ៍​ចំណុចខ្សោយ.
 company	ក្រុមហ៊ុន
 company_lede	ក្រុមហ៊ុន​ឯកជន​កម្រិត. Dhoraji, Gujarat. បង្កើត 24 មិថុនា 2026.
-registration	ចុះ​ឈ្មោះ
+registration	ចុះឈ្មោះ
 cin	CIN
 incorporated	បង្កើត 24 មិថុនា 2026
-share_capital	ដើម​ទុន​ភាគ​ហ៊ុន ₹1,00,000
-limited_by_shares	កម្រិត​ដោយ​ភាគ​ហ៊ុន · Gujarat
+share_capital	ដើមទុន​ភាគហ៊ុន ₹1,00,000
+limited_by_shares	កម្រិត​ដោយ​ភាគហ៊ុន · Gujarat
 tax	ពន្ធ
 gst_regular	GST ធម្មតា · ពី 04 កក្កដា 2026
-recognition	ការ​ទទួល​ស្គាល់
+recognition	ការ​ទទួលស្គាល់
 issued	ចេញ 08 កក្កដា 2026
 valid_to	មាន​សុពលភាព​ដល់ 23 មិថុនា 2036
-registered_office	ការិយាល័យ​ចុះ​ឈ្មោះ
+registered_office	ការិយាល័យ​ចុះឈ្មោះ
 directors	នាយក
-contact	ទំនាក់​ទំនង
-find_it	Memon មាន​ន័យ «រក​ឃើញ» · អាន go-tee-geen
-brands_line	ប្រព័ន្ធ​អាជីវកម្ម · ឧបករណ៍​និង​កម្មវិធី · ទំនាក់​ទំនង
+contact	ទំនាក់ទំនង
+find_it	Memon មានន័យ «រក​ឃើញ» · អាន go-tee-geen
+brands_line	ប្រព័ន្ធ​អាជីវកម្ម · ឧបករណ៍​និង​កម្មវិធី · ទំនាក់ទំនង
 account	គណនី
 acct_page_title	គណនី — Gotigin
 acct_lede	ចូល​សម្រាប់​មុខងារ​គេហទំព័រ​ក្រុមហ៊ុន Gotigin. ជម្រើស​ដូច​គេហទំព័រ​ផលិតផល — អ៊ីមែល, អ្នក​ផ្តល់, ឬ​ទូរស័ព្ទ.

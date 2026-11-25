@@ -1,4 +1,4 @@
-# ro. key<TAB>text. Keep {placeholders}. \n = line break.
+# Romanian — Română (ro). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Meniu
 close	Închide
 home	Acasă
@@ -14,6 +14,24 @@ email	E-mail
 trademark	MARCĂ ÎNREGISTRATĂ
 window_title	Gotigin — Acolo unde tehnologia întâlnește descoperirea
 slogan	Acolo unde tehnologia întâlnește descoperirea.
+hero_lede	Software pentru uz zilnic în afaceri și personal — gratuit pe dispozitivele tale.
+promise	PROMISE
+promise_title	Produse complete. Gratuite de utilizat.
+promise_lede	Descarcă și rulează produsul complet fără costuri. Încasăm doar pentru serviciile opționale pe care le alegi.
+promise_free_title	Gratuit local
+promise_free_body	Produsul complet pe dispozitivele tale rămâne gratuit. Fără zid de plată la uneltele principale.
+promise_ads_title	Fără reclame forțate
+promise_ads_body	Utilizează software-ul fără reclame care întrerup munca ta.
+promise_charge_title	Plătește pentru servicii
+promise_charge_body	Cloud opțional, demo-uri, vizite și asistență — doar când le ceri tu.
+promise_open_title	Deschis unde este publicat
+promise_open_body	Cod public sub github.com/gotigin. Local și LAN funcționează offline.
+built_with	CONSTRUIT CU
+tech_title	Rust și Makepad
+tech_lede	Majoritatea produselor Gotigin sunt scrise în Rust. GUI-urile folosesc Makepad pentru aplicații rapide și site-uri web pe desktop, mobil și web.
+tech_rust_body	Sigur, rapid și fiabil — construit pentru software care gestionează munca reală din fiecare zi.
+tech_makepad_body	Un singur stack UI Rust pentru aplicații native și site-uri wasm — performant și centrat pe local.
+close_lede	Produse gratuite. Servicii opționale.
 brands	MĂRCI
 brand	MARCĂ
 product	PRODUS

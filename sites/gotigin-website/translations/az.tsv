@@ -1,4 +1,4 @@
-# az. key<TAB>text. Keep {placeholders}. \n = line break.
+# Azerbaijani — Azərbaycan (az). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menyu
 close	Bağla
 home	Ana səhifə
@@ -14,6 +14,24 @@ email	E-poçt
 trademark	ƏMTƏƏ NİŞANI
 window_title	Gotigin — Texnologiyanın kəşflə qovuşduğu yer
 slogan	Texnologiyanın kəşflə qovuşduğu yer.
+hero_lede	Gündəlik biznes və şəxsi istifadə üçün proqram təminatı — cihazlarınızda pulsuz.
+promise	VAAD
+promise_title	Tam məhsullar. Pulsuz istifadə üçün.
+promise_lede	Mütləq məhsulu pulsuz yükləyin və işlədin. Biz yalnız sizin seçdiyiniz istəyən xidmətlər üçün pul tələb edirik.
+promise_free_title	Yerli olaraq pulsuz
+promise_free_body	Cihazlarınızda tam məhsul pulsuz qalır. Əsas alətdə heç bir ödəniş divarı yoxdur.
+promise_ads_title	Məcburi reklam yoxdur
+promise_ads_body	İşinizi pozan reklamlar olmadan proqram təminatından istifadə edin.
+promise_charge_title	Xidmətlər üçün ödəniş
+promise_charge_body	İstəyə görə bulud, nümayişlər, ziyarətlər və kömək — yalnız siz istədikdə.
+promise_open_title	Nəşr olunan yerlərdə açıq
+promise_open_body	github.com/gotigin altında publik kod. Yerli və LAN şəbəkəsi kənarlaşmadan işləyir.
+built_with	RƏQƏMİ TƏKNİKLƏR
+tech_title	Rust və Makepad
+tech_lede	Əksər Gotigin məhsulları Rust dilində yazılıb. GUI-lər Makepad istifadə edir ki, bu da masaüstü, mobil və veb üçün sürətli tətbiqlər və saytlar yaradır.
+tech_rust_body	Güvənli, sürətli və etibarlı — hər gün həqiqi işlərlə məşğul olan proqram təminatı üçün hazırlanıb.
+tech_makepad_body	Native tətbiqlər və wasm saytları üçün bir Rust UI stacki — yüksək performanslı və yerli öncü.
+close_lede	Məhsullar pulsuz. Xidmətlər istəyə bağlı.
 brands	BRENDLƏR
 brand	BREND
 product	MƏHSUL

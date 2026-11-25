@@ -1,4 +1,4 @@
-# el. key<TAB>text. Keep {placeholders}. \n = line break.
+# Greek — Ελληνικά (el). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Μενού
 close	Κλείσιμο
 home	Αρχική
@@ -14,6 +14,24 @@ email	E-mail
 trademark	ΕΜΠΟΡΙΚΟ ΣΗΜΑ
 window_title	Gotigin — Εκεί όπου η τεχνολογία συναντά την ανακάλυψη
 slogan	Εκεί όπου η τεχνολογία συναντά την ανακάλυψη.
+hero_lede	Καθημερινό λογισμικό για επαγγελματική και προσωπική χρήση — δωρεάν στα συσκευές σας.
+promise	ΠΡΟΝΟΜΙΑ
+promise_title	Πλήρη προϊόντα. Δωρεάν στη χρήση.
+promise_lede	Λήψη και εκτέλεση του πλήρους προϊόντος χωρίς κόστος. Χρεώνουμε μόνο για προαιρετικές υπηρεσίες που επιλέγετε.
+promise_free_title	Δωρεάν τοπικά
+promise_free_body	Το πλήρες προϊόν στις συσκευές σας παραμένει δωρεάν. Κανένα paywall στο βασικό εργαλείο.
+promise_ads_title	Καμία αναγκαστική διαφήμιση
+promise_ads_body	Χρησιμοποιήστε το λογισμικό χωρίς διαφημίσεις που διακόπτουν τη δουλειά σας.
+promise_charge_title	Πληρώστε για υπηρεσίες
+promise_charge_body	Προαιρετικά cloud, demos, επισκέψεις και βοήθεια — μόνο όταν τις ζητήσετε.
+promise_open_title	Ανοιχτό όπου δημοσιεύεται
+promise_open_body	Κώδικας δημόσιας χρήσης υπό github.com/gotigin. Τοπικά και LAN λειτουργούν εκτός σύνδεσης.
+built_with	ΔΗΜΙΟΥΡΓΗΘΗΚΕ ΜΕ
+tech_title	Rust και Makepad
+tech_lede	Τα περισσότερα προϊόντα Gotigin γράφονται σε Rust. Οι GUIs χρησιμοποιούν το Makepad για γρήγορες εφαρμογές και ιστοσελίδες σε υπολογιστές, κινητά και το web.
+tech_rust_body	Ασφαλές, γρήγορο και αξιόπιστο — κατασκευασμένο για λογισμικό που χειρίζεται πραγματική εργασία κάθε μέρα.
+tech_makepad_body	Μια στακ Rust UI για τοπικές εφαρμογές και sites wasm — απόδοσης και local-first.
+close_lede	Προϊόντα δωρεάν. Υπηρεσίες προαιρετικά.
 brands	ΜΑΡΚΕΣ
 brand	ΜΑΡΚΑ
 product	ΠΡΟΪΟΝ

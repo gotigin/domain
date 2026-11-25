@@ -1,4 +1,4 @@
-# sr. key<TAB>text. Keep {placeholders}. \n = line break.
+# Serbian — Српски (sr). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Мени
 close	Затвори
 home	Почетна
@@ -14,6 +14,24 @@ email	Е-пошта
 trademark	ЖИГ
 window_title	Gotigin — Где се технологија среће с открићем
 slogan	Где се технологија среће с открићем.
+hero_lede	Svaki dan softver za poslovnu i ličnu upotrebu — besplatno na vašim uređajima.
+promise	OBVEZANJE
+promise_title	Potpuni proizvodi. Besplatna upotreba.
+promise_lede	Preuzmite i pokrenite kompletan proizvod bez troškova. Naplaćujemo samo opcione usluge koje odaberete.
+promise_free_title	Besplatno lokalno
+promise_free_body	Potpuni proizvod na vašim uređajima ostaje besplatan. Bez plaćanja za osnovni alat.
+promise_ads_title	Bez prisilnih reklama
+promise_ads_body	Koristite softver bez reklama koje prekidaju vaš rad.
+promise_charge_title	Platite za usluge
+promise_charge_body	Opcioni oblak, demo verzije, posete i asistencija — samo kada ih tražite.
+promise_open_title	Otvoreno gde je objavljeno
+promise_open_body	Javni kod pod github.com/gotigin. Lokalno i LAN funkcionišu offline.
+built_with	IZGRADJENO SA
+tech_title	Rust i Makepad
+tech_lede	Većina Gotigin proizvoda je napisana u Rustu. GUIs koriste Makepad za brze aplikacije i sajtove na desktopu, mobilnim uređajima i webu.
+tech_rust_body	Sigurno, brzo i pouzdano — izgrađeno za softver koji svaki dan obavlja pravi posao.
+tech_makepad_body	Jedna Rust UI arhitektura za native aplikacije i wasm sajtove — performantno i lokalno prvo.
+close_lede	Proizvodi besplatni. Usluge opcionalne.
 brands	БРЕНДОВИ
 brand	БРЕНД
 product	ПРОИЗВОД

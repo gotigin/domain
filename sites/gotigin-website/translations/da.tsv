@@ -1,4 +1,4 @@
-# da. key<TAB>text. Keep {placeholders}. \n = line break.
+# Danish — Dansk (da). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menu
 close	Luk
 home	Hjem
@@ -14,6 +14,24 @@ email	E-mail
 trademark	VAREMÆRKE
 window_title	Gotigin — Der hvor teknologien møder opdagelsen
 slogan	Der hvor teknologien møder opdagelsen.
+hero_lede	Hverdagssoftware til virksomheder og privat brug — gratis på dine enheder.
+promise	LOFT
+promise_title	Fulde produkter. Gratis at bruge.
+promise_lede	Download og kør det komplette produkt uden omkostninger. Vi tager kun betaling for valgfrie tjenester, du vælger.
+promise_free_title	Gratis lokalt
+promise_free_body	Det fulde produkt på dine enheder forbliver gratis. Ingen betalingsvægge i kernedelen af værktøjet.
+promise_ads_title	Ingen tvungne reklamer
+promise_ads_body	Brug softwaren uden reklamer, der underbryder dit arbejde.
+promise_charge_title	Betaling for tjenester
+promise_charge_body	Valgfrie cloud-løsninger, demos, besøg og assistance — kun når du beder om dem.
+promise_open_title	Åben hvor offentliggjort
+promise_open_body	Offentlig kode under github.com/gotigin. Lokalt og LAN fungerer offline.
+built_with	BYGT MED
+tech_title	Rust og Makepad
+tech_lede	De fleste Gotigin-produkter er skrevet i Rust. GUIs bruger Makepad til hurtige apps og hjemmesider på desktop, mobil og web.
+tech_rust_body	Sikker, hurtig og pålidelig — bygget til software, der håndterer rigtigt arbejde hver dag.
+tech_makepad_body	Én Rust-brugerflade-stak til native apps og wasm-sites — ydeevne og lokal først.
+close_lede	Produkter gratis. Tjenester valgfrie.
 brands	MÆRKER
 brand	MÆRKE
 product	PRODUKT

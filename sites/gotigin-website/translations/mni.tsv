@@ -1,4 +1,4 @@
-# mni. key<TAB>text. Keep {placeholders}. \n = line break.
+# Manipuri — ꯃꯤꯇꯩꯂꯣꯟ (mni). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	ꯃꯦꯅꯨ
 close	ꯈꯨꯝꯖꯤꯟꯕꯤꯌꯨ
 home	ꯌꯨꯝ
@@ -14,6 +14,24 @@ email	ꯏꯃꯦꯏꯜ
 trademark	ꯕꯦꯄꯥꯔ ꯃꯤꯡ
 window_title	Gotigin — ꯇꯦꯛꯅꯣꯂꯣꯖꯤ ꯊꯤꯕꯒ ꯎꯅꯕ ꯃꯐꯝ
 slogan	ꯇꯦꯛꯅꯣꯂꯣꯖꯤ ꯊꯤꯕꯒ ꯎꯅꯕ ꯃꯐꯝ.
+hero_lede	Everyday software for business and personal use — free on your devices.
+promise	PROMISE
+promise_title	Mangin product. Use ari free.
+promise_lede	Download and run the complete product at no cost. We charge only for optional services you choose.
+promise_free_title	Local-chun free
+promise_free_body	The full product on your devices stays free. No paywall on the core tool.
+promise_ads_title	Forced ads ari
+promise_ads_body	Use the software without ads that interrupt your work.
+promise_charge_title	Service-kum chun pay
+promise_charge_body	Optional cloud, demos, visits, and assistance — only when you ask for them.
+promise_open_title	Published-chun open
+promise_open_body	Public code under github.com/gotigin. Local and LAN keep working offline.
+built_with	BUILT WITH
+tech_title	Rust naba Makepad
+tech_lede	Most Gotigin products are written in Rust. GUIs use Makepad for fast apps and websites on desktop, mobile, and the web.
+tech_rust_body	Safe, fast, and reliable — built for software that handles real work every day.
+tech_makepad_body	One Rust UI stack for native apps and wasm sites — performant and local-first.
+close_lede	Product free. Service optional.
 brands	ꯕ꯭ꯔꯥꯟꯗꯁꯤꯡ
 brand	ꯕ꯭ꯔꯥꯟꯗ
 product	ꯄ꯭ꯔꯣꯗꯛꯇ

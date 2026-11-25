@@ -1,4 +1,4 @@
-# ga. key<TAB>text. Keep {placeholders}. \n = line break.
+# Irish — Gaeilge (ga). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Roghchlár
 close	Dún
 home	Baile
@@ -14,6 +14,24 @@ email	Ríomhphost
 trademark	TRÁDMHARCA
 window_title	Gotigin — Áit a mbuaileann an teicneolaíocht leis an bhfionnachtain
 slogan	Áit a mbuaileann an teicneolaíocht leis an bhfionnachtain.
+hero_lede	Gléasraí bogearraí laethúla do ghnó agus úsáid phearsanta — saor ar do ghleasanna.
+promise	PROMISE
+promise_title	Táirgí iomlána. Saor in aisce chun a úsáid.
+promise_lede	Luchtaigh síos agus rith an táirge iomlán gan costais. Cuirimid airíonna amháin ar seirbhísí roghnaithe a roghnaíonn tú.
+promise_free_title	Saor go hionlán
+promise_free_body	Fanann an táirge iomlán ar do ghleasanna saor. Níl aon phagwall ar an uirlis bhunúsach.
+promise_ads_title	Níl fógraí curtha isteach
+promise_ads_body	Úsáid an bogearraí gan fógraí a chuireann bac ar do oibríocht.
+promise_charge_title	Cuirigh airíonna le seirbhísí
+promise_charge_body	An clúdach, na samhlacha, na cuairt agus an t-ardheireamh — ach nuair a iarrann tú orthu.
+promise_open_title	Oscailte á gpubalú
+promise_open_body	Codán poiblí faoi github.com/gotigin. Fanann an t-ionchur agus an LAN ag obar gan idirlíon.
+built_with	TÁ TÁIRGTE LEIS
+tech_title	Rust agus Makepad
+tech_lede	Scríobhtar na táirgí is mó Gotigin i Rust. Úsáideann GUIs Makepad le haghaidh feidhmchláir tapa agus suíomhanna gréasáin ar an mbord, ar fón agus ar an ngrianghraf.
+tech_rust_body	Sábháilte, tapaidh agus iontaofa — tógtha do bhogearraí a dhéanann oibríocht fhíor gach lá.
+tech_makepad_body	Aon stac UI Rust do fheidhmchláir naitíve agus suíomhanna wasm — feidhmíochta agus ionchur-luath.
+close_lede	Táirgí saor. Seirbhísí roghnaithe.
 brands	TRÁDMHARCANNA
 brand	TRÁDMHARCA
 product	TÁIRGE

@@ -1,4 +1,4 @@
-# hi. key<TAB>text. Keep {placeholders}. \n = line break.
+# Hindi — हिन्दी (hi). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	मेनू
 close	बंद करें
 home	होम
@@ -14,6 +14,24 @@ email	ईमेल
 trademark	ट्रेडमार्क
 window_title	Gotigin — जहाँ तकनीक खोज से मिलती है
 slogan	जहाँ तकनीक खोज से मिलती है।
+hero_lede	रोज़मर्रा के कारोबार और निजी उपयोग का सॉफ़्टवेयर — आपके उपकरणों पर मुफ़्त।
+promise	वादा
+promise_title	पूरे उत्पाद। उपयोग मुफ़्त।
+promise_lede	पूरा उत्पाद बिना लागत के डाउनलोड कर चलाएँ। हम केवल आपकी चुनी वैकल्पिक सेवाओं के लिए शुल्क लेते हैं।
+promise_free_title	स्थानीय रूप से मुफ़्त
+promise_free_body	आपके उपकरणों पर पूरा उत्पाद मुफ़्त रहता है। मुख्य टूल पर कोई पेवॉल नहीं।
+promise_ads_title	जबरदस्ती विज्ञापन नहीं
+promise_ads_body	काम बिगाड़ने वाले विज्ञापनों के बिना सॉफ़्टवेयर इस्तेमाल करें।
+promise_charge_title	सेवाओं के लिए भुगतान
+promise_charge_body	वैकल्पिक क्लाउड, डेमो, विज़िट और सहायता — केवल जब आप माँगें।
+promise_open_title	जहाँ प्रकाशित, वहाँ खुला
+promise_open_body	github.com/gotigin पर सार्वजनिक कोड। स्थानीय और LAN ऑफ़लाइन भी चलते रहते हैं।
+built_with	बनाया गया
+tech_title	Rust और Makepad
+tech_lede	अधिकांश Gotigin उत्पाद Rust में लिखे हैं। GUI के लिए Makepad — डेस्कटॉप, मोबाइल और वेब पर तेज़ ऐप और साइटें।
+tech_rust_body	सुरक्षित, तेज़ और भरोसेमंद — रोज़ के असली काम संभालने वाले सॉफ़्टवेयर के लिए।
+tech_makepad_body	नेटिव ऐप और wasm साइटों के लिए एक Rust UI स्टैक — तेज़ और स्थानीय-प्रथम।
+close_lede	उत्पाद मुफ़्त। सेवाएँ वैकल्पिक।
 brands	ब्रांड
 brand	ब्रांड
 product	उत्पाद

@@ -1,4 +1,4 @@
-# ja. key<TAB>text. Keep {placeholders}. \n = line break.
+# Japanese — 日本語 (ja). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	メニュー
 close	閉じる
 home	ホーム
@@ -14,6 +14,24 @@ email	メール
 trademark	商標
 window_title	Gotigin — 技術が発見と出会う場所
 slogan	技術が発見と出会う場所。
+hero_lede	ビジネスおよび個人利用のための日常ソフトウェア——お使いのデバイスで無料。
+promise	約束
+promise_title	完全な製品。無料で使用可能。
+promise_lede	完全な製品を無料でダウンロードして実行できます。私たちは、お客様が選択するオプションサービスのみに対して料金を請求します。
+promise_free_title	ローカルで無料
+promise_free_body	お使いのデバイス上の完全な製品は無料で利用可能です。コアツールには有料壁はありません。
+promise_ads_title	強制広告なし
+promise_ads_body	作業を中断する広告なしでソフトウェアを使用できます。
+promise_charge_title	サービスへの支払い
+promise_charge_body	クラウド、デモ、訪問、および支援などのオプションサービス——お客様が要求された場合のみ提供されます。
+promise_open_title	公開された場所でのオープンソース
+promise_open_body	github.com/gotigin にて公開されている公開コード。ローカルと LAN はオフラインでも動作します。
+built_with	構築技術
+tech_title	Rust と Makepad
+tech_lede	ほとんどの Gotigin 製品は Rust で記述されています。GUI は Makepad を使用し、デスクトップ、モバイル、および Web 上で高速なアプリとウェブサイトを実現します。
+tech_rust_body	安全で高速かつ信頼性が高く、毎日実際の業務を処理するためのソフトウェアに最適です。
+tech_makepad_body	ネイティブアプリと wasm サイトのための単一の Rust UI スタック——高性能でローカルファースト。
+close_lede	製品は無料。サービスはオプション。
 brands	ブランド
 brand	ブランド
 product	製品

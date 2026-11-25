@@ -1,4 +1,4 @@
-# zh-Hant. key<TAB>text. Keep {placeholders}. \n = line break.
+# Chinese (Traditional) — 繁體中文 (zh-Hant). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	選單
 close	關閉
 home	首頁
@@ -14,6 +14,24 @@ email	電子郵件
 trademark	商標
 window_title	Gotigin — 技術與發現相遇之處
 slogan	技術與發現相遇之處。
+hero_lede	日常業務與個人使用的軟體——您的設備免費使用。
+promise	承諾
+promise_title	完整產品，免費使用
+promise_lede	下載並運行完整產品無需付費。我們僅對您選擇的可選服務收費。
+promise_free_title	本地免費
+promise_free_body	您的設備上的完整產品保持免費。核心工具無付費牆。
+promise_ads_title	無強制廣告
+promise_ads_body	使用不受干擾您工作的廣告的軟體。
+promise_charge_title	為服務付費
+promise_charge_body	可選的雲端、演示、訪談與協助——僅在您需要時提供。
+promise_open_title	公開代碼
+promise_open_body	github.com/gotigin 上的公開代碼。本地與 LAN 環境可離線運行。
+built_with	採用技術
+tech_title	Rust 和 Makepad
+tech_lede	大多數 Gotigin 產品均使用 Rust 編寫。GUIs 採用 Makepad，可在桌面、移動端及網頁上快速構建應用程式與網站。
+tech_rust_body	安全、快速且可靠——專為處理每日實際工作的軟體而設計。
+tech_makepad_body	單一 Rust UI 棧用於原生應用程式與 wasm 網站——性能優異且優先本地化。
+close_lede	產品免費，服務可選。
 brands	品牌
 brand	品牌
 product	產品

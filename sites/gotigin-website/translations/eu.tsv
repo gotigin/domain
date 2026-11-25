@@ -1,4 +1,4 @@
-# eu. key<TAB>text. Keep {placeholders}. \n = line break.
+# Basque — Euskara (eu). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menua
 close	Itxi
 home	Hasiera
@@ -14,6 +14,24 @@ email	Posta elektronikoa
 trademark	MARKA ERREGISTRATUA
 window_title	Gotigin — Teknologia aurkikuntzarekin elkartzen den tokia
 slogan	Teknologia aurkikuntzarekin elkartzen den tokia.
+hero_lede	Software cotidianu para uso empresarial e personal — gratis nos teus dispositivos.
+promise	PROMESA
+promise_title	Produtos completos. Gratis de usar.
+promise_lede	Baixar e executar o produto completo sen custo. Cobramos só polos servizos opcionais que elixas.
+promise_free_title	Gratis localmente
+promise_free_body	O produto completo nos teus dispositivos segue sendo gratis. Sen muro de pago na ferramenta central.
+promise_ads_title	Sen anuncios forzados
+promise_ads_body	Usa o software sen anuncios que interrompen o teu traballo.
+promise_charge_title	Paga polos servizos
+promise_charge_body	Nube opcional, demos, visitas e axuda — só cando as pedes.
+promise_open_title	Aberto onde se publica
+promise_open_body	Código público baixo github.com/gotigin. Local e LAN funcionan sen conexión a internet.
+built_with	CONSTRUIDO CON
+tech_title	Rust e Makepad
+tech_lede	A maioría dos produtos de Gotigin están escritos en Rust. As GUIs usan Makepad para aplicacións rápidas e sitios web en escritorio, móbil e a web.
+tech_rust_body	Seguro, rápido e fiable — construído para software que xestiona traballo real cada día.
+tech_makepad_body	Unha pila de UI en Rust para aplicacións nativas e sitios wasm — rendible e centrado no local.
+close_lede	Produtos gratis. Servizos opcionais.
 brands	MARKAK
 brand	MARKA
 product	PRODUKTUA

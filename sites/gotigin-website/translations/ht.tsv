@@ -1,4 +1,4 @@
-# ht. key<TAB>text. Keep {placeholders}. \n = line break.
+# Haitian Creole — Kreyòl ayisyen (ht). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Meni
 close	Fèmen
 home	Akèy
@@ -14,6 +14,24 @@ email	Imèl
 trademark	MAK KOMÈSYAL
 window_title	Gotigin — Kote teknoloji rankontre dekouvèt
 slogan	Kote teknoloji rankontre dekouvèt.
+hero_lede	Logisyèl chak jou pou biznis ak itilizasyon pèsonèl — gratis sou aparèy ou yo.
+promise	PROMIS
+promise_title	Pwodwi konplè. Gratis pou itilize.
+promise_lede	Telechaje epi kouri pwodui konplè a san kòt. Nou sèlman chaje pou sèvis opsyonèl ou chwazi yo.
+promise_free_title	Gratis lokalman
+promise_free_body	Pwodui konplè a sou aparèy ou yo rete gratis. Pa gen paywall sou òdinatè prensipal la.
+promise_ads_title	Pa gen anons fòse
+promise_ads_body	Itilize logisyèl la san anons ki entèromp travay ou.
+promise_charge_title	Peye pou sèvis
+promise_charge_body	Nan bwa, demonyon, vizit, ak asistans opsyonèl — sèlman lè w mande yo.
+promise_open_title	Ouvert kote pibliye a
+promise_open_body	Kòd piblik anba github.com/gotigin. Lokal ak LAN kontinye fonksyone oflin.
+built_with	FABRIKE AVEC
+tech_title	Rust ak Makepad
+tech_lede	Pifò pwodwi Gotigin yo ekri an Rust. GUIs itilize Makepad pou aplikasyon rapid ak sit wèb sou biwo, mobil, ak nan entènèt.
+tech_rust_body	Sekirite, vitès, ak fiyabilite — bati pou logisyèl ki jere travay reyèl chak jou.
+tech_makepad_body	Yon stack UI Rust pou aplikasyon natif ak sit wasm — pèfòmans ak lokal-pwemye.
+close_lede	Pwodwi gratis. Sèvis opsyonèl.
 brands	MAK YO
 brand	MAK
 product	PWODWI

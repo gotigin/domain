@@ -1,4 +1,4 @@
-# ne. key<TAB>text. Keep {placeholders}. \n = line break.
+# Nepali — नेपाली (ne). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	मेनु
 close	बन्द गर्नुहोस्
 home	गृह
@@ -14,6 +14,24 @@ email	इमेल
 trademark	ट्रेडमार्क
 window_title	Gotigin — जहाँ प्रविधिले खोज भेट्छ
 slogan	जहाँ प्रविधिले खोज भेट्छ।
+hero_lede	व्यवसाय र व्यक्तिगत प्रयोगका लागि दैनिक सफ्टवेयर — तपाईंको डिभाइसमा निःशुल्क।
+promise	प्रतिज्ञा
+promise_title	पूर्ण उत्पादनहरू। प्रयोग गर्न निःशुल्क।
+promise_lede	बिना खर्च पूर्ण उत्पादन डाउनलोड र चलाउनुहोस्। हामी केवल तपाईंले छान्ने वैकल्पिक सेवाहरूका लागि मात्र शुल्क लिन्छौं।
+promise_free_title	स्थानीय रूपमा निःशुल्क
+promise_free_body	तपाईंको डिभाइसमा पूर्ण उत्पादन निःशुल्क रहन्छ। मुख्य उपकरणमा कुनै भुक्तानी दीवार छैन।
+promise_ads_title	जबर्जस्त विज्ञापनहरू छैनन्
+promise_ads_body	तपाईंको कामलाई बाधित गर्ने विज्ञापनहरू बिना सफ्टवेयर प्रयोग गर्नुहोस्।
+promise_charge_title	सेवाहरूका लागि तिर्नुहोस्
+promise_charge_body	वैकल्पिक क्लाउड, डेमो, भ्रमण र सहयोग — केवल तपाईंले सोध्दा मात्र।
+promise_open_title	प्रकाशित हुँदा खुला
+promise_open_body	github.com/gotigin मा सार्वजनिक कोड। स्थानीय र LAN अफलाइन काम गर्न जारी राख्छ।
+built_with	निर्माण गरिएको छ
+tech_title	रस्ट र मेकप्याड
+tech_lede	अधिकांश Gotigin उत्पादनहरू Rust मा लेखिएका छन्। GUIs ले डेस्कटप, मोबाइल र वेबमा त्वरित अनुप्रयोग र वेबसाइटहरूको लागि Makepad प्रयोग गर्छ।
+tech_rust_body	सुरक्षित, त्वरित र विश्वसनीय — दैनिक वास्तविक काम सन्तुलन गर्ने सफ्टवेयरका लागि निर्माण गरिएको।
+tech_makepad_body	मूल्यवान र स्थानीय-पहिलो मूल्याङ्कनको लागि मूल अनुप्रयोगहरू र wasm साइटहरूको लागि एउटा Rust UI स्ट्याक।
+close_lede	उत्पादनहरू निःशुल्क। सेवाहरू वैकल्पिक।
 brands	ब्रान्डहरू
 brand	ब्रान्ड
 product	उत्पादन

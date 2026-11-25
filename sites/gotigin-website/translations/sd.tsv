@@ -1,4 +1,4 @@
-# sd. key<TAB>text. Keep {placeholders}. \n = line break.
+# Sindhi — سنڌي (sd). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	مينيو
 close	بند ڪريو
 home	گهر
@@ -14,6 +14,24 @@ email	اي ميل
 trademark	واپاري نشان
 window_title	Gotigin — جتي ٽيڪنالاجي دريافت سان ملي ٿي
 slogan	جتي ٽيڪنالاجي دريافت سان ملي ٿي.
+hero_lede	روزمره سافٽويور بزنس ۽ ذاتي استعمال لاءِ — آپ جي جهازن تي مفت.
+promise	وچڙ
+promise_title	مڪمل پروڊڪٽ. مفت استعمال ڪرڻ جو حق.
+promise_lede	بغير ڪنهن خرچ جي مڪمل پروڊڪٽ هيٺين ذريعي ڌاڙو ۽ چلائيو. اسان صرف ان اختيارين خدمتن لاءِ چارج ڪندا آهيون جيڪي توهان چوندا آهيو.
+promise_free_title	مفت مقام تي
+promise_free_body	آپ جي جهازن تي مڪمل پروڊڪٽ هميشه مفت رهندو. بنيادي اوزار تي ڪا به پي ويول (Paywall) ناهي.
+promise_ads_title	مجبوريءَ سان اشتہارات نه
+promise_ads_body	اپنا ڪم بغير انٽرپٽ ڪندڙ اشتہارن جي سافٽ ويئر استعمال ڪريو.
+promise_charge_title	خدمتن لاءِ پيسو ڏيو
+promise_charge_body	اختياري ڪلاؤڊ، ڊيمو، دورا، ۽ مدد — صرف جڏهن توهان ان کي گهريو.
+promise_open_title	جتي شائع ٿيل آهي اوتري کوليو
+promise_open_body	github.com/gotigin هيٺ عام کڙي کوڊ. مقاماتي ۽ LAN آف لائين به ڪم ڪندو.
+built_with	بني ورتو آهي
+tech_title	Rust ۽ Makepad
+tech_lede	اکثر Gotigin پروڊڪٽ Rust ۾ لکيا ويا آهن. GUIs Makepad استعمال ڪندا آهن تيز ايپس ۽ ويب سائيٽن لاءِ ڊيسڪٽاپ، موبائل ۽ ويب تي.
+tech_rust_body	اماندار، تيز ۽ قابل اعتماد — روزانو حقيقي ڪم سان پيڙهيندڙ سافٽ ويئر لاءِ بنجي ورتو آهي.
+tech_makepad_body	نيٽيو ايپس ۽ wasm ويب سائيٽن لاءِ هڪ ئي Rust UI اسٽيڪ — پرفارمنس وارو ۽ مقاماتي پهرين.
+close_lede	پروڊڪٽ مفت. خدمتون اختيارين.
 brands	برانڊ
 brand	برانڊ
 product	پراڊڪٽ

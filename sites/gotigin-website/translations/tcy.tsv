@@ -1,4 +1,4 @@
-# tcy. key<TAB>text. Keep {placeholders}. \n = line break.
+# Tulu — ತುಳು (tcy). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	ಮೆನು
 close	ಮುಚ್ಚುಲೆ
 home	ಇಲ್ಲ್
@@ -14,6 +14,24 @@ email	ಇಮೇಲ್
 trademark	ಟ್ರೇಡ್‌ಮಾರ್ಕ್
 window_title	Gotigin — ತಾಂತ್ರಿಕತೆ ಶೋಧನೆನ್ ಸೇರುನ ಜಾಗೆ
 slogan	ತಾಂತ್ರಿಕತೆ ಶೋಧನೆನ್ ಸೇರುನ ಜಾಗೆ.
+hero_lede	Mannu software business je personal use ke — devices ma free.
+promise	PROMISE
+promise_title	Full products. Free to use.
+promise_lede	Complete product download karun run karo, kharch nahi. Hum optional services ke liye hi charge karte hain jo tum choose karte ho.
+promise_free_title	Free locally
+promise_free_body	Tumhare devices ma full product free rahega. Core tool ma paywall nahi.
+promise_ads_title	No forced ads
+promise_ads_body	Software use karo bina tumhare kaam ko interrupt karne wale ads ke saath.
+promise_charge_title	Pay for services
+promise_charge_body	Optional cloud, demos, visits, aur assistance — sirf jab tum maangte ho.
+promise_open_title	Open where published
+promise_open_body	Public code github.com/gotigin ma. Local and LAN offline bhi kaam karte hain.
+built_with	BUILT WITH
+tech_title	Rust and Makepad
+tech_lede	Zyada Gotigin products Rust ma likhe gaye hain. GUIs Makepad use karte hain desktop, mobile, aur web ke liye fast apps aur websites banane ke liye.
+tech_rust_body	Safe, fast, aur reliable — real work handle karne wale software ke liye bana hai.
+tech_makepad_body	Native apps aur wasm sites ke liye ek hi Rust UI stack — performant aur local-first.
+close_lede	Products free. Services optional.
 brands	ಬ್ರಾಂಡ್
 brand	ಬ್ರಾಂಡ್
 product	ಉತ್ಪನ್ನ

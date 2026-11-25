@@ -1,4 +1,4 @@
-# si. key<TAB>text. Keep {placeholders}. \n = line break.
+# Sinhala — සිංහල (si). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	මෙනුව
 close	වසන්න
 home	මුල් පිටුව
@@ -14,6 +14,24 @@ email	ඊමේල්
 trademark	වෙළඳ ලකුණ
 window_title	Gotigin — තාක්ෂණය සොයාගැනීම හමුවන තැන
 slogan	තාක්ෂණය සොයාගැනීම හමුවන තැන.
+hero_lede	ව්‍යාපාරික සහ පුද්ගලික භාවිතය සඳහා දෛනික මෘදුකාංග — ඔබේ උපකරණ වල නොමිලේ.
+promise	සැලකිය යුතු
+promise_title	පූර්ණ අභිරහස්. භාවිතයට නොමිලේ.
+promise_lede	අධික වියදමක් නොවී සම්පූර්ණ මෘදුකාංගය බාගත කර ක්‍රියාත්මක කරන්න. අප ආරම්භ කරන්නේ ඔබ තෝරා ගන්නා අනිවාර්ය සේවා සඳහා පමණි.
+promise_free_title	දේශීයව නොමිලේ
+promise_free_body	ඔබේ උපකරණ වල ඇති සම්පූර්ණ මෘදුකාංගය නොමිලේ පවතී. මූලික මෙවැඩසටහනේ ගෙවීම් බාධකයක් නැත.
+promise_ads_title	අනිවාර්ය දැන්වීම් නැත
+promise_ads_body	ඔබේ කාර්යය අවහිර කරන දැන්වීම් රහිතව මෘදුකාංගය භාවිතා කරන්න.
+promise_charge_title	සේවා සඳහා ගෙවීම
+promise_charge_body	අනිවාර්ය වලාකුළ, ප්‍රදර්ශන, සංචාර සහ උපකාර — ඔබ ඉල්ලූ විට පමණක්.
+promise_open_title	ප්‍රකාශිත තැනේ විවෘත
+promise_open_body	github.com/gotigin යටතේ සමාජ මාධ්‍ය කේත. දේශීය සහ LAN අන්තර්ජාල රහිතව ක්‍රියාත්මක වේ.
+built_with	ඉදි කරන ලද
+tech_title	Rust සහ Makepad
+tech_lede	බොහෝ Gotigin නිෂ්පාදන Rust භාෂාවෙන් ලිවී ඇත. GUIs වේගවත් යෙදුම් සහ වෙබ් අඩවි සඳහා Makepad භාවිතා කරයි.
+tech_rust_body	Safe, fast, and reliable — built for software that handles real work every day.
+tech_makepad_body	නිවාස යෙදුම් සහ wasm අඩවි සඳහා එක් Rust UI කොටසක් — ඉහළ කාර්යක්ෂමතාව සහ දේශීය පළමු.
+close_lede	නිෂ්පාදන නොමිලේ. සේවා අනිවාර්ය.
 brands	සන්නාම
 brand	සන්නාම
 product	නිෂ්පාදනය

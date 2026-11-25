@@ -1,4 +1,4 @@
-# xh. key<TAB>text. Keep {placeholders}. \n = line break.
+# Xhosa — isiXhosa (xh). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Uluhlu
 close	Vala
 home	Ikhaya
@@ -14,6 +14,24 @@ email	I-imeyile
 trademark	UPHAWU LORHWEBO
 window_title	Gotigin — Apho ubugcisa buhlangana nokufumanisa
 slogan	Apho ubugcisa buhlangana nokufumanisa.
+hero_lede	Isixhobo sokusebenza ngokwemini kwiinkonzo zempilo yobunye kunye nokuqondiswa — asithathi ixabiso kwidatha yakho.
+promise	IKHOKELA
+promise_title	Izinto ezipheleleyo. Ukusebenza ngaphandle kwekhokelo.
+promise_lede	Yayisebenzisa kwaye uyihambise iprojekthi epheleleyo ngaphandle kwekhokelo. Siphatha kuphela iinkonzo ezikhethiweyo ozithandayo.
+promise_free_title	Kwakhona kwisixeko sakho
+promise_free_body	Iprojekthi epheleleyo kwidatha yakho isahlala ipheleleyo. Akukho mngeni wokuphila kwi-tool ephambili.
+promise_ads_title	Akukho izikhangiso ezifunekayo
+promise_ads_body	Sebenzisa isixhobo ngaphandle kwezikhangulo ezinokukhokelela kwinkqubo yakho.
+promise_charge_title	Khokela iinkonzo
+promise_charge_body	Iinkonzo zedijithali, izibhaliso, ukufika, kunye nokunceda — kuphela xa uzikhetha.
+promise_open_title	Vula apho kuthiwe khona
+promise_open_body	Ikhowudi epheleleyo kwi-github.com/gotigin. I-LAN kunye ne-local zisebenza ngaphandle kwakhawulelo.
+built_with	SASAKHIWAKHO NGOKUSEBENZISA
+tech_title	Rust kunye no-Makepad
+tech_lede	Izinto ezininzi ze-Gotigin zisakhiwe ngokusebenzisa Rust. Ii-GUIs zisebenzisa Makepad ukwenza ii-apps ezikhawulezayo kunye neewebsayithi kwi-desktop, imobhayili, kunye ne-intanethi.
+tech_rust_body	Inamandla, ikhawulezile, kwaye isebenza kakuhle — yasakhiwa ukuze ibonelele ngokusebenza okwenziweyo ngokwemini.
+tech_makepad_body	Isixhobo esinye se-Rust UI sokwenza ii-apps ezikhawulezayo kunye neewebsayithi ze-wasm — ikhawulezile kwaye isebenza kwisixeko sakho.
+close_lede	Izinto zipheleleyo. Iinkonzo zikhethiweyo.
 brands	IIMPAWU
 brand	UPHAWU
 product	IMVELISO

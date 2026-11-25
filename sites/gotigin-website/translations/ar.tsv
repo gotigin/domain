@@ -1,4 +1,4 @@
-# ar. key<TAB>text. Keep {placeholders}. \n = line break.
+# Arabic — العربية (ar). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	القائمة
 close	إغلاق
 home	الرئيسية
@@ -14,6 +14,24 @@ email	البريد الإلكتروني
 trademark	علامة تجارية
 window_title	Gotigin — حيث تلتقي التقنية بالاكتشاف
 slogan	حيث تلتقي التقنية بالاكتشاف.
+hero_lede	برمجيات يومية للأعمال والاستخدام الشخصي — مجانية على أجهزتك.
+promise	وعدنا
+promise_title	منتجات كاملة. مجانية للاستخدام.
+promise_lede	قم بتنزيل وتشغيل المنتج الكامل بدون تكلفة. نحن نفرض رسومًا فقط على الخدمات الاختيارية التي تختارها.
+promise_free_title	مجانية محليًا
+promise_free_body	يظل المنتج الكامل على أجهزتك مجانيًا. لا يوجد جدار دفع في الأداة الأساسية.
+promise_ads_title	لا إعلانات قسرية
+promise_ads_body	استخدم البرنامج دون إعلانات تعطل عملك.
+promise_charge_title	ادفع مقابل الخدمات
+promise_charge_body	السحابة الاختيارية، والعروض التوضيحية، والزيارات، والمساعدة — فقط عندما تطلبها.
+promise_open_title	مفتوح حيث يتم النشر
+promise_open_body	كود عام تحت github.com/gotigin. يعمل المحلي والشبكة المحلية (LAN) دون اتصال بالإنترنت.
+built_with	صُنِعَ بـ
+tech_title	Rust و Makepad
+tech_lede	معظم منتجات Gotigin مكتوبة بلغة Rust. تستخدم الواجهات الرسومية (GUIs) Makepad لإنشاء تطبيقات ومواقع ويب سريعة على سطح المكتب والهاتف المحمول والإنترنت.
+tech_rust_body	آمن وسريع وموثوق — صُمم للبرمجيات التي تتعامل مع العمل الحقيقي كل يوم.
+tech_makepad_body	مكدس واجهة مستخدم واحد بلغة Rust للتطبيقات الأصلية ومواقع wasm — أداء عالٍ وأولوية للمحلي.
+close_lede	منتجات مجانية. خدمات اختيارية.
 brands	العلامات
 brand	العلامة
 product	المنتج

@@ -1,4 +1,4 @@
-# lus. key<TAB>text. Keep {placeholders}. \n = line break.
+# Mizo — Mizo ṭawng (lus). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Thil zawng
 close	Khar rawh
 home	In
@@ -14,6 +14,24 @@ email	E-mail
 trademark	THIL NEIH
 window_title	Gotigin — Technology leh hmuhchhuah inhmuhna
 slogan	Technology leh hmuhchhuah inhmuhna.
+hero_lede	Bawrhih software business angha personal use-ngai — device-mi khawng a hlo.
+promise	PROMISE
+promise_title	Full product. Use free.
+promise_lede	Complete product-a download an run cost-free. Optional service-mi khawng a hlo.
+promise_free_title	Free locally
+promise_free_body	Device-mi khawng full product-a free a hlo. Core tool-ngai paywall aia.
+promise_ads_title	No forced ads
+promise_ads_body	Work-ngai interrupt an ads software use.
+promise_charge_title	Pay for services
+promise_charge_body	Optional cloud, demos, visits, assistance — khawng a hlo.
+promise_open_title	Open where published
+promise_open_body	Public code github.com/gotigin-ngai. Local an LAN offline working.
+built_with	BUILT WITH
+tech_title	Rust and Makepad
+tech_lede	Most Gotigin products Rust-mi written. GUIs Makepad use fast apps websites desktop, mobile, web.
+tech_rust_body	Safe, fast, reliable — everyday real work software built.
+tech_makepad_body	One Rust UI stack native apps wasm sites — performant local-first.
+close_lede	Products free. Services optional.
 brands	THIL NEIHTE
 brand	THIL NEIH
 product	THIL SIAM

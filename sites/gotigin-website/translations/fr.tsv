@@ -1,4 +1,4 @@
-# fr. key<TAB>text. Keep {placeholders}. \n = line break.
+# French — Français (fr). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menu
 close	Fermer
 home	Accueil
@@ -14,6 +14,24 @@ email	E-mail
 trademark	MARQUE DÉPOSÉE
 window_title	Gotigin — Là où la technologie rencontre la découverte
 slogan	Là où la technologie rencontre la découverte.
+hero_lede	Logiciel quotidien pour les entreprises et l'usage personnel — gratuit sur vos appareils.
+promise	PROMISE
+promise_title	Produits complets. Gratuits à utiliser.
+promise_lede	Téléchargez et exécutez le produit complet sans frais. Nous ne facturons que les services optionnels que vous choisissez.
+promise_free_title	Gratuit localement
+promise_free_body	Le produit complet sur vos appareils reste gratuit. Pas de paywall sur l'outil principal.
+promise_ads_title	Aucune publicité imposée
+promise_ads_body	Utilisez le logiciel sans publicités qui interrompent votre travail.
+promise_charge_title	Payez pour les services
+promise_charge_body	Cloud, démos, visites et assistance optionnels — uniquement lorsque vous les demandez.
+promise_open_title	Ouvert là où il est publié
+promise_open_body	Code public sous github.com/gotigin. Local et LAN fonctionnent hors ligne.
+built_with	CONSTRUIT AVEC
+tech_title	Rust et Makepad
+tech_lede	La plupart des produits Gotigin sont écrits en Rust. Les GUI utilisent Makepad pour des applications et sites web rapides sur bureau, mobile et web.
+tech_rust_body	Sûr, rapide et fiable — conçu pour un logiciel qui gère le travail réel au quotidien.
+tech_makepad_body	Une pile UI Rust pour les applications natives et les sites wasm — performant et prioritaire local.
+close_lede	Produits gratuits. Services optionnels.
 brands	MARQUES
 brand	MARQUE
 product	PRODUIT

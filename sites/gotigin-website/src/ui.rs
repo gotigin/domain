@@ -548,10 +548,53 @@ script_mod! {
                             hero := Band{
                                 hero_tag := View{
                                     width: Fill height: Fit
-                                    Eyebrow{ body: "TRADEMARK" }
+                                    Eyebrow{ body: "COMPANY" }
                                 }
                                 hero_title := Headline{ body: "Gotigin" }
                                 hero_slogan := Subhead{ body: "Where Technology Meets Discovery." }
+                                hero_lede := Lede{ body: "Everyday software for business and personal use — free on your devices." }
+                            }
+
+                            promise := BandAlt{
+                                Eyebrow{ body: "PROMISE" }
+                                promise_title := Subhead{ body: "Full products. Free to use." }
+                                promise_lede := Lede{ body: "Download and run the complete product at no cost. We charge only for optional services you choose." }
+                                promise_row := AppGrid{
+                                    PanelCard{
+                                        CardTitle{ body: "Free locally" }
+                                        CardBody{ body: "The full product on your devices stays free. No paywall on the core tool." }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "No forced ads" }
+                                        CardBody{ body: "Use the software without ads that interrupt your work." }
+                                    }
+                                }
+                                promise_row2 := AppGrid{
+                                    PanelCard{
+                                        CardTitle{ body: "Pay for services" }
+                                        CardBody{ body: "Optional cloud, demos, visits, and assistance — only when you ask for them." }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "Open where published" }
+                                        CardBody{ body: "Public code under github.com/gotigin. Local and LAN keep working offline." }
+                                    }
+                                }
+                            }
+
+                            tech := Band{
+                                Eyebrow{ body: "BUILT WITH" }
+                                tech_title := Subhead{ body: "Rust and Makepad" }
+                                tech_lede := Lede{ body: "Most Gotigin products are written in Rust. GUIs use Makepad for fast apps and websites on desktop, mobile, and the web." }
+                                tech_row := AppGrid{
+                                    PanelCard{
+                                        CardTitle{ body: "Rust" }
+                                        CardBody{ body: "Safe, fast, and reliable — built for software that handles real work every day." }
+                                    }
+                                    PanelCard{
+                                        CardTitle{ body: "Makepad" }
+                                        CardBody{ body: "One Rust UI stack for native apps and wasm sites — performant and local-first." }
+                                    }
+                                }
                             }
 
                             brands := BandAlt{
@@ -900,6 +943,7 @@ script_mod! {
                                     CardTitle{ body: "Gotigin" }
                                 }
                                 close_title := Subhead{ body: "Where Technology Meets Discovery." }
+                                close_lede := Lede{ body: "Products free. Services optional." }
                                 names := View{
                                     width: Fill height: Fit
                                     flow: Down

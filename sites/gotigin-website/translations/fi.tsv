@@ -1,4 +1,4 @@
-# fi. key<TAB>text. Keep {placeholders}. \n = line break.
+# Finnish — Suomi (fi). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Valikko
 close	Sulje
 home	Etusivu
@@ -14,6 +14,24 @@ email	Sähköposti
 trademark	TAVARAMERKKI
 window_title	Gotigin — Siellä missä teknologia kohtaa löytämisen
 slogan	Siellä missä teknologia kohtaa löytämisen.
+hero_lede	Jokapäiväinen ohjelmisto yritysten ja yksityisen käytön tarpeisiin – ilmaista laitteillesi.
+promise	LUPAUS
+promise_title	Täysimääräiset tuotteet. Ilmainen käyttö.
+promise_lede	Lataa ja suorita täydellinen tuote ilman kustannuksia. Peruspalveluista perimme vain valittuja lisäpalveluita.
+promise_free_title	Ilmainen paikallisesti
+promise_free_body	Tuote laitteillasi pysyy ilmaisena. Ei maksuseinää ydinvälineessä.
+promise_ads_title	Ei pakotettuja mainoksia
+promise_ads_body	Käytä ohjelmistoa ilman keskeyttäviä mainoksia.
+promise_charge_title	Maksa palveluista
+promise_charge_body	Valinnainen pilvipalvelut, demot, vierailut ja avustaminen – vain kun pyydät niitä.
+promise_open_title	Avoin julkaistuissa
+promise_open_body	Julkista koodia github.com/gotigin -sivustolla. Paikallinen ja LAN-yhteys toimii verkottomassa tilanteessa.
+built_with	TEHDYLLÄ
+tech_title	Rust ja Makepad
+tech_lede	Useimmat Gotigin tuotteet on kirjoitettu Rustilla. GUI:t käyttävät Makepadia nopeiden sovellusten ja verkkosivujen luomiseen työpöydällä, mobiililaitteissa ja webissä.
+tech_rust_body	Turvallista, nopeaa ja luotettavaa – suunniteltu ohjelmistoon, joka hoitaa todellista työtä jokaisena päivänä.
+tech_makepad_body	Yksi Rust-käyttöliittymäarkkitehtuuri alkuperäisille sovelluksille ja wasm-sivustoille – tehokasta ja paikallista ensisijaisesti.
+close_lede	Tuotteet ilmaisia. Palvelut valinnaisia.
 brands	TUOTEMERKIT
 brand	TUOTEMERKKI
 product	TUOTE

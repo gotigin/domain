@@ -1,4 +1,4 @@
-# sk. key<TAB>text. Keep {placeholders}. \n = line break.
+# Slovak — Slovenčina (sk). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Ponuka
 close	Zavrieť
 home	Domov
@@ -14,6 +14,24 @@ email	E-mail
 trademark	OCHRANNÁ ZNÁMKA
 window_title	Gotigin — Tam, kde sa technológia stretáva s objavom
 slogan	Tam, kde sa technológia stretáva s objavom.
+hero_lede	Denné softvére pre podnikové aj osobné použitie – zadarmo na vašich zariadeniach.
+promise	Sľub
+promise_title	Plnohodnotné produkty. Zadarmo na použitie.
+promise_lede	Stiahnite si a spustite kompletný produkt bez nákladov. Nabíjame len za voliteľné služby, ktoré si vyberiete.
+promise_free_title	Zadarmo lokálne
+promise_free_body	Plnohodnotný produkt na vašich zariadeniach zostáva zadarmo. Žiadna platobná bariéra pre základný nástroj.
+promise_ads_title	Žiadne nútené reklamy
+promise_ads_body	Používajte softvér bez reklám, ktoré prerušujú vašu prácu.
+promise_charge_title	Platba za služby
+promise_charge_body	Voliteľné clóudové služby, demonštrácie, návštevy a asistencie – len keď o ne požiadať.
+promise_open_title	Otvorené tam, kde je publikované
+promise_open_body	Veľmi verejný kód pod github.com/gotigin. Lokálne a LAN fungujú aj offline.
+built_with	VYTVORENÉ POMOCOU
+tech_title	Rust a Makepad
+tech_lede	Väčšina produktov Gotigin je napísaná v Ruste. GUIs využívajú Makepad pre rýchle aplikácie a webové stránky na desktop, mobil a web.
+tech_rust_body	Bezpečné, rýchle a spoľahlivé – navrhnuté pre softvér, ktorý zvláda skutočnú prácu každý deň.
+tech_makepad_body	Jedna Rust UI vrstva pre natívne aplikácie a wasm stránky – výkonná a orientovaná na lokálne dáta.
+close_lede	Produkty zadarmo. Služby voliteľné.
 brands	ZNAČKY
 brand	ZNAČKA
 product	PRODUKT

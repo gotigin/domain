@@ -1,4 +1,4 @@
-# rw. key<TAB>text. Keep {placeholders}. \n = line break.
+# Kinyarwanda — Ikinyarwanda (rw). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Urutonde
 close	Funga
 home	Ahabanza
@@ -14,6 +14,24 @@ email	Imeri
 trademark	IKIRANGO
 window_title	Gotigin — Aho ikoranabuhanga rihurira n'ubuvumbuzi
 slogan	Aho ikoranabuhanga rihurira n'ubuvumbuzi.
+hero_lede	Sofuwe ry'umunsi ryo gukoresha mu bikorwa by'ubucuruzi n'ibijyanye n'abaturage — ridafite agaciro ku bidukikije byawe.
+promise	IGIHANGA
+promise_title	Ibintu byose. Gukoresha bidafite agaciro.
+promise_lede	Sana n'ugakoresha ibintu byose bidafite agaciro. Twishyura gusa ibijyanye n'ibikorwa by'ubwenge wabonye.
+promise_free_title	Bifite agaciro hano
+promise_free_body	Ibintu byose ku bidukikije byawe biramara bifite agaciro. Nta mpaka zo kugura kuri ubu buryo bwo gukoresha.
+promise_ads_title	Nta mabaruwa y'umwihariko
+promise_ads_body	Gukoresha sofuwe utagira amabaruwa ashobora gutera umutima wawe ukora.
+promise_charge_title	Shyura ibikorwa
+promise_charge_body	Ibikubo by'umwuka, imirimo y'amahirwe, ubuzima n'ubufasha — gusa iyo wabibajije.
+promise_open_title	Bisanzwe aho byanditswe
+promise_open_body	Code y'abaturage iri kuri github.com/gotigin. LAN na Local bishobora gukora nta internet.
+built_with	BYANDITSE BIRUSHE
+tech_title	Rust na Makepad
+tech_lede	Ibintu byinshi bya Gotigin byanditswe mu buryo bwa Rust. GUIs bikoresheje Makepad kugira ngo habeho amasoko yihuse ku mbuga nkoranyambaga, telefoni, na internet.
+tech_rust_body	Nyirarwanda, ihuta, kandi iramutse — byanditswe kugira ngo ibikoresho bikore neza buri munsi.
+tech_makepad_body	Umuryango umwe wa Rust UI ku mbuga nkoranyambaga n'amasoko ya wasm — ifite ubushobozi buhuta kandi ikora hano.
+close_lede	Ibintu bifite agaciro. Ibisanzwe by'ubwenge.
 brands	IBIRANGO
 brand	IKIRANGO
 product	IGICURUZWA

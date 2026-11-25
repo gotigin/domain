@@ -1,4 +1,4 @@
-# ky. key<TAB>text. Keep {placeholders}. \n = line break.
+# Kyrgyz — Кыргызча (ky). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Меню
 close	Жабуу
 home	Башкы бет
@@ -14,6 +14,24 @@ email	Электрондук почта
 trademark	СООДА БЕЛГИСИ
 window_title	Gotigin — Технология ачылыш менен жолуккан жер
 slogan	Технология ачылыш менен жолуккан жер.
+hero_lede	Иш жана жеке колдонуу үчүн ар күнүк программалык камсыздоо — сиздин куралдарыңызда эркин.
+promise	УБАДА
+promise_title	Толук продукциялар. Эркин колдонуу.
+promise_lede	Толук продукту тегин жүктөп, иштетип көрүңүз. Биз сиз тандаган опционалдык кызматтар үчүн гана акча алабыз.
+promise_free_title	Жергиликтүү эркин
+promise_free_body	Сиздин куралдарыңыздагы толук продукт тегин бойдон калат. Негизги куралга төлөм барьер жок.
+promise_ads_title	Мажбурлап жарнамалар жок
+promise_ads_body	Ишиңизди бузган жарнамаларсыз программаны колдонуңуз.
+promise_charge_title	Кызматтар үчүн төлөңүз
+promise_charge_body	Толук бulut, демо-версиялар, кездешүүлөр жана жардам — сиз сураганда гана.
+promise_open_title	Жарыяланган жерде ачык
+promise_open_body	github.com/gotigin астындагы коомдук код. Жергиликтүү жана LAN оффлайн иштеп турат.
+built_with	БУЛДАЙ КЫЛЫНДЫ
+tech_title	Rust жана Makepad
+tech_lede	Көптөгөн Gotigin продуктулары Rust тилинде жазылган. GUIs Makepad колдонуп, desktop, мобилдик жана веб платформалары үчүн тез иштеген тиркемелерди түзөт.
+tech_rust_body	Коопсуз, тез жана ишенимдүү — ар күнү чыныгы иштерди аткаруу үчүн түзүлдү.
+tech_makepad_body	Тиркемелер жана wasm сайттары үчүн бир Rust UI стеки — натыйжалуу жана локалдык.
+close_lede	Продукциялар эркин. Кызматтар опционалдуу.
 brands	БРЕНДДЕР
 brand	БРЕНД
 product	ӨНҮМ

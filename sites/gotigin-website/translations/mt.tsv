@@ -1,4 +1,4 @@
-# mt. key<TAB>text. Keep {placeholders}. \n = line break.
+# Maltese — Malti (mt). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Lista
 close	Agħlaq
 home	Bidu
@@ -14,6 +14,24 @@ email	Imejl
 trademark	MARKA
 window_title	Gotigin — Fejn it-teknoloġija tiltaqa' mal-iskoperta
 slogan	Fejn it-teknoloġija tiltaqa' mal-iskoperta.
+hero_lede	Software kull jum għal negozji u użu personali – aħjar fuq id-dispositivi tiegħek.
+promise	PROMIŻZJONI
+promise_title	Prodotti sħaħ. Aħjar biex tużahom.
+promise_lede	Iddownload u rranna l-prodott sħiħ mingħajr ħlas. Nċarġjaw biss għal servizzi opzjonali li tagħżel.
+promise_free_title	Aħjar lokallment
+promise_free_body	Il-prodott sħiħ fuq id-dispositivi tiegħek jibqa' aħjar. L-ebda barriera tal-pagament fuq l-għodda ewlenija.
+promise_ads_title	L-ebda reklami meħtieġa
+promise_ads_body	Uża s-software mingħajr reklami li jinterrompu x-xogħol tiegħek.
+promise_charge_title	Iddawwar għas-servizzi
+promise_charge_body	Cloud opzjonali, demos, vjisti, u assistenza – biss meta titlob għalihom.
+promise_open_title	Miftuħ fejn ippubblikat
+promise_open_body	Kodiċi pubbliku taħt github.com/gotigin. Lokali u LAN jaqsmu offline.
+built_with	IBNIEŻ B'
+tech_title	Rust u Makepad
+tech_lede	L-akbar prodotti Gotigin huma miktuba f'Rust. GUIs jużaw Makepad għal applikazzjonijiet malajr u websiti fuq desktop, mobbli, u l-web.
+tech_rust_body	Sikur, malajr, u affidabbli – ibni għal software li jikkoppja x-xogħol reali kull jum.
+tech_makepad_body	Stack UI wieħed f'Rust għal applikazzjonijiet nattiv u websiti wasm – performanti u lokali l-ewwel.
+close_lede	Prodotti aħjar. Servizzi opzjonali.
 brands	MARKI
 brand	MARKA
 product	PRODOTT

@@ -1,4 +1,4 @@
-# brx. key<TAB>text. Keep {placeholders}. \n = line break.
+# Bodo — बर' (brx). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	मेनु
 close	बन्द खालाम
 home	न'
@@ -14,6 +14,24 @@ email	ईमेल
 trademark	ट्रेडमार्क
 window_title	Gotigin — जायगायाव टेक्नोलजि आरो खोज फोनांजाब
 slogan	जायगायाव टेक्नोलजि आरो खोज फोनांजाब.
+hero_lede	Bisotok software business a personal use-kei — device-ma free.
+promise	PRAMISE
+promise_title	Mukh product. Use kora free.
+promise_lede	Complete product download a run kora free. Hami optional service khawaboi charge korin.
+promise_free_title	Free locally
+promise_free_body	Device-ma mukh product free thakun. Core tool-ma paywall naki.
+promise_ads_title	No forced ads
+promise_ads_body	Work interrupt kora ad bina software use kor.
+promise_charge_title	Service-kei pay kor
+promise_charge_body	Optional cloud, demos, visits, a assistance — khawaboi korin.
+promise_open_title	Open where published
+promise_open_body	Public code github.com/gotigin-ma. LAN a local offline working thakun.
+built_with	BUILT WITH
+tech_title	Rust a Makepad
+tech_lede	Mukh Gotigin product Rust-ma likhun. GUIs Makepad use kora fast apps a websites desktop, mobile, a web-ma.
+tech_rust_body	Safe, fast, reliable — real work handle kor software-kei built.
+tech_makepad_body	Native apps a wasm sites kei ek Rust UI stack — performant a local-first.
+close_lede	Product free. Service optional.
 brands	ब्रान्ड
 brand	ब्रान्ड
 product	आदब

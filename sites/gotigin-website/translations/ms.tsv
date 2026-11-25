@@ -1,4 +1,4 @@
-# ms. key<TAB>text. Keep {placeholders}. \n = line break.
+# Malay — Bahasa Melayu (ms). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Menu
 close	Tutup
 home	Laman
@@ -14,6 +14,24 @@ email	E-mel
 trademark	CAP DAGANGAN
 window_title	Gotigin — Tempat teknologi bertemu penemuan
 slogan	Tempat teknologi bertemu penemuan.
+hero_lede	Perisian harian untuk perniagaan dan penggunaan peribadi — percuma pada peranti anda.
+promise	JANJI
+promise_title	Produk lengkap. Percuma untuk digunakan.
+promise_lede	Muat turun dan jalankan produk lengkap tanpa sebarang kos. Kami hanya mengenakan caj untuk perkhidmatan pilihan yang anda pilih.
+promise_free_title	Percuma secara tempatan
+promise_free_body	Produk penuh pada peranti anda kekal percuma. Tiada tembok bayaran pada alat utama.
+promise_ads_title	Tiada iklan dipaksa
+promise_ads_body	Gunakan perisian tanpa iklan yang mengganggu kerja anda.
+promise_charge_title	Bayar untuk perkhidmatan
+promise_charge_body	Awan pilihan, demo, lawatan, dan bantuan — hanya apabila anda memintanya.
+promise_open_title	Buka di mana diterbitkan
+promise_open_body	Kod awam di bawah github.com/gotigin. Tempatan dan LAN kekal berfungsi secara offline.
+built_with	DIBINA DENGAN
+tech_title	Rust dan Makepad
+tech_lede	Sebilangan besar produk Gotigin ditulis dalam Rust. GUIs menggunakan Makepad untuk aplikasi pantas dan laman web di atas desktop, mudah alih, dan web.
+tech_rust_body	Amn, pantas, dan boleh dipercayai — dibina untuk perisian yang mengendalikan kerja sebenar setiap hari.
+tech_makepad_body	Satu tumpukan UI Rust untuk aplikasi asli dan laman wasm — berprestasi tinggi dan tempatan terutamanya.
+close_lede	Produk percuma. Perkhidmatan pilihan.
 brands	JENAMA
 brand	JENAMA
 product	PRODUK

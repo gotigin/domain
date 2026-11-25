@@ -1,69 +1,87 @@
-# lo. key<TAB>text. Keep {placeholders}. \n = line break.
+# Lao — ລາວ (lo). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	ເມນູ
 close	ປິດ
 home	ໜ້າ​ຫຼັກ
-about	ກ່ຽວ​ກັບ
+about	ກ່ຽວກັບ
 privacy	ຄວາມເປັນ​ສ່ວນຕົວ
 terms	ຂໍ້​ກຳນົດ
 cancellation	ການຍົກ​ເລີກ
 deletion	ລຶບ
 help	ຊ່ວຍ
-support	ສະໜັບ​ສະໜູນ
+support	ສະໜັບສະໜູນ
 login	ເຂົ້າສູ່​ລະບົບ
 email	ອີ​ເມວ
-trademark	ເຄື່ອງ​ໝາຍ​ການ​ຄ້າ
-window_title	Gotigin — ບ່ອນ​ທີ່​ເຕັກ​ໂນ​ໂລ​ຊີ​ພົບ​ການ​ຄົ້ນ​ພົບ
-slogan	ບ່ອນ​ທີ່​ເຕັກ​ໂນ​ໂລ​ຊີ​ພົບ​ການ​ຄົ້ນ​ພົບ.
+trademark	ເຄື່ອງໝາຍການຄ້າ
+window_title	Gotigin — ບ່ອນ​ທີ່​ເຕັກ​ໂນ​ໂລ​ຊີ​ພົບ​ການຄົ້ນ​ພົບ
+slogan	ບ່ອນ​ທີ່​ເຕັກ​ໂນ​ໂລ​ຊີ​ພົບ​ການຄົ້ນ​ພົບ.
+hero_lede	ໂປຣ​ແກຣມ​ສອດຄ່ອງ​ກັບ​ການ​ໃຊ້ງານ​ທຸກມື້​ສຳລັບ​ທຸລະກິດ ແລະ ການ​ໃຊ້ງານ​ຕົວ​ເອງ — ບໍ່​ຄ່າໃຊ້ຈ່າຍ​ໃນ​ອຸປະກອນ​ຂອງ​ທ່ານ.
+promise	ສັນຍາ
+promise_title	ຜະລິດຕະພັນ​ທີ່​ຄົບຖ້ວນ. ໃຊ້​ໄດ້​ຟຣີ.
+promise_lede	ດາວ​ໂຫຼດ ແລະ ພັດທະນາ​ຜະລິດຕະພັນ​ທີ່​ຄົບຖ້ວນ​ໂດຍ​ບໍ່ມີ​ຄ່າໃຊ້ຈ່າຍ. ພວກ​ເຮົາ​ເກັບ​ຄ່າ​ສະເພາະ​ສຳລັບ​ບໍລິການ​ຕົວ​ເລືອກ​ທີ່​ທ່ານ​ຕັດສິນໃຈ.
+promise_free_title	ຟຣີ​ໃນ​ທ້ອງຖິ່ນ
+promise_free_body	ຜະລິດຕະພັນ​ທີ່​ຄົບຖ້ວນ​ໃນ​ອຸປະກອນ​ຂອງ​ທ່ານ​ຍັງ​ຄົງ​ເປັນ​ຟຣີ. ບໍ່ມີ​ໂຈດ​ການ​ຈ່າຍເງິນ​ສຳລັບ​ເຄື່ອງມື​ຫຼັກ.
+promise_ads_title	ບໍ່ມີ​ໂຄສະນາ​ທີ່​ຂັບເຄື່ອນ
+promise_ads_body	ໃຊ້​ໂປຣ​ແກຣມ​ໂດຍ​ບໍ່ມີ​ໂຄສະນາ​ທີ່​ລົງທຶນ​ການເຮັດ​ວຽກ​ຂອງ​ທ່ານ.
+promise_charge_title	ຈ່າຍ​ສຳລັບ​ບໍລິການ
+promise_charge_body	ອ້ອມ, ການສະແດງ​ຕົວ, ການເຂົ້າ​ຮ່ວມ ແລະ ການຊ່ວຍເຫຼືອ — ສະເພາະ​ເມື່ອ​ທ່ານ​ຕ້ອງການ.
+promise_open_title	ເປີດ​ໃນ​ທີ່​ສື່​ແຈ້ງ
+promise_open_body	ໂຄດ​ສາທາລະນະ​ພາບ​ຕາມ github.com/gotigin. ທ້ອງຖິ່ນ ແລະ LAN ຍັງ​ເຮັດວຽກ​ໄດ້​ເມື່ອ​ຫ່າງຈາກ​ອິນ​ເຕີ​ເນັດ.
+built_with	ສ້າງຂຶ້ນ​ດ້ວຍ
+tech_title	Rust ແລະ Makepad
+tech_lede	ສ່ວນໃຫຍ່​ຂອງ​ຜະລິດຕະພັນ Gotigin ຖືກ​ຂຽນ​ໂດຍ Rust. GUIs ໃຊ້ Makepad ສຳ​ລັບ​ແອັບ ແລະ ເວັບ​ໄຊທ໌​ທີ່ມີ​ຄວາມໄວ​ສູງ​ໃນ​ເຄື່ອງ​ຄອມພິວເຕີ, ໂມ​ບາຍ ແລະ ວົງຈອນ.
+tech_rust_body	ປອດໄພ, ສະດວກ ແລະ ປອດໄພ — ຖືກ​ສ້າງຂຶ້ນ​ສຳ​ລັບ​ໂປຣ​ແກຣມ​ທີ່​ຈັດການ​ວຽກ​ຈິງ​ທຸກມື້.
+tech_makepad_body	ເຄື່ອງມື UI ທີ່​ດຽວ​ສຳ​ລັບ​ແອັບ native ແລະ ເວັບ​ໄຊທ໌ wasm — ມີ​ປະສິດທິພາບ ແລະ ເນັ້ນ​ທ້ອງຖິ່ນ.
+close_lede	ຜະລິດ​ຕະ​ພັນ​ຟຣີ. ບໍລິການ​ເປັນ​ຕົວ​ເລືອກ.
 brands	ແບຣນ
 brand	ແບຣນ
-product	ຜະລິດ​ຕະພັນ
-kumkaj_blurb	ລະບົບ​ດຳ​ເນີນ​ທຸລະ​ກິດ.
+product	ຜະລິດຕະພັນ
+kumkaj_blurb	ລະບົບ​ດຳເນີນ​ທຸລະກິດ.
 khaynjo_blurb	ເຮືອນ​ອາຫານ OS. ໂຕະ, KOT, ໃບ​ບິນ, ປິດ​ວັນ.
-moklanjo_blurb	ໂຕະ​ຂົນ​ສົ່ງ. ຈອງ, ຝ່າຍ, ປຶ້ມ​ວັນ.
-kirano_blurb	Kirana. ລາຍ​ການ, ສະຕັອກ, khata, GST ໃບ​ສົດ.
-tabiyat_blurb	ເຄົາເຕີ​ຢາ. ຊຸດ, ໝົດ​ອາຍຸ, ສະຕັອກ, GST ໃບ​ບິນ.
-wadhu_blurb	Memon ໝາຍ​ເຖິງ «ເພີ່ມ». ເຄື່ອງ​ມື · ແອັບ · ເພີ່ມ.
-wadhu_note	ເຄື່ອງ​ມື​ໃຊ້​ຊ້ຳ, ຢູທິລ​ແລະ​ແອັບ. ບໍ່​ແມ່ນ​ຜູ້​ສົ່ງ​ຂ່າວ.
-sms_gateway_blurb	ຂໍ້​ຄວາມ SIM Android ກ່ອນ. LAN ແລະ Bluetooth ຢູ່​ຟຣີ.
-sms_relay_blurb	ຊັ້ນ​ອິນ​ເຕີ​ເນັດ​ເລືອກ​ໄດ້​ສຳ​ລັບ​ປະຕູ​ຄູ່.
+moklanjo_blurb	ໂຕະ​ຂົນສົ່ງ. ຈອງ, ຝ່າຍ, ປຶ້ມ​ວັນ.
+kirano_blurb	Kirana. ລາຍການ, ສະ​ຕັອກ, khata, GST ໃບ​ສົດ.
+tabiyat_blurb	ເຄົາ​ເຕີ​ຢາ. ຊຸດ, ໝົດ​ອາຍຸ, ສະ​ຕັອກ, GST ໃບ​ບິນ.
+wadhu_blurb	Memon ໝາຍເຖິງ «ເພີ່ມ». ເຄື່ອງມື · ແອັບ · ເພີ່ມ.
+wadhu_note	ເຄື່ອງ​ມື​ໃຊ້​ຊ້ຳ, ຢູທິລ​ແລະ​ແອັບ. ບໍ່​ແມ່ນ​ຜູ້ສົ່ງຂ່າວ.
+sms_gateway_blurb	ຂໍ້ຄວາມ SIM Android ກ່ອນ. LAN ແລະ Bluetooth ຢູ່​ຟຣີ.
+sms_relay_blurb	ຊັ້ນ​ອິນ​ເຕີ​ເນັດ​ເລືອກ​ໄດ້​ສຳລັບ​ປະຕູ​ຄູ່.
 connect_blurb	ຂົວ WhatsApp Cloud API.
-ghalbol_blurb	ຜະລິດ​ຕະພັນ​ສື່​ສານ.
-ghalbol_app_blurb	ຜູ້​ສົ່ງ​ຂ່າວ​ເຂົ້າ​ລະຫັດ.
+ghalbol_blurb	ຜະລິດຕະພັນ​ສື່ສານ.
+ghalbol_app_blurb	ຜູ້ສົ່ງຂ່າວ​ເຂົ້າ​ລະຫັດ.
 pages	ໜ້າ
 company_pages	ໜ້າ​ບໍລິສັດ
 page	ໜ້າ
-privacy_blurb	ນະໂຍບາຍ​ຄວາມ​ເປັນ​ສ່ວນ​ຕົວ​ບໍລິສັດ.
-terms_blurb	ເງື່ອນ​ໄຂ​ໃຊ້ gotigin.com.
-cancellation_blurb	ນະໂຍບາຍ​ຍົກ​ເລີກ​ແລະ​ຄືນ​ເງິນ.
-data_deletion	ລຶບ​ຂໍ້​ມູນ
+privacy_blurb	ນະໂຍບາຍ​ຄວາມເປັນ​ສ່ວນຕົວ​ບໍລິສັດ.
+terms_blurb	ເງື່ອນໄຂ​ໃຊ້ gotigin.com.
+cancellation_blurb	ນະໂຍບາຍ​ຍົກເລີກ​ແລະ​ຄືນ​ເງິນ.
+data_deletion	ລຶບ​ຂໍ້ມູນ
 deletion_blurb	ວິທີ​ຂໍ​ລຶບ.
-support_blurb	ອີເມວ, ໂທລະສັບ, ແລະ​ເສັ້ນ​ທາງ​ຜະລິດ​ຕະພັນ.
-help_blurb	ຊື່, ຜະລິດ​ຕະພັນ, ແລະ​ເວັບ.
-about_blurb	ລົງ​ທະບຽນ​ບໍລິສັດ​ແລະ​ຕິດ​ຕໍ່.
-cookies	ຄຸກກີ
-cookies_blurb	ຄຸກກີ​ໃນ gotigin.com.
-security	ຄວາມ​ປອດ​ໄພ
-security_blurb	ວິທີ​ລາຍ​ງານ​ຈຸດ​ອ່ອນ.
+support_blurb	ອີ​ເມວ, ໂທລະສັບ, ແລະ​ເສັ້ນທາງ​ຜະລິດຕະພັນ.
+help_blurb	ຊື່, ຜະລິດຕະພັນ, ແລະ​ເວັບ.
+about_blurb	ລົງທະບຽນ​ບໍລິສັດ​ແລະ​ຕິດຕໍ່.
+cookies	ຄຸກ​ກີ
+cookies_blurb	ຄຸກ​ກີ​ໃນ gotigin.com.
+security	ຄວາມປອດໄພ
+security_blurb	ວິທີ​ລາຍງານ​ຈຸດອ່ອນ.
 company	ບໍລິສັດ
-company_lede	ບໍລິສັດ​ສ່ວນ​ຕົວ​ຈຳ​ກັດ. Dhoraji, Gujarat. ສ້າງ​ຕັ້ງ 24 ມິຖຸນາ 2026.
-registration	ລົງ​ທະບຽນ
+company_lede	ບໍລິສັດ​ສ່ວນຕົວ​ຈຳກັດ. Dhoraji, Gujarat. ສ້າງຕັ້ງ 24 ມິຖຸນາ 2026.
+registration	ລົງທະບຽນ
 cin	CIN
-incorporated	ສ້າງ​ຕັ້ງ 24 ມິຖຸນາ 2026
+incorporated	ສ້າງຕັ້ງ 24 ມິຖຸນາ 2026
 share_capital	ທຶນ​ຮຸ້ນ ₹1,00,000
-limited_by_shares	ຈຳ​ກັດ​ດ້ວຍ​ຮຸ້ນ · Gujarat
+limited_by_shares	ຈຳກັດ​ດ້ວຍ​ຮຸ້ນ · Gujarat
 tax	ພາສີ
-gst_regular	GST ທຳ​ມະ​ດາ · ຈາກ 04 ກໍລະກົດ 2026
-recognition	ການ​ຮັບ​ຮູ້
+gst_regular	GST ທຳມະດາ · ຈາກ 04 ກໍລະກົດ 2026
+recognition	ການຮັບ​ຮູ້
 issued	ອອກ 08 ກໍລະກົດ 2026
 valid_to	ໃຊ້​ໄດ້​ເຖິງ 23 ມິຖຸນາ 2036
-registered_office	ຫ້ອງ​ການ​ລົງ​ທະບຽນ
-directors	ຜູ້​ອຳ​ນວຍ​ການ
-contact	ຕິດ​ຕໍ່
-find_it	Memon ໝາຍ​ເຖິງ «ຊອກ​ໃຫ້​ພົບ» · ອ່ານ go-tee-geen
-brands_line	ລະບົບ​ທຸລະ​ກິດ · ເຄື່ອງ​ມື​ແລະ​ແອັບ · ສື່​ສານ
+registered_office	ຫ້ອງການ​ລົງທະບຽນ
+directors	ຜູ້​ອຳນວຍການ
+contact	ຕິດຕໍ່
+find_it	Memon ໝາຍເຖິງ «ຊອກ​ໃຫ້​ພົບ» · ອ່ານ go-tee-geen
+brands_line	ລະບົບ​ທຸລະກິດ · ເຄື່ອງມື​ແລະ​ແອັບ · ສື່ສານ
 account	ບັນຊີ
 acct_page_title	ບັນຊີ — Gotigin
-acct_lede	ເຂົ້າ​ສູ່​ລະບົບ​ສຳ​ລັບ​ຄຸນ​ສົມ​ບັດ​ເວັບ​ບໍລິສັດ Gotigin. ທາງ​ເລືອກ​ດຽວ​ກັນ​ກັບ​ເວັບ​ຜະລິດ​ຕະພັນ — ອີເມວ, ຜູ້​ໃຫ້, ຫຼື​ໂທລະສັບ.
+acct_lede	ເຂົ້າສູ່​ລະບົບ​ສຳລັບ​ຄຸນ​ສົມ​ບັດ​ເວັບ​ບໍລິສັດ Gotigin. ທາງ​ເລືອກ​ດຽວກັນ​ກັບ​ເວັບ​ຜະລິດຕະພັນ — ອີ​ເມວ, ຜູ້​ໃຫ້, ຫຼື​ໂທລະສັບ.
 acct_continue_with	ສືບຕໍ່​ດ້ວຍ​ອີ​ເມວ ຜູ້​ໃຫ້​ບໍລິການ ຫຼື ໂທລະສັບ
 acct_name_optional	ຊື່ (ບໍ່​ບັງຄັບ)
 acct_password	ລະຫັດ​ຜ່ານ
@@ -95,9 +113,9 @@ err_too_many	ລອງ​ຫຼາຍເທື່ອ​ເກີນໄປ ກະ
 err_invalid_phone	ໃຊ້​ເບີ​ໂທລະສັບ​ເຕັມ​ພ້ອມ​ລະຫັດ​ປະເທດ (ເຊັ່ນ +91…)
 err_bad_code	ລະຫັດ SMS ບໍ່​ຖືກຕ້ອງ ຫຼື ໝົດ​ອາຍຸ​ແລ້ວ
 err_generic	ເກີດ​ຂໍ້​ຜິດພາດ
-acct_no_email	(ບໍ່​ມີ​ອີເມວ)
+acct_no_email	(ບໍ່ມີ​ອີ​ເມວ)
 acct_email_verified	ຢືນຢັນ​ອີ​ເມວ​ແລ້ວ
 acct_email_unverified	ຍັງ​ບໍ່ໄດ້​ຢືນຢັນ​ອີ​ເມວ — ກວດເບິ່ງ​ກ່ອງ​ຈົດໝາຍ
 acct_phone_signed_in	ເຂົ້າສູ່​ລະບົບ​ດ້ວຍ​ໂທລະສັບ​ແລ້ວ
 acct_you_are_in	ທ່ານ​ເຂົ້າສູ່​ລະບົບ​ແລ້ວ
-acct_verify_sent	ອີເມວ​ຢືນ​ຢັນ​ສົ່ງ​ແລ້ວ — ເບິ່ງ​ກ່ອງ​ຈົດ​ໝາຍ
+acct_verify_sent	ອີ​ເມວ​ຢືນຢັນ​ສົ່ງ​ແລ້ວ — ເບິ່ງ​ກ່ອງ​ຈົດໝາຍ

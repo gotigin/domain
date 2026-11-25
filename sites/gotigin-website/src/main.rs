@@ -466,6 +466,9 @@ impl App {
             ids!(kumkaj_row),
             ids!(kumkaj_row2),
             ids!(ghalbol_row),
+            ids!(promise_row),
+            ids!(promise_row2),
+            ids!(tech_row),
             ids!(trust_row),
             ids!(trust_row2),
             ids!(trust_row3),
@@ -492,6 +495,8 @@ impl App {
         Self::set_md_size(cx, &self.ui, ids!(hero_title), hero_px);
         for id in [
             ids!(hero_slogan),
+            ids!(promise_title),
+            ids!(tech_title),
             ids!(brands_t1),
             ids!(brands_t2),
             ids!(brands_t3),
@@ -501,7 +506,15 @@ impl App {
         ] {
             Self::set_md_size(cx, &self.ui, id, sub_px);
         }
-        Self::set_md_size(cx, &self.ui, ids!(company_lede), lede_px);
+        for id in [
+            ids!(hero_lede),
+            ids!(promise_lede),
+            ids!(tech_lede),
+            ids!(company_lede),
+            ids!(close_lede),
+        ] {
+            Self::set_md_size(cx, &self.ui, id, lede_px);
+        }
     }
 
     fn set_md_size(cx: &mut Cx, ui: &WidgetRef, id: &[LiveId], size: f64) {

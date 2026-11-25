@@ -1,4 +1,4 @@
-# be. key<TAB>text. Keep {placeholders}. \n = line break.
+# Belarusian — Беларуская (be). key<TAB>text in locale.rs EN order. Untranslated rows are the English source until rewritten. Keep {placeholders}. \n = line break.
 menu	Меню
 close	Закрыць
 home	Галоўная
@@ -14,6 +14,24 @@ email	Электронная пошта
 trademark	ГАНДЛЁВЫ ЗНАК
 window_title	Gotigin — Дзе тэхналогія сустракае адкрыццё
 slogan	Дзе тэхналогія сустракае адкрыццё.
+hero_lede	Праграмнае забеспячэнне для кожнага дня для бізнесу і асабістага выкарыстання — бясплатна на вашых прыладах.
+promise	ПРАМОВА
+promise_title	Поўныя прадукты. Бясплатна да выкарыстання.
+promise_lede	Скачайце і запускайце поўны прадукт без кошту. Мы зарабляем толькі на абавязковых паслугах, якія вы выбіраеце.
+promise_free_title	Бясплатна мясцова
+promise_free_body	Поўны прадукт на вашых прыладах застаецца бясплатным. Нема плацэннай сцяны для асноўнага інструмента.
+promise_ads_title	Няма вымушанай рэкламы
+promise_ads_body	Выкарыстоўвайце праграмнае забеспячэнне без рэкламы, якая перапыняе вашу работу.
+promise_charge_title	Плаціце за паслугі
+promise_charge_body	Апцыйныя хмарныя паслугі, дэма-версіі, візіты і дапамога — толькі калі вы прапануеце.
+promise_open_title	Адкрыта дзе апублікавана
+promise_open_body	Абщны код пад github.com/gotigin. Мясцовыя і LAN працуюць офлайн.
+built_with	ЗБУДАВАНА З
+tech_title	Rust і Makepad
+tech_lede	Большасць прадуктаў Gotigin напісаны на Rust. GUI выкарыстоўваюць Makepad для хуткіх прыкладанняў і вэб-сайтаў на дэсктопе, мабільных прыладах і ў сетцы.
+tech_rust_body	Бяспечна, хутка і надзейна — створана для праграмнага забеспячэння, якое апрацоўвае рэальную работу кожны дзень.
+tech_makepad_body	Адзін стек UI на Rust для натыўных прыкладанняў і wasm-сайтаў — эфектыўны і перш за ўсё мясцовы.
+close_lede	Прадукты бясплатныя. Паслугі апцыйныя.
 brands	МАРКІ
 brand	МАРКА
 product	ПРАДУКТ
