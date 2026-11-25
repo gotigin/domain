@@ -1,69 +1,69 @@
 # el. key<TAB>text. Keep {placeholders}. \n = line break.
-menu	Menu
-close	Close
-home	Home
-about	About
+menu	Μενού
+close	Κλείσιμο
+home	Αρχική
+about	Σχετικά
 privacy	Απόρρητο
 terms	Όροι
 cancellation	Ακύρωση
-deletion	Deletion
-help	Help
-support	Support
+deletion	Διαγραφή
+help	Βοήθεια
+support	Υποστήριξη
 login	Σύνδεση
 email	E-mail
-trademark	TRADEMARK
-window_title	Gotigin — Where Technology Meets Discovery
-slogan	Where Technology Meets Discovery.
-brands	BRANDS
-brand	BRAND
-product	PRODUCT
-kumkaj_blurb	Business operating systems.
-khaynjo_blurb	Restaurant OS. Tables, KOT, bills, day close.
-moklanjo_blurb	Courier desk. Booking, parties, day book.
-kirano_blurb	Kirana. Catalogue, stock, khata, GST cash memo.
-tabiyat_blurb	Pharmacy counter. Batch, expiry, stock, GST bills.
-wadhu_blurb	Memon for more. Tools · Apps · More.
-wadhu_note	Reusable tools, utils, and apps. Not a messenger.
-sms_gateway_blurb	Android-first SIM messaging. LAN and Bluetooth stay free.
-sms_relay_blurb	Optional internet plane for paired gateways.
-connect_blurb	WhatsApp Cloud API bridge.
-ghalbol_blurb	Communication products.
-ghalbol_app_blurb	Encrypted messenger.
-pages	PAGES
-company_pages	Company pages
-page	PAGE
-privacy_blurb	Company privacy policy.
-terms_blurb	Terms of use for gotigin.com.
-cancellation_blurb	Cancellation and refund policy.
-data_deletion	Data deletion
-deletion_blurb	How to ask for deletion.
-support_blurb	Email, phone, and product routing.
-help_blurb	Names, products, and sites.
-about_blurb	Company registration and contacts.
+trademark	ΕΜΠΟΡΙΚΟ ΣΗΜΑ
+window_title	Gotigin — Εκεί όπου η τεχνολογία συναντά την ανακάλυψη
+slogan	Εκεί όπου η τεχνολογία συναντά την ανακάλυψη.
+brands	ΜΑΡΚΕΣ
+brand	ΜΑΡΚΑ
+product	ΠΡΟΪΟΝ
+kumkaj_blurb	Λειτουργικά συστήματα για επιχειρήσεις.
+khaynjo_blurb	OS εστιατορίου. Τραπέζια, KOT, λογαριασμοί, κλείσιμο ημέρας.
+moklanjo_blurb	Γραφείο ταχυμεταφορών. Κράτηση, μέρη, βιβλίο ημέρας.
+kirano_blurb	Kirana. Κατάλογος, απόθεμα, khata, απόδειξη μετρητών GST.
+tabiyat_blurb	Πάγκος φαρμακείου. Παρτίδα, λήξη, απόθεμα, λογαριασμοί GST.
+wadhu_blurb	Memon για «περισσότερα». Εργαλεία · εφαρμογές · περισσότερα.
+wadhu_note	Επαναχρησιμοποιήσιμα εργαλεία, βοηθήματα και εφαρμογές. Όχι εφαρμογή μηνυμάτων.
+sms_gateway_blurb	Μηνύματα SIM, πρώτα Android. Τα LAN και Bluetooth μένουν δωρεάν.
+sms_relay_blurb	Προαιρετικό στρώμα διαδικτύου για ζευγαρωμένες πύλες.
+connect_blurb	Γέφυρα προς το WhatsApp Cloud API.
+ghalbol_blurb	Προϊόντα επικοινωνίας.
+ghalbol_app_blurb	Κρυπτογραφημένη εφαρμογή μηνυμάτων.
+pages	ΣΕΛΙΔΕΣ
+company_pages	Σελίδες της εταιρείας
+page	ΣΕΛΙΔΑ
+privacy_blurb	Πολιτική απορρήτου της εταιρείας.
+terms_blurb	Όροι χρήσης του gotigin.com.
+cancellation_blurb	Πολιτική ακύρωσης και επιστροφής χρημάτων.
+data_deletion	Διαγραφή δεδομένων
+deletion_blurb	Πώς ζητάτε διαγραφή.
+support_blurb	E-mail, τηλέφωνο και δρόμος προς το προϊόν.
+help_blurb	Ονόματα, προϊόντα και ιστότοποι.
+about_blurb	Καταχώριση της εταιρείας και επαφές.
 cookies	Cookies
-cookies_blurb	Cookies on gotigin.com.
-security	Security
-security_blurb	How to report a vulnerability.
-company	COMPANY
-company_lede	Private limited company. Dhoraji, Gujarat. Incorporated 24 June 2026.
-registration	Registration
+cookies_blurb	Cookies στο gotigin.com.
+security	Ασφάλεια
+security_blurb	Πώς αναφέρετε μια ευπάθεια.
+company	ΕΤΑΙΡΕΙΑ
+company_lede	Ιδιωτική εταιρεία περιορισμένης ευθύνης. Dhoraji, Gujarat. Σύσταση 24 Ιουνίου 2026.
+registration	Καταχώριση
 cin	CIN
-incorporated	Incorporated 24 June 2026
-share_capital	Share capital ₹1,00,000
-limited_by_shares	Limited by shares · Gujarat
-tax	Tax
-gst_regular	GST Regular · from 04 July 2026
-recognition	Recognition
-issued	Issued 08 July 2026
-valid_to	Valid to 23 June 2036
-registered_office	Registered office
-directors	Directors
-contact	Contact
-find_it	Memon for “find it” · pronounced go-tee-geen
-brands_line	Business systems · tools and apps · communication
+incorporated	Σύσταση 24 Ιουνίου 2026
+share_capital	Μετοχικό κεφάλαιο ₹1,00,000
+limited_by_shares	Περιορισμένη από μετοχές · Gujarat
+tax	Φόρος
+gst_regular	GST κανονικό · από 04 Ιουλίου 2026
+recognition	Αναγνώριση
+issued	Εκδόθηκε 08 Ιουλίου 2026
+valid_to	Ισχύει έως 23 Ιουνίου 2036
+registered_office	Έδρα
+directors	Διευθυντές
+contact	Επικοινωνία
+find_it	Memon για «βρες το» · προφέρεται go-tee-geen
+brands_line	Συστήματα επιχείρησης · εργαλεία και εφαρμογές · επικοινωνία
 account	Λογαριασμός
-acct_page_title	Account — Gotigin
-acct_lede	Sign in for Gotigin company site features. Same options as on the product sites — email, providers, or phone.
+acct_page_title	Λογαριασμός — Gotigin
+acct_lede	Συνδεθείτε για τις λειτουργίες του εταιρικού ιστοτόπου Gotigin. Οι ίδιες επιλογές με τους ιστοτόπους προϊόντων — e-mail, πάροχος ή τηλέφωνο.
 acct_continue_with	Συνεχίστε με e-mail, πάροχο ή τηλέφωνο.
 acct_name_optional	Όνομα (προαιρετικό)
 acct_password	Κωδικός πρόσβασης
@@ -81,8 +81,8 @@ acct_signed_in_as	Σύνδεση ως
 acct_status_label	Κατάσταση
 acct_resend_verify	Επανάληψη αποστολής e-mail επαλήθευσης
 acct_sign_out	Αποσύνδεση
-acct_home_aria	Gotigin home
-acct_nav_aria	Primary
+acct_home_aria	Αρχική του Gotigin
+acct_nav_aria	Κύρια
 err_invalid_email	Εισαγάγετε έγκυρη διεύθυνση e-mail.
 err_weak_password	Χρησιμοποιήστε κωδικό με τουλάχιστον 6 χαρακτήρες.
 err_wrong_password	Λάθος κωδικός.
@@ -95,9 +95,9 @@ err_too_many	Πάρα πολλές προσπάθειες. Δοκιμάστε ξ
 err_invalid_phone	Χρησιμοποιήστε πλήρη αριθμό τηλεφώνου με κωδικό χώρας (π.χ. +91…).
 err_bad_code	Αυτός ο κωδικός SMS είναι λάθος ή έχει λήξει.
 err_generic	Κάτι πήγε στραβά.
-acct_no_email	(no email)
+acct_no_email	(χωρίς e-mail)
 acct_email_verified	Το e-mail επαληθεύτηκε
 acct_email_unverified	Το e-mail δεν έχει επαληθευτεί ακόμη — ελέγξτε τα εισερχόμενά σας
 acct_phone_signed_in	Σύνδεση με τηλέφωνο
 acct_you_are_in	Συνδεθήκατε.
-acct_verify_sent	Verification email sent — check your inbox
+acct_verify_sent	Το e-mail επαλήθευσης στάλθηκε — ελέγξτε τα εισερχόμενά σας
