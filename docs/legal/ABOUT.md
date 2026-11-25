@@ -1,6 +1,6 @@
 # About Gotigin
 
-_Last updated: 24 November 2026_
+_Last updated: 25 November 2026_
 
 **Gotigin** is a trademark. In Memon, Gotigin means *find it*
 (*go-tee-geen*). Slogan: *Where Technology Meets Discovery*. The visual
@@ -61,6 +61,7 @@ customization, and technical support.
 | GST principal place of business | Building 0, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410 |
 | GST liability / certificate | From 04 July 2026 · certificate issued 04 July 2026 |
 | Additional places of business (Gujarat) | None |
+| D-U-N-S | 581757966 |
 
 ## Startup recognition
 

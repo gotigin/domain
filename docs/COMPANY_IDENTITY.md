@@ -19,6 +19,7 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 | TAN | RKTG08602G |
 | GSTIN | 24AANCG1628G1ZP |
 | GST | Regular · liability from 04 July 2026 · certificate 04 July 2026 |
+| D-U-N-S | 581757966 |
 | DPIIT startup recognition | DIPP271306 · issued 08 July 2026 · valid to 23 June 2036 · AI / Others |
 | Shops & Establishments | Dhoraji Nagarpalika · SR131000001 · commenced 02 July 2026 · cert 14 July 2026 |
 | Directors | Mearaj Abdulaziz Bhagad; Bhagad Senila Mearaj |

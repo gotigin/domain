@@ -89,11 +89,64 @@ Detail: Kumkaj `docs/KUMKAJ_PRODUCT_VISION_AND_REQUIREMENTS.md`,
 - **Open where published.** Public repositories under
   [github.com/gotigin](https://github.com/gotigin); Wadhu libraries are
   written to be usable outside Gotigin.
-- **Rust and Makepad 2** for apps and many public sites.
+- **Rust** is the primary language for most Gotigin products.
+- **Makepad** (Makepad 2) is the preferred framework / library for GUI —
+  desktop, mobile, and many public sites (including wasm).
 - **Trade-shaped, independent products** under each brand — not a single
   platform SKU that every user must bend themselves into.
 - **Honest claims.** Ship what is real; unfinished work stays labelled;
   marketing does not invent customers, features, or results.
+
+### Why Rust
+
+Rust gives memory safety without a garbage collector, strong type
+checking, and fearless concurrency. That matters for money-handling
+books, long-running shop servers, messaging tools, and code that must
+stay correct under load. One language spans native apps, services, and
+wasm sites; performance stays close to C/C++ while whole classes of
+crashes and data races are pushed out at compile time. The ecosystem
+(Cargo, crates.io) keeps builds reproducible across Linux, Windows,
+macOS, and Android.
+
+### Why Makepad
+
+Makepad is a Rust-native UI stack: immediate-mode style, GPU-backed
+drawing, and the same application model on desktop, mobile, and web
+(wasm). Gotigin prefers it so product UIs and marketing sites share one
+craft — not a browser shell glued to a native core. It fits
+local-first apps that must feel fast on modest hardware, stay
+touch-friendly, and keep working offline. Vendored Makepad 2 is the
+house platform for Kumkaj, Wadhu, Ghal Bol, and gotigin.com.
+
+---
+
+## Public company identifiers
+
+Safe-to-publish registry and tax values (full detail:
+[`docs/legal/ABOUT.md`](docs/legal/ABOUT.md),
+[`docs/COMPANY_IDENTITY.md`](docs/COMPANY_IDENTITY.md)).
+
+| | |
+| --- | --- |
+| Legal name | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
+| Constitution | Private Limited Company (limited by shares) |
+| CIN | U62011GJ2026PTC179660 |
+| Date of incorporation | 24 June 2026 (MCA Central Registration Centre) |
+| Registered / mailing office | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |
+| Share capital | ₹1,00,000 (10,000 equity shares × ₹10) |
+| PAN | AANCG1628G |
+| TAN | RKTG08602G |
+| GSTIN | 24AANCG1628G1ZP |
+| GST | Regular · liability from 04 July 2026 |
+| D-U-N-S | 581757966 |
+| DPIIT startup recognition | DIPP271306 · issued 08 July 2026 · valid to 23 June 2036 |
+| Shops & Establishments | Dhoraji Nagarpalika · SR131000001 · commenced 02 July 2026 |
+| Support | [support@gotigin.com](mailto:support@gotigin.com) |
+| Phone | +91 99677 17702 |
+| Website | [https://gotigin.com](https://gotigin.com) |
+
+Do not invent further numbers. New public identifiers belong in
+OfficialDocs first, then `COMPANY_IDENTITY.md` / `ABOUT.md`, then here.
 
 ---
 
@@ -101,4 +154,5 @@ Detail: Kumkaj `docs/KUMKAJ_PRODUCT_VISION_AND_REQUIREMENTS.md`,
 
 Everyday software that stays free on the user’s own devices, open where
 published, independent of Gotigin’s cloud to keep working — with optional
-paid cloud and human help for those who want them.
+paid cloud and human help for those who want them. Built primarily in
+**Rust**, with **Makepad** for GUI.
