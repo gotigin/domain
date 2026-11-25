@@ -1,0 +1,20 @@
+---
+description: 115+ languages and 199 countries — product floor for gotigin.com and all Gotigin brands
+alwaysApply: true
+---
+
+# Languages + countries floor (Gotigin / Domain)
+
+gotigin.com and every Gotigin brand product support the full language
+catalogue (**115+ languages**) and **199 countries**.
+
+## Do
+
+- Full catalogue on the company site; packs at `/i18n/<code>.tsv`.
+- `lang-nav.js` writes `#l=`; wasm home and account chrome must repaint.
+- Local language proof before any Hosting deploy.
+
+## Do not
+
+- Leave a language chip that only sets `html[lang]` with no translated copy.
+- Treat the company site as English-only while product sites speak 115+.

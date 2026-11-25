@@ -33,3 +33,11 @@ Do not mix these names. **Order is always Trademark → Company → Brand → Pr
 their own domains and privacy policies. Company-level verifiers (Play,
 Microsoft, Meta portfolio, banks, GST portals) point here when a Gotigin /
 company URL is required.
+
+## Languages + countries (hard rule — all Gotigin products)
+
+Every Gotigin brand **app and website** (gotigin.com, Kumkaj products,
+Wadhu, Ghal Bol) supports the full language catalogue (**115+ languages**)
+and **199 countries**. gotigin.com must translate marketing home + account
+chrome (legal bodies stay English). No preference-only language picker.
+See `.cursor/rules/languages-countries-floor.mdc`.
