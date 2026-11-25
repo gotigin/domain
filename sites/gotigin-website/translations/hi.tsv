@@ -1,0 +1,103 @@
+# Hindi — हिन्दी (hi). key<TAB>text in locale.rs EN order. Keep {placeholders}. \n = line break.
+menu	मेनू
+close	बंद करें
+home	होम
+about	परिचय
+privacy	गोपनीयता
+terms	शर्तें
+cancellation	रद्दीकरण
+deletion	हटाना
+help	मदद
+support	सहायता
+login	लॉग इन
+email	ईमेल
+trademark	ट्रेडमार्क
+window_title	Gotigin — जहाँ तकनीक खोज से मिलती है
+slogan	जहाँ तकनीक खोज से मिलती है।
+brands	ब्रांड
+brand	ब्रांड
+product	उत्पाद
+kumkaj_blurb	कारोबार के ऑपरेटिंग सिस्टम।
+khaynjo_blurb	रेस्तरां का OS। मेज, KOT, बिल और दिन की समाप्ति।
+moklanjo_blurb	कूरियर डेस्क। बुकिंग, पक्ष और दिन की बही।
+kirano_blurb	किराना। सूची, स्टॉक, खाता और GST नकद पर्ची।
+tabiyat_blurb	दवाखाना काउंटर। बैच, मियाद, स्टॉक और GST बिल।
+wadhu_blurb	और काम के लिए मेमन। औजार · ऐप · और।
+wadhu_note	बार-बार काम आने वाले औजार, यूटिल और ऐप। संदेशवाहक नहीं।
+sms_gateway_blurb	पहले Android पर SIM संदेश। LAN और Bluetooth मुफ्त रहते हैं।
+sms_relay_blurb	जोड़े गेटवे के लिए वैकल्पिक इंटरनेट परत।
+connect_blurb	WhatsApp Cloud API का पुल।
+ghalbol_blurb	संचार के उत्पाद।
+ghalbol_app_blurb	गुप्त लेख वाला संदेशवाहक।
+pages	पृष्ठ
+company_pages	कंपनी के पृष्ठ
+page	पृष्ठ
+privacy_blurb	कंपनी की गोपनीयता नीति।
+terms_blurb	gotigin.com की उपयोग शर्तें।
+cancellation_blurb	रद्द करने और धन वापसी की नीति।
+data_deletion	डेटा हटाना
+deletion_blurb	हटाने का अनुरोध कैसे करें।
+support_blurb	ईमेल, फोन और उत्पाद तक पहुंच।
+help_blurb	नाम, उत्पाद और साइटें।
+about_blurb	कंपनी का पंजीकरण और संपर्क।
+cookies	कुकीज़
+cookies_blurb	gotigin.com पर कुकीज़।
+security	सुरक्षा
+security_blurb	कमजोरी की रिपोर्ट कैसे करें।
+company	कंपनी
+company_lede	प्राइवेट लिमिटेड कंपनी। धोराजी, गुजरात। निगमन 24 जून 2026।
+registration	पंजीकरण
+cin	सीआईएन
+incorporated	निगमन 24 जून 2026
+share_capital	शेयर पूंजी ₹1,00,000
+limited_by_shares	शेयरों से सीमित · गुजरात
+tax	कर
+gst_regular	GST नियमित · 04 जुलाई 2026 से
+recognition	मान्यता
+issued	जारी 08 जुलाई 2026
+valid_to	23 जून 2036 तक वैध
+registered_office	पंजीकृत कार्यालय
+directors	निदेशक
+contact	संपर्क
+find_it	मेमन में “इसे ढूंढो” · उच्चारण गो-टी-गीन
+brands_line	कारोबारी सिस्टम · औजार और ऐप · संचार
+account	खाता
+acct_page_title	खाता — Gotigin
+acct_lede	Gotigin कंपनी साइट की सुविधाओं के लिए साइन इन करें। वही विकल्प जो उत्पाद साइटों पर हैं — ईमेल, प्रदाता, या फोन।
+acct_continue_with	ईमेल, किसी प्रदाता, या फोन से आगे बढ़ें।
+acct_name_optional	नाम (वैकल्पिक)
+acct_password	पासवर्ड
+acct_continue	आगे बढ़ें
+acct_or_continue	या इसके साथ आगे बढ़ें
+acct_federated	संघीय साइन-इन
+acct_phone	फोन
+acct_mobile	मोबाइल नंबर
+acct_phone_placeholder	जैसे +91…
+acct_send_sms	SMS कोड भेजें
+acct_sms_code	SMS कोड
+acct_confirm_code	कोड की पुष्टि करें
+acct_signed_in	साइन इन हो चुका है
+acct_signed_in_as	इस नाम से साइन इन
+acct_status_label	स्थिति
+acct_resend_verify	सत्यापन ईमेल फिर भेजें
+acct_sign_out	साइन आउट
+acct_home_aria	Gotigin होम
+acct_nav_aria	मुख्य
+err_invalid_email	मान्य ईमेल पता लिखें।
+err_weak_password	कम से कम 6 अक्षरों का पासवर्ड रखें।
+err_wrong_password	गलत पासवर्ड।
+err_invalid_credential	ईमेल या पासवर्ड गलत है।
+err_popup_closed	साइन-इन विंडो बंद हो गई।
+err_cancelled	साइन-इन रद्द हुआ।
+err_unauthorized_domain	यह डोमेन Firebase Auth के लिए अधिकृत नहीं है।
+err_not_allowed	यह साइन-इन तरीका अभी चालू नहीं है।
+err_too_many	बहुत अधिक प्रयास। बाद में फिर कोशिश करें।
+err_invalid_phone	देश कोड के साथ पूरा फोन नंबर लिखें (जैसे +91…)।
+err_bad_code	वह SMS कोड गलत है या खत्म हो चुका है।
+err_generic	कुछ गड़बड़ हो गई।
+acct_no_email	(ईमेल नहीं)
+acct_email_verified	ईमेल सत्यापित है
+acct_email_unverified	ईमेल अभी सत्यापित नहीं — इनबॉक्स देखें
+acct_phone_signed_in	फोन से साइन इन
+acct_you_are_in	आप साइन इन हैं।
+acct_verify_sent	सत्यापन ईमेल भेज दिया — इनबॉक्स देखें

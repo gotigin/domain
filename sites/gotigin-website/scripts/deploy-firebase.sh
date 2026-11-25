@@ -64,6 +64,9 @@ rsync -a --exclude='*.br' "$WASM_PKG/" "$OUT/"
 "$SITE/scripts/overlay-legal-onto-pkg.sh" "$OUT"
 mkdir -p "$OUT/js"
 cp "$SITE/static/js/firebase-init.js" "$OUT/js/firebase-init.js"
+# Language packs (site i18n): the wasm and site-i18n.js fetch /i18n/<code>.tsv.
+mkdir -p "$OUT/i18n"
+cp "$SITE"/translations/*.tsv "$OUT/i18n/"
 
 BUILD_ID="$(date -u +%Y%m%d%H%M%S)-$(git -C "$ROOT" rev-parse --short HEAD 2>/dev/null || echo local)"
 INDEX="$OUT/index.html"
@@ -172,6 +175,14 @@ if ! grep -q "data deletion" "$OUT/data-deletion/index.html"; then
 fi
 if ! grep -q 'application/ld+json' "$OUT/index.html" || ! grep -q '<noscript>' "$OUT/index.html"; then
   echo "error: crawlable JSON-LD / noscript missing from staged index.html" >&2
+  exit 1
+fi
+if ! grep -q 'lang-nav.js' "$OUT/index.html"; then
+  echo "error: wasm shell missing lang-nav.js" >&2
+  exit 1
+fi
+if [[ ! -f "$OUT/i18n/hi.tsv" || ! -f "$OUT/i18n/ur.tsv" ]]; then
+  echo "error: staged /i18n packs missing hi.tsv or ur.tsv" >&2
   exit 1
 fi
 if ! grep -q 'support@gotigin.com' "$OUT/index.html" || ! grep -q 'github.com/gotigin' "$OUT/index.html"; then

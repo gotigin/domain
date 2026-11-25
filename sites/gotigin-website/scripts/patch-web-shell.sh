@@ -107,6 +107,9 @@ awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" 
     next
   }
   /<\/body>/ && !ns {
+    # Language picker for the Makepad EN/HI chip (#lang / #l=). The file is
+    # overlayed from static/js next to this index.
+    print "        <script src=\"./js/lang-nav.js\" defer></script>"
     cat(noscript)
     ns = 1
   }

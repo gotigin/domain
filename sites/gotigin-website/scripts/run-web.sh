@@ -32,8 +32,11 @@ fi
 
 "$SITE/scripts/overlay-legal-onto-pkg.sh" "$PKG"
 # Same start-up screen as the deployed site (the debug wasm is bigger, so
-# the ring simply takes longer).
+# the ring simply takes longer). Also injects lang-nav.js for the language chip.
 "$SITE/scripts/patch-web-shell.sh" "$PKG/index.html"
+# Language packs (site i18n): the wasm and site-i18n.js fetch /i18n/<code>.tsv.
+mkdir -p "$PKG/i18n"
+cp "$SITE"/translations/*.tsv "$PKG/i18n/"
 
 if command -v fuser >/dev/null 2>&1; then
   if fuser "${PORT}/tcp" >/dev/null 2>&1; then

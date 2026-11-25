@@ -1,0 +1,103 @@
+# Urdu — اردو (ur). key<TAB>text in locale.rs EN order. Keep {placeholders}. \n = line break.
+menu	مینیو
+close	بند کریں
+home	گھر
+about	تعارف
+privacy	رازداری
+terms	شرائط
+cancellation	منسوخی
+deletion	حذف
+help	مدد
+support	معاونت
+login	لاگ ان
+email	ای میل
+trademark	تجارتی نشان
+window_title	Gotigin — جہاں ٹیکنالوجی دریافت سے ملتی ہے
+slogan	جہاں ٹیکنالوجی دریافت سے ملتی ہے۔
+brands	برانڈز
+brand	برانڈ
+product	مصنوع
+kumkaj_blurb	کاروبار کے آپریٹنگ سسٹم۔
+khaynjo_blurb	ریسٹورنٹ OS۔ میزیں، KOT، بل، دن کا بند ہونا۔
+moklanjo_blurb	کورئیر ڈیسک۔ بکنگ، فریق، روزنامچہ۔
+kirano_blurb	کرانہ۔ فہرست، اسٹاک، کھاتہ، GST نقد پرچی۔
+tabiyat_blurb	فارمیسی کاؤنٹر۔ بیچ، میعاد، اسٹاک، GST بل۔
+wadhu_blurb	مزید کے لیے میمن۔ اوزار · ایپس · مزید۔
+wadhu_note	بار بار کام آنے والے اوزار، یوٹیل اور ایپس۔ پیغام رساں نہیں۔
+sms_gateway_blurb	پہلے Android پر SIM پیغام۔ LAN اور Bluetooth مفت رہتے ہیں۔
+sms_relay_blurb	جوڑے گئے گیٹ وے کے لیے اختیاری انٹرنیٹ تہ۔
+connect_blurb	WhatsApp Cloud API کا پل۔
+ghalbol_blurb	مواصلات کی مصنوعات۔
+ghalbol_app_blurb	خفیہ پیغام رساں۔
+pages	صفحات
+company_pages	کمپنی کے صفحات
+page	صفحہ
+privacy_blurb	کمپنی کی رازداری کی پالیسی۔
+terms_blurb	gotigin.com کے استعمال کی شرائط۔
+cancellation_blurb	منسوخی اور رقم کی واپسی کی پالیسی۔
+data_deletion	ڈیٹا حذف
+deletion_blurb	حذف کی درخواست کیسے کریں۔
+support_blurb	ای میل، فون اور مصنوع تک راستہ۔
+help_blurb	نام، مصنوعات اور سائٹیں۔
+about_blurb	کمپنی کا اندراج اور رابطے۔
+cookies	کوکیز
+cookies_blurb	gotigin.com پر کوکیز۔
+security	حفاظت
+security_blurb	کمزوری کی رپورٹ کیسے کریں۔
+company	کمپنی
+company_lede	پرائیویٹ لمیٹڈ کمپنی۔ دھوراجی، گجرات۔ اندراج 24 جون 2026۔
+registration	اندراج
+cin	سی آئی این
+incorporated	قیام 24 جون 2026
+share_capital	شیئر سرمایہ ₹1,00,000
+limited_by_shares	شیئروں سے محدود · گجرات
+tax	ٹیکس
+gst_regular	GST باقاعدہ · 04 جولائی 2026 سے
+recognition	تصدیق
+issued	جاری 08 جولائی 2026
+valid_to	23 جون 2036 تک درست
+registered_office	رجسٹرڈ دفتر
+directors	ڈائریکٹر
+contact	رابطہ
+find_it	میمن میں “ڈھونڈ لو” · تلفظ گو-ٹی-گین
+brands_line	کاروباری سسٹم · اوزار اور ایپس · مواصلات
+account	کھاتہ
+acct_page_title	کھاتہ — Gotigin
+acct_lede	Gotigin کمپنی سائٹ کی سہولتوں کے لیے سائن ان کریں۔ وہی اختیار جو مصنوع کی سائٹوں پر ہیں — ای میل، فراہم کنندہ، یا فون۔
+acct_continue_with	ای میل، کسی فراہم کنندہ، یا فون سے آگے بڑھیں۔
+acct_name_optional	نام (اختیاری)
+acct_password	پاس ورڈ
+acct_continue	آگے بڑھیں
+acct_or_continue	یا اس کے ساتھ آگے بڑھیں
+acct_federated	مشترکہ سائن ان
+acct_phone	فون
+acct_mobile	موبائل نمبر
+acct_phone_placeholder	مثال +91…
+acct_send_sms	SMS کوڈ بھیجیں
+acct_sms_code	SMS کوڈ
+acct_confirm_code	کوڈ کی تصدیق کریں
+acct_signed_in	سائن ان ہو چکا
+acct_signed_in_as	سائن ان بطور
+acct_status_label	حالت
+acct_resend_verify	تصدیقی ای میل دوبارہ بھیجیں
+acct_sign_out	سائن آؤٹ
+acct_home_aria	Gotigin گھر
+acct_nav_aria	مرکزی
+err_invalid_email	درست ای میل پتہ لکھیں۔
+err_weak_password	کم از کم 6 حروف کا پاس ورڈ رکھیں۔
+err_wrong_password	غلط پاس ورڈ۔
+err_invalid_credential	ای میل یا پاس ورڈ غلط ہے۔
+err_popup_closed	سائن ان کی کھڑکی بند ہو گئی۔
+err_cancelled	سائن ان منسوخ ہوا۔
+err_unauthorized_domain	یہ ڈومین Firebase Auth کے لیے مجاز نہیں۔
+err_not_allowed	سائن ان کا یہ طریقہ ابھی چالو نہیں۔
+err_too_many	کوششیں بہت زیادہ ہیں۔ بعد میں پھر کریں۔
+err_invalid_phone	ملک کے کوڈ کے ساتھ پورا فون نمبر لکھیں (مثلاً +91…)۔
+err_bad_code	وہ SMS کوڈ غلط ہے یا ختم ہو چکا۔
+err_generic	کچھ غلط ہو گیا۔
+acct_no_email	(ای میل نہیں)
+acct_email_verified	ای میل تصدیق شدہ ہے
+acct_email_unverified	ای میل ابھی تصدیق شدہ نہیں — ان باکس دیکھیں
+acct_phone_signed_in	فون سے سائن ان
+acct_you_are_in	آپ سائن ان ہیں۔
+acct_verify_sent	تصدیقی ای میل بھیج دی گئی — ان باکس دیکھیں
