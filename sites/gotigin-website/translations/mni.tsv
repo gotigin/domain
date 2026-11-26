@@ -25,7 +25,7 @@ promise_ads_body	Use the software without ads that interrupt your work.
 promise_charge_title	Service-kum chun pay
 promise_charge_body	Optional cloud, demos, visits, and assistance — only when you ask for them.
 promise_open_title	Published-chun open
-promise_open_body	Public code under github.com/gotigin. Local and LAN keep working offline.
+promise_open_body	Public repositories. Local and LAN keep working offline.
 built_with	BUILT WITH
 tech_title	Rust naba Makepad
 tech_lede	Most Gotigin products are written in Rust. GUIs use Makepad for fast apps and websites on desktop, mobile, and the web.
