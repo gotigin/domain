@@ -181,6 +181,10 @@ if ! grep -q 'lang-nav.js' "$OUT/index.html"; then
   echo "error: wasm shell missing lang-nav.js" >&2
   exit 1
 fi
+if ! grep -q 'auth-nav.css' "$OUT/index.html"; then
+  echo "error: wasm shell missing auth-nav.css (language picker styles)" >&2
+  exit 1
+fi
 if [[ ! -f "$OUT/i18n/hi.tsv" || ! -f "$OUT/i18n/ur.tsv" ]]; then
   echo "error: staged /i18n packs missing hi.tsv or ur.tsv" >&2
   exit 1

@@ -25,7 +25,7 @@ promise_ads_body	काम बिगाड़ने वाले विज्ञ
 promise_charge_title	सेवाओं के लिए भुगतान
 promise_charge_body	वैकल्पिक क्लाउड, डेमो, विज़िट और सहायता — केवल जब आप माँगें।
 promise_open_title	जहाँ प्रकाशित, वहाँ खुला
-promise_open_body	github.com/gotigin पर सार्वजनिक कोड। स्थानीय और LAN ऑफ़लाइन भी चलते रहते हैं।
+promise_open_body	सार्वजनिक रिपॉज़िटरी। स्थानीय और LAN ऑफ़लाइन भी चलते रहते हैं।
 built_with	बनाया गया
 tech_title	Rust और Makepad
 tech_lede	अधिकांश Gotigin उत्पाद Rust में लिखे हैं। GUI के लिए Makepad — डेस्कटॉप, मोबाइल और वेब पर तेज़ ऐप और साइटें।

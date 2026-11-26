@@ -107,8 +107,9 @@ awk -v css="$SHELL_SRC/boot.css" -v body="$BODY_TMP" -v js="$SHELL_SRC/boot.js" 
     next
   }
   /<\/body>/ && !ns {
-    # Language picker for the Makepad EN/HI chip (#lang / #l=). The file is
-    # overlayed from static/js next to this index.
+    # Language picker for the Makepad EN/HI chip (#lang / #l=). CSS must load
+    # too — without it the float panel is an unstyled search + endless list.
+    print "        <link rel=\"stylesheet\" href=\"./css/auth-nav.css\" />"
     print "        <script src=\"./js/lang-nav.js\" defer></script>"
     cat(noscript)
     ns = 1

@@ -390,6 +390,8 @@ impl App {
 
         for path in [
             ids!(hero),
+            ids!(promise),
+            ids!(tech),
             ids!(brands),
             ids!(trust),
             ids!(company),
@@ -609,6 +611,12 @@ impl MatchEvent for App {
         if self.ui.button(cx, ids!(nav_login)).clicked(actions) {
             close_nav = true;
             open_site(cx, &Self::site_url(cx, ACCOUNT_PATH));
+        }
+        if self.ui.button(cx, ids!(open_nav_github)).clicked(actions)
+            || self.ui.button(cx, ids!(open_github_pubs)).clicked(actions)
+        {
+            close_nav = true;
+            open_external(cx, "https://github.com/gotigin");
         }
         // Language chip: shows the code (`EN`, `HI`, `UR`) and opens the HTML
         // 115-language picker via `#lang` (lang-nav.js on the wasm shell).

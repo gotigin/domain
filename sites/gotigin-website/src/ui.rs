@@ -535,6 +535,22 @@ script_mod! {
                                 nav_help := GhostBtn{ text: "Help" }
                                 nav_support := GhostBtn{ text: "Support" }
                                 nav_login := GhostBtn{ text: "Login" }
+                                nav_github := View{
+                                    width: 44 height: 44
+                                    flow: Overlay
+                                    align: Align{x: 0.5 y: 0.5}
+                                    View{
+                                        width: Fill height: Fill
+                                        flow: Down
+                                        align: Align{x: 0.5 y: 0.5}
+                                        Image{
+                                            width: 18 height: 18
+                                            fit: ImageFit.Stretch
+                                            src: crate_resource("self:resources/media/github-mark.webp")
+                                        }
+                                    }
+                                    open_nav_github := CardHit{}
+                                }
                                 nav_lang := GhostBtn{ text: "EN" }
                             }
                         }
@@ -574,9 +590,13 @@ script_mod! {
                                         CardTitle{ body: "Pay for services" }
                                         CardBody{ body: "Optional cloud, demos, visits, and assistance — only when you ask for them." }
                                     }
-                                    PanelCard{
-                                        CardTitle{ body: "Open where published" }
-                                        CardBody{ body: "Public code under github.com/gotigin. Local and LAN keep working offline." }
+                                    p_github := ProductCard{
+                                        PanelCard{
+                                            CardTitle{ body: "Open where published" }
+                                            CardBody{ body: "Public repositories. Local and LAN keep working offline." }
+                                            CardLink{ body: "github.com/gotigin" }
+                                        }
+                                        open_github_pubs := CardHit{}
                                     }
                                 }
                             }

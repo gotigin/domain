@@ -231,26 +231,31 @@
     if (!host) {
       host = document.createElement("div");
       host.id = "site-lang-float";
-      host.className = "site-lang-chrome";
-      host.style.cssText =
-        "position:fixed;top:56px;right:16px;z-index:2147483000;";
+      host.className = "site-lang-chrome site-lang-chrome--float";
       document.body.appendChild(host);
     }
     paint(host);
     var pop = host.querySelector(".site-lang-pop");
     var btn = host.querySelector(".site-lang-btn");
+    // Hide the duplicate EN button — Makepad already shows EN in the topbar.
+    // Pop is position:fixed via #site-lang-float CSS (not under a zero-size host).
+    if (btn) {
+      btn.style.display = "none";
+      btn.setAttribute("aria-expanded", "true");
+    }
     if (pop) {
       pop.hidden = false;
-      if (btn) btn.setAttribute("aria-expanded", "true");
       var search = pop.querySelector(".site-lang-search");
       if (search) {
+        search.value = "";
+        try {
+          search.dispatchEvent(new Event("input", { bubbles: true }));
+        } catch (_) {}
         setTimeout(function () {
           search.focus();
         }, 0);
       }
     }
-    // Hide the duplicate EN button — Makepad already shows EN in the topbar.
-    if (btn) btn.style.display = "none";
   }
 
   function onHash() {
