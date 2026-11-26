@@ -119,6 +119,97 @@
     return null;
   }
 
+  var pickerOpen = false;
+  var focusGuard = null;
+
+  function makepadCanvases() {
+    return Array.prototype.slice.call(document.querySelectorAll("canvas"));
+  }
+
+  function releaseMakepadKeyboard() {
+    makepadCanvases().forEach(function (c) {
+      try {
+        c.blur();
+      } catch (_) {}
+      if (c.dataset.siteLangTab == null) {
+        c.dataset.siteLangTab =
+          c.hasAttribute("tabindex") ? c.getAttribute("tabindex") : "__none__";
+      }
+      c.setAttribute("tabindex", "-1");
+    });
+    try {
+      if (document.activeElement && document.activeElement.tagName === "CANVAS") {
+        document.activeElement.blur();
+      }
+    } catch (_) {}
+  }
+
+  function restoreMakepadKeyboard() {
+    makepadCanvases().forEach(function (c) {
+      var prev = c.dataset.siteLangTab;
+      if (prev == null) return;
+      if (prev === "__none__") c.removeAttribute("tabindex");
+      else c.setAttribute("tabindex", prev);
+      delete c.dataset.siteLangTab;
+    });
+  }
+
+  function activeSearch() {
+    var pop = document.querySelector(".site-lang-pop:not([hidden])");
+    return pop ? pop.querySelector(".site-lang-search") : null;
+  }
+
+  function focusSearchHard(search) {
+    if (!search) return;
+    releaseMakepadKeyboard();
+    try {
+      search.focus({ preventScroll: true });
+    } catch (_) {
+      try {
+        search.focus();
+      } catch (__) {}
+    }
+  }
+
+  function armFocusGuard(search) {
+    if (focusGuard) {
+      clearInterval(focusGuard);
+      focusGuard = null;
+    }
+    if (!search) return;
+    var n = 0;
+    focusGuard = setInterval(function () {
+      n += 1;
+      if (!pickerOpen || n > 40) {
+        clearInterval(focusGuard);
+        focusGuard = null;
+        return;
+      }
+      if (document.activeElement !== search) focusSearchHard(search);
+    }, 50);
+  }
+
+  function closeAllPops() {
+    pickerOpen = false;
+    if (focusGuard) {
+      clearInterval(focusGuard);
+      focusGuard = null;
+    }
+    restoreMakepadKeyboard();
+    document.querySelectorAll(".site-lang-pop").forEach(function (m) {
+      m.hidden = true;
+    });
+    document.querySelectorAll(".site-lang-btn").forEach(function (b) {
+      b.setAttribute("aria-expanded", "false");
+    });
+    var floatHost = document.getElementById("site-lang-float");
+    if (floatHost) floatHost.hidden = true;
+  }
+
+  function keepInside(ev) {
+    ev.stopPropagation();
+  }
+
   function paint(root) {
     root.textContent = "";
     root.className = "site-lang-chrome";
@@ -140,6 +231,9 @@
     var search = document.createElement("input");
     search.type = "search";
     search.className = "site-lang-search";
+    search.autocomplete = "off";
+    search.autocapitalize = "off";
+    search.spellcheck = false;
     search.placeholder = "Search " + LANGS.length + " languages…";
     search.setAttribute("aria-label", "Search languages");
     pop.appendChild(search);
@@ -171,11 +265,17 @@
         li.appendChild(native);
         li.appendChild(en);
         if (l.code === code) li.setAttribute("aria-selected", "true");
-        li.addEventListener("click", function () {
+        li.addEventListener("mousedown", keepInside);
+        li.addEventListener("click", function (ev) {
+          keepInside(ev);
           apply(l.code);
-          pop.hidden = true;
-          btn.setAttribute("aria-expanded", "false");
-          paint(root);
+          closeAllPops();
+          // Re-paint only the in-nav chrome (not the float host).
+          if (root.id !== "site-lang-float") paint(root);
+          else {
+            var slot = mountRoot();
+            if (slot) paint(slot);
+          }
         });
         menu.appendChild(li);
       });
@@ -191,21 +291,29 @@
     search.addEventListener("input", function () {
       fill(search.value);
     });
-    search.addEventListener("click", function (ev) {
-      ev.stopPropagation();
-    });
+    ["click", "mousedown", "mouseup", "pointerdown", "pointerup", "touchstart"].forEach(
+      function (type) {
+        search.addEventListener(type, keepInside);
+        pop.addEventListener(type, keepInside);
+      }
+    );
+    search.addEventListener("keydown", keepInside);
+    search.addEventListener("keyup", keepInside);
+    search.addEventListener("keypress", keepInside);
 
     btn.addEventListener("click", function (ev) {
-      ev.stopPropagation();
+      keepInside(ev);
       var open = pop.hidden;
-      pop.hidden = !open;
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
       if (open) {
+        pickerOpen = true;
+        pop.hidden = false;
+        btn.setAttribute("aria-expanded", "true");
         search.value = "";
         fill("");
-        setTimeout(function () {
-          search.focus();
-        }, 0);
+        focusSearchHard(search);
+        armFocusGuard(search);
+      } else {
+        closeAllPops();
       }
     });
 
@@ -215,14 +323,55 @@
 
   if (!window.__SITE_LANG_DOC_BOUND__) {
     window.__SITE_LANG_DOC_BOUND__ = true;
-    document.addEventListener("click", function () {
-      document.querySelectorAll(".site-lang-pop").forEach(function (m) {
-        m.hidden = true;
-      });
-      document.querySelectorAll(".site-lang-btn").forEach(function (b) {
-        b.setAttribute("aria-expanded", "false");
-      });
-    });
+    document.addEventListener(
+      "click",
+      function (ev) {
+        var t = ev.target;
+        if (
+          t &&
+          t.closest &&
+          t.closest(".site-lang-pop, .site-lang-btn, .site-lang-chrome, #site-lang-float")
+        ) {
+          return;
+        }
+        closeAllPops();
+      },
+      true
+    );
+    // While the picker is open, keep keys on the search field (Makepad canvas
+    // otherwise eats them even when the input looks focused).
+    document.addEventListener(
+      "keydown",
+      function (ev) {
+        if (!pickerOpen) return;
+        var search = activeSearch();
+        if (!search) return;
+        if (document.activeElement === search) return;
+        focusSearchHard(search);
+        if (ev.key === "Escape") {
+          closeAllPops();
+          ev.preventDefault();
+          ev.stopPropagation();
+          return;
+        }
+        if (ev.key.length === 1 && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
+          search.value += ev.key;
+          try {
+            search.dispatchEvent(new Event("input", { bubbles: true }));
+          } catch (_) {}
+          ev.preventDefault();
+          ev.stopPropagation();
+        } else if (ev.key === "Backspace") {
+          search.value = search.value.slice(0, -1);
+          try {
+            search.dispatchEvent(new Event("input", { bubbles: true }));
+          } catch (_) {}
+          ev.preventDefault();
+          ev.stopPropagation();
+        }
+      },
+      true
+    );
   }
 
   /** Full 115-lang menu for Makepad EN nav chip (hash #lang) or HTML topnav slot. */
@@ -234,26 +383,26 @@
       host.className = "site-lang-chrome site-lang-chrome--float";
       document.body.appendChild(host);
     }
+    host.hidden = false;
     paint(host);
     var pop = host.querySelector(".site-lang-pop");
     var btn = host.querySelector(".site-lang-btn");
     // Hide the duplicate EN button — Makepad already shows EN in the topbar.
-    // Pop is position:fixed via #site-lang-float CSS (not under a zero-size host).
     if (btn) {
       btn.style.display = "none";
       btn.setAttribute("aria-expanded", "true");
     }
     if (pop) {
       pop.hidden = false;
+      pickerOpen = true;
       var search = pop.querySelector(".site-lang-search");
       if (search) {
         search.value = "";
         try {
           search.dispatchEvent(new Event("input", { bubbles: true }));
         } catch (_) {}
-        setTimeout(function () {
-          search.focus();
-        }, 0);
+        focusSearchHard(search);
+        armFocusGuard(search);
       }
     }
   }

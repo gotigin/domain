@@ -96,6 +96,7 @@
   z-index: 2147483000;
   pointer-events: none;
 }
+#site-lang-float[hidden] { display: none !important; }
 #site-lang-float .site-lang-pop {
   pointer-events: auto;
   position: fixed;
@@ -117,7 +118,7 @@
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 0.4rem;
   background: rgba(255, 255, 255, 0.06);
-  color: #f7f6fb;
+  color: inherit;
   font: inherit;
   font-size: 0.9rem;
   box-sizing: border-box;
@@ -182,8 +183,50 @@
     bottom: 0.75rem;
     left: 0.75rem;
     right: 0.75rem;
-    width: auto;
     max-width: none;
     max-height: 60vh;
   }
+}
+
+.site-auth-chrome--menu {
+  position: relative;
+}
+.site-auth-chrome--menu .site-auth-avatar {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+.site-auth-menu {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  right: 0;
+  z-index: 50;
+  min-width: 10.5rem;
+  padding: 0.35rem;
+  border-radius: 0.55rem;
+  background: #111018;
+  color: #f7f6fb;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+.site-auth-menu[hidden] {
+  display: none !important;
+}
+.site-auth-menu-item {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.65rem 0.85rem;
+  border: 0;
+  border-radius: 0.4rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.site-auth-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
