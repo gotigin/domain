@@ -13,11 +13,23 @@
   "telephone": "+91-99677-17702",
   "taxID": "AANCG1628G",
   "vatID": "24AANCG1628G1ZP",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "DUNS",
-    "value": "581757966"
-  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "CIN",
+      "value": "U62011GJ2026PTC179660"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Udyam",
+      "value": "UDYAM-GJ-20-0301312"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DUNS",
+      "value": "581757966"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "C/O Mearaj AB, Gosiya Manzil, Darbargadh",

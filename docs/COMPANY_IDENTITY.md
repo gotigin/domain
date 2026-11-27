@@ -11,6 +11,7 @@ Source of truth: company registry docs under `/home/four/Gotigin/Internal/Offici
 | Legal name | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
 | Constitution | Private Limited Company (limited by shares) |
 | CIN | U62011GJ2026PTC179660 |
+| Udyam | UDYAM-GJ-20-0301312 · Micro · Services · registered 02 July 2026 |
 | Incorporation | 24 June 2026 (MCA Central Registration Centre) |
 | Registered office State | Gujarat |
 | Registered / mailing office | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |

@@ -9,6 +9,7 @@ _Last updated: 22 November 2026_
 | **Trademark / house mark** | **Gotigin** — [gotigin.com](https://gotigin.com) |
 | **Company** | **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED** (“we”, “us”) |
 | CIN | U62011GJ2026PTC179660 |
+| Udyam | UDYAM-GJ-20-0301312 |
 | PAN | AANCG1628G |
 | GSTIN | 24AANCG1628G1ZP |
 | Registered office | C/O Mearaj AB, Gosiya Manzil, Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India |

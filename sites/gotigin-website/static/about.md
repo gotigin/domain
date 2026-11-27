@@ -43,6 +43,7 @@ customization, and technical support.
 | Legal name | GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED |
 | Constitution | Private Limited Company (limited by shares) |
 | CIN | U62011GJ2026PTC179660 |
+| Udyam | UDYAM-GJ-20-0301312 |
 | Date of incorporation | 24 June 2026 |
 | Incorporating authority | Ministry of Corporate Affairs — Central Registration Centre |
 | Registered office State | Gujarat |
@@ -62,6 +63,16 @@ customization, and technical support.
 | GST liability / certificate | From 04 July 2026 · certificate issued 04 July 2026 |
 | Additional places of business (Gujarat) | None |
 | D-U-N-S | 581757966 |
+
+## MSME / Udyam
+
+| | |
+| --- | --- |
+| Udyam registration number | UDYAM-GJ-20-0301312 |
+| Enterprise type | Micro |
+| Major activity | Services |
+| Classification year | 2026-27 |
+| Date of Udyam registration | 02 July 2026 |
 
 ## Startup recognition
 

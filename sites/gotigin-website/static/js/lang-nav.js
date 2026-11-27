@@ -122,35 +122,57 @@
   var pickerOpen = false;
   var focusGuard = null;
 
-  function makepadCanvases() {
-    return Array.prototype.slice.call(document.querySelectorAll("canvas"));
+  /** Makepad web keyboard sink: full canvas + hidden .cx_webgl_textinput. */
+  function makepadKeySinks() {
+    return Array.prototype.slice.call(
+      document.querySelectorAll("canvas, textarea.cx_webgl_textinput")
+    );
   }
 
   function releaseMakepadKeyboard() {
-    makepadCanvases().forEach(function (c) {
+    makepadKeySinks().forEach(function (el) {
       try {
-        c.blur();
+        el.blur();
       } catch (_) {}
-      if (c.dataset.siteLangTab == null) {
-        c.dataset.siteLangTab =
-          c.hasAttribute("tabindex") ? c.getAttribute("tabindex") : "__none__";
+      if (el.dataset.siteLangTab == null) {
+        el.dataset.siteLangTab =
+          el.hasAttribute("tabindex") ? el.getAttribute("tabindex") : "__none__";
       }
-      c.setAttribute("tabindex", "-1");
+      el.setAttribute("tabindex", "-1");
+      if (el.tagName === "TEXTAREA") {
+        if (el.dataset.siteLangRo == null) {
+          el.dataset.siteLangRo = el.readOnly ? "1" : "0";
+        }
+        el.readOnly = true;
+        el.blur();
+      }
     });
     try {
-      if (document.activeElement && document.activeElement.tagName === "CANVAS") {
-        document.activeElement.blur();
+      var ae = document.activeElement;
+      if (
+        ae &&
+        (ae.tagName === "CANVAS" ||
+          (ae.tagName === "TEXTAREA" &&
+            ae.classList &&
+            ae.classList.contains("cx_webgl_textinput")))
+      ) {
+        ae.blur();
       }
     } catch (_) {}
   }
 
   function restoreMakepadKeyboard() {
-    makepadCanvases().forEach(function (c) {
-      var prev = c.dataset.siteLangTab;
-      if (prev == null) return;
-      if (prev === "__none__") c.removeAttribute("tabindex");
-      else c.setAttribute("tabindex", prev);
-      delete c.dataset.siteLangTab;
+    makepadKeySinks().forEach(function (el) {
+      var prev = el.dataset.siteLangTab;
+      if (prev != null) {
+        if (prev === "__none__") el.removeAttribute("tabindex");
+        else el.setAttribute("tabindex", prev);
+        delete el.dataset.siteLangTab;
+      }
+      if (el.tagName === "TEXTAREA" && el.dataset.siteLangRo != null) {
+        el.readOnly = el.dataset.siteLangRo === "1";
+        delete el.dataset.siteLangRo;
+      }
     });
   }
 
@@ -177,15 +199,17 @@
       focusGuard = null;
     }
     if (!search) return;
-    var n = 0;
+    // Keep reclaiming focus for the whole time the picker is open — Makepad
+    // recreates / refocuses .cx_webgl_textinput after the first couple seconds.
     focusGuard = setInterval(function () {
-      n += 1;
-      if (!pickerOpen || n > 40) {
+      if (!pickerOpen) {
         clearInterval(focusGuard);
         focusGuard = null;
         return;
       }
-      if (document.activeElement !== search) focusSearchHard(search);
+      var live = activeSearch() || search;
+      if (!live || live.isConnected === false) return;
+      if (document.activeElement !== live) focusSearchHard(live);
     }, 50);
   }
 
@@ -338,22 +362,29 @@
       },
       true
     );
-    // While the picker is open, keep keys on the search field (Makepad canvas
-    // otherwise eats them even when the input looks focused).
+    // While the picker is open, keep keys on the search field. Makepad's hidden
+    // .cx_webgl_textinput steals focus and would eat keystrokes otherwise.
     document.addEventListener(
       "keydown",
       function (ev) {
         if (!pickerOpen) return;
         var search = activeSearch();
         if (!search) return;
-        if (document.activeElement === search) return;
-        focusSearchHard(search);
+        var hadSearchFocus = document.activeElement === search;
+        if (!hadSearchFocus) focusSearchHard(search);
         if (ev.key === "Escape") {
           closeAllPops();
           ev.preventDefault();
           ev.stopPropagation();
+          ev.stopImmediatePropagation();
           return;
         }
+        // Native input path — stop Makepad from also seeing the key.
+        if (hadSearchFocus) {
+          ev.stopPropagation();
+          return;
+        }
+        // Focus was elsewhere (usually .cx_webgl_textinput): insert ourselves.
         if (ev.key.length === 1 && !ev.ctrlKey && !ev.metaKey && !ev.altKey) {
           search.value += ev.key;
           try {
@@ -361,6 +392,7 @@
           } catch (_) {}
           ev.preventDefault();
           ev.stopPropagation();
+          ev.stopImmediatePropagation();
         } else if (ev.key === "Backspace") {
           search.value = search.value.slice(0, -1);
           try {
@@ -368,6 +400,7 @@
           } catch (_) {}
           ev.preventDefault();
           ev.stopPropagation();
+          ev.stopImmediatePropagation();
         }
       },
       true

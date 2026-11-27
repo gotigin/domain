@@ -11,7 +11,7 @@ business.
 
 **Gotigin** is a trademark. **GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED**
 (the company; “we”) is authorized to use, operate under, and represent it.
-CIN U62011GJ2026PTC179660, registered office C/O Mearaj AB, Gosiya Manzil,
+CIN U62011GJ2026PTC179660 · Udyam UDYAM-GJ-20-0301312, registered office C/O Mearaj AB, Gosiya Manzil,
 Darbargadh, Dhoraji, Rajkot, Gujarat 360410, India. Names: [About](/about).
 
 Privacy: [gotigin.com/privacy](https://gotigin.com/privacy)  

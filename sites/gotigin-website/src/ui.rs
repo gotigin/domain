@@ -895,6 +895,7 @@ script_mod! {
                                         CardTitle{ body: "Registration" }
                                         Body{ body: "CIN" }
                                         Body{ body: "U62011GJ2026PTC179660" }
+                                        Body{ body: "Udyam UDYAM-GJ-20-0301312" }
                                         Body{ body: "D-U-N-S 581757966" }
                                         Body{ body: "Incorporated 24 June 2026" }
                                         Body{ body: "Share capital ₹1,00,000" }

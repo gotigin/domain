@@ -188,6 +188,7 @@ pub const UI_SKIP: &[&str] = &[
     "/security",
     "GOTIGIN SOFTWARE & HARDWARE PRIVATE LIMITED",
     "U62011GJ2026PTC179660",
+    "Udyam UDYAM-GJ-20-0301312",
     "D-U-N-S 581757966",
     "PAN AANCG1628G",
     "TAN RKTG08602G",
