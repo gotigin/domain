@@ -1,4 +1,6 @@
 (function () {
+  "use strict";
+  try {
   var path = (location.pathname || "/").replace(/\/+$/, "") || "/";
   var map = {
     "/": "home",
@@ -41,4 +43,5 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") setOpen(false);
   });
+  } catch (_) {}
 })();

@@ -38,7 +38,93 @@ let confirmationResult = null;
 let recaptcha = null;
 let lastErr = null;
 
+const authNavTimers = new Set();
+let authStateReady = false;
+let authBootTimer = null;
+
+function trackAuthTimer(id) {
+  authNavTimers.add(id);
+  return id;
+}
+
+function clearAuthNavTimers() {
+  for (const id of authNavTimers) {
+    clearTimeout(id);
+    clearInterval(id);
+  }
+  authNavTimers.clear();
+  authBootTimer = null;
+}
+
+function clearAuthBootTimer() {
+  if (authBootTimer != null) {
+    clearTimeout(authBootTimer);
+    authNavTimers.delete(authBootTimer);
+    authBootTimer = null;
+  }
+}
+
+function onAuthObserverReady() {
+  if (authStateReady) return;
+  authStateReady = true;
+  clearAuthBootTimer();
+}
+
+function voidAsync(promise) {
+  Promise.resolve(promise).catch((err) => {
+    console.warn("account auth:", err?.message || err);
+    reportError(err);
+    setBusy(false);
+  });
+}
+
+function installAuthStateObserver() {
+  authBootTimer = trackAuthTimer(
+    setTimeout(() => {
+      if (authStateReady) return;
+      authStateReady = true;
+      clearAuthBootTimer();
+      reportError({
+        message: T(
+          "acct_auth_timeout",
+          "Could not reach sign-in services. Check your connection and refresh."
+        ),
+      });
+      setBusy(false);
+      renderSession(auth.currentUser);
+    }, 12000)
+  );
+
+  onAuthStateChanged(
+    auth,
+    (user) => {
+      onAuthObserverReady();
+      try {
+        renderSession(user);
+      } catch (_) {
+        setBusy(false);
+      }
+    },
+    (err) => {
+      onAuthObserverReady();
+      reportError(err);
+      setBusy(false);
+      try {
+        renderSession(null);
+      } catch (_) {
+        setBusy(false);
+      }
+    }
+  );
+
+  window.addEventListener("pagehide", () => {
+    clearAuthNavTimers();
+    setBusy(false);
+  });
+}
+
 function showError(msg) {
+  if (!els.error) return;
   els.error.textContent = msg || "";
   els.error.hidden = !msg;
 }
@@ -49,7 +135,7 @@ function reportError(err) {
 }
 
 function setBusy(busy) {
-  els.gate?.querySelectorAll("button, input").forEach((el) => {
+  document.querySelectorAll(".account-main button, .account-main input").forEach((el) => {
     el.disabled = !!busy;
   });
 }
@@ -73,6 +159,8 @@ function friendlyError(err) {
 }
 
 function renderSession(user) {
+  if (!els.gate || !els.session) return;
+  try {
   if (user) {
     els.gate.hidden = true;
     els.session.hidden = false;
@@ -89,6 +177,10 @@ function renderSession(user) {
     els.gate.hidden = false;
     els.session.hidden = true;
     els.status.textContent = T("acct_continue_with", "Continue with email, a provider, or phone.");
+  }
+  } catch (err) {
+    console.warn("account render:", err?.message || err);
+    setBusy(false);
   }
 }
 
@@ -115,7 +207,13 @@ async function handleEmail(e) {
     // One path: create if new; if email exists, sign in with the same credentials.
     try {
       const cred = await createUserWithEmailAndPassword(auth, email, password);
-      if (name) await updateProfile(cred.user, { displayName: name });
+      if (name) {
+        try {
+          await updateProfile(cred.user, { displayName: name });
+        } catch {
+          /* non-fatal */
+        }
+      }
       await afterAuth(cred.user, { sendVerify: true });
     } catch (err) {
       if (err?.code !== "auth/email-already-in-use") throw err;
@@ -156,11 +254,12 @@ async function sendSms(e) {
   setBusy(true);
   try {
     const phone = els.phone.value.trim();
+    if (!phone) throw { code: "auth/invalid-phone-number" };
     const appVerifier = ensureRecaptcha();
     confirmationResult = await signInWithPhoneNumber(auth, phone, appVerifier);
     els.phoneStep.hidden = true;
     els.smsStep.hidden = false;
-    els.smsCode.focus();
+    els.smsCode?.focus();
   } catch (err) {
     reportError(err);
     try {
@@ -177,9 +276,18 @@ async function sendSms(e) {
 async function confirmSms(e) {
   e.preventDefault();
   reportError(null);
+  if (!confirmationResult) {
+    reportError({
+      message: T("acct_sms_expired", "SMS session expired — request a new code."),
+    });
+    if (els.phoneStep) els.phoneStep.hidden = false;
+    if (els.smsStep) els.smsStep.hidden = true;
+    return;
+  }
   setBusy(true);
   try {
     const code = els.smsCode.value.trim();
+    if (!code) throw { code: "auth/invalid-verification-code" };
     const cred = await confirmationResult.confirm(code);
     await afterAuth(cred.user);
   } catch (err) {
@@ -191,40 +299,51 @@ async function confirmSms(e) {
 
 async function doSignOut() {
   reportError(null);
-  await signOut(auth);
-  confirmationResult = null;
-  els.phoneStep.hidden = false;
-  els.smsStep.hidden = true;
-  els.password.value = "";
-  els.smsCode.value = "";
+  setBusy(true);
+  try {
+    await signOut(auth);
+    confirmationResult = null;
+    els.phoneStep.hidden = false;
+    els.smsStep.hidden = true;
+    els.password.value = "";
+    els.smsCode.value = "";
+  } catch (err) {
+    reportError(err);
+  } finally {
+    setBusy(false);
+  }
 }
 
 function wire() {
-  $("form-email")?.addEventListener("submit", handleEmail);
-  $("btn-google")?.addEventListener("click", () => popup(new GoogleAuthProvider()));
-  $("btn-github")?.addEventListener("click", () => popup(new GithubAuthProvider()));
+  $("form-email")?.addEventListener("submit", (e) => void handleEmail(e));
+  $("btn-google")?.addEventListener("click", () => voidAsync(popup(new GoogleAuthProvider())));
+  $("btn-github")?.addEventListener("click", () => voidAsync(popup(new GithubAuthProvider())));
   $("btn-microsoft")?.addEventListener("click", () => {
     const p = new OAuthProvider("microsoft.com");
     p.setCustomParameters({ prompt: "select_account" });
-    return popup(p);
+    voidAsync(popup(p));
   });
-  $("form-phone")?.addEventListener("submit", sendSms);
-  $("form-sms")?.addEventListener("submit", confirmSms);
-  $("btn-signout")?.addEventListener("click", doSignOut);
-  $("btn-resend-verify")?.addEventListener("click", async () => {
-    const u = auth.currentUser;
-    if (!u?.email) return;
-    try {
-      await sendEmailVerification(u);
-      els.userVerified.textContent = T("acct_verify_sent", "Verification email sent — check your inbox");
-    } catch (err) {
-      reportError(err);
-    }
+  $("form-phone")?.addEventListener("submit", (e) => void sendSms(e));
+  $("form-sms")?.addEventListener("submit", (e) => void confirmSms(e));
+  $("btn-signout")?.addEventListener("click", () => voidAsync(doSignOut()));
+  $("btn-resend-verify")?.addEventListener("click", () => {
+    voidAsync((async () => {
+      const u = auth.currentUser;
+      if (!u?.email) return;
+      setBusy(true);
+      try {
+        await sendEmailVerification(u);
+        els.userVerified.textContent = T("acct_verify_sent", "Verification email sent — check your inbox");
+        reportError(null);
+      } catch (err) {
+        reportError(err);
+      } finally {
+        setBusy(false);
+      }
+    })());
   });
 
-  onAuthStateChanged(auth, (user) => {
-    renderSession(user);
-  });
+  installAuthStateObserver();
 
   window.addEventListener("site:i18n", () => {
     renderSession(auth.currentUser);
@@ -232,4 +351,9 @@ function wire() {
   });
 }
 
-wire();
+try {
+  wire();
+} catch (err) {
+  console.warn("account wire:", err?.message || err);
+  setBusy(false);
+}

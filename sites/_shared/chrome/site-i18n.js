@@ -105,9 +105,23 @@
 
   function start() {
     var api = window.__SITE_LANG__;
-    show(api ? api.current() : document.documentElement.lang || "en");
+    var boot = show(api ? api.current() : document.documentElement.lang || "en");
+    if (boot && typeof boot.catch === "function") {
+      boot.catch(function () {
+        try {
+          paint();
+        } catch (_) {}
+      });
+    }
     window.addEventListener("gotigin:lang", function (ev) {
-      show(ev && ev.detail && ev.detail.lang);
+      var p = show(ev && ev.detail && ev.detail.lang);
+      if (p && typeof p.catch === "function") {
+        p.catch(function () {
+          try {
+            paint();
+          } catch (_) {}
+        });
+      }
     });
   }
 

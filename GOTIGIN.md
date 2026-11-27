@@ -77,8 +77,9 @@ LAN and Bluetooth free; hosted relay and cloud bridges are the paid
 layer. Product sites offer download of the full local product; demos and
 walkthroughs are optional contact, not a paid unlock of the app.
 
-Detail: Kumkaj `docs/KUMKAJ_PRODUCT_VISION_AND_REQUIREMENTS.md`,
-`docs/CLOUD_PLANS.md`; Wadhu `docs/IDENTITY_AND_MONETIZATION_ALIGNMENT.md`.
+Detail: Kumkaj workspace (`Kumkaj/kumkaj-workspace/docs/KUMKAJ_PRODUCT_VISION_AND_REQUIREMENTS.md`,
+`Kumkaj/kumkaj-workspace/docs/CLOUD_PLANS.md`); Wadhu workspace
+(`Wadhu/wadhu-workspace/docs/IDENTITY_AND_MONETIZATION_ALIGNMENT.md`).
 
 ---
 
